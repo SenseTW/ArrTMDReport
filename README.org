@@ -1,0 +1,23 @@
+#+TITLE: 網路社群參與機制設計與建議報告
+
+#+BEGIN_QUOTE
+公民參與的最大問題是沒有公民。 
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+參與科技願景討論的最大問題是什麼叫做科技政策。
+#+END_QUOTE
+
+* 目錄
+1. report1: 由上往下主動盤點目標社群關心議題。
+2. report2: 由下往上促進目標社群討論相關政策。
+3. glossary: 詞彙表。
+* 如何參與寫作
+#+BEGIN_QUOTE
+Cunningham's Law: The best way to get the right answer on the internet is not to ask a question; it's to post the wrong answer.
+#+END_QUOTE
+
+Patches are welcome.
+
+* 授權
+ LICENSE: CC-BY-SA
