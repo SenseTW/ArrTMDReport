@@ -290,10 +290,8 @@
   2. Poga - 針對中間人存續與之議題否拋出中間人仍有存在的必要探討，認為爭執之處應選擇要不要中間人是否公平，而非中間人存續與否。
   3. 羅凱凌 - 建議在理論上分析參與從參與者的動機和能力兩者出發，前者主觀後者客觀條件，可以用這個來說為什麼數位原民不參加。投票、開會、線上討論、參與政黨這些都是政治參與的一部分，資訊不足應該是客觀條件，類似這樣。
 * 附錄
-** 社群自辦大型活動清單
-   社群自辦大型活動清單, https://docs.google.com/spreadsheets/d/1cB07Cy4rsQCqb9FB4Ju_KoMc6AHOammQ28AQei8-Gn0/edit#gid=1963403972
-** 活躍資訊社群清單
-   活躍資訊社群清單, https://docs.google.com/spreadsheets/d/1cB07Cy4rsQCqb9FB4Ju_KoMc6AHOammQ28AQei8-Gn0/edit#gid=0
+ 1. 資訊社群自辦大型活動清單，https://docs.google.com/spreadsheets/d/1cB07Cy4rsQCqb9FB4Ju_KoMc6AHOammQ28AQei8-Gn0/edit#gid=1963403972。 
+ 2. 活躍資訊社群清單，https://docs.google.com/spreadsheets/d/1cB07Cy4rsQCqb9FB4Ju_KoMc6AHOammQ28AQei8-Gn0/edit#gid=0。 
 * 工作區
 ** 文獻回顧蒐集單
   相關文獻盤點，非正文之參考文獻。
