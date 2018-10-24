@@ -4,6 +4,8 @@
 #+OPTIONS: H:2 num:t toc:t 
 #+TOC: listings
 #+TOC: tables 
+
+// 還在撰寫中喔。 隨時會改。
 * 封面
 * 中文摘要
   #+BEGIN_COMMENT
