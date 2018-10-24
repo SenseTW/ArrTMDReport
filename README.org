@@ -5,7 +5,9 @@
 #+TOC: listings
 #+TOC: tables 
 
-// 還在撰寫中喔。 隨時會改。
+#+BEGIN_WARRING 
+還在撰寫中喔。 隨時會改。
+#+END_WARRING
 
 #+BEGIN_QUOTE
 「公民參與」的最大問題是沒有公民。
