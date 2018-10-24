@@ -217,6 +217,7 @@
 * 附錄
  1. 資訊社群自辦大型活動清單。https://docs.google.com/spreadsheets/d/1cB07Cy4rsQCqb9FB4Ju_KoMc6AHOammQ28AQei8-Gn0/edit#gid=1963403972。 本研究整理。
  2. 活躍資訊社群清單。https://docs.google.com/spreadsheets/d/1cB07Cy4rsQCqb9FB4Ju_KoMc6AHOammQ28AQei8-Gn0/edit#gid=0。 本研究整理。
+ 3. g0v 黑客松黑客松關心的社會議題及提案彙整。http://sense.tw/map/12495dd1-c79b-4292-b413-98e81be4beda。 本研究整理。
  4. 公民科學案例與探討清單。 https://docs.google.com/spreadsheets/d/1HHWRfFEb7GOvacjEpZbNfNP2Le74wvEiAAtTidWRoco/edit#gid=0。 劉哲偉整理，取於 2018/10/24。
 * 工作區
 ** 文獻回顧蒐集單
