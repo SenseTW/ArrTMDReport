@@ -1,18 +1,22 @@
 #+TITLE: 網路社群參與機制設計與建議報告
+#+AUTHOR: 陳信屹
+#+EMAIL: ossug.hychen@gmail.com
+#+OPTIONS: H:2 num:t
+#+TOC: listings
+#+TOC: tables 
+
+// 還在撰寫中喔。 隨時會改。
 
 #+BEGIN_QUOTE
-公民參與的最大問題是沒有公民。 
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-參與科技願景討論的最大問題是什麼叫做科技政策。
+「公民參與」的最大問題是沒有公民。
 #+END_QUOTE
 
 * 目錄
-1. report1: 由上往下主動盤點目標社群關心議題。
-2. report2: 由下往上促進目標社群討論相關政策。
-3. glossary: 詞彙表。
+1. ::  由上往下主動盤點目標社群關心議題。
+2. 報告二 :: 由下往上促進目標社群討論相關政策。
+3. 詞彙表 :: 描述本報告使用的詞彙定義。
 * 如何參與寫作
+
 #+BEGIN_QUOTE
 Cunningham's Law: The best way to get the right answer on the internet is not to ask a question; it's to post the wrong answer.
 #+END_QUOTE
@@ -20,4 +24,5 @@ Cunningham's Law: The best way to get the right answer on the internet is not to
 Patches are welcome.
 
 * 授權
- LICENSE: CC-BY-SA
+  本文完整的「Source」可從 https://github.com/SenseTW/ArrTMDReport 取得，內容除特別標註外，均採「[[https://creativecommons.org/licenses/by-sa/3.0/tw/][姓名標示-相同方式分享 3.0 台灣 (CC BY-SA 3.0 TW)]]」授權公眾使用。
+  如有特別標註者依其說明授權。本文附加檔案或為其他著作人所有，已力求詳細標註出處，請依原作聲明方式利用。
