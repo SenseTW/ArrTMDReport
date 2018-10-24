@@ -1,4 +1,4 @@
-#+TITLE: 科技社群關心議題圖像 - 以資訊相關社群為例 (題目待修正)
+#+TITLE: 網路社群與政府的戰爭 - 以資訊社群與科技政策為例 (題目待修正)
 #+AUTHOR: 陳信屹
 #+EMAIL: ossug.hychen@gmail.com
 #+OPTIONS: H:2 num:t toc:t 
