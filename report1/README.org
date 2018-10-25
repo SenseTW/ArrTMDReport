@@ -205,14 +205,15 @@
   3. 劉宜君、陳敦源、蕭乃沂、林昭吟（2005）。網絡分析在利害關係人概念之應用以我國全民健保政策改革為例。台灣社會福利學刊。200506 (4:1期)。95-130。
   4. 陳敦源、劉宜君、蕭乃沂、林昭吟（2011）。政策利害關係人指認的理論與實務：以全民健保改革為例。元智。
   5. 鄭婷宇（2017）。鍵盤參與：從「零時政府」檢視黑客社群開源協作式的公民參與。國立臺灣大學政治學研究所碩士論文，台北市。 取自https://hdl.handle.net/11296/q8j7n6。
-  6. 曾柏文（2014）。經貿國是會議代表了誰？── 主題設定、組織邏輯，與綜整結論的批判。 取自 https://opinion.cw.com.tw/blog/profile/220/article/1728。 2018/10/15取得。
-  7. 上報（2018）。G0V年會】 國是會議成了「許願天燈」　司改進度追蹤難落實。取自https://www.upmedia.mg/news_info.php?SerialNo=49818。 2018/10/16取得。
-  8. 藍一婷（2017）。實驗心得：提案闖天關—— Open Data 與審議民主怎麼 Combo？以司改國是會議資料為例。 取自 https://etblue.blogspot.com/2017/08/open-data-combo-deliberative-democracy.html, 2018/10/15。
-  9. 羅耀宗（2016）。就業的終結：你的未來不屬於任何公司。台灣。天下。譯自Taylor Pearson. THE END OF JOBS:Money, Meaning and Freedom without the 9-to-5. 2016.
-  10. 林芳本（2013）。台灣軟體產業的失落十年。 取自https://leanpub.com/the-lost-ten-years-of-taiwan-software-industry。
-  11. 蕭美惠譯（2017）。破壞性創新的兩難。台灣。商周。譯自Joshua Gans. The Disruption Dilemma. 2017.ISBN:9789864772049.
-  12. 王宏泰（2011）。序文 ──  社會圖像的建構。收錄於胡曉真、王鴻泰編（2011）。日常生活的論述與實踐。台北。允成文化實業股份有限公司。ISBN: 97809860627405508。
-  13. Wikipidia (2018)。文化研究。取於https://zh.wikipedia.org/zh-tw/文化研究。 2018/10/24取得。
+  6. 廖洲棚，廖興中、黃心怡（2018）。開放政府服務策略研析調查： 政府資料開放應用模式評估與 民眾參與公共政策意願調查。受委託單位：電子治理研究中心。國家發展委員會編印。NDC-MIS-106-003。
+  7. 曾柏文（2014）。經貿國是會議代表了誰？── 主題設定、組織邏輯，與綜整結論的批判。 取自 https://opinion.cw.com.tw/blog/profile/220/article/1728。 2018/10/15取得。
+  8. 上報（2018）。G0V年會】 國是會議成了「許願天燈」　司改進度追蹤難落實。取自https://www.upmedia.mg/news_info.php?SerialNo=49818。 2018/10/16取得。
+  9. 藍一婷（2017）。實驗心得：提案闖天關—— Open Data 與審議民主怎麼 Combo？以司改國是會議資料為例。 取自 https://etblue.blogspot.com/2017/08/open-data-combo-deliberative-democracy.html, 2018/10/15。
+  10. 羅耀宗（2016）。就業的終結：你的未來不屬於任何公司。台灣。天下。譯自Taylor Pearson. THE END OF JOBS:Money, Meaning and Freedom without the 9-to-5. 2016.
+  11. 林芳本（2013）。台灣軟體產業的失落十年。 取自https://leanpub.com/the-lost-ten-years-of-taiwan-software-industry。
+  12. 蕭美惠譯（2017）。破壞性創新的兩難。台灣。商周。譯自Joshua Gans. The Disruption Dilemma. 2017.ISBN:9789864772049.
+  13. 王宏泰（2011）。序文 ──  社會圖像的建構。收錄於胡曉真、王鴻泰編（2011）。日常生活的論述與實踐。台北。允成文化實業股份有限公司。ISBN: 97809860627405508。
+  14. Wikipidia (2018)。文化研究。取於https://zh.wikipedia.org/zh-tw/文化研究。 2018/10/24取得。
 ** 英文部分
   1. 曾柏文（2008）. The Knowledge Politics of the Emerging Technologies in Taiwan:Governance Framework, Institutional Gaps and Historical Contexts.取於https://www.academia.edu/228342/The_Knowledge_Politics_of_Emerging_Technologies_in_Taiwan_Governance_Imbalance_Institutional_Gaps_and_Historical_Context.
   2. Manuel Castells（2010）. The Information Age: Economy, Society, and Culture.
@@ -228,7 +229,7 @@
  4. 公民科學案例與探討清單。 https://docs.google.com/spreadsheets/d/1HHWRfFEb7GOvacjEpZbNfNP2Le74wvEiAAtTidWRoco/edit#gid=0。 劉哲偉整理，取於 2018/10/24。
 * 工作區
 ** 文獻回顧蒐集單
-  相關文獻盤點，非正文之參考文獻。
+   相關文獻盤點，非正文之參考文獻。
 *** 中文部分
   - 鄭婷宇（2017）。鍵盤參與：從「零時政府」檢視黑客社群開源協作式的公民參與。國立臺灣大學政治學研究所碩士論文，台北市。 取自https://hdl.handle.net/11296/q8j7n6
   - 許偉泓（2017）。探討知識分享與開源軟體開發效能：以社會交換理論與社會資本理論觀點。國立中正大學資訊管理學系碩士在職專班碩士論文，嘉義縣。 取自https://hdl.handle.net/11296/v4ngyj
