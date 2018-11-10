@@ -150,7 +150,8 @@
 
    按筆者這十幾年來經營開源社群的經驗，首先，沒有人可以代表「網路」，在網路上每個人都是各自獨立的節點，只是有些人是比較大的節點，認識更多人、傳遞更多資訊，通常被稱之為意見領袖（Key Opinion Leader）。意見領袖並非他想做什麼，下面就會有網軍群起跟隨，KOL 指的比較偏向網路上某一社群內有影響力的人，較像是一個跟社群溝通的窗口，是因為他在社群內的專業與參與付出而有影響力且受信任。
 
-社群又是什麼意思？不同於傳統公協會或是人民團體，網路社群因為興趣和共同關注議題而聚集，成員可能跨地域、跨職業，也沒有成立正式的法人組織，但是這個社群因為共同的承諾參與、默契、工具凝聚在一起，持續在網路上活躍，而成員對這個社群產生了歸屬感。 [1] 例如攝影同好、動漫社群、寫程式的社群，可能在不同的論壇、通訊工具上討論相關話題，分享新知與作品。
+社群又是什麼意思？不同於傳統公協會或是人民團體，網路社群因為興趣和共同關注議題而聚集，成員可能跨地域、跨職業，也沒有成立正式的法人組織，但是這個社群因為共同的承諾參與、默契、工具凝聚在一起，持續在網路上活躍，而成員對這個社群產生了歸屬感。例如攝影同好、動漫社群、寫程式的社群，可能在不同的論壇、通訊工具上討論相關話題，分享新知與作品。
+Etienne C. Wenger 以及 William M. Snyder（2003）認為實踐社群（community of practice）是通過對一特殊活動或興趣分享專業技術和激情而聚在一起的群體。 
 
 一個人在這樣的社群的影響力是建立在他為社群貢獻過什麼事蹟，因此網路的暱稱 ID  比本名還真，基本上可以算在江湖 (community) 的藝名 (nickname)，任何職銜在此也不重要，大家認可的是該人做過的貢獻，而不是他是否為理事長、發起人。社群所形成的文化，也就是所謂的默契，會讓社群的意見領袖，受到一定程度的規範，若是意見領袖打破這個默契，社群就可能不再支持他的意見，這也是為什麼在後面的章節我們可以看到科技社群會很希望專家會議內容公開，因為他們無法代表他們所屬的社群，基於跟社群的默契，他們需要讓社群裡的更多人可以一同參與跟政府的討論並給意見。
 
@@ -400,9 +401,10 @@
   11. 羅耀宗譯（2016）。就業的終結：政府部門的未來不屬於任何公司。台灣。天下。譯自Taylor Pearson. THE END OF JOBS:Money, Meaning and Freedom without the 9-to-5. 2016.
   12. 林芳本（2013）。台灣軟體產業的失落十年。 取自https://leanpub.com/the-lost-ten-years-of-taiwan-software-industry。
   13. 蕭美惠譯（2017）。破壞性創新的兩難。台灣。商周。譯自Joshua Gans. The Disruption Dilemma. 2017.ISBN:9789864772049.
-  16. 葛皇濱（2004）。叛碼或國碼？—台灣自由軟體運動的發展與挑戰（1991-2004）。國立清華大學歷史研究所碩士論文，新竹市。 取自https://hdl.handle.net/11296/d6crdd。
-  14. 王宏泰（2011）。序文 ──  社會圖像的建構。收錄於胡曉真、王鴻泰編（2011）。日常生活的論述與實踐。台北。允成文化實業股份有限公司。ISBN: 97809860627405508。
-  17. 許瑞宋譯（2014）。數位麵包屑裡的各種好主意 社會物理學 —— 剖析意念傳播方式的新科學。Social Physics - How Good Ideas Spread - The Lessons from New Sciense.
+  14. 葛皇濱（2004）。叛碼或國碼？—台灣自由軟體運動的發展與挑戰（1991-2004）。國立清華大學歷史研究所碩士論文，新竹市。 取自https://hdl.handle.net/11296/d6crdd。
+  15. 王宏泰（2011）。序文 ──  社會圖像的建構。收錄於胡曉真、王鴻泰編（2011）。日常生活的論述與實踐。台北。允成文化實業股份有限公司。ISBN: 97809860627405508。
+  16. 許瑞宋譯（2014）。數位麵包屑裡的各種好主意 社會物理學 —— 剖析意念傳播方式的新科學。Social Physics - How Good Ideas Spread - The Lessons from New Sciense.
+  17. 黃維譯（2003）。實踐社群 － 推動學習組織之輪。天下。ISBN:978986417233。
 ** 英文部分
   1. 曾柏文（2008）. The Knowledge Politics of the Emerging Technologies in Taiwan:Governance Framework, Institutional Gaps and Historical Contexts.取於https://www.academia.edu/228342/The_Knowledge_Politics_of_Emerging_Technologies_in_Taiwan_Governance_Imbalance_Institutional_Gaps_and_Historical_Context.
   2. Manuel Castells（2010）. The Information Age: Economy, Society, and Culture.
