@@ -1,0 +1,76 @@
+* 構想
+  目標讀者: 公部門相關人員
+  1. 網路社群會因特殊事件發生質變選擇對政策執行最後否決權，陳亢是目前常見的方法。
+  2. 自主產生的網路社群無領頭者。
+  3. 政策評估應納入更多元意見。
+** 可能包含論點:
+
+1. 讓政府知道網路上並非只有謾罵，也有非傳統專家，以及對 why 跟 raw data 的重視，政策決定是怎麼來的，破除「專業的傲慢」以及呈現議題價值取向歧異。
+2. 讓政府知道大家時間都很寶貴，要先了解與會者的背景，採取正確的政策溝通方式。
+3. 讓政府知道流動行組織產生的脈絡以及難以有代表性。
+4. 為與目標對象、目標社群溝通而做背景文化調查
+5. 為了解對象而從數位生活史建構社會圖像 (從消費/生產的角度去探究生活經驗背後的系統性脈絡)
+6. 時間的選定: 從冷漠到積極，資通訊社群如何開始參與公共討論
+7. 焦點議題如何選擇。
+9. 政府與民間的位置。
+11. 這個方法能套用到其他社群嗎。
+12. 決策依據以及 source 的重要性。
+13. 社群從冷漠到關心的質變的由來。
+14. 這個方法能套用到其他社群嗎。
+15. 如何計算非傳統專家的影響力。
+* 相關文獻蒐集
+   相關文獻盤點，非正文之參考文獻。
+*** 中文部分
+  - 鄭婷宇（2017）。鍵盤參與：從「零時政府」檢視黑客社群開源協作式的公民參與。國立臺灣大學政治學研究所碩士論文，台北市。 取自https://hdl.handle.net/11296/q8j7n6
+  - 許偉泓（2017）。探討知識分享與開源軟體開發效能：以社會交換理論與社會資本理論觀點。國立中正大學資訊管理學系碩士在職專班碩士論文，嘉義縣。 取自https://hdl.handle.net/11296/v4ngyj
+  - 哈拉瑞（2017）。人類大命運：從智人到神人。台灣。天下。ISBN:9789864791446。
+  - 藍一婷（2017）。實驗心得：提案闖天關—— Open Data 與審議民主怎麼 Combo？以司改國是會議資料為例。 取自 https://etblue.blogspot.com/2017/08/open-data-combo-deliberative-democracy.html, 2018/10/15。
+  - 胡一天（2017）。反情報與傳媒亂紀元。 取自 https://www.storm.mg/article/247976, 2018/10/14/ 取得。
+  - 藍尼‧艾伯斯坦（2016）。自由的選擇：芝加哥自由市場經濟學派演變史。台灣。時報。ISBN:9789571367972。
+  - 胡一天（2016）。區塊鏈民主與多中心化治理。 取自 https://www.storm.mg/article/109669, 2018/10/14 取得。
+  - 陳敦源、劉宜君、蕭乃沂、林昭吟（2011）。政策利害關係人指認的理論與實務：以全民健保改革為例。元智。
+  - 陳琬宜（2015）。台灣自由軟體社群推廣研究－從推廣者角度而言。佛光大學資訊應用學系碩士論文，宜蘭縣。 取自https://hdl.handle.net/11296/hbs3q2
+  - 傑瑞米．里夫金（2015）。物聯網革命：共享經濟與零邊際成本社會的崛起。台灣。商周。ISBN：9787508647753。
+  - ITHome（2015）。【開源在臺灣】開源社群前輩級元老李圭烽：開源是一種菁英主義。IThome。取自 https://www.ithome.com.tw/news/93608, 2018/10/14 取得。
+  - 國發會（2014）。經貿國是會議歷史紀錄。 取自 https://www.loomio.org/g/1uSV3IFq?locale=zh。 2018/10/15。
+  - 哈拉瑞（2014）。人類大歷史：從野獸到扮演上帝。台灣。天下。ISBN:9789863205449。
+  - 林芳本（2013）。台灣軟體產業的失落十年。 取自https://leanpub.com/the-lost-ten-years-of-taiwan-software-industry。
+  - 葛冬梅（2013）。從開放源碼的理想到提供源碼的義務。取自https://www.openfoundry.org/tw/legal-column-list/9120-from-open-source-idea-to-providing-source-code-obligation, 2018/10/14 取得。
+  - 張雅霏（2011）。論知識的公共性—以自由軟體的發展為例。世新大學社會發展研究所（含碩專班）碩士論文，臺北市。 取自https://hdl.handle.net/11296/4pqtcg
+  - 陳敦源、劉宜君、蕭乃沂、林昭吟（2011）。政策利害關係人指認的理論與實務：以全民健保改革為例。元智。
+  - 克雷‧薛基 （2011） 鄉民都來了：無組織的組織力量。台灣。企鵝。ISBN:9789862620526。
+  - 如何成為Debian Developer（2010）。 http://francinelin.blogspot.com/2015/02/how-to-become-a-DD.html, 2018/10/14 取得。
+  - 蔡志展 （2010） 。COSCUP 2010 總舖師籌備經驗分享。 取自 http://blog.nutsfactory.net/2010/09/28/coscup-2010/, 2018/10/11 取得。
+  - 吳昌兆（2006）。虛擬組織成員地位階級與社群經營之研究─以動漫社群為例。大葉大學人力資源暨公共關係學系碩士論文，彰化縣。 取自https://hdl.handle.net/11296/b4yqhb
+  - 游忠諺（2006）。Wiki系統評估與社群經營之研究－以維基百科為例。淡江大學資訊與圖書館學系碩士班碩士論文，新北市。 取自https://hdl.handle.net/11296/68m29e
+  - 陳鐘誠（2005） 。開放原始碼運動的過去、現在與未來。國立金門技術學院學報。金門。
+  - LinusDahlandera, Mats G.Magnussonb（2005）。 Relationships between open source software companies and communities: Observations from Nordic firms。https://doi.org/10.1016/j.respol.2005.02.003。
+  - 葛皇濱（2004）。叛碼或國碼？—台灣自由軟體運動的發展與挑戰（1991-2004）。國立清華大學歷史研究所碩士論文，新竹市。 取自https://hdl.handle.net/11296/d6crdd
+  - 愛丁納‧溫格、理查‧麥代謀、威廉‧施耐德 （2003）。實踐社群。台灣。天下。ISBN:9864172336。
+  - Eric Steven Raymond （2002） 。 教堂與市集。 取自 https://crazyangelo.github.io/Cathedral-and-Bazaar/, 2018/10/11 取得。
+  - 賀元（1995）。資訊遊俠列傳。台灣。資訊人。ISBN:9789579964029。
+  - 李雅卿（1997）。成長戰爭。商智。ISBN:9789579873932。
+  - 賴明宗等九人（1993）。我的電腦探索。台灣。資訊人。ISBN:9789579964036。
+*** 英文部分
+   - 網路治理：https://blog.twnic.net.tw/2018/10/30/1589/
+   - Lawrence Lessig, Code 2.0。 取自 http://codev2.cc/, 2018/10/11 取得。
+   - Whitehurst, Jim/ Hamel, Gary （FRW） （2015）, The Open Organization: Igniting Passion and Performance。Harvard Business School Pr。 取自https://www.books.com.tw/products/F013483452
+   - Debian's "Social Contract" with the Free Software Community, 取自https://lists.debian.org/debian-announce/debian-announce-1997/msg00017.html, 2018/10/11 取得。
+   - Ready to Respond to the Cyber Norms Debate, 取自https://first.org/blog/20180423-cyber-norms, 2018/10/11 取得。
+   - Lee, Mei-Chun and Tzeng, Po-Yu. （2017） Draft of Open Government Report on Taiwan 2014–2016. Taipei: Open Culture Foundation. Retrieved on 2017/08/11, from http://beta.hackfoldr.org/opengovreport
+   - Palatino, Mong. （2016） Indonesia and Philippines Confront Ghosts of Dictators Past. The Diplomat. Retrieved on 2017/08/12, from http://thediplomat.com/2016/06/indonesia-and-philippines-confront-ghosts-of-dictators-past/.
+   - Roberts, Adam. （2016） The Arab spring: why did things go so badly wrong?. The Guardian. Retrieved on 2017/08/06, from https://www.theguardian.com/commentisfree/2016/jan/15/arab-spring-badly-wrong-five-years-on-people-power.
+   - Schrock, Andrew R. （2016） Civic hacking as data activism and advocacy: A history from publicity to open government data. new media & society, 18（4）: 581–599.
+   - Ostrow, Rachel. （2014） A Deterioration of Democracy?: Corruption, Transparency, and Apathy in the Western World. SAIS Review of International Affairs 34（1）, 41–44. The Johns Hopkins University Press.
+   - Winichakul, Thongchai. （2014） “The Monarchy and Anti-Monarchy: Two Elephants in the room of Thai Politics and the State of Denial,” in P. Chachavalpongpun （eds）, “Good Coup” Gone Bad: Thailand’s Political Developments since Thaksin’s Downfall. Singapore: ISEAS Press, 79–108.
+   - Margetts, Helen. （2013） “The Internet and Democracy,” in The Oxford Handbook of Internet Studies. : Oxford University Press.
+   - Hsiao, Hsin-Huang Michael. （2012） “Social Foundations of Political Vitality”, in steven Tsang （eds）, The Vitality of Taiwan. UK: PAlgrave Macmillana, 37–56.
+   - Kostakis, Vasilis. （2011） The advent of open source democracy and wikipolitics: challenges, threats and opportunities for democratic discourse. Human Technology: An Interdisciplinary Journal on Humans in ICT Environments, 7（1）: 9–29.
+   - Levy, Steven. （2010） Hackers: Heroes of the Computer Revolution. : O’Reilly Media, 25th anniversary edition.
+   - Edwards, Michael. （2009） Civil Society. Cambridge: Polity Press.
+   - Andrew Hartman（2009）。What is Culture。? Raymond Williams and the Cultural Theory of “Customary Difference”。取自 https://s-usih.org/2009/02/what-is-culture-raymond-williams-and/, 2018/10/11 取得。
+   - Diamond, Larry and Morlino, Leonardo. （2005） Assessing the Quality of Democracy, Baltimore: Johns Hopkins University Press.
+   - Hackers & Painters。 （2004）。ISBN 0596006624。
+   - Rushkoff, Douglas. （2003） Open source democracy: How online communication is changing offline politics. London: Demos.
+   - Castells, Manuel. （2000） The Rise of the Network Society. The Information Age: Economy, Society and Culture. Volume 1. Malden: Blackwell.
+   - 匱乏經濟學：為什麼老是在趕deadline？為什麼老是覺得時間和金錢不夠用？
