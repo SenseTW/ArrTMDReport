@@ -1,8 +1,7 @@
-* NPC2 clkao 
-** Profile
-   1. 天下雜誌：用公民科技突圍中國封鎖　g0v共同發起人高嘉良：中國來跟台灣嗆民主？不會吧！ https://www.cw.com.tw/article/article.action?id=5085997, https://medium.com/@clkao/cw-interview-73848141ac5 .
-   2. 光華雜誌：公民黑客力 g0v零時政府 https://www.taiwan-panorama.com/tw/Articles/Details?Guid=61281c3d-f79c-4db7-93d9-d18b29f90ba0&CatId=1
-** 訪談逐字稿
+* Profile
+ 1. 天下雜誌：用公民科技突圍中國封鎖　g0v共同發起人高嘉良：中國來跟台灣嗆民主？不會吧！ https://www.cw.com.tw/article/article.action?id=5085997, https://medium.com/@clkao/cw-interview-73848141ac5 .
+ 2. 光華雜誌：公民黑客力 g0v零時政府 https://www.taiwan-panorama.com/tw/Articles/Details?Guid=61281c3d-f79c-4db7-93d9-d18b29f90ba0&CatId=1
+* 訪談逐字稿
    ael：主要是分成兩個部分是，我們現在就我們KPI要兩個嘛，一個是要做線上意見整理的工具，然後另外一個是要寫一本像社群協作手冊，所以現在手冊想要分兩個部分，一個部分是跟政府說你跟網路社群開會的時候要注意什麼東西，那我們現在過去這幾次訪談有一些東西像是網路沒有代表人，或是有人希望會議可以提供資料，或者是希望可以滾動式修正之類的。
    B：你說滾動式修正是什麼？
    ael：就是希望比如說開第一次會……
