@@ -118,7 +118,7 @@
     Alex Pentland （2014）認為人類是「意念機器」，在「探索」跟「思考」過程中消費資訊，在討討論中貢獻「知識」 ，在人機一體高度連結（hyper-connected）的社會中，公民不僅是單純的政策資訊消費者，同時也是政策資訊的貢獻者。網路做為一個開放的討論空間，佈滿了無數人消費及生產知識的數位痕跡（Degital Footprint）。從資料（data）、資訊（information）、知識（knowledge）、文化（culture）生產與消費的角度，我們能看出「意念」（ Alex Pentland，2014）
 ）傳播的路徑，指認出特定網路族群特質跟關心議題，供後續進入社群活躍場域驗證分析後的概念。
 
-    方法是透過閱讀大量原始資料（rawdata）進行標記（tagging）。標記的目的是為了賦予原始資料（rawdata）屬性（property） 並轉換成對象（object），對象（object）會因為屬性（property）變成分類（category）。在對原始資料（rawdata）理解漸深之後，可再對分類（category）標記（tagging）抽象化一個層級。而對分類（category）拉線畫出關係（relation）的結果就是不同的 視角（perspective )，這樣不斷根據對原始資料（rawdata）的理解，它人對視角（perspective）的反饋（feadback）迭代修正抽出我們想發展出的概念（concept） -  社群特質、社群關心的議題（issue）。
+    方法是透過閱讀大量原始資料（rawdata）進行標記（tagging）賦予原始資料（rawdata）屬性（property） 將之轉換成對象（object）。對象（object）會因為屬性（property）變成分類（category）。在對原始資料（rawdata）理解漸深之後，可再對分類（category）標記（tagging）抽象化一個層級。而對分類（category）拉線畫出關係（relation）的結果就是不同的 視角（perspective )，這樣不斷根據對原始資料（rawdata）的理解，它人對視角（perspective）的反饋（feadback）迭代修正抽出我們想發展出的概念（concept） -  社群特質、社群關心的議題（issue）。
 
 *** 取得回饋驗證
     在撰稿初期即公佈在網路上，並時常在科技社群的群聚的虛擬或實體空間，逼人閱讀當前草稿並詢問內容是否有偏誤（科技社群的人多半對這些內容毫無興趣）。概念來自於約耳的「走廊使用者測試」- 隨機在走廊上找到 5 個人試用剛做好的程式，就可以發現程式中 95% 應注意的使用性問題。[fn:5]。
