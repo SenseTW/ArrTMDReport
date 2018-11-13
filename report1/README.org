@@ -119,7 +119,7 @@
 ）傳播的路徑，指認出特定網路族群特質跟關心議題，供後續進入社群活躍場域驗證分析後的概念。
 
     方法是透過閱讀大量原始資料（rawdata）進行標記（tagging）賦予原始資料（rawdata）屬性（property） 將之轉換成對象（object）。對象（object）會因為屬性（property）變成分類（category）。在對原始資料（rawdata）理解漸深之後，可再對分類（category）標記（tagging）抽象化一個層級。而對分類（category）拉線畫出關係（relation）的結果就是不同的 視角（perspective )，這樣不斷根據對原始資料（rawdata）的理解，它人對視角（perspective）的反饋（feadback）迭代修正抽出我們想發展出的概念（concept） -  社群特質、社群關心的議題（issue）。
-
+此一方法論相當接近「扎根理論」（grounded theory），但研究者主要是受 Emacs org-mode 對於標籤（tag）用法的啟發 [fn:7]。
 *** 取得回饋驗證
     在撰稿初期即公佈在網路上，並時常在科技社群的群聚的虛擬或實體空間，逼人閱讀當前草稿並詢問內容是否有偏誤（科技社群的人多半對這些內容毫無興趣）。概念來自於約耳的「走廊使用者測試」- 隨機在走廊上找到 5 個人試用剛做好的程式，就可以發現程式中 95% 應注意的使用性問題。[fn:5]。
 ** 訪談調查法
@@ -519,3 +519,6 @@ Etienne Wenger（2003）稱呼這類通過對特殊活動或興趣分享專業�
 [fn:5] https://www.csie.ntu.edu.tw/~p92005/Joel/fog0000000043.html
 
 [fn:6] 另一個類似的名詞「終身的仁慈獨裁者」（Benevolent Dictator For Life）與這邊提到的仁慈的獨裁者定義不同。 這裡使用的是 Eric Raymond 的定義。http://catb.org/~esr/writings/homesteading/homesteading/ar01s16.html。
+
+[fn:7] Emacs org-mode 讓使用者可透過對 column 標記賦予屬性（property）將純文字檔變成資料庫做查詢、關聯。
+https://orgmode.org/manual/Properties-and-columns.html#Properties-and-columns
