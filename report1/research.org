@@ -191,3 +191,35 @@
    - Rushkoff, Douglas. （2003） Open source democracy: How online communication is changing offline politics. London: Demos.
    - Castells, Manuel. （2000） The Rise of the Network Society. The Information Age: Economy, Society and Culture. Volume 1. Malden: Blackwell.
    - 匱乏經濟學：為什麼老是在趕deadline？為什麼老是覺得時間和金錢不夠用？
+
+#+BEGIN_SRC dot :file graphviz-example.png :exports results 
+  digraph G {
+          subgraph cluster_0 {
+                  style=filled;
+                  color=lightgrey;
+                  node [style=filled,color=white];
+                  a0 -> a1 -> a2 -> a3;
+                  label = "process #1";
+          }
+
+          subgraph cluster_1 {
+                  node [style=filled];
+                  b0 -> b1 -> b2 -> b3;
+                  label = "process #2";
+                  color=blue
+          }
+          start -> a0;
+          start -> b0;
+          a1 -> b3;
+          b2 -> a3;
+          a3 -> a0;
+          a3 -> end;
+          b3 -> end;
+
+          start [shape=Mdiamond];
+          end [shape=Msquare];
+  }
+#+END_SRC
+
+#+RESULTS:
+[[file:graphviz-example.png]]
