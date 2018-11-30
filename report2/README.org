@@ -120,14 +120,12 @@
 **** 中央政府關心的議題長什麼樣子？
 **** 中央政府底下有很多機關、每個單位關心的議題又各式什麼樣子？
 ** 議題釐清工具相關開發資訊
+*** 架構
+    #+INCLUDE: ./sensetw.wiki/architecture.org
 *** 源碼庫
    1. 前後端源碼: https://github.com/SenseTW/sensetw
    2. Annotation-Enabled web proxy: https://github.com/SenseTW/via
    3. 開發環境: https://github.com/SenseTW/devenv
-*** 架構
-    #+INCLUDE: ./sensetw.wiki/architecture.org
-*** 如何處理部署設定及程序
-    #+INCLUDE: ./sensetw.wiki/如何處理部署設定及程序.org
 ** 民眾語彙腳本
 *** 對公部門介紹何為網路社群應如何比喻
     透過宗教信仰的比喻，對較少數位協作經驗、沒有社群經驗的的人員建構對網路社群的想像。
