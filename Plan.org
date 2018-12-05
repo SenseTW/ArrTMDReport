@@ -28,12 +28,12 @@
     :END:
 *** TODO 產品技術文件
 **** TODO Frontend Architecture Documentation
-     DEADLINE: <2018-12-17 Mon> SCHEDULED: <2018-12-05 Wed>
+     DEADLINE: <2018-12-07 Mon> SCHEDULED: <2018-12-05 Mon>
     :PROPERTIES:
     :task_id: sensetw_394
     :allocate: cassi
     :start: 2018-12-05
-    :end: 2018-12-14
+    :end: 2018-12-07
     :END:
 **** DONE Backend Architecture Documentation
      DEADLINE: <2018-11-23 Thu> SCHEDULED: <2018-11-22 Tue>
@@ -49,6 +49,21 @@
      :start: 2018-11-23
      :end: 2018-11-26
      :END:
+
+*** TODO 社群參與文件
+**** TODO 協作入口文件
+    :PROPERTIES:
+    :task_id:  sensetw_391
+    :allocate: ael
+    :start: 2018-12-05
+    :effort: 2h
+    :END:
+**** TODO 如何參與開發文件
+    :PROPERTIES:
+    :allocate: pm5
+    :start: 2018-10-24
+    :effort:  1d
+    :END:
 ** 議題小聚操作方式文件
    DEADLINE: <2018-12-11 Tue> SCHEDULED: <2018-12-06 Thu>
    :PROPERTIES:
