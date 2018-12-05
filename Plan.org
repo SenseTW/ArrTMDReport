@@ -1,10 +1,8 @@
 #+TITLE: Sense.TW 2017-2018 結案
-* 結案                                                  :taskjuggler_project:
+* A 分項                                                :taskjuggler_project:
   :PROPERTIES:
-  :END:
-  #+COLUMNS: %70ITEM(Tasks) %allocate(owner) %start %end %task_id
-  :PROPERTIES:
-  :Start:    2018-11-20
+  :start:    2018-10-01
+  :end:    2019-01-30
   :END:
 ** 意見整理工具文件
    :PROPERTIES:
@@ -30,28 +28,51 @@
     :END:
 *** TODO 產品技術文件
 **** TODO Frontend Architecture Documentation
-     DEADLINE: <2018-12-07 Fri> SCHEDULED: <2018-12-05 Wed>
+     DEADLINE: <2018-12-17 Mon> SCHEDULED: <2018-12-05 Wed>
     :PROPERTIES:
     :task_id: sensetw_394
     :allocate: cassi
     :start: 2018-12-05
-    :end: 2018-12-07
+    :end: 2018-12-14
     :END:
+**** DONE Backend Architecture Documentation
+     DEADLINE: <2018-11-22 Thu> SCHEDULED: <2018-11-20 Tue>
+     :PROPERTIES:
+     :allocate: pm5
+     :start: 2018-11-20
+     :end: 2018-11-22
+     :END:
+**** DONE DevOps Documentation
+     DEADLINE: <2018-11-30 Fri> SCHEDULED: <2018-11-01 Thu>
+     :PROPERTIES:
+     :allocate: yenwen
+     :start: 2018-11-01
+     :end: 2018-11-30
+     :END:
 ** 議題小聚操作方式文件
+   DEADLINE: <2018-12-11 Tue> SCHEDULED: <2018-12-06 Thu>
    :PROPERTIES:
    :task_id:  sensetw_375
    :allocate: lloyd
+   :start: 2018-12-06
+   :end: 2018-12-11
    :END:
-** TODO 報告二
-   :PROPERTIES:
-   :depends:  tool_doc, sensetw_375
-   :allocate: hychen
-   :END:
+** 查核點
+*** TODO 報告一
+*** TODO 報告二
+    :PROPERTIES:
+    :depends:  tool_doc, sensetw_375
+    :allocate: hychen
+    :END:
 * 團隊                                                 :taskjuggler_resource:
 ** hychen
    :PROPERTIES:
    :resource_id: hychen
    :limits: { dailymax 8h weeklymax 40h }
+   :END:
+** pm5
+   :PROPERTIES:
+   :resource_id: pm5
    :END:
 ** cassi
    :PROPERTIES:
@@ -75,7 +96,7 @@
    :END:
 ** yenwen
    :PROPERTIES:
-   :resource_id: yenweng
+   :resource_id: yenwen
    :limits: { dailymax 8h monthlymax 5.5d }
    :END:
 ** yg

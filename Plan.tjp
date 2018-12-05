@@ -1,10 +1,12 @@
-project nil "結案" "1.0" 2018-12-05 +999d {
+project nil "A 分項" "1.0" 2018-10-01 +999d {
 }
 shift s40 "Part time shift" {
   workinghours wed, thu, fri off
 }
 resource hychen "hychen" {
   limits { dailymax 8h weeklymax 40h }
+}
+resource pm5 "pm5" {
 }
 resource cassi "cassi" {
   limits { dailymax 8h weeklymax 40h }
@@ -18,13 +20,15 @@ resource KL "KL" {
 resource lloyd "lloyd" {
   limits { dailymax 8h weeklymax 16h }
 }
-resource yenweng "yenwen" {
+resource yenwen "yenwen" {
   limits { dailymax 8h monthlymax 5.5d }
 }
 resource yg "yg" {
   limits { dailymax 8h weeklymax 16h monthlymax 8d }
 }
-task __ "結案" {
+task a "A 分項" {
+  start 2018-10-01
+  end 2019-01-30
   task tool_doc "意見整理工具文件" {
     task ______ "產品設計文件" {
       task sensetw_385 "Service Blueprint" {
@@ -46,20 +50,40 @@ task __ "結案" {
         purge allocate
         allocate cassi
         start 2018-12-05
-        end 2018-12-07
+        end 2018-12-14
+      }
+      task backend "Backend Architecture Documentation" {
+        purge allocate
+        allocate pm5
+        complete 100
+        start 2018-11-20
+        end 2018-11-22
+      }
+      task devops "DevOps Documentation" {
+        purge allocate
+        allocate yenwen
+        complete 100
+        start 2018-11-01
+        end 2018-11-30
       }
     }
   }
   task sensetw_375 "議題小聚操作方式文件" {
     purge allocate
     allocate lloyd
-    milestone
+    start 2018-12-06
+    end 2018-12-11
   }
-  task ___ "報告二" {
-    depends !tool_doc, !sensetw_375
-    purge allocate
-    allocate hychen
-    milestone
+  task ___ "查核點" {
+    task ___ "報告一" {
+      milestone
+    }
+    task ____ "報告二" {
+      depends !!tool_doc, !!sensetw_375
+      purge allocate
+      allocate hychen
+      milestone
+    }
   }
 }
 textreport report "Plan" {
