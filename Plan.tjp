@@ -165,12 +165,6 @@ task a "A 分項" {
         milestone
       }
     }
-    task close_doc "單據核銷編列成冊" {
-      purge allocate
-      allocate ael
-      start 2018-12-05
-      end 2018-12-20
-    }
   }
 }
 textreport report "Plan" {
