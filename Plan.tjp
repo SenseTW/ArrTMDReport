@@ -1,4 +1,4 @@
-project nil "結案" "1.0" 2018-11-20 +999d {
+project nil "結案" "1.0" 2018-12-05 +999d {
 }
 shift s40 "Part time shift" {
   workinghours wed, thu, fri off
@@ -25,8 +25,7 @@ resource yg "yg" {
   limits { dailymax 8h weeklymax 16h monthlymax 8d }
 }
 task __ "結案" {
-  start 2018-11-20
-  task ________ "意見整理工具文件" {
+  task tool_doc "意見整理工具文件" {
     task ______ "產品設計文件" {
       task sensetw_385 "Service Blueprint" {
         purge allocate
@@ -57,6 +56,9 @@ task __ "結案" {
     milestone
   }
   task ___ "報告二" {
+    depends !tool_doc, !sensetw_375
+    purge allocate
+    allocate hychen
     milestone
   }
 }

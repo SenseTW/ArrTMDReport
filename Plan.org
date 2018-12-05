@@ -1,10 +1,15 @@
 #+TITLE: Sense.TW 2017-2018 結案
 * 結案                                                  :taskjuggler_project:
+  :PROPERTIES:
+  :END:
   #+COLUMNS: %70ITEM(Tasks) %allocate(owner) %start %end %task_id
   :PROPERTIES:
   :Start:    2018-11-20
   :END:
-** TODO 意見整理工具文件
+** 意見整理工具文件
+   :PROPERTIES:
+   :task_id:  tool_doc
+   :END:
 *** TODO 產品設計文件
 **** TODO Service Blueprint
      DEADLINE: <2018-12-07 Mon> SCHEDULED: <2018-12-05 Mon>
@@ -32,12 +37,16 @@
     :start: 2018-12-05
     :end: 2018-12-07
     :END:
-** TODO 議題小聚操作方式文件
+** 議題小聚操作方式文件
    :PROPERTIES:
    :task_id:  sensetw_375
    :allocate: lloyd
    :END:
 ** TODO 報告二
+   :PROPERTIES:
+   :depends:  tool_doc, sensetw_375
+   :allocate: hychen
+   :END:
 * 團隊                                                 :taskjuggler_resource:
 ** hychen
    :PROPERTIES:
