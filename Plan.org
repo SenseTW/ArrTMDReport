@@ -90,15 +90,23 @@
     :start:    2018-12-05
     :end:      2018-12-11
     :END:
+*** 社群關心議題分類
+    DEADLINE: <2018-12-17 Mon> SCHEDULED: <2018-12-05 Wed>
+    :PROPERTIES:
+    :task_id: sensetw_393
+    :allocate: yg
+    :start: 2018-12-05
+    :end: 2018-12-17
+    :END:
 ** 繳交結案成果
 *** TODO 報告一
     SCHEDULED: <2018-12-17 Mon> DEADLINE: <2019-01-04 Fri>
     :PROPERTIES:
     :task_id: report1
     :allocate: hychen
-    :start: 2018-12-05
+    :start: 2018-12-17
     :end: 2019-01-04
-    :depends: sensetw_377
+    :depends: sensetw_377, sensetw_393
     :END:
 *** TODO 報告二
     SCHEDULED: <2018-12-17 Mon> DEADLINE: <2019-01-04 Fri>

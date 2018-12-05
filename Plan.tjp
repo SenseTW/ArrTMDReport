@@ -101,13 +101,19 @@ task __ "結案" {
       start 2018-12-05
       end 2018-12-11
     }
+    task sensetw_393 "社群關心議題分類" {
+      purge allocate
+      allocate yg
+      start 2018-12-05
+      end 2018-12-17
+    }
   }
   task _______ "繳交結案成果" {
     task report1 "報告一" {
-      depends !!______.sensetw_377
+      depends !!______.sensetw_377, !!______.sensetw_393
       purge allocate
       allocate hychen
-      start 2018-12-05
+      start 2018-12-17
       end 2019-01-04
     }
     task report2 "報告二" {
