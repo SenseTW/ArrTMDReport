@@ -120,7 +120,7 @@ task __ "結案" {
       depends !!______.tool_doc, !!______.sensetw_375, !!tool
       purge allocate
       allocate hychen
-      effort 96.0h
+      start 2019-01-04
     }
     task ______ "單據編列成冊" {
       purge allocate

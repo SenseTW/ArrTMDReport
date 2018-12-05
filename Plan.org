@@ -113,7 +113,8 @@
     :PROPERTIES:
     :task_id:  report2
     :allocate: hychen
-    :effort: 4d
+    :start: 2018-12-17
+    :start: 2019-01-04
     :depends: tool, tool_doc, sensetw_375
     :END:
 *** TODO 單據編列成冊
