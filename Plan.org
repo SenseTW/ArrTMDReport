@@ -4,13 +4,32 @@
   :start:    2018-10-01
   :end:    2019-01-30
   :END:
+** 意見整理工具
+   :PROPERTIES:
+   :task_id:  tool
+   :END:
+**** TODO Types、Actions Unit Tests
+     DEADLINE: <2018-12-17 Mon> SCHEDULED: <2018-12-05 Wed>
+    :PROPERTIES:
+    :task_id: sensetw_395
+    :allocate: cassi
+    :start: 2018-12-10
+    :end: 2018-12-17
+    :END:
+**** TODO sense.tw Blog 文章移轉到 Medium
+     DEADLINE: <2018-12-17 Mon> SCHEDULED: <2018-12-05 Wed>
+     :PROPERTIES:
+     :allocate: ael
+     :start: 2018-12-05
+     :end: 2018-12-06
+     :END:
 ** 意見整理工具文件
    :PROPERTIES:
    :task_id:  tool_doc
    :END:
 *** TODO 產品設計文件
 **** TODO Service Blueprint
-     DEADLINE: <2018-12-07 Mon> SCHEDULED: <2018-12-05 Mon>
+     DEADLINE: <2018-12-17 Mon> SCHEDULED: <2018-12-05 Mon>
     :PROPERTIES:
     :task_id: sensetw_385
     :allocate: KL
@@ -18,7 +37,7 @@
     :end:    2018-12-07
     :END:
 **** TODO Journey Map
-     DEADLINE: <2018-12-17 Mon> SCHEDULED: <2018-12-10 Mon>
+     DEADLINE: <2018-12-17 Mon> SCHEDULED: <2018-12-05 Mon>
     :PROPERTIES:
     :task_id: sensetw_386
     :depends:  sensetw_385
@@ -28,7 +47,7 @@
     :END:
 *** TODO 產品技術文件
 **** TODO Frontend Architecture Documentation
-     DEADLINE: <2018-12-07 Mon> SCHEDULED: <2018-12-05 Mon>
+     DEADLINE: <2018-12-17 Mon> SCHEDULED: <2018-12-05 Mon>
     :PROPERTIES:
     :task_id: sensetw_394
     :allocate: cassi
@@ -49,9 +68,9 @@
      :start: 2018-11-23
      :end: 2018-11-26
      :END:
-
 *** TODO 社群參與文件
 **** TODO 協作入口文件
+     DEADLINE: <2018-12-17 Mon> SCHEDULED: <2018-12-05 Wed>
     :PROPERTIES:
     :task_id:  sensetw_391
     :allocate: ael
@@ -76,7 +95,7 @@
 *** TODO 報告一
 *** TODO 報告二
     :PROPERTIES:
-    :depends:  tool_doc, sensetw_375
+    :depends:  tool, tool_doc, sensetw_375
     :allocate: hychen
     :END:
 * 團隊                                                 :taskjuggler_resource:

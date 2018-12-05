@@ -29,6 +29,20 @@ resource yg "yg" {
 task a "A 分項" {
   start 2018-10-01
   end 2019-01-30
+  task tool "意見整理工具" {
+    task sensetw_395 "Types、Actions Unit Tests" {
+      purge allocate
+      allocate cassi
+      start 2018-12-10
+      end 2018-12-17
+    }
+    task sense_tw "sense.tw Blog 文章移轉到 Medium" {
+      purge allocate
+      allocate ael
+      start 2018-12-05
+      end 2018-12-06
+    }
+  }
   task tool_doc "意見整理工具文件" {
     task ______ "產品設計文件" {
       task sensetw_385 "Service Blueprint" {
@@ -93,7 +107,7 @@ task a "A 分項" {
       milestone
     }
     task ____ "報告二" {
-      depends !!tool_doc, !!sensetw_375
+      depends !!tool, !!tool_doc, !!sensetw_375
       purge allocate
       allocate hychen
       milestone
