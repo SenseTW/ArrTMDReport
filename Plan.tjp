@@ -1,4 +1,4 @@
-project nil "A 分項" "1.0" 2018-10-01 +999d {
+project nil "結案" "1.0" 2018-10-01 +999d {
 }
 shift s40 "Part time shift" {
   workinghours wed, thu, fri off
@@ -26,28 +26,104 @@ resource yenwen "yenwen" {
 resource yg "yg" {
   limits { dailymax 8h weeklymax 16h monthlymax 8d }
 }
-task a "A 分項" {
+task __ "結案" {
   start 2018-10-01
   end 2019-01-30
-  task sensetw_375 "議題小聚操作方式文件" {
-    purge allocate
-    allocate lloyd
-    start 2018-12-05
-    end 2018-12-11
-  }
-  task ______ "降低維護費用" {
-    task sense_tw "sense.tw Blog 文章移轉到 Medium" {
+  task ______ "準備報告素材" {
+    task tool_doc "意見整理工具文件" {
+      task ______ "產品設計文件" {
+        task product_backlogs "Product Backlogs" {
+          purge allocate
+          allocate ael
+          start 2018-12-5
+          end 2018-12-17
+        }
+        task sensetw_385 "Service Blueprint" {
+          purge allocate
+          allocate KL
+          start 2018-12-05
+          end 2018-12-07
+        }
+        task sensetw_386 "Journey Map" {
+          depends !sensetw_385
+          purge allocate
+          allocate KL
+          start 2018-12-10
+          end 2018-12-17
+        }
+      }
+      task _______ "產品技術文件" {
+        task sensetw_394 "Frontend Architecture Documentation" {
+          purge allocate
+          allocate cassi
+          start 2018-12-05
+          end 2018-12-07
+        }
+        task backend "Backend Architecture Documentation" {
+          purge allocate
+          allocate pm5
+          complete 100
+          start 2018-11-22
+          end 2018-11-23
+        }
+        task devops "DevOps Documentation" {
+          purge allocate
+          allocate yenwen
+          complete 100
+          start 2018-11-23
+          end 2018-11-26
+        }
+      }
+      task ________ "社群參與文件" {
+        task sensetw_391 "協作入口文件" {
+          purge allocate
+          allocate ael
+          effort 2.0h
+          start 2018-12-05
+        }
+        task ________ "如何參與開發文件" {
+          purge allocate
+          allocate pm5
+          effort 24.0h
+          start 2018-10-24
+        }
+      }
+    }
+    task sensetw_377 "公民參與訪談逐字稿" {
       purge allocate
       allocate ael
-      effort 3.0h
+      start 2018-11-20
+      end 2018-12-03
     }
-    task __ "轉移 DNS 到 Gandi" {
+    task sensetw_375 "議題小聚操作方式文件" {
       purge allocate
-      allocate hychen
-      effort 2.0h
+      allocate lloyd
+      start 2018-12-05
+      end 2018-12-11
     }
   }
-  task tool "意見整理工具" {
+  task _______ "繳交結案成果" {
+    task report1 "報告一" {
+      depends !!______.sensetw_377
+      purge allocate
+      allocate hychen
+      start 2018-12-05
+      end 2019-01-04
+    }
+    task report2 "報告二" {
+      depends !!______.tool_doc, !!______.sensetw_375, !!tool
+      purge allocate
+      allocate hychen
+      effort 96.0h
+    }
+    task ______ "單據編列成冊" {
+      purge allocate
+      allocate ael
+      start 2018-12-05
+      end 2018-12-25
+    }
+  }
+  task tool "維護意見整理工具" {
     task sensetw_395 "Types、Actions Unit Tests" {
       purge allocate
       allocate cassi
@@ -55,115 +131,11 @@ task a "A 分項" {
       end 2018-12-17
     }
   }
-  task tool_doc "意見整理工具文件" {
-    task ______ "產品設計文件" {
-      task product_backlogs "Product Backlogs" {
-        purge allocate
-        allocate ael
-        start 2018-12-5
-        end 2018-12-17
-      }
-      task sensetw_385 "Service Blueprint" {
-        purge allocate
-        allocate KL
-        start 2018-12-05
-        end 2018-12-07
-      }
-      task sensetw_386 "Journey Map" {
-        depends !sensetw_385
-        purge allocate
-        allocate KL
-        start 2018-12-10
-        end 2018-12-17
-      }
-    }
-    task _______ "產品技術文件" {
-      task sensetw_394 "Frontend Architecture Documentation" {
-        purge allocate
-        allocate cassi
-        start 2018-12-05
-        end 2018-12-07
-      }
-      task backend "Backend Architecture Documentation" {
-        purge allocate
-        allocate pm5
-        complete 100
-        start 2018-11-22
-        end 2018-11-23
-      }
-      task devops "DevOps Documentation" {
-        purge allocate
-        allocate yenwen
-        complete 100
-        start 2018-11-23
-        end 2018-11-26
-      }
-    }
-    task ________ "社群參與文件" {
-      task sensetw_391 "協作入口文件" {
-        purge allocate
-        allocate ael
-        effort 2.0h
-        start 2018-12-05
-      }
-      task ________ "如何參與開發文件" {
-        purge allocate
-        allocate pm5
-        effort 24.0h
-        start 2018-10-24
-      }
-    }
-  }
-  task ____ "結案成果" {
-    task ___ "報告一" {
+  task ____________ "降低意見整理工具維護費用" {
+    task sense_tw "sense.tw Blog 文章移轉到 Medium" {
       purge allocate
-      allocate hychen
-      start 2018-12-05
-      end 2019-01-04
-      task ____ "中文摘要" {
-        milestone
-      }
-      task _____ "英文摘要" {
-        milestone
-      }
-      task __ "前言" {
-        milestone
-      }
-      task ______ "研究目的" {
-        milestone
-      }
-      task _______ "研究方法" {
-        milestone
-      }
-      task ___ "結果" {
-        milestone
-      }
-      task ________ "建議" {
-        milestone
-      }
-    }
-    task ____ "報告二" {
-      task ____ "中文摘要" {
-        milestone
-      }
-      task _____ "英文摘要" {
-        milestone
-      }
-      task __ "前言" {
-        milestone
-      }
-      task ______ "研究目的" {
-        milestone
-      }
-      task _______ "研究方法" {
-        milestone
-      }
-      task ___ "結果" {
-        milestone
-      }
-      task ________ "建議" {
-        milestone
-      }
+      allocate ael
+      effort 3.0h
     }
   }
 }
