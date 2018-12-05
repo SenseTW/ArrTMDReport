@@ -1,0 +1,88 @@
+project nil "結案" "1.0" 2018-11-20 +999d {
+}
+shift s40 "Part time shift" {
+  workinghours wed, thu, fri off
+}
+resource hychen "hychen" {
+}
+resource cassi "cassi" {
+}
+resource ael "ael" {
+  limits { dailymax 8h weeklymax 40h }
+}
+resource KL "KL" {
+  limits { dailymax 8h weeklymax 40h }
+}
+resource lloyd "lloyd" {
+  limits { weeklymax 8h }
+}
+resource yenweng "yenwen" {
+  limits { monthlymax 5.5d }
+}
+resource yg "yg" {
+  limits { dailymax 8h weeklymax 16h monthlymax 8d }
+}
+task __ "結案" {
+  start 2018-11-20
+  task __________ "議題小聚操作方式文件" {
+    purge allocate
+    allocate lloyd
+    start 2018-12-05
+    end 2018-12-11
+  }
+  task ______ "產品設計文件" {
+    task service_blueprint "Service Blueprint" {
+      purge allocate
+      allocate KL
+      start 2018-12-05
+      duration 2d
+    }
+    task journey "Journey Map" {
+      depends !service_blueprint
+      purge allocate
+      allocate KL
+      start 2018-12-10
+      duration 3d
+    }
+  }
+  task _______ "產品技術文件" {
+    task frontend "Frontend Architecture Documentation" {
+      purge allocate
+      allocate cassi
+      start 2018-12-05
+      duration 6d
+    }
+  }
+}
+textreport report "Plan" {
+  formats html
+  header '== Sense.TW 2017-2018 結案 =='
+
+  center -8<-
+    [#Plan Plan] | [#Resource_Allocation Resource Allocation]
+    ----
+    === Plan ===
+    <[report id="plan"]>
+    ----
+    === Resource Allocation ===
+    <[report id="resourceGraph"]>
+  ->8-
+}
+
+# A traditional Gantt chart with a project overview.
+taskreport plan "" {
+  headline "Project Plan"
+  columns bsi, name, start, end, effort, chart
+  loadunit shortauto
+  hideresource 1
+}
+
+# A graph showing resource allocation. It identifies whether each
+# resource is under- or over-allocated for.
+resourcereport resourceGraph "" {
+  headline "Resource Allocation Graph"
+  columns no, name, effort, weekly
+  loadunit shortauto
+  hidetask ~(isleaf() & isleaf_())
+  sorttasks plan.start.up
+}

@@ -1,0 +1,74 @@
+#+TITLE: Sense.TW 2017-2018 結案
+#+COLUMNS: %70ITEM(Tasks) %Efforts
+* 結案                                                            :taskjuggler_project:
+  :PROPERTIES:
+  :Start:    2018-11-20
+  :END:
+** TODO 議題小聚操作方式文件
+   SCHEDULED: <2018-12-05 Wed> DEADLINE: <2018-12-11 Tue>
+   :PROPERTIES:
+   :allocate: lloyd
+   :start: 2018-12-05
+   :end: 2018-12-11
+   :END:
+** TODO 產品設計文件
+*** TODO Service Blueprint
+    :PROPERTIES:
+    :task_id:  service_blueprint
+    :start: 2018-12-05
+    :allocate: KL
+    :duration: 2d
+    :issue: https://github.com/SenseTW/sensetw/issues/385
+    :END:
+*** TODO Journey Map
+    :PROPERTIES:
+    :allocate: KL
+    :start: 2018-12-10
+    :duration: 3d
+    :issue:    https://github.com/SenseTW/sensetw/issues/386
+    :depends:  service_blueprint
+    :END:
+** TODO 產品技術文件
+*** TODO Frontend Architecture Documentation
+    :PROPERTIES:
+    :allocate: cassi
+    :start: 2018-12-05
+    :duration: 6d
+    :issue: https://github.com/SenseTW/sensetw/issues/394
+    :END:
+* 團隊                                                 :taskjuggler_resource:
+** hychen
+   :PROPERTIES:
+   :resource_id: hychen
+   :limits: { dailymax 8h weeklymax 40h }
+   :END:
+** cassi
+   :PROPERTIES:
+   :resource_id: cassi
+   :limits: { dailymax 8h weeklymax 40h }
+   :END:
+** ael
+   :PROPERTIES:
+   :resource_id: ael
+   :limits: { dailymax 8h weeklymax 40h }
+   :END:
+** KL
+   :PROPERTIES:
+   :resource_id: KL
+   :limits: { dailymax 8h weeklymax 40h }
+   :END:
+** lloyd
+   :PROPERTIES:
+   :resource_id: lloyd
+   :limits: { dailymax 8h weeklymax 16h }
+   :END:
+** yenwen
+   :PROPERTIES:
+   :resource_id: yenweng
+   :limits: { dailymax 8h monthlymax 5.5d }
+   :END:
+** yg
+   :PROPERTIES:
+   :resource_id: yg
+   :limits: { dailymax 8h weeklymax 16h monthlymax 8d }
+   :END:
