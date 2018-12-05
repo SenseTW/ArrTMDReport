@@ -1,49 +1,76 @@
 #+TITLE: Sense.TW 2017-2018 結案
 #+STARTUP: showall
-* 結案                                                  :taskjuggler_project:
+#+COLUMNS: %30ITEM(Task) %start %effort %allocate %depends %ORDERED
+* SenseTW 結案                                          :taskjuggler_project:
   :PROPERTIES:
+  :task_id: sensetw
   :start:    2018-10-01
   :end:    2019-01-30
   :END:
-** 準備報告素材
-*** 意見整理工具文件
+** TODO 準備報告一素材
    :PROPERTIES:
-   :task_id:  tool_doc
+   :task_id:  prepare_report1
    :END:
+*** TODO 公民參與訪談逐字稿
+    DEADLINE: <2018-11-23 Fri> SCHEDULED: <2018-11-20 Tue>
+    :PROPERTIES:
+    :task_id:  transcripts
+    :start:    2018-11-20
+    :end: 2018-11-23
+    :END:
+*** TODO 社群關心議題分類
+    DEADLINE: <2018-12-17 Mon> SCHEDULED: <2018-12-05 Wed>
+    :PROPERTIES:
+    :task_id:  sensetw_393
+    :allocate: yg
+    :start:    2018-12-05
+    :effort:   2d
+    :END:
+** TODO 準備報告二素材
+   :PROPERTIES:
+   :task_id:  prepare_report2
+   :END:
+*** TODO 意見整理工具文件
+    :PROPERTIES:
+    :task_id:  product_doc
+    :END:
 **** TODO 產品設計文件
-***** TODO Product Backlogs
-     DEADLINE: <2018-12-17 Mon> SCHEDULED: <2018-12-05 Wed>
      :PROPERTIES:
-     :task_id: product_backlogs
-     :allocate: ael
-     :start: 2018-12-5
-     :end: 2018-12-17
+     :task_id:  product_design_doc
      :END:
 ***** TODO Service Blueprint
-     DEADLINE: <2018-12-17 Mon> SCHEDULED: <2018-12-05 Mon>
-    :PROPERTIES:
-    :task_id: sensetw_385
-    :allocate: KL
-    :start:    2018-12-05
-    :end:    2018-12-07
-    :END:
+      DEADLINE: <2018-12-07 Fri> SCHEDULED: <2018-12-05 Wed>
+      :PROPERTIES:
+      :task_id:  service_blueprint
+      :allocate: KL
+      :start:    2018-12-05
+      :end:      2018-12-07
+      :END:
 ***** TODO Journey Map
-     DEADLINE: <2018-12-17 Mon> SCHEDULED: <2018-12-05 Mon>
-    :PROPERTIES:
-    :task_id: sensetw_386
-    :depends:  sensetw_385
-    :allocate: KL
-    :start:    2018-12-10
-    :end:    2018-12-17
-    :END:
+      DEADLINE: <2018-12-14 Fri> SCHEDULED: <2018-12-10 Mon>
+      :PROPERTIES:
+      :task_id:  journey_map
+      :depends:  service_blueprint
+      :allocate: KL
+      :start:    2018-12-10
+      :end:      2018-12-14
+      :END:
+***** TODO Product Backlogs
+      DEADLINE: <2018-12-17 Mon> SCHEDULED: <2018-12-05 Wed>
+      :PROPERTIES:
+      :task_id:  product_backlogs
+      :allocate: ael
+      :start:    2018-12-05
+      :effort:   1.5d
+      :END:
 **** TODO 產品技術文件
 ***** TODO Frontend Architecture Documentation
       DEADLINE: <2018-12-17 Mon> SCHEDULED: <2018-12-05 Mon>
       :PROPERTIES:
-      :task_id:  sensetw_394
+      :task_id:  frontend_arch_doc
       :allocate: cassi
       :start:    2018-12-05
-      :end:      2018-12-07
+      :effort:   8h
       :END:
 ***** DONE Backend Architecture Documentation
       DEADLINE: <2018-11-23 Thu> SCHEDULED: <2018-11-22 Tue>
@@ -63,91 +90,83 @@
 ***** TODO 協作入口文件
       DEADLINE: <2018-12-17 Mon> SCHEDULED: <2018-12-05 Wed>
       :PROPERTIES:
-      :task_id:  sensetw_391
+      :task_id:  howto_contribute
       :allocate: ael
       :start:    2018-12-05
-      :effort:   2h
+      :effort:   1h
       :END:
-***** TODO 如何參與開發文件
+***** DONE 如何參與開發文件
       :PROPERTIES:
       :allocate: pm5
       :start:    2018-10-24
       :effort:   1d
       :END:
-*** 公民參與訪談逐字稿
-   DEADLINE: <2018-12-03 Mon> SCHEDULED: <2018-11-20 Tue>
-   :PROPERTIES:
-   :task_id:  sensetw_377
-   :allocate: ael
-   :start: 2018-11-20
-   :end: 2018-12-03
-   :END:
-*** 議題小聚操作方式文件
-    DEADLINE: <2018-12-11 Tue> SCHEDULED: <2018-12-05 Thu>
+*** TODO 議題小聚操作方式文件
+    DEADLINE: <2018-12-11 Tue> SCHEDULED: <2018-12-05 Wed>
     :PROPERTIES:
-    :task_id:  sensetw_375
+    :task_id:  meetup_sop
     :allocate: lloyd
     :start:    2018-12-05
     :end:      2018-12-11
     :END:
-*** 社群關心議題分類
-    DEADLINE: <2018-12-17 Mon> SCHEDULED: <2018-12-05 Wed>
-    :PROPERTIES:
-    :task_id: sensetw_393
-    :allocate: yg
-    :start: 2018-12-05
-    :end: 2018-12-17
-    :END:
-** 繳交結案成果
+** TODO 繳交結案成果
+   SCHEDULED: <2018-12-05 Wed> DEADLINE: <2019-01-04 Tue>
+   :PROPERTIES:
+   :task_id:  project_outcomes
+   :END:
 *** TODO 報告一
-    SCHEDULED: <2018-12-17 Mon> DEADLINE: <2019-01-04 Fri>
+    SCHEDULED: <2018-12-18 Wed> DEADLINE: <2018-12-25 Tue>
     :PROPERTIES:
     :task_id: report1
     :allocate: hychen
-    :start: 2018-12-17
-    :end: 2019-01-04
-    :depends: sensetw_377, sensetw_393
+    :depends: prepare_report1
+    :start: 2018-12-18
+    :effort: 24h
     :END:
 *** TODO 報告二
-    SCHEDULED: <2018-12-17 Mon> DEADLINE: <2019-01-04 Fri>
+    SCHEDULED: <2018-12-26 Wed> DEADLINE: <2019-01-04 Tue>
     :PROPERTIES:
     :task_id:  report2
     :allocate: hychen
-    :start: 2018-12-17
-    :start: 2019-01-04
-    :depends: tool, tool_doc, sensetw_375
+    :depends: prepare_report2
+    :start: 2018-12-26
+    :effort: 24h
     :END:
 *** TODO 單據編列成冊
     DEADLINE: <2018-12-25 Tue> SCHEDULED: <2018-12-05 Wed>
     :PROPERTIES:
-    :allocate: ael
+    :task_id: invoices_doc
     :start: 2018-12-05
-    :end: 2018-12-25
+    :allocate: ael
+    :effort: 18h
     :END:
-** 維護意見整理工具
+** TODO 維護意見整理工具
    :PROPERTIES:
    :task_id:  tool
    :END:
 **** TODO Types、Actions Unit Tests
-     DEADLINE: <2018-12-17 Mon> SCHEDULED: <2018-12-05 Wed>
+     DEADLINE: <2018-12-17 Mon> SCHEDULED: <2018-12-11 Wed>
     :PROPERTIES:
-    :task_id: sensetw_395
+    :task_id: type_actions_unit_tests
     :allocate: cassi
-    :start: 2018-12-10
-    :end: 2018-12-17
+    :start: 2018-12-11
+    :effort: 32h
     :END:
-** 降低意見整理工具維護費用
+** TODO 降低意見整理工具維護費用
+   :PROPERTIES:
+   :task_id:  reduce_upkeep_fee
+   :END:
 **** TODO sense.tw Blog 文章移轉到 Medium
      SCHEDULED: <2018-12-05 Wed>
      :PROPERTIES:
      :allocate: ael
+     :start: 2018-12-05
      :effort: 3h
      :END:
 * 團隊                                                 :taskjuggler_resource:
 ** hychen
    :PROPERTIES:
    :resource_id: hychen
-   :limits: { dailymax 8h weeklymax 40h }
    :END:
 ** pm5
    :PROPERTIES:
@@ -156,30 +175,24 @@
 ** cassi
    :PROPERTIES:
    :resource_id: cassi
-   :limits: { dailymax 8h weeklymax 40h }
    :END:
 ** ael
    :PROPERTIES:
    :resource_id: ael
-   :limits: { dailymax 8h weeklymax 40h }
    :END:
 ** KL
    :PROPERTIES:
    :resource_id: KL
-   :limits: { dailymax 8h weeklymax 40h }
    :END:
 ** lloyd
    :PROPERTIES:
    :resource_id: lloyd
-   :limits: { dailymax 8h weeklymax 16h }
    :END:
 ** yenwen
    :PROPERTIES:
    :resource_id: yenwen
-   :limits: { dailymax 8h monthlymax 5.5d }
    :END:
 ** yg
    :PROPERTIES:
    :resource_id: yg
-   :limits: { dailymax 8h weeklymax 16h monthlymax 8d }
    :END:
