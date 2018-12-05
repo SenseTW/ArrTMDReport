@@ -1,4 +1,5 @@
 #+TITLE: Sense.TW 2017-2018 結案
+#+STARTUP: showall
 * A 分項                                                :taskjuggler_project:
   :PROPERTIES:
   :start:    2018-10-01
