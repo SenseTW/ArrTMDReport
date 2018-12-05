@@ -4,8 +4,10 @@ shift s40 "Part time shift" {
   workinghours wed, thu, fri off
 }
 resource hychen "hychen" {
+  limits { dailymax 8h weeklymax 40h }
 }
 resource cassi "cassi" {
+  limits { dailymax 8h weeklymax 40h }
 }
 resource ael "ael" {
   limits { dailymax 8h weeklymax 40h }
@@ -14,44 +16,48 @@ resource KL "KL" {
   limits { dailymax 8h weeklymax 40h }
 }
 resource lloyd "lloyd" {
-  limits { weeklymax 8h }
+  limits { dailymax 8h weeklymax 16h }
 }
 resource yenweng "yenwen" {
-  limits { monthlymax 5.5d }
+  limits { dailymax 8h monthlymax 5.5d }
 }
 resource yg "yg" {
   limits { dailymax 8h weeklymax 16h monthlymax 8d }
 }
 task __ "結案" {
   start 2018-11-20
-  task __________ "議題小聚操作方式文件" {
+  task ________ "意見整理工具文件" {
+    task ______ "產品設計文件" {
+      task sensetw_385 "Service Blueprint" {
+        purge allocate
+        allocate KL
+        start 2018-12-05
+        end 2018-12-07
+      }
+      task sensetw_386 "Journey Map" {
+        depends !sensetw_385
+        purge allocate
+        allocate KL
+        start 2018-12-10
+        end 2018-12-17
+      }
+    }
+    task _______ "產品技術文件" {
+      task sensetw_394 "Frontend Architecture Documentation" {
+        purge allocate
+        allocate cassi
+        start 2018-12-05
+        end 2018-12-07
+      }
+    }
+  }
+  task sensetw_375 "議題小聚操作方式文件" {
     purge allocate
     allocate lloyd
-    start 2018-12-05
-    end 2018-12-11
+    milestone
   }
-  task ______ "產品設計文件" {
-    task service_blueprint "Service Blueprint" {
-      purge allocate
-      allocate KL
-      start 2018-12-05
-      duration 2d
-    }
-    task journey "Journey Map" {
-      depends !service_blueprint
-      purge allocate
-      allocate KL
-      start 2018-12-10
-      duration 3d
-    }
-  }
-  task _______ "產品技術文件" {
-    task frontend "Frontend Architecture Documentation" {
-      purge allocate
-      allocate cassi
-      start 2018-12-05
-      duration 6d
-    }
+  task ___ "報告二" {
+    milestone
   }
 }
 textreport report "Plan" {

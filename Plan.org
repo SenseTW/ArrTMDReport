@@ -1,41 +1,43 @@
 #+TITLE: Sense.TW 2017-2018 結案
-#+COLUMNS: %70ITEM(Tasks) %Efforts
-* 結案                                                            :taskjuggler_project:
+* 結案                                                  :taskjuggler_project:
+  #+COLUMNS: %70ITEM(Tasks) %allocate(owner) %start %end %task_id
   :PROPERTIES:
   :Start:    2018-11-20
   :END:
-** TODO 議題小聚操作方式文件
-   SCHEDULED: <2018-12-05 Wed> DEADLINE: <2018-12-11 Tue>
-   :PROPERTIES:
-   :allocate: lloyd
-   :start: 2018-12-05
-   :end: 2018-12-11
-   :END:
-** TODO 產品設計文件
-*** TODO Service Blueprint
+** TODO 意見整理工具文件
+*** TODO 產品設計文件
+**** TODO Service Blueprint
+     DEADLINE: <2018-12-07 Mon> SCHEDULED: <2018-12-05 Mon>
     :PROPERTIES:
-    :task_id:  service_blueprint
-    :start: 2018-12-05
+    :task_id: sensetw_385
     :allocate: KL
-    :duration: 2d
-    :issue: https://github.com/SenseTW/sensetw/issues/385
+    :start:    2018-12-05
+    :end:    2018-12-07
     :END:
-*** TODO Journey Map
+**** TODO Journey Map
+     DEADLINE: <2018-12-17 Mon> SCHEDULED: <2018-12-10 Mon>
     :PROPERTIES:
+    :task_id: sensetw_386
+    :depends:  sensetw_385
     :allocate: KL
-    :start: 2018-12-10
-    :duration: 3d
-    :issue:    https://github.com/SenseTW/sensetw/issues/386
-    :depends:  service_blueprint
+    :start:    2018-12-10
+    :end:    2018-12-17
     :END:
-** TODO 產品技術文件
-*** TODO Frontend Architecture Documentation
+*** TODO 產品技術文件
+**** TODO Frontend Architecture Documentation
+     DEADLINE: <2018-12-07 Fri> SCHEDULED: <2018-12-05 Wed>
     :PROPERTIES:
+    :task_id: sensetw_394
     :allocate: cassi
     :start: 2018-12-05
-    :duration: 6d
-    :issue: https://github.com/SenseTW/sensetw/issues/394
+    :end: 2018-12-07
     :END:
+** TODO 議題小聚操作方式文件
+   :PROPERTIES:
+   :task_id:  sensetw_375
+   :allocate: lloyd
+   :END:
+** TODO 報告二
 * 團隊                                                 :taskjuggler_resource:
 ** hychen
    :PROPERTIES:
