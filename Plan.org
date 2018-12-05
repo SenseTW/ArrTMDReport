@@ -4,6 +4,19 @@
   :start:    2018-10-01
   :end:    2019-01-30
   :END:
+** 降低維護費用
+**** TODO sense.tw Blog 文章移轉到 Medium
+     SCHEDULED: <2018-12-05 Wed>
+     :PROPERTIES:
+     :allocate: ael
+     :effort: 3h
+     :END:
+**** TODO 轉移 DNS 到 Gandi
+     SCHEDULED: <2019-03-01 Wed>
+     :PROPERTIES:
+     :allocate: hychen
+     :effort:   2h
+     :END:
 ** 意見整理工具
    :PROPERTIES:
    :task_id:  tool
@@ -16,18 +29,18 @@
     :start: 2018-12-10
     :end: 2018-12-17
     :END:
-**** TODO sense.tw Blog 文章移轉到 Medium
-     DEADLINE: <2018-12-17 Mon> SCHEDULED: <2018-12-05 Wed>
-     :PROPERTIES:
-     :allocate: ael
-     :start: 2018-12-05
-     :end: 2018-12-06
-     :END:
 ** 意見整理工具文件
    :PROPERTIES:
    :task_id:  tool_doc
    :END:
 *** TODO 產品設計文件
+**** TODO Product Backlogs
+     DEADLINE: <2018-12-17 Mon> SCHEDULED: <2018-12-05 Wed>
+     :PROPERTIES:
+     :allocate: ael
+     :start: 2018-12-5
+     :end: 2018-12-17
+     :END:
 **** TODO Service Blueprint
      DEADLINE: <2018-12-17 Mon> SCHEDULED: <2018-12-05 Mon>
     :PROPERTIES:
@@ -91,13 +104,12 @@
    :start: 2018-12-06
    :end: 2018-12-11
    :END:
-** 查核點
-*** TODO 報告一
-*** TODO 報告二
-    :PROPERTIES:
-    :depends:  tool, tool_doc, sensetw_375
-    :allocate: hychen
-    :END:
+** TODO 報告一
+** TODO 報告二
+   :PROPERTIES:
+   :depends:  tool, tool_doc, sensetw_375
+   :allocate: hychen
+   :END:
 * 團隊                                                 :taskjuggler_resource:
 ** hychen
    :PROPERTIES:
