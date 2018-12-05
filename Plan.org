@@ -5,6 +5,14 @@
   :start:    2018-10-01
   :end:    2019-01-30
   :END:
+** 議題小聚操作方式文件
+   DEADLINE: <2018-12-11 Tue> SCHEDULED: <2018-12-05 Thu>
+   :PROPERTIES:
+   :task_id:  sensetw_375
+   :allocate: lloyd
+   :start: 2018-12-05
+   :end: 2018-12-11
+   :END:
 ** 降低維護費用
 **** TODO sense.tw Blog 文章移轉到 Medium
      SCHEDULED: <2018-12-05 Wed>
@@ -38,6 +46,7 @@
 **** TODO Product Backlogs
      DEADLINE: <2018-12-17 Mon> SCHEDULED: <2018-12-05 Wed>
      :PROPERTIES:
+     :task_id: product_backlogs
      :allocate: ael
      :start: 2018-12-5
      :end: 2018-12-17
@@ -97,20 +106,30 @@
     :start: 2018-10-24
     :effort:  1d
     :END:
-** 議題小聚操作方式文件
-   DEADLINE: <2018-12-11 Tue> SCHEDULED: <2018-12-06 Thu>
-   :PROPERTIES:
-   :task_id:  sensetw_375
-   :allocate: lloyd
-   :start: 2018-12-06
-   :end: 2018-12-11
-   :END:
-** TODO 報告一
-** TODO 報告二
-   :PROPERTIES:
-   :depends:  tool, tool_doc, sensetw_375
-   :allocate: hychen
-   :END:
+** 結案成果
+*** TODO 報告一
+    DEADLINE: <2019-01-04 Fri> SCHEDULED: <2018-12-05 Wed>
+    :PROPERTIES:
+    :allocate: hychen
+    :start: 2018-12-05
+    :end: 2019-01-04
+    :END:
+**** TODO 中文摘要
+**** TODO 英文摘要
+**** TODO 前言
+**** TODO 研究目的
+**** TODO 研究方法
+**** TODO 結果
+**** TODO 建議
+*** TODO 報告二
+    DEADLINE: <2019-01-04 Fri> SCHEDULED: <2018-12-05 Wed>
+**** TODO 中文摘要
+**** TODO 英文摘要
+**** TODO 前言
+**** TODO 研究目的
+**** TODO 研究方法
+**** TODO 結果
+**** TODO 建議
 * 團隊                                                 :taskjuggler_resource:
 ** hychen
    :PROPERTIES:

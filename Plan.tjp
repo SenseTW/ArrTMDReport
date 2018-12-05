@@ -29,6 +29,12 @@ resource yg "yg" {
 task a "A 分項" {
   start 2018-10-01
   end 2019-01-30
+  task sensetw_375 "議題小聚操作方式文件" {
+    purge allocate
+    allocate lloyd
+    start 2018-12-05
+    end 2018-12-11
+  }
   task ______ "降低維護費用" {
     task sense_tw "sense.tw Blog 文章移轉到 Medium" {
       purge allocate
@@ -51,7 +57,7 @@ task a "A 分項" {
   }
   task tool_doc "意見整理工具文件" {
     task ______ "產品設計文件" {
-      task product "Product Backlogs" {
+      task product_backlogs "Product Backlogs" {
         purge allocate
         allocate ael
         start 2018-12-5
@@ -108,20 +114,63 @@ task a "A 分項" {
       }
     }
   }
-  task sensetw_375 "議題小聚操作方式文件" {
-    purge allocate
-    allocate lloyd
-    start 2018-12-06
-    end 2018-12-11
-  }
-  task ___ "報告一" {
-    milestone
-  }
-  task ____ "報告二" {
-    depends !tool, !tool_doc, !sensetw_375
-    purge allocate
-    allocate hychen
-    milestone
+  task ____ "結案成果" {
+    task ___ "報告一" {
+      purge allocate
+      allocate hychen
+      start 2018-12-05
+      end 2019-01-04
+      task ____ "中文摘要" {
+        milestone
+      }
+      task _____ "英文摘要" {
+        milestone
+      }
+      task __ "前言" {
+        milestone
+      }
+      task ______ "研究目的" {
+        milestone
+      }
+      task _______ "研究方法" {
+        milestone
+      }
+      task ___ "結果" {
+        milestone
+      }
+      task ________ "建議" {
+        milestone
+      }
+    }
+    task ____ "報告二" {
+      task ____ "中文摘要" {
+        milestone
+      }
+      task _____ "英文摘要" {
+        milestone
+      }
+      task __ "前言" {
+        milestone
+      }
+      task ______ "研究目的" {
+        milestone
+      }
+      task _______ "研究方法" {
+        milestone
+      }
+      task ___ "結果" {
+        milestone
+      }
+      task ________ "建議" {
+        milestone
+      }
+    }
+    task close_doc "單據核銷編列成冊" {
+      purge allocate
+      allocate ael
+      start 2018-12-05
+      end 2018-12-20
+    }
   }
 }
 textreport report "Plan" {
