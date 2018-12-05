@@ -36,11 +36,11 @@
     :end: 2018-12-14
     :END:
 **** DONE Backend Architecture Documentation
-     DEADLINE: <2018-11-22 Thu> SCHEDULED: <2018-11-20 Tue>
+     DEADLINE: <2018-11-23 Thu> SCHEDULED: <2018-11-22 Tue>
      :PROPERTIES:
      :allocate: pm5
-     :start: 2018-11-20
-     :end: 2018-11-22
+     :start: 2018-11-22
+     :end: 2018-11-23
      :END:
 **** DONE DevOps Documentation
      DEADLINE: <2018-11-30 Fri> SCHEDULED: <2018-11-01 Thu>
