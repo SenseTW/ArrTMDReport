@@ -63,8 +63,8 @@ task a "A 分項" {
         purge allocate
         allocate yenwen
         complete 100
-        start 2018-11-01
-        end 2018-11-30
+        start 2018-11-23
+        end 2018-11-26
       }
     }
   }

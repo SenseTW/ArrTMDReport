@@ -43,11 +43,11 @@
      :end: 2018-11-23
      :END:
 **** DONE DevOps Documentation
-     DEADLINE: <2018-11-30 Fri> SCHEDULED: <2018-11-01 Thu>
+     DEADLINE: <2018-11-26 Fri> SCHEDULED: <2018-11-23 Thu>
      :PROPERTIES:
      :allocate: yenwen
-     :start: 2018-11-01
-     :end: 2018-11-30
+     :start: 2018-11-23
+     :end: 2018-11-26
      :END:
 ** 議題小聚操作方式文件
    DEADLINE: <2018-12-11 Tue> SCHEDULED: <2018-12-06 Thu>
