@@ -1,0 +1,232 @@
+project prj "Sense.TW 2018" 2017-10-01 +19m {
+        timezone "Asia/Taipei"
+        yearlyworkingdays 262
+        shorttimeformat "%H:%M"
+        currencyformat "(" ")" "," "." 0
+        currency "TWD"
+        dailyworkinghours 8
+        weekstartsmonday
+        workinghours mon - fri 9:00 - 12:00, 13:00 - 18:00
+        workinghours sat, sun off
+        scenario plan "Plan"
+}
+
+resource hychen "hychen" {
+}
+resource pm5 "pm5" {
+}
+resource cassi "cassi" {
+}
+resource KL "KL" {
+}
+resource ael "ael" {
+}
+resource yenwen "yenweng" {
+}
+resource lloyd "lloyd" {
+}
+resource yg "yg" {
+}
+
+task guide "數位原民參與手冊" {
+     task ver_1 "初版" {
+          allocate ael
+          end 2018-03-01
+     }
+     task meetup_sop "議題小聚操作文件" {
+          allocate lloyd
+          start 2018-12-05
+          end 2018-12-14
+     }
+     task ver_2 "再版" {
+          allocate hychen
+          depends !meetup_sop
+          effort 1d
+     }
+}
+
+task interview "公民參與訪談" {
+     task transcripts "委外製作訪談逐字稿" {
+          end 2018-11-20
+          allocate ael
+     }
+}
+
+task sensetw "線上意見整理工具" {
+     task research "使用者研究" {
+          start 2018-02-28
+          end 2018-04-31
+          }
+     task development "開發" {
+          depends sensetw.research
+          task mvp "MVP" {
+               start 2018-05-01
+               end 2018-08-11
+               allocate ael, KL, pm5, cassi
+          }
+          task alpha "Alpha" {
+               depends !mvp
+               end 2018-11-30
+               allocate ael, KL, pm5, cassi, yenwen
+               note "Mobile and Stability"
+          }
+          task v1901 "v1901" {
+               depends !alpha
+               end 2019-01-31
+               allocate cassi
+         }
+    }
+    task doc "產品設計文件" {
+          task eng_doc "Engineering Document" {
+              task frontend_doc "Frontend Document" {
+                   start 2018-12-05
+                   end 2018-12-14
+                   allocate cassi
+              }
+              task backend_doc "Backend Document" {
+                   start 2018-11-19
+                   end 2018-11-20
+                   allocate pm5
+              }
+              task devops_doc "DevOps Document" {
+                   start 2018-11-19
+                   end 2018-11-20
+                   allocate yenwen
+              }
+         }
+         task design_doc "Design Document" {
+              task design_sprint_report "Design Sprint Report" {
+                   start 2018-12-05
+                   end 2018-12-17
+                   allocate ael
+              }
+              task service_blueprint "Service Blueprint" {
+                   start 2018-12-05
+                   end 2018-12-07
+                   allocate KL
+               }
+               task journey_map "Journey Map" {
+                    start 2018-12-11
+                    end 2018-12-14
+                    allocate KL
+                }
+         }
+    }
+}
+
+task report1 "報告一" {
+     task draft "草稿" {
+          depends interview.transcripts
+     }
+     task ver_1 "初稿" {
+          depends !draft
+     }
+}
+
+task report2 "報告二" {
+     task draft "草稿" {
+          depends sensetw.doc, guide.meetup_sop
+     }
+     task ver_1 "初稿" {
+          depends !draft
+     }
+}
+
+task KPIs "社會與科技溝通平台計畫 A 分項" {
+     task KPI1 "焦點討論法半自動標記工具雛形" {
+          end 2017-12-31
+           }
+     task KPI2 "數位原民參與手冊" {
+          depends guide.ver_1
+          }
+     task KPI3 "線上意見整理工具" {
+          end 2018-06-30
+          }
+     task KPI4 "兩份公眾參與操作報告" {
+          end 2018-12-31
+          depends !KPI3, report1, report2
+          }
+}
+
+navigator navbar {
+          hidereport @none
+}
+
+textreport frame "" {
+           header -8<-
+           == Sense.TW Project ==
+           <[navigator id="navbar"]>
+           ->8-
+           footer "----"
+           textreport index "index" {
+                      formats html
+                      center -8<-
+                             === All ===
+                             <[report id="all"]>
+                             ----
+                             === Resource Allocation ===
+                             <[report id="resourceGraph"]>
+                      ->8-
+                      }
+           textreport KPIs "KPIs" {
+                      formats html
+                      center '<[report id="KPIs"]>'
+                      }
+           textreport report1 "報告一" {
+                      formats html
+                      center '<[report id="report1"]>'
+                      }
+           textreport report2 "報告二" {
+                      formats html
+                      center '<[report id="report2"]>'
+                      }
+           textreport sensetw "線上意見整理工具" {
+                      formats html
+                      center '<[report id="sensetw"]>'
+                      }
+           textreport guide "數位原民參與手冊" {
+                      formats html
+                      center '<[report id="guide"]>'
+                      }
+}
+
+taskreport all "" {
+           columns bsi {title "WBS"}, name, start, end, chart { width 750 }
+}
+
+taskreport KPIs "" {
+           columns bsi {title "WBS"}, name, start, end, chart { width 750 }
+           taskroot KPIs
+}
+
+taskreport report1 "" {
+           columns bsi {title "WBS"}, name, start, end, chart {width 750}
+           taskroot report1
+}
+
+taskreport report2 "" {
+           columns bsi {title "WBS"}, name, start, end,  chart {width 750}
+           taskroot report2
+}
+
+
+taskreport sensetw "" {
+           headline "Sense.TW Softwar"
+           columns bsi { title 'WBS' }, name, start, end, chart {width 750}
+           taskroot sensetw
+}
+
+
+taskreport guide "" {
+           headline "數位原民參與手冊"
+           columns bsi { title 'WBS' }, name, start, end, chart {width 750}
+           taskroot guide
+}
+
+resourcereport resourceGraph "" {
+           headline "Resource Allocation Graph"
+           columns no, name, effort, weekly {width 750}
+           loadunit shortauto
+           hidetask ~(isleaf() & isleaf_())
+           sorttasks plan.start.up
+}
