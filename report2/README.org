@@ -25,7 +25,7 @@
   A：看哪種目標... 如果只是要會議收斂討論的話是「facillator」，現階段不太有數位工具可以做到，但如果我們認為「參與」的最後結果是要能影響政策，這些大大小小的會議只是過程，真的能把碎片化意見收斂做出建設性意見的是「政策分析師」或是「幕僚」。 後面兩種人很需要工具幫忙做出議題裡面的論點與數據分析，只是現在資訊科技做不到。而就算是主持人好了，最後要整理好幾場分區會議的討論意見也是需要這樣的東西，但沒有「線上協作」概念做「參與」的 luddites 根本就不想嘗試這樣的數位工具，而有「知識者傲慢的」分析師或是政治菁英不會覺得 「民眾」可以給出什麼建設性的意見。 這中間分析師還要分做「量化分析」跟「質化分析」的，互相還會看不起對方。 再來逐字稿、資料是「資本」，「crowd sourcing」跟「協作」不存在在於他們的想像。
 
   Q：網路真的適合做議題釐清嗎？
-  A：看你說哪個網路，internet？ www？還是 social network software ？ 要知道以前大家打開 kimo.com 就認為是連上網路。 如果說的是 social network software 他本來就不適合，它存在的初衷就不是要讓你做「公共論述」。但這現象也不是什麼新鮮事。 尼爾·波茲曼之前就講過「所有公共論述都逐漸以娛樂形式來傳達我們的政治、宗教、新聞、體育、教育和商業，全都成為娛樂業的附庸，對此民眾多半毫無怨言，甚至漠不關心。於是，我們成為瀕臨娛樂至死的一群。」
+  A：看你說哪個網路，internet？www？還是 social network software？ 要知道以前大家打開 kimo.com 就認為是連上網路。 如果說的是 social network software 他本來就不適合，它存在的初衷就不是要讓你做「公共論述」。但這現象也不是什麼新鮮事。 尼爾·波茲曼之前就講過「所有公共論述都逐漸以娛樂形式來傳達我們的政治、宗教、新聞、體育、教育和商業，全都成為娛樂業的附庸，對此民眾多半毫無怨言，甚至漠不關心。於是，我們成為瀕臨娛樂至死的一群。」
 
   Q：社會問題不可能只靠數位工具解決。
   A：只用「科技決定論」跟「反科技決定論」這兩個立場來討論都只是把問題給簡化討論。
@@ -33,7 +33,6 @@
   // 核心問題：「如何在政策規劃前期讓網路社群提出建設性意見」
   // 1. 資訊來源不同、詮釋角度不同。
   // 2. 提升討論的品質跟參與政策程度的深入程度。
-  隨著網路原生代族群漸漸成為國家中堅力量，利用數位工具或是社交媒體議論時政已為稀鬆平常之事，過去政府嘗試的網路政策或願景參與，多在政策制定或執行端末期，由科技社群協助提供執行上的意見參考，未能更廣泛的搜集科技社群或一般大眾意見，同時缺乏良好的機制有系統、大規模的萃取有用的意見進入政策規劃週期。
   本研究之目的在於設計一套適用網路原生代非同步的網路討論方式。
 ** 資訊來源不同、詮釋的角度不同得出不同決策
  #+BEGIN_COMMENT
@@ -80,7 +79,7 @@
     手冊網址：https://sense.gitbook.io/guides/
 ** 線下議題小聚
     #+BEGIN_COMMENT
-    這個「後權威」時代，不管是「專家會議舉辦者」還是「籌備委員」我都不覺得有辦法辨識出真的「專家」來做 inform 。 邀請「產官學研」跟「法人協會」是最容易對政府交待的方法，但來的人不一定是「專家」。 再則一旦做了 inform ，做 inform 的人 其實就「暗示」出對議題的框架了。「議題框架上」就已經限制討論方向，然而很多問題是吵完以後你才會發現一個議題上誰才算這領域的「專家」，或是原本不相關的問題反而才是真的問題。小聚的目標是做到「問題界定」、「利害關係人界定」、「知識跟語彙對焦」、「可能解法界定」，指認出會來參與的「積極公民」，讓他們互相連結(networking)，並看能否導引到現有一堆的「公民參與」機制。   在「問題界定」跟「知識跟語彙對焦」期望發揮到是讓參與者問出「問題背後的問題」、「問題裡面的問題」、「解法裡面的問題」，以及「佐證資料在哪裡」、「大家對名詞的理解都一樣嗎?」
+    這個「後權威」時代，不管是「專家會議舉辦者」還是「籌備委員」我都不覺得有辦法辨識出真的「專家」來做 inform。 邀請「產官學研」跟「法人協會」是最容易對政府交待的方法，但來的人不一定是「專家」。 再則一旦做了 inform，做 inform 的人 其實就「暗示」出對議題的框架了。「議題框架上」就已經限制討論方向，然而很多問題是吵完以後你才會發現一個議題上誰才算這領域的「專家」，或是原本不相關的問題反而才是真的問題。小聚的目標是做到「問題界定」、「利害關係人界定」、「知識跟語彙對焦」、「可能解法界定」，指認出會來參與的「積極公民」，讓他們互相連結(networking)，並看能否導引到現有一堆的「公民參與」機制。   在「問題界定」跟「知識跟語彙對焦」期望發揮到是讓參與者問出「問題背後的問題」、「問題裡面的問題」、「解法裡面的問題」，以及「佐證資料在哪裡」、「大家對名詞的理解都一樣嗎?」
     #+END_COMMENT
 **** 目的
      在實體聚會遵循網路上的對話方式，但透過互相論證詞進行議題裡面的問題跟名詞界定，盤出相關利害關係人、相關資訊。
@@ -99,13 +98,13 @@
     讓公共討論可以變成「不特定公眾可以利用休閒時間檢視評估議題裡面的問題跟可能解法及佐證依據，時間可以是長達好幾個月。
     把每個人都當成「政策評估人員」看待，或是每個 community 預設總有幾個「積極公民」會去吵政策的優缺點。
     不加「fact」，「evidence」的原因是因為每個人認定的事實很多種。「社會真實」分為「客觀真實」、「媒介真實」、「主觀真實」。實際上我們討論事情都是依據在「媒介真實」跟「主觀真實」上。所以「證據」就是去以「資訊來源」做佐證。
-    QA 是最簡單不用教的介面，但是QA如果是unstructured interface，對於新手仍然是困難的！question asking 仍然是個困難的task
-    想做self-assessment, formative assessment.簡單的說就是一連串“評估的檢視” diagnostic testing, 會包含feedback, peer-review, question…etc.
-    也是可以透過一些rubric或是guiding question去引導新手做自我評估 “self-assessment” or “self-feedback”, 但是問題又會出在新手根本無法做“深度反思“，因為能力不足
+    QA 是最簡單不用教的介面，但是 QA 如果是 unstructured interface，對於新手仍然是困難的！question asking 仍然是個困難的 task
+    想做 self-assessment, formative assessment.簡單的說就是一連串“評估的檢視” diagnostic testing, 會包含 feedback, peer-review, question…etc.
+    也是可以透過一些 rubric 或是 guiding question 去引導新手做自我評估 “self-assessment” or “self-feedback”, 但是問題又會出在新手根本無法做“深度反思“，因為能力不足
     所以小聚裡面指定一人「唱反調」。reflection level 會對應到 “問題的深度“，也會對應到一個人對於概念的“理解程度”
-    主要是透過QA互動的方式去做 crowd sourcing problems, possible solutions 以及 摘要主要是透過QA互動的方式去做 crowd sourcing problems, possible solutions 以及 摘要
-    分享幾篇我很愛的paper：今年CSCW best paper (CS裡HCI的 top conference)：利用collaborative tagging and summarization去做group chat的sensemaking http://people.csail.mit.edu/axz/papers/cscw_tilda.pdf
-    https://d.ucsd.edu/srk/papers/2017/GutInstinct-CHI2017.pdf 這篇是crowdsourcing questions，雖然是在 crowdsource scientific question，但是此篇目的在於如何guide non-expert to generate novel questions and collaboratively perform scientific work
+    主要是透過 QA 互動的方式去做 crowd sourcing problems, possible solutions 以及 摘要主要是透過 QA 互動的方式去做 crowd sourcing problems, possible solutions 以及 摘要
+    分享幾篇我很愛的 paper：今年 CSCW best paper (CS 裡 HCI 的 top conference)：利用 collaborative tagging and summarization 去做 group chat 的 sensemaking http://people.csail.mit.edu/axz/papers/cscw_tilda.pdf
+    https://d.ucsd.edu/srk/papers/2017/GutInstinct-CHI2017.pdf 這篇是 crowdsourcing questions，雖然是在 crowdsource scientific question，但是此篇目的在於如何 guide non-expert to generate novel questions and collaboratively perform scientific work
     製造衝突則可以透過調整參與者的多元性來處理，讓人意識到他的解法可能是別人的問題，去反思問題背後的問題
 * 結果與建議
 ** 研究發現
@@ -113,6 +112,10 @@
 **** Persona
 **** Pain point
 **** Jornel map
+*** 服務藍圖（Service Blueprint）
+    從公民的視角：
+    #+ATTR_html: :width 1024px
+    [[./images/service_blueprint.jpg]]
 *** 手冊
     // solve 政府與社群的 GAP
 *** 小聚
@@ -167,14 +170,14 @@
 ****** 活動當天
 
        提早一個小時到現場佈置及測試活動設備，架設活動立牌、測試投影機、安排座位及入口動線、名片 e-mail 投放箱
-       
+
        *【活動議程】*
 
-       - 開場 (10分鐘)
+       - 開場 (10 分鐘)
          - sensen.tw 組織介紹 (5mins)
          - 活動目的介紹 (5mins)
 
-       - 規則介紹 (20分鐘)
+       - 規則介紹 (20 分鐘)
 
          - 四色便條紙用途介紹
          - 發言權杖使用
@@ -183,16 +186,16 @@
          - 時間控場
          - 與會者自我介紹
 
-       - 活動開始 (120分鐘)
+       - 活動開始 (120 分鐘)
          - 提問
          - 問題回覆
          - 補充資料
          - 列舉利害人關係
 
-       - 結束 (30分鐘)
+       - 結束 (30 分鐘)
          - 各組小結
          - 介紹 vTaiwan，join, sesen.tw map
-      
+
 
        主持人開場與介紹儘量簡短，並快速的說明便利貼顏色規則。
 
@@ -205,7 +208,7 @@
         |   | 利害關係人   | 黃色 |
 
 
-       活動大部份的時間留給與會者自我介紹及討論。自我介紹每人 30秒，以三個標籤用以說明描述個體，例如：
+       活動大部份的時間留給與會者自我介紹及討論。自我介紹每人 30 秒，以三個標籤用以說明描述個體，例如：
 
        - 網路前端工程師
        - 自由軟體推廣者
@@ -224,7 +227,7 @@
 
        議題小聚每次約三個小時，第一次的操作往往只能達到 well info，而第二三次的操作透過閱讀地圖與記錄，可快速的
        彌補資訊落差。但之後又會因為資訊量大，而只會有少數人可以理解的人會持續關心相關議題。
-      
+
 
 ***** 會後流程
 
@@ -246,7 +249,7 @@
 
       - 工作人員配置
 	- 主持人
-	- 反方角色扮演者 
+	- 反方角色扮演者
 	- 會議紀錄者，用 hackmd 或用 map 記錄
 
 ***** 應用場景
@@ -262,7 +265,6 @@
       | 地   | 舉辦地點建議在市中心，交通便利的場所，與當地社群合辦         |
       | 物   | 請參考上一章節 - 設備需求與人員配置                          |
       |------+--------------------------------------------------------------|
-
 
 *** 意見整理工具
    // To constructut arguments map in a issue.
@@ -338,37 +340,37 @@
 ** 書
 0. 許瑞宋譯（2014）。睡餵麵包屑裡的各種好主義 - 社會物理學 - 剖析意念傳播方式的新科學。 台灣。大塊。
 1. 吉蓮．邰蒂 (2016) 穀倉效應：為什麼分工反而造成個人失去競爭力、企業崩壞、政府無能、經濟失控？。台灣。三采。ISBN: 9789863425472。
-2. 波茲曼 (2016) 娛樂至死：追求表象、歡笑和激情的媒體時代（2016增修版）。ISBN:9789862622988。
+2. 波茲曼 (2016) 娛樂至死：追求表象、歡笑和激情的媒體時代（2016 增修版）。ISBN:9789862622988。
 3. 凱斯．桑思坦、雷德．海斯蒂 (2015) 破解團體迷思：如何把團隊變得更聰明，讓集體決策更有智慧？。台灣。三采。ISBN: 9789863424901。
 4. 羅清俊 (2015)。公共政策：現象觀察與實務操作。台灣。揚智。ISBN:ISBN：9789862981955。
 5. Robert W. McChesney (2005) 問題媒體：二十一世紀美國傳播政治。台灣。巨流圖書公司。ISBN：9577322247。
 6. 倪炎元 (2009)。 公關政治學：當代媒體與政治操作的理論、實踐與批判。台灣。商周。ISBN：9789866472282。
 7. 艾力克斯‧山迪‧潘特蘭 (2014) 數位麵包屑裡的各種好主意：社會物理學──剖析意念傳播方式的新科學。台灣。大塊文化。ISBN：9789862135709。
-8. 森迪爾‧穆蘭納珊, 艾爾達‧夏菲爾 (2016)。 匱乏經濟學：為什麼老是在趕deadline？為什麼老是覺得時間和金錢不夠用？。台灣。遠流。ISBN：9789573275541。
+8. 森迪爾‧穆蘭納珊, 艾爾達‧夏菲爾 (2016)。 匱乏經濟學：為什麼老是在趕 deadline？為什麼老是覺得時間和金錢不夠用？。台灣。遠流。ISBN：9789573275541。
 9. 艾爾．賴茲、傑克．屈特 (2011)。 定位：在眾聲喧嘩的市場裡，進駐消費者心靈的最佳方法。台灣。臉譜。ISBN：9789861207278。
 10. 錢穆 (2001)。 中國歷代政治得失。中國史學小叢書。ISBN：9570422270。
 11. 瞿海源 (2011)。 國會及電視媒體改革建議案。台灣。巨流圖書公司。ISBN：9789577324146。
 12. 愛丁納‧溫格、理查‧麥代謀、威廉‧施耐德 (2003)。實踐社群。天下文化。ISBN：9864172336。
 13. 陳建勳(譯)；Gillmor, D. (2005)。草根媒體─部落格傳奇。台北市。ISBN: 9789867794451。
 14. 約書亞‧格恩斯 (2017)。破壞性的兩難。台灣。ISBN:9789864772049。
-15. 查理‧蒙格 (2014)。窮查理的普通常識：巴菲特50年智慧合夥人 查理．蒙格的人生哲學(修訂版)。台灣。商業週刊。ISBN：9789866032646。
-16. William N Dunn (1981)。 Public Policy Analysis。
-17. 森迪爾‧穆蘭納珊, 艾爾達‧夏菲爾。(2015)。匱乏經濟學：為什麼老是在趕deadline？為什麼老是覺得時間和金錢不夠用。ISBN：9789573275541。
+15. 查理‧蒙格 (2014)。窮查理的普通常識：巴菲特 50 年智慧合夥人 查理．蒙格的人生哲學(修訂版)。台灣。商業週刊。ISBN：9789866032646。
+16. William N Dunn (1981)。Public Policy Analysis。
+17. 森迪爾‧穆蘭納珊, 艾爾達‧夏菲爾。(2015)。匱乏經濟學：為什麼老是在趕 deadline？為什麼老是覺得時間和金錢不夠用。ISBN：9789573275541。
 18. 布賴恩·羅伯遜 (2015)。重新定義管理：合弄制改變世界。ISBN：9787508654973。
 19. Roger D, Joseph R. (2006)。大眾媒體研究。台北。學富。ISBN:981-240-679-4。
-20. 娜歐蜜・克萊恩 (2015) No Logo 顛覆品牌統治的反抗運動神經。15週年典藏紀念版。ISBN:9789571363486。
+20. 娜歐蜜・克萊恩 (2015) No Logo 顛覆品牌統治的反抗運動神經。15 週年典藏紀念版。ISBN:9789571363486。
 21. 尼爾．艾歐, 萊恩．胡佛 (2015) 鉤癮效應：創造習慣新商機。ISBN:9789863209010。
 22. 查爾斯·杜海格 (2012)。為什麼我們這樣生活，那樣工作？。ISBN:9781400069286。
-23. 約翰‧米勒 (2018)。QBQ！問題背後的問題（30萬冊紀念版）。ISBN:9789573282129。
+23. 約翰‧米勒 (2018)。QBQ！問題背後的問題（30 萬冊紀念版）。ISBN:9789573282129。
 ** 網頁
-1. The MSP Guide — 多方利益相關者夥伴關係實踐指南— 說明 取自https://medium.com/@vincent.wschen/the-msp-guide-%E5%A4%9A%E6%96%B9%E5%88%A9%E7%9B%8A%E7%9B%B8%E9%97%9C%E8%80%85%E5%A4%A5%E4%BC%B4%E9%97%9C%E4%BF%82%E5%AF%A6%E8%B8%90%E6%8C%87%E5%8D%97-%E8%AA%AA%E6%98%8E-ddb58bf7fefb。
-2. NRIs Toolkit: how to start your IGF Initiative? 取自https://www.intgovforum.org/multilingual/content/nris-toolkit-how-to-start-your-igf-initiative。
+1. The MSP Guide — 多方利益相關者夥伴關係實踐指南— 說明 取自 https://medium.com/@vincent.wschen/the-msp-guide-%E5%A4%9A%E6%96%B9%E5%88%A9%E7%9B%8A%E7%9B%B8%E9%97%9C%E8%80%85%E5%A4%A5%E4%BC%B4%E9%97%9C%E4%BF%82%E5%AF%A6%E8%B8%90%E6%8C%87%E5%8D%97-%E8%AA%AA%E6%98%8E-ddb58bf7fefb。
+2. NRIs Toolkit: how to start your IGF Initiative? 取自 https://www.intgovforum.org/multilingual/content/nris-toolkit-how-to-start-your-igf-initiative。
 3. Jo Freeman, 共筆翻譯。無架構的暴政。https://docs.google.com/document/d/1hbOZ4ApTHAK4feCNMAvIs8w7lCzH-acuaByL-OsK55A/edit。
-4. The Dark Sides of Our Digital Self: How the Internet Changes Our Thoughts and Behaviors 。 https://www.theemotionmachine.com/the-dark-sides-of-our-digital-self/。
+4. The Dark Sides of Our Digital Self: How the Internet Changes Our Thoughts and Behaviors。https://www.theemotionmachine.com/the-dark-sides-of-our-digital-self/。
 6. 黃哲翰 (2016)。數位利維坦君臨的前夕。https://theinitium.com/article/20160617-opinion-huangdschergan-digital/。
 7. 陳敦源、廖洲棚、黃心怡 (2017) NDC-MIS-105-004。政府公共溝通：新型態網路參與及溝通策。
 8. (2017) Game design patterns for building friendships。http://www.lostgarden.com/2017/01/game-design-patterns-for-building.html。
-9. (2009) 98年公務人員高等考試基礎訓練課程配當表。http://www.nacs.gov.tw/NcsiWebFileDocuments/f1b942d899ddd80423727a9c48d3edb1.pdf。
+9. (2009) 98 年公務人員高等考試基礎訓練課程配當表。http://www.nacs.gov.tw/NcsiWebFileDocuments/f1b942d899ddd80423727a9c48d3edb1.pdf。
 10. 現階段我國參與式預算推動樣態分析。https://www.ndc.gov.tw/Content_List.aspx?n=0C0D88ABE4819AFD。
 11. 公共政策網路參與平臺」三周年執行情形報告。https://www.ndc.gov.tw/Content_List.aspx?n=0C0D88ABE4819AFD。
 12. Eric Steven Raymond (2014)。How To Ask Questions The Smart Way。http://www.catb.org/~esr/faqs/smart-questions.html。
