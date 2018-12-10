@@ -117,7 +117,7 @@
     4. 跨時間地域的虛擬空間 (cyber space)
     #+END_COMMENT
 ***** 期望參與者對話流程
-     #+BEGIN_SRC plantuml :file problem_idenity_flow.png
+     #+BEGIN_SRC plantuml :file ./images/problem_idenity_flow.png
        |問題、可能解法、利害關係人界定|
        start
        repeat
