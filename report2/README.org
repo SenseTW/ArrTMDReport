@@ -38,7 +38,8 @@
   本研究之目的在於設計一套適用網路原生代非同步的網路討論方式。
 * 研究方法
 ** 現有參與機制與工具回顧
-** 訪談調查法
+** 使用者經驗設計調查研究
+*** 調查訪談法
   訪談法透過與受訪者面對面之交流，獲取內容訊息的分析方法，特別是針對受訪者親身經驗之故事特別有用。 本研究主要透過訪談回顧歷年網路公民參與機制的設計與困難，部分受訪者選擇匿名不公開。
   訪綱見附錄。
   #+CAPTION: 訪談對象及訪談形式
@@ -57,31 +58,13 @@
   | NPC11 | 智庫研究員       | 2018/04/03 2:00-4:00pm   | 訪談、使用者測試 |
   | NPC12 | 社群專家、倡議者 | 2018/05/31 11:00-12:00pm | 訪談、使用者測試 |
   | NPC13 | NPO 主任         | 2018/07/19 11:00-12:00pm | 訪談、使用者測試 |
-** 設計敏捷方法
+*** 服務藍圖（Service Blueprint）
+    300 字方法簡介
+*** 使用者旅程（Journey Map）
+    300 字方法簡介
+** 設計敏捷（Deisgn Sprint）
    設計敏捷方法 （Design Sprint Method）是由 Google 提出並且於內部實踐受到歡迎。概念基礎來自於敏捷開發（Agile）、設計思考（Design Thinking）與革新遊戲法（Gamestorming）。讓團隊在五天內定義關鍵問題和目標、大量發想產品解法、決定發展方向、做出原型、使用者測試。
    詳見 [[https://www.thesprintbook.com/][The Sprint Book]] 。 本研究使用這個方法探索「科技政策如何在前期規劃納入更多民間專家的建設性意見」的可能性方案，為期 5 天，心得文可見「https://blog.sense.tw/2018/03/design-sprint-upgrade/」。
-** 使用者經驗設計調查研究
-** 敏捷式開發
-  透過實作一套數位工具或撰寫數位內容做為延續實體討論的網路社群空間，並分析使用者的數位痕跡 ( Digital Footprint ) 挖掘洞見或是進行操作實驗。本研究設計三個工具對目標社群進行集客式行銷 (Inbound Marketing) 並進而在自己的同溫層擴散來達到滾雪球抽樣。
-  主要關注的指標有實體討論到網路討論的轉換率、閱聽者在不同議題的年齡、地域分佈以及平均停留時間等等，在結論章節將詳加說明各指標意義。
-** 網路議題釐清工具
-    #+BEGIN_COMMENT
-    這裡寫議題釐清工具的設計跟集客式行銷 (Inbound Marketing) 的關聯性。
-    #+END_COMMENT
-    // 大概內容
-    比較強調的議題相關的資料跟資料之間的關係，在不同的「statements」找出可以連貫所有「statements」的方式，以及將相關的「statemetns」從空間上 grouping 起來。
-    呈現同一件事情的不同面向，強調 diverse perspective 與以及對 stakeholder 的影響。
-    讓公共討論可以變成「不特定公眾可以利用休閒時間檢視評估議題裡面的問題跟可能解法及佐證依據，時間可以是長達好幾個月。
-    把每個人都當成「政策評估人員」看待，或是每個 community 預設總有幾個「積極公民」會去吵政策的優缺點。
-    不加「fact」，「evidence」的原因是因為每個人認定的事實很多種。「社會真實」分為「客觀真實」、「媒介真實」、「主觀真實」。實際上我們討論事情都是依據在「媒介真實」跟「主觀真實」上。所以「證據」就是去以「資訊來源」做佐證。
-    QA 是最簡單不用教的介面，但是 QA 如果是 unstructured interface，對於新手仍然是困難的！question asking 仍然是個困難的 task
-    想做 self-assessment, formative assessment.簡單的說就是一連串“評估的檢視” diagnostic testing, 會包含 feedback, peer-review, question…etc.
-    也是可以透過一些 rubric 或是 guiding question 去引導新手做自我評估 “self-assessment” or “self-feedback”, 但是問題又會出在新手根本無法做“深度反思“，因為能力不足
-    所以小聚裡面指定一人「唱反調」。reflection level 會對應到 “問題的深度“，也會對應到一個人對於概念的“理解程度”
-    主要是透過 QA 互動的方式去做 crowd sourcing problems, possible solutions 以及 摘要主要是透過 QA 互動的方式去做 crowd sourcing problems, possible solutions 以及 摘要
-    分享幾篇我很愛的 paper：今年 CSCW best paper (CS 裡 HCI 的 top conference)：利用 collaborative tagging and summarization 去做 group chat 的 sensemaking http://people.csail.mit.edu/axz/papers/cscw_tilda.pdf
-    https://d.ucsd.edu/srk/papers/2017/GutInstinct-CHI2017.pdf 這篇是 crowdsourcing questions，雖然是在 crowdsource scientific question，但是此篇目的在於如何 guide non-expert to generate novel questions and collaboratively perform scientific work
-    製造衝突則可以透過調整參與者的多元性來處理，讓人意識到他的解法可能是別人的問題，去反思問題背後的問題
 * 結果與建議
 ** 研究發現
 *** Design Sprint 發現定義的問題跟我們要用的解法
@@ -97,7 +80,7 @@
     這裡寫民跟政府的視角不同
     #+END_COMMENT
     [[./images/a.png]]
-*** 公民參與機制
+** 公民參與機制
      #+BEGIN_COMMENT
      這裡寫透過數位工具做到視域融合
      #+END_COMMENT
@@ -295,12 +278,26 @@
       |------+--------------------------------------------------------------|
 
 **** 意見整理工具
-   // To constructut arguments map in a issue.
+    #+BEGIN_COMMENT
+    #+END_COMMENT
+    // 大概內容
+    比較強調的議題相關的資料跟資料之間的關係，在不同的「statements」找出可以連貫所有「statements」的方式，以及將相關的「statemetns」從空間上 grouping 起來。
+    呈現同一件事情的不同面向，強調 diverse perspective 與以及對 stakeholder 的影響。
+    讓公共討論可以變成「不特定公眾可以利用休閒時間檢視評估議題裡面的問題跟可能解法及佐證依據，時間可以是長達好幾個月。
+    把每個人都當成「政策評估人員」看待，或是每個 community 預設總有幾個「積極公民」會去吵政策的優缺點。
+    不加「fact」，「evidence」的原因是因為每個人認定的事實很多種。「社會真實」分為「客觀真實」、「媒介真實」、「主觀真實」。實際上我們討論事情都是依據在「媒介真實」跟「主觀真實」上。所以「證據」就是去以「資訊來源」做佐證。
+    QA 是最簡單不用教的介面，但是 QA 如果是 unstructured interface，對於新手仍然是困難的！question asking 仍然是個困難的 task
+    想做 self-assessment, formative assessment.簡單的說就是一連串“評估的檢視” diagnostic testing, 會包含 feedback, peer-review, question…etc.
+    也是可以透過一些 rubric 或是 guiding question 去引導新手做自我評估 “self-assessment” or “self-feedback”, 但是問題又會出在新手根本無法做“深度反思“，因為能力不足
+    所以小聚裡面指定一人「唱反調」。reflection level 會對應到 “問題的深度“，也會對應到一個人對於概念的“理解程度”
+    主要是透過 QA 互動的方式去做 crowd sourcing problems, possible solutions 以及 摘要主要是透過 QA 互動的方式去做 crowd sourcing problems, possible solutions 以及 摘要
+    分享幾篇我很愛的 paper：今年 CSCW best paper (CS 裡 HCI 的 top conference)：利用 collaborative tagging and summarization 去做 group chat 的 sensemaking http://people.csail.mit.edu/axz/papers/cscw_tilda.pdf
+    https://d.ucsd.edu/srk/papers/2017/GutInstinct-CHI2017.pdf 這篇是 crowdsourcing questions，雖然是在 crowdsource scientific question，但是此篇目的在於如何 guide non-expert to generate novel questions and collaboratively perform scientific work
+    製造衝突則可以透過調整參與者的多元性來處理，讓人意識到他的解法可能是別人的問題，去反思問題背後的問題
 ***** Product Features
 **** 回應論證建構模型
 ***** Public Money/Public Code (虛實)
 ***** 網路中立性 (虛實)
-** 建議
 * 參考文獻
   1. 廖洲棚、廖興中、黃心怡（2018）。開放政府服務策略研析調查： 政府資料開放應用模式評估與民眾參與公共政策意願調查。受委託單位：電子治理研究中心。國家發展委員會編印。NDC-MIS-106-003。
 * 附錄
