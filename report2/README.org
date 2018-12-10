@@ -73,10 +73,44 @@
     #+END_COMMENT
 **** 目的
      在實體聚會遵循網路上的對話方式，但透過互相論證詞進行議題裡面的問題跟名詞界定，盤出相關利害關係人、相關資訊。
-**** 期望對話流程
-     // 待修改
-
-    [[./images/diag_flow.png]]
+**** 議題釐清流程
+     #+BEGIN_SRC plantuml :file problem_idenity_flow.png
+       |議題釐清|
+       start
+       repeat
+          repeat
+          :任一人提出問題;
+          if (任一人覺得有聽不懂的名詞) then (yes)
+             repeat
+             :要求定義名詞;
+             repeat while (名詞定義模糊)
+          else if (任一人覺得問題太籠統) then (yes)
+              repeat
+              :指出問題裡面的問題;
+              repeat while (問題還是太大)
+          elseif (任一人覺得問題是假議題) then (yes)
+              :指出問題背後的問題;
+          endif
+          :任一人針對問題提出可能解法;
+          if (任一人覺得可能解法會有問題) then (yes)
+              :指出解法會造成的問題;
+          endif
+      |佐證資料|
+          if (任一人覺得問題、或解法缺乏佐證依據) then (yes)
+              fork
+                  :對提出者要求資訊來源;
+              fork again
+                  :上網查詢相關資訊;
+              end fork
+          endif
+       |議題釐清|
+          repeat while (還是有人覺得問題沒界定清楚 )
+       :在問題、可能解法旁邊補上利害關係人;
+       :畫出利害關係人關係圖;
+       repeat while (沒有達成共識)
+       :下一步行動;
+       stop
+     #+END_SRC
 
 ** 網路議題釐清工具
     #+BEGIN_COMMENT
