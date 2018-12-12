@@ -65,6 +65,13 @@
    詳見 [[https://www.thesprintbook.com/][The Sprint Book]] 。 本研究使用這個方法探索「科技政策如何在前期規劃納入更多民間專家的建設性意見」的可能性方案。
 * 文獻檢閱
 ** 現有網路參與機制回顧
+** 政策討論參與途徑分析
+   #+CAPTION: 服務藍圖 （本研究製圖）
+   #+NAME: service-blueprint
+   #+ATTR_HTML: width 1024
+   [[./images/service_blueprint.jpg]]
+
+   // 使用者旅程
 * 參與機制
      #+BEGIN_COMMENT
      這裡寫透過數位工具做到視域融合
@@ -289,15 +296,6 @@
 * 結果與建議
   本章依據前述研究成果進行研究發現綜整，並依據相關研究發現，提供若干建議供政府部門參考。
 ** 研究發現
-*** 政策討論參與途徑分析
-    #+CAPTION: 服務藍圖 （本研究製圖）
-    #+NAME: service-blueprint
-    #+ATTR_HTML: width 1024
-    [[./images/service_blueprint.jpg]]
-
-    #+CAPTION: 服務藍圖 （本研究製圖）
-    #+NAME: service-blueprint
-    #+ATTR_HTML: width 1024
 *** 政府與民間資訊來源不同、詮釋的角度不同得出不同決策
     #+CAPTION: 溝通落差 （本研究製圖）
     #+NAME: gap
