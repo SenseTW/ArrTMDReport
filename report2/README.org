@@ -59,7 +59,7 @@
   | NPC12 | 社群專家、倡議者 | 2018/05/31 11:00-12:00pm | 訪談、使用者測試 |
   | NPC13 | NPO 主任         | 2018/07/19 11:00-12:00pm | 訪談、使用者測試 |
 *** 服務藍圖（Service Blueprint）
-    300 字方法簡介
+    3000 字方法簡介
 *** 使用者旅程（Journey Map）
     300 字方法簡介
 ** 設計敏捷（Deisgn Sprint）
@@ -135,7 +135,8 @@
        :記錄到 hackmd 或是 sensemap;
        stop
      #+END_SRC
-     #+RESULTS
+
+     #+RESULTS:
      [[./images/problem_idenity_flow.png]]
 ***** 會前流程
 
