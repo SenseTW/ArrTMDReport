@@ -67,7 +67,7 @@
    詳見 [[https://www.thesprintbook.com/][The Sprint Book]] 。 本研究使用這個方法探索「科技政策如何在前期規劃納入更多民間專家的建設性意見」的可能性方案，為期 5 天，心得文可見「https://blog.sense.tw/2018/03/design-sprint-upgrade/」。
 * 結果與建議
 ** 研究發現
-*** 政策參與途徑分析
+*** 政策討論參與途徑分析
     #+CAPTION: 服務藍圖 （本研究製圖）
     #+NAME: service-blueprint
     #+ATTR_HTML: width 1024
