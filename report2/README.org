@@ -73,7 +73,6 @@
 **** Jornel map
 *** 服務藍圖（Service Blueprint）
     從公民的視角：
-    #+ATTR_html: :width 1024px
     [[./images/service_blueprint.jpg]]
 *** 政府與民間資訊來源不同、詮釋的角度不同得出不同決策
     #+BEGIN_COMMENT
@@ -314,7 +313,6 @@
 ** 議題釐清工具相關開發資訊
 *** 工程設計文件
     #+INCLUDE: ./sensetw.wiki/architecture.org
-    #+INCLUDE: ./sensetw.wiki/Frontend-Types.org
 *** 源碼庫
    1. 前後端源碼: https://github.com/SenseTW/sensetw
    2. Annotation-Enabled web proxy: https://github.com/SenseTW/via
