@@ -73,6 +73,9 @@
 **** Jornel map
 *** 服務藍圖（Service Blueprint）
     從公民的視角：
+    #+NAME: service-blueprint
+    #+CAPTION: 服務藍圖 （本研究製圖）
+    #+ATTR_HTML: width 1024
     [[./images/service_blueprint.jpg]]
 *** 政府與民間資訊來源不同、詮釋的角度不同得出不同決策
     #+BEGIN_COMMENT
