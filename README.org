@@ -1,26 +1,32 @@
 #+TITLE: 網路社群參與機制設計與建議報告
 #+AUTHOR: 陳信屹
 #+EMAIL: ossug.hychen@gmail.com
+#+DATE
 #+OPTIONS: H:2 num:t
 #+TOC: listings
-#+TOC: tables 
+#+TOC: tables
 
 #+BEGIN_QUOTE
-「政治參與」跟「公民參與」的相同問題都是「沒有人」。 
+「政治參與」跟「公民參與」的相同問題都是「沒有人」。
 #+END_QUOTE
 
-* 目錄
-1. [[./report1/README.org][報告一]] :: 由上往下盤點網路社群關心議題操作建議 - 以資訊科技社群與科技政策為例。
-2. [[./report2.org][報告二]] :: 由下往上促進網路社群討論政策操作建議 - 以資訊科技社群與科技政策為例。
-3. [[./glossary.org][詞彙表]] :: 詞彙定義。
+* 目錄                                                                  :TOC:
+- [[#報告一][報告一]]
+- [[#報告二][報告二]]
+- [[#詞彙表][詞彙表]]
+- [[#如何參與寫作][如何參與寫作]]
+- [[#授權][授權]]
 
+* [[#report1][報告一]]
+  由上往下盤點網路社群關心議題操作建議 - 以資訊科技社群與科技政策為例。
+* [[#report2][報告二]]
+  由下往上促進網路社群討論政策操作建議 - 以資訊科技社群與科技政策為例。
+* [[#glossary][詞彙表]]
+  詞彙定義。
 * 如何參與寫作
-#+BEGIN_QUOTE
-Cunningham's Law: The best way to get the right answer on the internet is not to ask a question; it's to post the wrong answer.
-#+END_QUOTE
 
 Patches are welcome.
 
 * 授權
-  本文完整的「Source」可從 https://github.com/SenseTW/ArrTMDReport 取得，內容除特別標註外，均採「[[https://creativecommons.org/licenses/by-sa/3.0/tw/][姓名標示-相同方式分享 3.0 台灣 (CC BY-SA 3.0 TW)]]」授權公眾使用。
-  如有特別標註者依其說明授權。本文附加檔案或為其他著作人所有，已力求詳細標註出處，請依原作聲明方式利用。
+  本研究完整的「Source」可從 https://github.com/SenseTW/ArrTMDReport 取得，內容除特別標註外，均採[[https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW][「姓名標示-相同方式分享 4.0 台灣 （CC BY-SA 4.0 TW]]」授權公眾使用。
+  如有特別標註者依其說明授權。本研究附加檔案或為其他著作人所有，已力求詳細標註出處，請依原作聲明方式利用。
