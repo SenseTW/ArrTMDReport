@@ -1,7 +1,7 @@
 #+TITLE: 如何促進科技社群網路參與科技政策討論建議報告 - 以資訊科技社群為例 (草稿)
 #+AUTHOR: 陳信屹
 #+EMAIL: ossug.hychen@gmail.com
-#+DATE:
+#+LANGUAGE: zh-TW
 #+OPTIONS: H:2 num:t toc:t
 #+TOC: listings
 #+TOC: tables

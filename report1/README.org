@@ -1,6 +1,7 @@
 #+TITLE: 網路社群與「先禁」政府的戰爭研析與公眾參與建議報告 - 以資訊科技社群與科技政策為例 （草稿）
 #+AUTHOR: 陳信屹
 #+EMAIL: ossug.hychen@gmail.com
+#+LANGUAGE: zh-TW
 #+OPTIONS: H:2 num:t toc:t
 #+TOC: listings
 #+TOC: tables
