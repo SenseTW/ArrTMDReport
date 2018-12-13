@@ -3,7 +3,6 @@
 #+EMAIL: ossug.hychen@gmail.com
 #+LANGUAGE: zh-TW
 #+OPTIONS: H:2 num:t toc:t
-#+TOC: listings
 #+TOC: tables
 #+STARTUP: showall
 * 封面
