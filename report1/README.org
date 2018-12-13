@@ -5,7 +5,7 @@
 #+OPTIONS: H:2 num:t toc:t
 #+TOC: listings
 #+TOC: tables
-#+STARTUP: overview
+#+STARTUP: showall
 * 封面
 * 中文摘要
   #+BEGIN_COMMENT
