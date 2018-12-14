@@ -121,7 +121,7 @@ stakeholder identification
 | NPC9  | 服務設計師       | 2018/03/29 3:30-5:30pm   | 使用者測試       |
 | NPC10 | 首長幕僚         | 2018/04/02 7:30-9:30pm   | 訪談、使用者測試 |
 | NPC11 | 智庫研究員       | 2018/04/03 2:00-4:00pm   | 訪談、使用者測試 |
- | NPC12 | 社群專家、倡議者 | 2018/05/31 11:00-12:00pm | 訪談、使用者測試 |
+| NPC12 | 社群專家、倡議者 | 2018/05/31 11:00-12:00pm | 訪談、使用者測試 |
 | NPC13 | NPO 主任         | 2018/07/19 11:00-12:00pm | 訪談、使用者測試 |
 ** 服務藍圖法
 ** 使用者旅程法
@@ -132,10 +132,12 @@ stakeholder identification
 * 文獻檢閱
 ** 網路參與機制回顧
 ** 網路公共討論品質
-** 網路社群建立方法
-1. 看似可行的承諾
-2. 可固定聚集的空間，不管是實體或是虛擬
-* 政策討論參與途徑分析
+* 科技政策過程分析
+0. 放科技會報告的圖。
+1. 放 Design Sprint 的流程圖。
+2. 放訪談言論。
+3. 選定的目標跟關鍵問題。
+* 公民政策討論參與途徑分析
 #+CAPTION: 服務藍圖 （本研究製圖）
 #+NAME: service-blueprint
 #+ATTR_HTML: width 1024
@@ -146,11 +148,6 @@ stakeholder identification
 這裡寫透過數位工具做到視域融合
 #+END_COMMENT
 [[./images/b.png]]
-**** 數位原民參與手冊
-    #+BEGIN_COMMENT
-    這裡寫集客式行銷 (Inbound Marketing) 的關聯性。
-    #+END_COMMENT
-    網址：https://sense.gitbook.io/guides/
 **** 議題小聚
     #+BEGIN_COMMENT
     這個「後權威」時代，不管是「專家會議舉辦者」還是「籌備委員」我都不覺得有辦法辨識出真的「專家」來做 inform。 邀請「產官學研」跟「法人協會」是最容易對政府交待的方法，但來的人不一定是「專家」。 再則一旦做了 inform，做 inform 的人 其實就「暗示」出對議題的框架了。「議題框架上」就已經限制討論方向，然而很多問題是吵完以後你才會發現一個議題上誰才算這領域的「專家」，或是原本不相關的問題反而才是真的問題。小聚的目標是做到「問題界定」、「利害關係人界定」、「知識跟語彙對焦」、「可能解法界定」，指認出會來參與的「積極公民」，讓他們互相連結(networking)，並看能否導引到現有一堆的「公民參與」機制。   在「問題界定」跟「知識跟語彙對焦」期望發揮到是讓參與者問出「問題背後的問題」、「問題裡面的問題」、「解法裡面的問題」，以及「佐證資料在哪裡」、「大家對名詞的理解都一樣嗎?」
@@ -359,9 +356,9 @@ stakeholder identification
     https://d.ucsd.edu/srk/papers/2017/GutInstinct-CHI2017.pdf 這篇是 crowdsourcing questions，雖然是在 crowdsource scientific question，但是此篇目的在於如何 guide non-expert to generate novel questions and collaboratively perform scientific work
     製造衝突則可以透過調整參與者的多元性來處理，讓人意識到他的解法可能是別人的問題，去反思問題背後的問題
 ***** Product Features
-**** 回應論證建構模型
-***** Public Money/Public Code (虛實)
-***** 網路中立性 (虛實)
+** 應用結果
+*** Public Money/Public Code (虛實)
+*** 網路中立性 (虛實)
 * 結論與建議
 本章依據前述研究成果進行研究發現綜整，並依據相關研究發現，提供若干建議供政府部門參考。
 ** 研究發現
