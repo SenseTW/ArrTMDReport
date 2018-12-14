@@ -1,12 +1,10 @@
 #+TITLE: 工作區
 * Design Sprint
 - 連結記錄 https://aelcenganda.hackpad.tw/Design-Sprint--mFhYNIlKhkV
-* 公共事務討論的品質
-1. 在網路上討論公共事務的歷史，其實可以從 BBS (Bulletin Board System) 開始追朔，
-知名 Y-Combinator 創辦人 Paul Gram 曾於 2008 撰寫 How to Disagree 一文 「反駁金字塔」 https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Graham%27s_Hierarchy_of_Disagreement-zh-hant.svg/1200px-Graham%27s_Hierarchy_of_Disagreement-zh-hant.svg.png
-* 如何建立 Web Community
+* 網路公共討論品質
+* 網路社群建立方法
 * vTaiwan, Join, PDIS, sense process 比較圖
-- Goal: 指出 A 分項的定位。
+** Goal: 指出 A 分項的定位。
 * 相關工具整理表
 | Name                                                                 | Website                                 |
 |----------------------------------------------------------------------+-----------------------------------------|
