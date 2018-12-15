@@ -163,6 +163,7 @@ stakeholder identification
 這裡寫透過數位工具做到視域融合
 #+END_COMMENT
 ** 期望討論流程
+1. 延續網路討論的模型，但是加入查證與補充資料的步驟。
 #+BEGIN_SRC plantuml :results none file :file ./images/problem_idenity_flow.png :cache on
        |問題、可能解法、利害關係人界定|
        start
