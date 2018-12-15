@@ -176,7 +176,9 @@ stakeholder identification
 * 文獻檢閱
 ** 網路參與機制回顧
 ** 網路公共討論品質
-筆戰層次圖
+   #+CAPTION: 筆戰層次圖（源自 Paul Gram - How To Disagree 一文，本研究略作修改）
+   #+ATTR_HTML: width: 1024
+   [[./images/how-to-disagree.png]]
 ** 網路社群建立
 #+NAME: gif-community_building
 #+CAPTION: Nine Timeless Design Strategies
