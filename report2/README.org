@@ -162,6 +162,7 @@ stakeholder identification
 #+BEGIN_COMMENT
 這裡寫透過數位工具做到視域融合
 #+END_COMMENT
+寫定位以及如何與其他會議串接。
 ** 期望討論流程
 1. 延續網路討論的模型，但是加入查證與補充資料的步驟。
 #+BEGIN_SRC plantuml :results none file :file ./images/problem_idenity_flow.png :cache on
@@ -318,7 +319,7 @@ stakeholder identification
 | 物   | 請參考上一章節 - 設備需求與人員配置                          |
 |------+--------------------------------------------------------------|
 
-*** 意見整理工具
+** 意見整理工具
 #+BEGIN_COMMENT
 #+END_COMMENT
 // 大概內容
@@ -335,7 +336,6 @@ QA 是最簡單不用教的介面，但是 QA 如果是 unstructured interface�
 分享幾篇我很愛的 paper：今年 CSCW best paper (CS 裡 HCI 的 top conference)：利用 collaborative tagging and summarization 去做 group chat 的 sensemaking http://people.csail.mit.edu/axz/papers/cscw_tilda.pdf
 https://d.ucsd.edu/srk/papers/2017/GutInstinct-CHI2017.pdf 這篇是 crowdsourcing questions，雖然是在 crowdsource scientific question，但是此篇目的在於如何 guide non-expert to generate novel questions and collaboratively perform scientific work
 製造衝突則可以透過調整參與者的多元性來處理，讓人意識到他的解法可能是別人的問題，去反思問題背後的問題
-* Product Features
 ** 應用結果
 *** Public Money/Public Code (虛實)
 *** 網路中立性 (虛實)
