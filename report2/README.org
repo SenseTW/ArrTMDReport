@@ -373,12 +373,12 @@ stakeholder identification
 #+CAPTION: 溝通落差 （本研究製圖）
 #+NAME: gap
 #+ATTR_HTML: width 1024
- [[./images/a.png]]
+ [[./images/gap1.png]]
 *** Grounding
 #+CAPTION: grounding（本研究製圖）
 #+NAME: grounding
 #+ATTR_HTML: width 1024
-[[./images/b.png]]
+[[./images/gap2.png]]
 ** 建議
 * 參考文獻
 1. 廖洲棚、廖興中、黃心怡（2018）。開放政府服務策略研析調查： 政府資料開放應用模式評估與民眾參與公共政策意願調查。受委託單位：電子治理研究中心。國家發展委員會編印。NDC-MIS-106-003。
