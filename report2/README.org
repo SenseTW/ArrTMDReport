@@ -144,13 +144,23 @@ stakeholder identification
 #+NAME: service-blueprint
 #+ATTR_HTML: width 1024
 [[./images/service_blueprint.jpg]]
-// 使用者旅程
+
+#+CAPTION: 使用者歷程圖一（本研究製圖）
+#+NAME: service-blueprint
+#+ATTR_HTML: width 1024
+[[./images/cmj1.jpg]]
+
+#+CAPTION: 使用者歷程圖二（本研究製圖）
+#+NAME: service-blueprint
+#+ATTR_HTML: width 1024
+[[./images/cmj2.jpg]]
+
 * 虛實整合的網路參與機制設計
 #+BEGIN_COMMENT
 這裡寫透過數位工具做到視域融合
 #+END_COMMENT
 ** 期望討論流程
-#+BEGIN_SRC plantuml :results file file :file ./images/problem_idenity_flow.png :cache on
+#+BEGIN_SRC plantuml :results none file :file ./images/problem_idenity_flow.png :cache on
        |問題、可能解法、利害關係人界定|
        start
        repeat
@@ -184,15 +194,9 @@ stakeholder identification
        :在問題、可能解法旁邊補上利害關係人;
        :畫出利害關係人關係圖;
        repeat while (沒有達成共識)
-       :記錄到 hackmd 或是 sensemap;
+       :記錄到 hackmd 或是 sensemap!;
        stop
 #+END_SRC
-
-#+RESULTS:
-[[file:./images/problem_idenity_flow.png]]
-
-[[file:./images/problem_idenity_flow.png]]
-
 [[./images/problem_idenity_flow.png]]
 ** 議題小聚
     #+BEGIN_COMMENT
