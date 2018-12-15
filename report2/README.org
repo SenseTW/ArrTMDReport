@@ -82,7 +82,7 @@ stakeholder identification
 字數以 150 字為限，並在其後列名 5 個以內英文關鍵詞。
 #+END_COMMENT
 * 前言
-#+BEGIN_QUOTE  
+#+BEGIN_QUOTE
 「所有公共論述都逐漸以娛樂形式來傳達。我們的政治、宗教、新聞、體育、教育和商業，全都成為娛樂業的附庸，對此民眾多半毫無怨言，甚至漠不關心。於是，我們成為瀕臨娛樂至死的一群。」
 
 -- 尼爾·波茲曼（Neil Postman）
@@ -116,14 +116,17 @@ stakeholder identification
 
 釐清議題，增加討論的品質。讓參與會議的人對議題的理解程度落差不要太大。
 
-行動參與深度圖（漏斗）
-
 1. 符合網路原生代（）的社群行為
 2. 不需要政府主導，民間可以自組織
 3. micro-activity，用宜靜丟出來的研究報告。
 
   // 這邊有很多玩意沒寫
  「未來應加強推廣協作討論區的系統功能，或進一步導入新的協作方法，或建立新的誘因制度，以吸引民間社群（如公民科技社群）結合政府開放資料，或透過網路群眾協力（如群眾外包途徑）協助提案者釐清議題本質，進而提高民眾 提案品質。」廖洲棚、廖興中、黃心怡（2018）。
+
+#+NAME: gif-participitionfunnel
+#+CAPTION: 行動參與深度圖（本研究製圖）
+#+ATTR_HTML: width: 1024
+[[./images/participitionfunnel.png]]
 
 <--以上是針對 JOIN 的建議。
 
@@ -174,7 +177,12 @@ stakeholder identification
 ** 網路參與機制回顧
 ** 網路公共討論品質
 筆戰層次圖
-** Citizen Shift
+** 網路社群建立
+#+NAME: gif-community_building
+#+CAPTION: Nine Timeless Design Strategies
+#+ATTR_HTML: width: 1024
+[[./images/community_building.png]]
+
 * 社群視角的科技政策過程分析
 #+NAME: design-sprint-map
 #+CAPTION: Design Sprint Mmp （本研究製圖）
