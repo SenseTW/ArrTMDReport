@@ -137,9 +137,14 @@ stakeholder identification
 ** Citizen Shift
 * 社群視角的科技政策過程分析
 1. 放科技會報報告的圖。
-2. 放 Design Sprint 的流程圖。
-3. 放訪談言論。
-4. 選定的目標跟關鍵問題。
+
+#+NAME: design-sprint-map
+#+CAPTION: Design Sprint Mmp
+#+ATTR_HTML: width 1024
+[[./images/design_sprint_map.jpg]]
+
+4. 放訪談言論。
+5. 選定的目標跟關鍵問題。
 * 社群視角的科技政策參與途徑分析
 #+CAPTION: 服務藍圖 （本研究製圖）
 #+NAME: service-blueprint
