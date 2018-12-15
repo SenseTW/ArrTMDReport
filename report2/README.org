@@ -136,10 +136,8 @@ stakeholder identification
 ** 網路公共討論品質
 ** Citizen Shift
 * 社群視角的科技政策過程分析
-1. 放科技會報報告的圖。
-
 #+NAME: design-sprint-map
-#+CAPTION: Design Sprint Mmp
+#+CAPTION: Design Sprint Mmp （本研究製圖）
 #+ATTR_HTML: width 1024
 [[./images/design_sprint_map.jpg]]
 
@@ -214,7 +212,7 @@ stakeholder identification
 4. 跨時間地域的虛擬空間 (cyber space)
 #+END_COMMENT
 *** 會前流程
-** 設定討論議題
+*** 設定討論議題
 科技人表面上往往對政策冷感不關心，但實際上是缺乏暸解而認為不需要知道。環境、民生、交通、經濟課題是貼近
 生活的比較容易被暸解並喚起共鳴。
 
@@ -231,7 +229,7 @@ stakeholder identification
 並保持 2 周以上的宣傳時間。
 *** 會中流程
 擬定宣傳稿並發起 facebook 活動頁作為宣傳。內文範本如下：
-** 活動當天
+*** 活動當天
 提早一個小時到現場佈置及測試活動設備，架設活動立牌、測試投影機、安排座位及入口動線、名片 e-mail 投放箱
 
 *【活動議程】*
@@ -320,7 +318,7 @@ stakeholder identification
 | 物   | 請參考上一章節 - 設備需求與人員配置                          |
 |------+--------------------------------------------------------------|
 
-** 意見整理工具
+*** 意見整理工具
 #+BEGIN_COMMENT
 #+END_COMMENT
 // 大概內容
