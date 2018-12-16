@@ -347,7 +347,8 @@ http://sense.tw/map/e1f2bd16-378f-4abc-a689-ade6937075e2
 [[./images/service_blueprint.jpg]]
 
 進一步與現有網路機制做比較之後，決定需要協助
-./images/sense_vTaiwan_JOIN_diff.jpg
+
+[[./images/sense_vTaiwan_JOIN_diff.jpg]]
 
 3. 協助網路社群做民間議題釐清（跟vTaiwan 和 JOIN/PO 會議比較之後）
 
