@@ -272,11 +272,32 @@ ael: 我要找一下我手上好像有 agile 用在政府運作的文獻。
 
 #+END_COMMENT
 ** 網路公共討論品質
+人類社會開始有越來越多 Digital Twin 有什麼問題？
+1. 知識演化越來越快，不在同溫層的人溝通上難以對焦。
+2. 注意力/資訊碎片化 - 釐清一件完全沒接觸的事情越來越難。
+3. 標籤式反射 - 不經過思考，武斷下結論。
+4. 同溫層 - 只會看自己想看的資訊，接觸想接觸的人。
+5. 極端言論 - 發表越極端的言論可以在同溫層吸引到更多眼球。
+6. 誤導資訊 - 散佈誤導資訊的成本很低，檢驗成本很高。
+(The Dark Sides of Our Digital Self: How the Internet Changes Our Thoughts and Behaviors。https://www.theemotionmachine.com/the-dark-sides-of-our-digital-self/。)
+(黃哲翰：數位利維坦君臨的前夕. https://theinitium.com/article/20160617-opinion-huangdschergan-digital/)
+
    #+CAPTION: 筆戰層次圖（源自 Paul Gram - How To Disagree 一文，本研究略作修改）
    #+ATTR_HTML: width: 1024
    [[./images/how-to-disagree.png]]
 
 #+BEGIN_COMMENT
+
+「indicated that many users would simply prefer to start from scratch rather than with the initial content collection of a single other user.
+in the case of knowledge maps created by just a single user, participants could make an accurate assessment of that
+iterating knowledge maps over only four users allowed a collectively-generated schema to emerge, leading to significant improvements in sensemaking quality and helpfulness. We also identify a key startup obstacle in the distributed sensemaking process; users preferring to use maps that have been iterated on multiple times versus starting over, but prefer to start from scratch when given a map iterated on only once. Overcoming this startup cost will be a key factor in realizing the potential of distributed sensemaking.」
+(Fisher F. Counts S. Kittur A. （2012）. Distributed sensemaking: improving sensemaking by leveraging the efforts of previous users)
+
+「main contribution in this paper is the idea that a computational system can scaffold an emerging interdependent, big picture view entirely through small contributions of individuals, each of whom sees only a part of the whole. To investigate this idea we instantiate it in a working software system to explore the viability, strengths, and weaknesses of the approach, and evaluate the output of the system across a variety of topics. Finally, we also contribute a set of design patterns that may be informative for other systems aimed at supporting big picture thinking in small packag」
+(Hahn N. Chang J. Kim J. et.al. (2016). The Knowledge Accelerator: Big Picture Thinking in Small Pieces)
+
+「指定唱反調可避免團體迷思」(凱斯．桑思坦、雷德．海斯蒂 (2015) 破解團體迷思：如何把團隊變得更聰明，讓集體決策更有智慧？。台灣。三采。ISBN: 9789863424901。)
+
 宜靜的 Reflection model
 結論：有哪幾個要素是提升網路討論品質的關鍵
 #+END_COMMENT
@@ -295,7 +316,23 @@ http://sense.tw/map/e1f2bd16-378f-4abc-a689-ade6937075e2
 
 #+BEGIN_COMMENT
 需要再解釋一次網路實踐社群的定義（用引用第一份報告的方式）
+
+「資訊科技發展促使資訊外顯化及資訊社會結構改變屬必然歷程。網路治理（Internet Gov)領域具以下幾點特色：
+1. 強制性技術規範 : IETF, W3C 技術規範標準。
+2. 強制性技術架構 : IAB one Internet architecture RFC1174。
+3. 強制性資訊基礎建設 : 根伺服器, DNSSEC 公鑰權威, RPKI 公鑰權威。
+4. 標準機構與軟體開發者高密度合作 : DNS (BIND by ISC), Sendmail, Apache。
+5. 壟斷性數位資源權威 : IP 位址、AS號碼資源 (APNIC 亞太區)、頂級網域 (ICANN)、多語文網域空間(ICANN)、Protocol 號碼(IANA, 移轉 PTI)。
+6. 結構成熟之多方利害關係人架構: ICANN、IGF、APNIC、IETF。
+7. 國際政治機構高度關注領域 : 聯合國 IGF、ICANN、APNIC。
+8. 多方利害關係人結構(IETF、APNIC、ICANN等)延伸之網路治理領域 : Governance Model、Cybersecurity、Cross-border Digital Trade、Data Protection、Privacy、Human right、Law Enforcement等
+」（kenny huang）
+
 網路治理多邊利害關係人模型不確定是不是要放在第一份報告裡比較好
+
+MSM 的代表性仍遭到質疑 (COSCUP 2018 多元利害關係人模式解決網路治理議題之機會與挑戰 The opportunities and challenges of solving Internet Governance issues by MultiStakeholers Model) - Vincent Chen/陳文生)
+
+以太坊 4% 的人可以決定全部的人的資產，因此有學者提出「區塊鏈治理」。
 
 結論：網路社群已有一些方式用多方利害關係人模式擬定複雜政策，並且有社群參與。本研究的下個問題是如何將這樣的模型應用到更廣大的科技政策制定。
 #+END_COMMENT
