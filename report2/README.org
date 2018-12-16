@@ -239,12 +239,50 @@ stakeholder identification
 
 * 社群視角的科技政策參與途徑分析
 
-由訪談中
+
+根據訪談結果，初步畫出政策流程圖。想在專家會議情境中找關鍵問題。在與外部專家訪談修正後：
+
+#+NAME: design-sprint-map
+#+CAPTION: Design Sprint Mmp （本研究製圖）
+#+ATTR_HTML: width 1024
+[[./images/design_sprint_map.jpg]]
+
+關鍵環節：
+1. 如何找到網路社群/專家作為利害關係人參與政府會議或網路意見收集
+2. 如何幫助與會者語彙知識對齊， on the same page
+
+第一點在報告一，
+第二點進一步延伸是
+顯示議題脈絡
+
+4. 放訪談言論。
+5. 選定的目標跟關鍵問題。
+
+困難點：
+網路社群與政府視角不同：（視閾圖）
+
+議題如何釐清
+語彙無法對焦，需建立 common ground。
+
+
+
+做更細的服務藍圖，找尋網路參與機制需要議題釐清的點與階段。痛點在哪裡
 
 #+CAPTION: 服務藍圖 （本研究製圖）
 #+NAME: service-blueprint
 #+ATTR_HTML: width 1024
 [[./images/service_blueprint.jpg]]
+
+進一步與現有網路機制做比較之後，決定需要協助
+./images/sense_vTaiwan_JOIN_diff.jpg
+
+3. 協助網路社群做民間議題釐清（跟vTaiwan 和 JOIN/PO 會議比較之後）
+
+#+BEGIN_COMMENT
+Design sprint Day 1 定義問題
+#+END_COMMENT
+
+在公民參與流程中的工具位置：
 
 #+CAPTION: 使用者歷程圖一（本研究製圖）
 #+NAME: service-blueprint
@@ -255,30 +293,14 @@ stakeholder identification
 #+NAME: service-blueprint
 #+ATTR_HTML: width 1024
 [[./images/cmj2.jpg]]
-
-
-
-
-
-4. 放訪談言論。
-5. 選定的目標跟關鍵問題。
-
-視角不同：（視閾圖）
-
-議題如何釐清
-語彙無法對焦，需建立 grounding。
-
 * 虛實整合的網路參與機制設計
 #+BEGIN_COMMENT
 這裡寫透過數位工具做到視域融合
 #+END_COMMENT
-[[./images/sense_vTaiwan_JOIN_diff.jpg]]
+#+BEGIN_COMMENT
+#+END_COMMENT
 
 
-#+NAME: design-sprint-map
-#+CAPTION: Design Sprint Mmp （本研究製圖）
-#+ATTR_HTML: width 1024
-[[./images/design_sprint_map.jpg]]
 
 ** 期望討論流程
 1. 延續網路討論的模型，但是加入查證與補充資料的步驟。
