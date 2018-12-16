@@ -161,21 +161,20 @@ stakeholder identification
 3. 設計一套適用網路原生代非同步的網路討論方式提升議題討論的品質與參與政策過程的深入程度。
 * 研究方法
 ** 研究流程
- #+BEGIN_SRC plantuml :results none :file research_flow.png
+ #+BEGIN_SRC plantuml :results none :file research_flow.png :cache yes
    start
-   partition 網路社群視角之科技政策參與機制分析 {
-   :文獻檢閱;
-   :使用者訪談;
-   :服務藍圖法;
-   :使用者旅程法;
-   :設計敏捷方法;
-   }
-   partition 虛實整合網路參與機制設計開發與驗證 {
+   fork
        repeat
+       :文獻檢閱;
+       :使用者訪談;
+       :服務藍圖法;
+       :使用者旅程法;
        :精實創業滾動式修正;
        :開源社群參與;
        repeat while (與假設不符，進行修正)
-   }
+   fork again
+      :設計敏捷方法;
+   endfork
    end
  #+END_SRC
  [[./research_flow.png]]
