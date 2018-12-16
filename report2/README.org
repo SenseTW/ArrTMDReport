@@ -165,7 +165,7 @@ stakeholder identification
    start
    fork
       :設計敏捷方法;
-      :產生關鍵問題與雛形;
+      #HotPink:產生關鍵問題與雛形;
        (A)
        detach
    fork again
@@ -174,8 +174,8 @@ stakeholder identification
        :使用者訪談;
        :服務藍圖法;
        :使用者旅程法;
+       #HotPink:產生關鍵問題與雛形;
        (A)
-       :產生關鍵問題與雛形;
        :精實創業滾動式修正;
        :開源社群參與;
        repeat while (與假設不符，進行修正)
