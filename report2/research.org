@@ -71,12 +71,13 @@
     - in the case of knowledge maps created by just a single user, participants could make an accurate assessment of that
     - iterating knowledge maps over only four users allowed a collectively-generated schema to emerge, leading to significant improvements in sensemaking quality and helpfulness. We also identify a key startup obstacle in the distributed sensemaking process; users preferring to use maps that have been iterated on multiple times versus starting over, but prefer to start from scratch when given a map iterated on only once. Overcoming this startup cost will be a key factor in realizing the potential of distributed sensemaking.
 13. Hahn N. Chang J. Kim J. et.al. (2016). The Knowledge Accelerator: Big Picture Thinking in Small Pieces
-14. THE ADVENT OF OPEN SOURCE DEMOCRACY AND WIKIPOLITICS: CHALLENGES, THREATS AND OPPORTUNITIES FOR DEMOCRATIC DISCOURSE.
-15. Matei A. Irimia S. (2014) Open Source Governance—A More Ambitious Cousin of Collaborative Governance
-16. Berthon P. Williams C. (2007) Stages of e-democracy: towards an open-source political model
-17. Jun M. (2018) Blockchain government - a next form of infrastructure for the twenty-first century
-18. Fenwick M. Kaal W. Vermeulen E. - WHY “BLOCKCHAIN” WILL DISRUPT CORPORATE ORGANIZATIONS - WHAT CAN BE LEARNED FROM THE “DIGITAL TRANSFORMATION”
-19. 張芳睿整理的 Large Scale Decision Making resources 清單（2018）。https://hackmd.io/sRdI-t5bSciOX7nKKO5FVg?view
+    - main contribution in this paper is the idea that a computational system can scaffold an emerging interdependent, big picture view entirely through small contributions of individuals, each of whom sees only a part of the whole. To investigate this idea we instantiate it in a working software system to explore the viability, strengths, and weaknesses of the approach, and evaluate the output of the system across a variety of topics. Finally, we also contribute a set of design patterns that may be informative for other systems aimed at supporting big picture thinking in small packag
+15. THE ADVENT OF OPEN SOURCE DEMOCRACY AND WIKIPOLITICS: CHALLENGES, THREATS AND OPPORTUNITIES FOR DEMOCRATIC DISCOURSE.
+16. Matei A. Irimia S. (2014) Open Source Governance—A More Ambitious Cousin of Collaborative Governance
+17. Berthon P. Williams C. (2007) Stages of e-democracy: towards an open-source political model
+18. Jun M. (2018) Blockchain government - a next form of infrastructure for the twenty-first century
+19. Fenwick M. Kaal W. Vermeulen E. - WHY “BLOCKCHAIN” WILL DISRUPT CORPORATE ORGANIZATIONS - WHAT CAN BE LEARNED FROM THE “DIGITAL TRANSFORMATION”
+20. 張芳睿整理的 Large Scale Decision Making resources 清單（2018）。https://hackmd.io/sRdI-t5bSciOX7nKKO5FVg?view
 * 網路社群建立方法
 1. (2017) Game design patterns for building friendships。http://www.lostgarden.com/2017/01/game-design-patterns-for-building.html。
 2. Jo Freeman, 共筆翻譯。無架構的暴政。https://docs.google.com/document/d/1hbOZ4ApTHAK4feCNMAvIs8w7lCzH-acuaByL-OsK55A/edit。
