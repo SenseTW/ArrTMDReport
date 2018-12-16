@@ -491,6 +491,8 @@ Persona -> 4 種 scenario
 ****  數位化紀錄現場討論
 以區塊鍊治理為例
 
+#+CAPTION: 區塊鏈治理 Unconference - G0V Summit 2018
+[[./images/blockchain_unconf.jpeg]]
 
 *** 工具限制：
 目前還無法即時協作，放在非同步協作
