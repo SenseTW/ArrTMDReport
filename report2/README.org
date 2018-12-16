@@ -498,7 +498,8 @@ Design sprint Day 1 定義問題
 
 （Endpoint 線上線下討論機制圖）
 
-線上線下滾動式討論，低參與門檻、高頻、持續，對接政策提案。
+
+線上線下滾動式串接討論，目標讓對科技政策的討論低參與門檻、高頻、持續，對接政策提案。 線上線下的兩種機制也可以分別實行，或與其他機制混合使用。
 
 1. 期望討論流程
 2. 線上意見整理工具
@@ -589,10 +590,10 @@ Persona -> 4 種 scenario
 ->
 需要在社群中凝聚共識與釐清爭點與政府溝通的社群參與者，
 
-12 月：annotation tool
-3 -4 月：Prototype： annotation + 心智圖
-8 月 MVP: annotation + 圖形編輯器、Box/Card
-11 月 Beta: 縮放、Card Type 去引導論證、物件關係（edge）
+- 12 月：annotation tool
+- 3 -4 月：Prototype： annotation + 心智圖
+- 8 月 MVP: annotation + 圖形編輯器、Box/Card
+- 11 月 Beta: 縮放、Card Type 去引導論證、物件關係（edge）
 
 *** 使用情境介紹：
 ****  線上非同步整理資料與討論
@@ -604,7 +605,7 @@ Persona -> 4 種 scenario
 5. 新增回應、補充相關資料。
 
 ****  數位化紀錄現場討論
-以區塊鍊治理為例
+以區塊鍊治理討論為例，透過投影出將討論拆解成單一概念與資料間的論證建構圖，可協助與會者在現場討論時看到已討論過的名詞定義讓知識語彙對齊，並且可檢視問答的深度與廣度，並線上補充資料連結。
 
 #+CAPTION: 區塊鏈治理 Unconference - G0V Summit 2018
 [[./images/blockchain_unconf.jpeg]]
