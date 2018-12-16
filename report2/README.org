@@ -164,6 +164,11 @@ stakeholder identification
  #+BEGIN_SRC plantuml :results none :file research_flow.png :cache yes
    start
    fork
+      :設計敏捷方法;
+      :產生關鍵問題與雛形;
+       (A)
+       detach
+   fork again
        repeat
        :文獻檢閱;
        :使用者訪談;
@@ -174,11 +179,6 @@ stakeholder identification
        :精實創業滾動式修正;
        :開源社群參與;
        repeat while (與假設不符，進行修正)
-   fork again
-      :設計敏捷方法;
-      :產生關鍵問題與雛形;
-       (A)
-      detach
    endfork
    end
  #+END_SRC
