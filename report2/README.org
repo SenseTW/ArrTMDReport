@@ -160,7 +160,25 @@ stakeholder identification
 2. 促使網路社群自組織議題社群增加議事資本。
 3. 設計一套適用網路原生代非同步的網路討論方式提升議題討論的品質與參與政策過程的深入程度。
 * 研究方法
-
+** 研究流程
+ #+BEGIN_SRC plantuml :results none :file research_flow.png
+   start
+   partition 網路社群視角之科技政策參與機制分析 {
+   :文獻檢閱;
+   :使用者訪談;
+   :服務藍圖法;
+   :使用者旅程法;
+   :設計敏捷方法;
+   }
+   partition 虛實整合網路參與機制設計開發與驗證 {
+       repeat
+       :精實創業滾動式修正;
+       :開源社群參與;
+       repeat while (與假設不符，進行修正)
+   }
+   end
+ #+END_SRC
+ [[./research_flow.png]]
 ** 網路社群視角之科技政策參與機制分析
 *** 文獻檢閱
 在期刊文獻專著之外，大量參考網路社群原生之文本、使用者中心之產品開發設計，目的為產出可促進網路原生代討論品質之產品或服務為目的。
@@ -422,7 +440,7 @@ https://d.ucsd.edu/srk/papers/2017/GutInstinct-CHI2017.pdf 這篇是 crowdsourci
 Persona -> 4 種 scenario
 積極公民、會議主持人、政策分析師、決策者
 
--> 
+->
 需要在社群中凝聚共識與釐清爭點與政府溝通的社群參與者，
 
 12 月：annotation tool
