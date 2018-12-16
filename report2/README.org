@@ -229,6 +229,11 @@ stakeholder identification
 #+ATTR_HTML: width: 1024
 [[./images/community_building.png]]
 *** 網路治理多邊利害關係人模型
+e.g. (ICANN)
+*** 網路社群協作模式
+e.g. 維基粗略共識、消歧義
+sense.tw 協作模型釐清
+http://sense.tw/map/e1f2bd16-378f-4abc-a689-ade6937075e2
 
 #+BEGIN_COMMENT
 需要再解釋一次網路實踐社群的定義（用引用第一份報告的方式）
@@ -312,8 +317,53 @@ Design sprint Day 1 定義問題
 #+END_COMMENT
 
 
+** 虛實整合機制
+
+議題釐清、
+知識語彙對齊
+凝聚共識
+
+（Endpoint 線上線下討論機制圖）
+
+線上線下滾動式討論，低參與門檻、高頻、持續，對接政策提案。
+
+#+BEGIN_COMMENT
+這個「後權威」時代，不管是「專家會議舉辦者」還是「籌備委員」我都不覺得有辦法辨識出真的「專家」來做 inform。 邀請「產官學研」跟「法人協會」是最容易對政府交待的方法，但來的人不一定是「專家」。 再則一旦做了 inform，做 inform 的人 其實就「暗示」出對議題的框架了。「議題框架上」就已經限制討論方向，然而很多問題是吵完以後你才會發現一個議題上誰才算這領域的「專家」，或是原本不相關的問題反而才是真的問題。小聚的目標是做到「問題界定」、「利害關係人界定」、「知識跟語彙對焦」、「可能解法界定」，指認出會來參與的「積極公民」，讓他們互相連結(networking)，並看能否導引到現有一堆的「公民參與」機制。   在「問題界定」跟「知識跟語彙對焦」期望發揮到是讓參與者問出「問題背後的問題」、「問題裡面的問題」、「解法裡面的問題」，以及「佐證資料在哪裡」、「大家對名詞的理解都一樣嗎?」
+在實體聚會遵循網路上的對話方式，但透過互相論證詞進行議題裡面的問題跟名詞界定，盤出相關利害關係人、相關資訊。
+1. 釐清不同領域的名詞(Ground Term)
+2. 問出更深度問題(QBQ)
+3. 頻繁而低成本的討論 Micro Activity
+4. 跨時間地域的虛擬空間 (cyber space)
+#+END_COMMENT
 ** 期望討論流程
-1. 延續網路討論的模型，但是加入查證與補充資料的步驟。
+在回應建構論證模型的基礎上，建立一般人也能輕度參與政策討論，並且有討論品質。
+
+從積極公民的訪談中，得知在網路擴散基本 QA 結構很有幫助。（需要引用，這邊是王希、也民、孝先）
+
+實體活動也採用 QA 最直接，（基本的問答 QA）
+
+名詞定義：有新的名詞先定義。（可以放入維基寫作工作坊的部分）
+補充資料、查證（網路社群習慣，資訊來源），例如維基百科社群的標籤「來源請求」
+利害關係人（參考 PO 會議的方法論）
+#+BEGIN_COMMENT
+// 大概內容
+比較強調的議題相關的資料跟資料之間的關係，在不同的「statements」找出可以連貫所有「statements」的方式，以及將相關的「statemetns」從空間上 grouping 起來。
+呈現同一件事情的不同面向，強調 diverse perspective 與以及對 stakeholder 的影響。
+讓公共討論可以變成「不特定公眾可以利用休閒時間檢視評估議題裡面的問題跟可能解法及佐證依據，時間可以是長達好幾個月。
+把每個人都當成「政策評估人員」看待，或是每個 community 預設總有幾個「積極公民」會去吵政策的優缺點。
+不加「fact」，「evidence」的原因是因為每個人認定的事實很多種。「社會真實」分為「客觀真實」、「媒介真實」、「主觀真實」。實際上我們討論事情都是依據在「媒介真實」跟「主觀真實」上。所以「證據」就是去以「資訊來源」做佐證。
+QA 是最簡單不用教的介面，但是 QA 如果是 unstructured interface，對於新手仍然是困難的！question asking 仍然是個困難的 task
+想做 self-assessment, formative assessment.簡單的說就是一連串“評估的檢視” diagnostic testing, 會包含 feedback, peer-review, question…etc.
+也是可以透過一些 rubric 或是 guiding question 去引導新手做自我評估 “self-assessment” or “self-feedback”, 但是問題又會出在新手根本無法做“深度反思“，因為能力不足
+所以小聚裡面指定一人「唱反調」。reflection level 會對應到 “問題的深度“，也會對應到一個人對於概念的“理解程度”
+主要是透過 QA 互動的方式去做 crowd sourcing problems, possible solutions 以及 摘要主要是透過 QA 互動的方式去做 crowd sourcing problems, possible solutions 以及 摘要
+分享幾篇我很愛的 paper：今年 CSCW best paper (CS 裡 HCI 的 top conference)：利用 collaborative tagging and summarization 去做 group chat 的 sensemaking http://people.csail.mit.edu/axz/papers/cscw_tilda.pdf
+https://d.ucsd.edu/srk/papers/2017/GutInstinct-CHI2017.pdf 這篇是 crowdsourcing questions，雖然是在 crowdsource scientific question，但是此篇目的在於如何 guide non-expert to generate novel questions and collaboratively perform scientific work
+製造衝突則可以透過調整參與者的多元性來處理，讓人意識到他的解法可能是別人的問題，去反思問題背後的問題
+#+END_COMMENT
+
+1. 延續網路討論的模型（什麼模型？）但是加入查證與補充資料的步驟。
+
 #+BEGIN_SRC plantuml :results none file :file ./images/problem_idenity_flow.png :cache on
        |問題、可能解法、利害關係人界定|
        start
@@ -353,14 +403,14 @@ Design sprint Day 1 定義問題
 #+END_SRC
 [[./images/problem_idenity_flow.png]]
 ** 議題小聚
-#+BEGIN_COMMENT
-這個「後權威」時代，不管是「專家會議舉辦者」還是「籌備委員」我都不覺得有辦法辨識出真的「專家」來做 inform。 邀請「產官學研」跟「法人協會」是最容易對政府交待的方法，但來的人不一定是「專家」。 再則一旦做了 inform，做 inform 的人 其實就「暗示」出對議題的框架了。「議題框架上」就已經限制討論方向，然而很多問題是吵完以後你才會發現一個議題上誰才算這領域的「專家」，或是原本不相關的問題反而才是真的問題。小聚的目標是做到「問題界定」、「利害關係人界定」、「知識跟語彙對焦」、「可能解法界定」，指認出會來參與的「積極公民」，讓他們互相連結(networking)，並看能否導引到現有一堆的「公民參與」機制。   在「問題界定」跟「知識跟語彙對焦」期望發揮到是讓參與者問出「問題背後的問題」、「問題裡面的問題」、「解法裡面的問題」，以及「佐證資料在哪裡」、「大家對名詞的理解都一樣嗎?」
-在實體聚會遵循網路上的對話方式，但透過互相論證詞進行議題裡面的問題跟名詞界定，盤出相關利害關係人、相關資訊。
-1. 釐清不同領域的名詞(Ground Term)
-2. 問出更深度問題(QBQ)
-3. 頻繁而低成本的討論 Micro Activity
-4. 跨時間地域的虛擬空間 (cyber space)
-#+END_COMMENT
+
+北中南社群實體討論
+
+應用成果：
+例如：區塊鍊、數位治理
+社群擴散：進一步由社群自行發起，文化組織如何數位開放、資訊教育。
+
+
 *** 會前流程
 *** 設定討論議題
 科技人表面上往往對政策冷感不關心，但實際上是缺乏暸解而認為不需要知道。環境、民生、交通、經濟課題是貼近
@@ -471,23 +521,11 @@ Design sprint Day 1 定義問題
 ** 意見整理工具
 #+BEGIN_COMMENT
 #+END_COMMENT
-// 大概內容
-比較強調的議題相關的資料跟資料之間的關係，在不同的「statements」找出可以連貫所有「statements」的方式，以及將相關的「statemetns」從空間上 grouping 起來。
-呈現同一件事情的不同面向，強調 diverse perspective 與以及對 stakeholder 的影響。
-讓公共討論可以變成「不特定公眾可以利用休閒時間檢視評估議題裡面的問題跟可能解法及佐證依據，時間可以是長達好幾個月。
-把每個人都當成「政策評估人員」看待，或是每個 community 預設總有幾個「積極公民」會去吵政策的優缺點。
-不加「fact」，「evidence」的原因是因為每個人認定的事實很多種。「社會真實」分為「客觀真實」、「媒介真實」、「主觀真實」。實際上我們討論事情都是依據在「媒介真實」跟「主觀真實」上。所以「證據」就是去以「資訊來源」做佐證。
-QA 是最簡單不用教的介面，但是 QA 如果是 unstructured interface，對於新手仍然是困難的！question asking 仍然是個困難的 task
-想做 self-assessment, formative assessment.簡單的說就是一連串“評估的檢視” diagnostic testing, 會包含 feedback, peer-review, question…etc.
-也是可以透過一些 rubric 或是 guiding question 去引導新手做自我評估 “self-assessment” or “self-feedback”, 但是問題又會出在新手根本無法做“深度反思“，因為能力不足
-所以小聚裡面指定一人「唱反調」。reflection level 會對應到 “問題的深度“，也會對應到一個人對於概念的“理解程度”
-主要是透過 QA 互動的方式去做 crowd sourcing problems, possible solutions 以及 摘要主要是透過 QA 互動的方式去做 crowd sourcing problems, possible solutions 以及 摘要
-分享幾篇我很愛的 paper：今年 CSCW best paper (CS 裡 HCI 的 top conference)：利用 collaborative tagging and summarization 去做 group chat 的 sensemaking http://people.csail.mit.edu/axz/papers/cscw_tilda.pdf
-https://d.ucsd.edu/srk/papers/2017/GutInstinct-CHI2017.pdf 這篇是 crowdsourcing questions，雖然是在 crowdsource scientific question，但是此篇目的在於如何 guide non-expert to generate novel questions and collaboratively perform scientific work
-製造衝突則可以透過調整參與者的多元性來處理，讓人意識到他的解法可能是別人的問題，去反思問題背後的問題
-** 應用結果
+** 虛實結果
+
 *** Public Money/Public Code (虛實)
 *** 網路中立性 (虛實)
+
 * 結論與建議
 本章依據前述研究成果進行研究發現綜整，並依據相關研究發現，提供若干建議供政府部門參考。
 ** 研究發現
