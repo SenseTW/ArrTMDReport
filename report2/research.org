@@ -1,4 +1,12 @@
 #+TITLE: 工作區
+
+#+BEGIN_COMMENT
+1. What is the problem?
+2. Why is the problem interesting?
+3. Why is the problem unsolved?
+4. What is the authors' idea?
+#+END_COMMENT
+
 * 政策制定
 1. UK Gov. Open Policy Making toolkit. https://www.gov.uk/guidance/open-policy-making-toolkit
 2. 羅清俊 (2015)。公共政策：現象觀察與實務操作。台灣。揚智。ISBN:ISBN：9789862981955。
@@ -32,7 +40,6 @@
 6. 羅凱凌 (2017)。公共參與眞的能提升效能感嗎？以全民健康保險會之利害關係團體參與為例。
 * 協同治理
 1. 劉哲瑋整理的公私協力相關資源盤點：https://g0v.hackpad.tw/Fy5roPxroAg
-
 * 共識為基礎之民主模式
 ** 決策模式特點
 1. 社群驅動(Community-driven)。
@@ -57,11 +64,14 @@
 7. 凱斯．桑思坦、雷德．海斯蒂 (2015) 破解團體迷思：如何把團隊變得更聰明，讓集體決策更有智慧？。台灣。三采。ISBN: 9789863424901。
 8. 許瑞宋譯（2014）。睡餵麵包屑裡的各種好主義 - 社會物理學 - 剖析意念傳播方式的新科學。 台灣。大塊。
 9. CommunityCrit: Inviting the Public to Improve and Evaluate Urban Design Ideas through Micro-Activities
-10. Factful: Engaging Taxpayers in the Public Discussion of a Government Budget
-11. Integrating on-demand fact-checking with public dialogue
-12. Supporting reflective public thought with considerit
-13. Fisher F. Counts S. Kittur A. （2012）. Distributed sensemaking: improving sensemaking by leveraging the efforts of previous users
-14. Hahn N. Chang J. Kim J. et.al. (2016). The Knowledge Accelerator: Big Picture Thinking in Small Pieces
+10. Integrating on-demand fact-checking with public dialogue
+11. Supporting reflective public thought with considerit
+12. Fisher F. Counts S. Kittur A. （2012）. Distributed sensemaking: improving sensemaking by leveraging the efforts of previous users
+    - indicated that many users would simply prefer to start from scratch rather than with the initial content collection of a single other user.
+    - in the case of knowledge maps created by just a single user, participants could make an accurate assessment of that
+    - iterating knowledge maps over only four users allowed a collectively-generated schema to emerge, leading to significant improvements in sensemaking quality and helpfulness. We also identify a key startup obstacle in the distributed sensemaking process; users preferring to use maps that have been iterated on multiple times versus starting over, but prefer to start from scratch when given a map iterated on only once. Overcoming this startup cost will be a key factor in realizing the potential of distributed sensemaking.
+13. Hahn N. Chang J. Kim J. et.al. (2016). The Knowledge Accelerator: Big Picture Thinking in Small Pieces
+    - main contribution in this paper is the idea that a computational system can scaffold an emerging interdependent, big picture view entirely through small contributions of individuals, each of whom sees only a part of the whole. To investigate this idea we instantiate it in a working software system to explore the viability, strengths, and weaknesses of the approach, and evaluate the output of the system across a variety of topics. Finally, we also contribute a set of design patterns that may be informative for other systems aimed at supporting big picture thinking in small packag
 15. THE ADVENT OF OPEN SOURCE DEMOCRACY AND WIKIPOLITICS: CHALLENGES, THREATS AND OPPORTUNITIES FOR DEMOCRATIC DISCOURSE.
 16. Matei A. Irimia S. (2014) Open Source Governance—A More Ambitious Cousin of Collaborative Governance
 17. Berthon P. Williams C. (2007) Stages of e-democracy: towards an open-source political model
