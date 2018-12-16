@@ -31,6 +31,8 @@
 5. 蕭元哲 (2009)。 利害關係人對互動管理的瞭解與應用。文官制度季刊。
 6. 羅凱凌 (2017)。公共參與眞的能提升效能感嗎？以全民健康保險會之利害關係團體參與為例。
 * 協同治理
+1. 劉哲瑋整理的公私協力相關資源盤點：https://g0v.hackpad.tw/Fy5roPxroAg
+
 * 共識為基礎之民主模式
 ** 決策模式特點
 1. 社群驅動(Community-driven)。
@@ -54,6 +56,8 @@
 6.  Using Public Crowds for Open Strategy Formulation: Mitigating the Risks of Knowledge Gaps
 7. 凱斯．桑思坦、雷德．海斯蒂 (2015) 破解團體迷思：如何把團隊變得更聰明，讓集體決策更有智慧？。台灣。三采。ISBN: 9789863424901。
 8. 許瑞宋譯（2014）。睡餵麵包屑裡的各種好主義 - 社會物理學 - 剖析意念傳播方式的新科學。 台灣。大塊。
+9. 張芳睿整理的 Large Scale Decision Making resources 清單（2018）。https://hackmd.io/sRdI-t5bSciOX7nKKO5FVg?view
+
 * 網路社群建立方法
 1. (2017) Game design patterns for building friendships。http://www.lostgarden.com/2017/01/game-design-patterns-for-building.html。
 2. Jo Freeman, 共筆翻譯。無架構的暴政。https://docs.google.com/document/d/1hbOZ4ApTHAK4feCNMAvIs8w7lCzH-acuaByL-OsK55A/edit。
