@@ -261,6 +261,16 @@ stakeholder identification
 困難點：
 網路社群與政府視角不同：（視閾圖）
 
+*** 政府與民間資訊來源不同、詮釋的角度不同得出不同決策
+#+CAPTION: 溝通落差 （本研究製圖）
+#+NAME: gap
+#+ATTR_HTML: width 1024
+ [[./images/gap1.png]]
+*** Grounding
+#+CAPTION: grounding（本研究製圖）
+#+NAME: grounding
+#+ATTR_HTML: width 1024
+[[./images/gap2.png]]
 議題如何釐清
 語彙無法對焦，需建立 common ground。
 
@@ -293,13 +303,13 @@ Design sprint Day 1 定義問題
 #+NAME: service-blueprint
 #+ATTR_HTML: width 1024
 [[./images/cmj2.jpg]]
+
+工具須解決的問題與所在流程：
+
 * 虛實整合的網路參與機制設計
 #+BEGIN_COMMENT
 這裡寫透過數位工具做到視域融合
 #+END_COMMENT
-#+BEGIN_COMMENT
-#+END_COMMENT
-
 
 
 ** 期望討論流程
@@ -481,16 +491,6 @@ https://d.ucsd.edu/srk/papers/2017/GutInstinct-CHI2017.pdf 這篇是 crowdsourci
 * 結論與建議
 本章依據前述研究成果進行研究發現綜整，並依據相關研究發現，提供若干建議供政府部門參考。
 ** 研究發現
-*** 政府與民間資訊來源不同、詮釋的角度不同得出不同決策
-#+CAPTION: 溝通落差 （本研究製圖）
-#+NAME: gap
-#+ATTR_HTML: width 1024
- [[./images/gap1.png]]
-*** Grounding
-#+CAPTION: grounding（本研究製圖）
-#+NAME: grounding
-#+ATTR_HTML: width 1024
-[[./images/gap2.png]]
 ** 建議
 * 參考文獻
 1. 廖洲棚、廖興中、黃心怡（2018）。開放政府服務策略研析調查： 政府資料開放應用模式評估與民眾參與公共政策意願調查。受委託單位：電子治理研究中心。國家發展委員會編印。NDC-MIS-106-003。
