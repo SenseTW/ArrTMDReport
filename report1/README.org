@@ -4,7 +4,7 @@
 #+LANGUAGE: zh-TW
 #+OPTIONS: H:2 num:t toc:t
 #+TOC: tables
-#+STARTUP: showall
+#+STARTUP: content
 * 封面
 * 中文摘要
   #+BEGIN_COMMENT
