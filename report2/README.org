@@ -320,7 +320,6 @@ ael: 我要找一下我手上好像有 agile 用在政府運作的文獻。
 #+BEGIN_COMMENT
 不確定要不要寫得這麼詳細啦
 #+END_COMMENT
-
 * 文獻檢閱
 ** 網路參與機制回顧
 #+BEGIN_COMMENT
