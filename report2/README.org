@@ -226,10 +226,9 @@ stakeholder identification
 找一下中文書封和介紹詞。
 
 (放 design sprint 五天的流程圖)
+
 #+END_COMMENT
 事前準備（待補）
-
-
 
 週一團隊選擇要解決問題的關鍵節點，並安排週五的受試者，目的是為了找出問題關鍵，之後的點子發想與原型才能切合問題。
 1. 列出現有服務的 actor 如何達到想要的關鍵結果的流程，視覺化在白板上
@@ -993,6 +992,7 @@ https://medium.com/sense-tw
 
 [fn:4] 敏捷開發宣言連結：https://agilemanifesto.org/principles.html
 
-[fn:5] p326, 331
+[fn:5] 江裕珍（2015）。《SCRUM：用一半的時間做兩倍的事》 傑夫・薩瑟蘭（Jeff Sutherland）著，江裕珍譯，台北市：遠見天下文化，2015
+p326, 331
 
-[fn:6] g0v
+[fn:6] 「g0v.tw 是一個推動資訊透明化的社群，致力於開發公民參與社會的資訊平台與工具。」(https://g0v.tw/zh-TW/about.html)
