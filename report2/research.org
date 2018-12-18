@@ -158,3 +158,31 @@
 5.5 補充 其他意見
 6. 數位協作工具能在會議中能達到互動嗎？
 7. 非常難，只能做到非常淺度的參與。
+* Notes
+** TODO 2012 - Distributed sensemaking: Improving sensemaking by leveraging the efforts of previous users
+ :PROPERTIES:
+  :Custom_ID: Fisher_2012
+  :AUTHOR: Fisher, Counts \& Kittur
+  :JOURNAL: Proceedings of the 2012 ACM annual conference on Human Factors in Computing Systems - CHI ’12
+  :YEAR: 2012
+  :VOLUME:
+  :PAGES:
+  :DOI: 10.1145/2207676.2207711
+  :URL: http://dx.doi.org/10.1145/2207676.2207711
+ :END:
+
+cite:Fisher_2012
+
+** TODO 2016 - The Knowledge Accelerator
+ :PROPERTIES:
+  :Custom_ID: Hahn_2016
+  :AUTHOR: Hahn, Chang, Kim \& Kittur
+  :JOURNAL: Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems - CHI ’16
+  :YEAR: 2016
+  :VOLUME:
+  :PAGES:
+  :DOI: 10.1145/2858036.2858364
+  :URL: http://dx.doi.org/10.1145/2858036.2858364
+ :END:
+
+cite:Hahn_2016
