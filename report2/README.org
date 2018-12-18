@@ -5,11 +5,6 @@
 #+TOC: tables
 #+STARTUP: content
 
-# Local Variables:
-# org-startup-indented: t
-# org-cycle-separator-lines 0
-# org-confirm-babel-evaluate: t
-# End:
 * 封面
 * 中文摘要
 #+BEGIN_COMMENT
@@ -361,13 +356,13 @@ ael: 我要找一下我手上好像有 agile 用在政府運作的文獻。
 
 「indicated that many users would simply prefer to start from scratch rather than with the initial content collection of a single other user.
 in the case of knowledge maps created by just a single user, participants could make an accurate assessment of that
-iterating knowledge maps over only four users allowed a collectively-generated schema to emerge, leading to significant improvements in sensemaking quality and helpfulness. We also identify a key startup obstacle in the distributed sensemaking process; users preferring to use maps that have been iterated on multiple times versus starting over, but prefer to start from scratch when given a map iterated on only once. Overcoming this startup cost will be a key factor in realizing the potential of distributed sensemaking.」
-(Fisher F. Counts S. Kittur A. （2012）. Distributed sensemaking: improving sensemaking by leveraging the efforts of previous users)
+iterating knowledge maps over only four users allowed a collectively-generated schema to emerge, leading to significant improvements in sensemaking quality and helpfulness. We also identify a key startup obstacle in the distributed sensemaking process; users preferring to use maps that have been iterated on multiple times versus starting over, but prefer to start from scratch when given a map iterated on only once. Overcoming this startup cost will be a key factor in realizing the potential」
+cite:Fisher_2012
 
 「main contribution in this paper is the idea that a computational system can scaffold an emerging interdependent, big picture view entirely through small contributions of individuals, each of whom sees only a part of the whole. To investigate this idea we instantiate it in a working software system to explore the viability, strengths, and weaknesses of the approach, and evaluate the output of the system across a variety of topics. Finally, we also contribute a set of design patterns that may be informative for other systems aimed at supporting big picture thinking in small packag」
-(Hahn N. Chang J. Kim J. et.al. (2016). The Knowledge Accelerator: Big Picture Thinking in Small Pieces)
+cite:Hahn_2016
 
-「指定唱反調可避免團體迷思」(凱斯．桑思坦、雷德．海斯蒂 (2015) 破解團體迷思：如何把團隊變得更聰明，讓集體決策更有智慧？。台灣。三采。ISBN: 9789863424901。)
+「指定唱反調可避免團體迷思...待修」cite:sunstein15_po
 
 宜靜的 Reflection model
 結論：有哪幾個要素是提升網路討論品質的關鍵
@@ -1000,3 +995,9 @@ https://medium.com/sense-tw
 p326, 331
 
 [fn:6] 「g0v.tw 是一個推動資訊透明化的社群，致力於開發公民參與社會的資訊平台與工具。」(https://g0v.tw/zh-TW/about.html)
+
+* COMMENT Local variables
+# local variables:
+# org-ref-default-bibliography: "references.bib"
+# org-ref-default-bibliography: "research.org"
+# end:
