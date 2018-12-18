@@ -7,6 +7,7 @@
 
 # Local Variables:
 # org-startup-indented: t
+# org-cycle-separator-lines 0
 # org-confirm-babel-evaluate: t
 # End:
 * 封面
