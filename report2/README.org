@@ -4,9 +4,10 @@
 #+LANGUAGE: zh-TW
 #+OPTIONS: H:2 num:t toc:t
 #+TOC: tables
-#+STARTUP: content
+#+STARTUP: showall
 * 封面
 * 中文摘要
+
 #+BEGIN_COMMENT
 字數以 500 字為限，並在其後列名 5 個以內中文關鍵詞。
 
@@ -91,18 +92,22 @@ stakeholder identification
 
 我國已有數項網路參與機制，例如行政院國發會所主導的公民提案連署平台 JOIN.tw，在不定期召開之全國性會議亦設有網路參與機制，例如全國文化會議、能源轉型白皮書等，與網路社群協作的虛實整合的 vTaiwan 數位經濟法規調適平台等，當務之急並非設計新的網路參與機制，而是提升既有參與機制所接收到的提案品質。
 
-電子治理中心針對 JOIN.tw 平台的提案品質，有如下建議：「未來應加強推廣協作討論區的系統功能，或進一步導入新的協作方法，或建立新的誘因制度，以吸引民間社群（如公民科技社群）結合政府開放資料，或透過網路群眾協力（如群眾外包途徑）協助提案者釐清議題本質，進而提高民眾提案品質。」（廖洲棚、廖興中、黃心怡，2018）。
+電子治理中心針對 JOIN.tw 平台的提案品質，有如下建議：「未來應加強推廣協作討論區的系統功能，或進一步導入新的協作方法，或建立新的誘因制度，以吸引民間社群（如公民科技社群）結合政府開放資料，或透過網路群眾協力（如群眾外包途徑）協助提案者釐清議題本質，進而提高民眾提案品質。」廖洲棚、廖興中、黃心怡（2018）。
 
 上份報告《網路社群與「先禁」政府的戰爭研析與公眾參與建議報告 - 以資訊科技社群與科技政策為例》（需引用）亦指出政府與民間協作的溝通缺口在於缺乏議題脈絡的交代以及與會者知識語彙未對齊。本報告希望進一步研究如何透過群眾協力的分式讓網路社群能夠自組織釐清議題、對齊知識語彙，從而有議事資本作為利害關係人群體參與政策預評估會議。讓因興趣、議題而快速聚集的網路社群，能夠在社群內部進行議題釐清後產生論述，做出行動，真正在公民參與上達到議題設定，而非只有在政府框架出的網路參與機制中被動參與單向傳播之討論。
 
 本研究在於設計並嘗試虛實整合的網路參與機制，讓網路社群可以自組織並符合網路原生代社群文化之討論方式，並非直接移植實體討論方式使之線上化，透過數位工具、社群討論的文化，促成低門檻、高頻度、高品質的討論。由於網路社群眾多，文化和討論平台也不盡相同，本研究從網路資訊社群[註解，網路資訊社群定義與初步清單可參見報告一哪裏]出發，試作虛實整合的科技政策的網路參與機制。
 
+
 #+BEGIN_COMMENT
-不需要政府主導，民間可以自組織
+2. 不需要政府主導，民間可以自組織
+  // 這邊有很多玩意沒寫
+
 
 本報告專注在
 
 議題釐清、對齊知識語彙
+
 
 //為什麼這個問題重要
 
@@ -146,6 +151,7 @@ stakeholder identification
 
   Q：社會問題不可能只靠數位工具解決。
   A：只用「科技決定論」跟「反科技決定論」這兩個立場來討論都只是把問題給簡化討論。
+
 #+END_COMMENT
 
 * 研究目的
@@ -185,14 +191,15 @@ stakeholder identification
 ** 網路社群視角之科技政策參與機制分析
 *** 文獻檢閱
 文獻檢閱主要為國內外網路參與機制、如何提升網路言論品質、網路社群作為利害關係人三大部分，與服務設計中的使用者經驗設計作為開發解決方案之主要方法論。在期刊文獻專著之外，本研究大量參考網路社群原生之文本、使用者中心之產品開發設計，目的為產出可促進網路原生代討論品質之實用產品或服務為目的。
+
 *** 使用者訪談
+
 以滾雪球抽樣（snowball sampling）方式，在網路資訊社群參與科技政策的流程中，會參與的不同角色之人員進行訪談，涵括積極公民、NGO 工作者、網路社群專家、政策分析師、審議主持人、政黨智庫、法人承辦、部會幕僚、高層事務官、外部顧問、政務官等，以此為依據產出使用者畫像（persona）、服務藍圖（service blueprint）、使用者旅程（journey map）、用途故事（Job Story）等使用者經驗分析，挖掘既有科技政策形成與網路參與機制中溝通落差的痛點與待解問題，從而設計試作虛實整合線上參與機制後，進一步拿產品做使用者測試。
 
 本研究主要透過訪談回顧歷年網路公民參與機制的設計與困難，部分受訪者選擇匿名不公開。
 訪綱見附錄。
 
 #+CAPTION: 訪談對象及訪談形式
-#+NAME: tbl-interviewlist
 | 代號  | 分類             | 訪談時間                 | 形式             |
 |-------+------------------+--------------------------+------------------|
 | NPC1  | 社群專家         | 2017/12/21 7:30-9:30pm   | 訪談             |
@@ -273,8 +280,11 @@ stakeholder identification
 *** 使用者旅程法（User Journey Map）
 使用者旅程圖，顧名思義就是在研究使用者的整個使用情境的流程，通常可以短至一次體驗的開始到完成，也可以長到數天、數個月不等的長期經驗，可依照專案的需求，自由進行。（須改寫或標註引用來源）
 ** 虛實整合網路參與機制設計開發與驗證
+
 以前述使用者經驗設計的訪調與分析為基礎，滾動式設計開發虛實整合網路參與機制，捨棄傳統瀑布流開發方式，使用網路業快速回應使用者需求常用的敏捷開發法（agile development）[註解]，透過使用者驗證不斷調整產品開發方向，避免按照一年前制定的規格一路做下去最後才發現不符合實際使用者需求。
+
 本團隊亦將所設計之解決方案皆開源（open source），讓公眾亦可加入開發、散佈、改作，並且架設協作平台讓網路社群得以參與機制之開發與回饋。
+
 *** 精實創業與敏捷開發以滾動式修正
 
 在設計開發虛實整合網路參與機制中，本團隊遵循敏捷開發（agile development）宣言[註解要補中文版連結]：
@@ -303,7 +313,8 @@ ael: 我要找一下我手上好像有 agile 用在政府運作的文獻。
 接政府計劃還是可以 Sprint Review & Planning https://medium.com/sense-tw/sprint-review-planning-73e370bb4633
 #+END_COMMENT
 *** 開源社群參與
-本團隊所設計開發的解決方案亦為開源（open source），在開發過程中即將所開發的程式碼、圖像介面設計、公開文字產出（部分訪談內容、部落格、數位原民參與手冊）、介紹影片等，以開放授權方式公開在網路上讓任何人可散佈、改作。本團隊並且與網路社群共同協作，在 GitHub 平台公開開發進與收集問題回報，在 g0v 臺灣零時政府社群[fn:2]的 Slack 討論平台上讓任何人可加入開發相關討論，並實體參與 g0v 黑客松與其年會、參與 COSCUP 開源人年會等活動與網路社群交流共同協作。並以集客式行銷（inbound marketing）方式撰寫部落格，以吸引對此虛實整合網路參與機制有興趣之網路閱聽眾，參與協作開發與使用。
+
+本團隊所設計開發的解決方案亦為開源（open source），在開發過程中即將所開發的程式碼、圖像介面設計、公開文字產出（部分訪談內容、部落格、數位原民參與手冊）、介紹影片等，以開放授權方式公開在網路上讓任何人可散佈、改作。本團隊並且與網路社群共同協作，在 GitHub 平台公開開發進與收集問題回報，在 g0v 臺灣零時政府社群[註解]的 Slack 討論平台上讓任何人可加入開發相關討論，並實體參與 g0v 黑客松與其年會、參與 COSCUP 開源人年會等活動與網路社群交流共同協作。並以集客式行銷（inbound marketing）方式撰寫部落格，以吸引對此虛實整合網路參與機制有興趣之網路閱聽眾，參與協作開發與使用。
 
 協作入口：
 - 即時訊息討論： https://join.g0v.tw , channel #sense；討論紀錄：https://g0v-slack-archive.g0v.ronny.tw/index/channel/C7D8SL96V
@@ -317,33 +328,36 @@ ael: 我要找一下我手上好像有 agile 用在政府運作的文獻。
 |部落格| https://medium.com/sense-tw/ | CC BY-SA 4.0 財團法人開放文化基金會（部落格上要去標註清楚授權是 OCF）|
 
 詳細技術文件與開發方式請見附錄（附錄幾啊？）。
+
 #+BEGIN_COMMENT
 不確定要不要寫得這麼詳細啦
 #+END_COMMENT
+
 * 文獻檢閱
 ** 網路參與機制回顧
 #+BEGIN_COMMENT
 結論：不需要再設計政府官方網路參與機制，而是
 1. 需提升公民參與意願與提案品質。
 2. 將多元的網路社群納入多方利害關係人（上一份報告）
+
 #+END_COMMENT
 ** 網路公共討論品質
-自電子佈告欄系統（Bulletin Board System，縮寫為 BBS）問世以來，「網路論戰」（flaming war）便一直是網路可作為公共討論領域備受質疑的問題之一。
-
-不經過思考，武斷下結論，只依靠在社群網路軟體（Social Network Software，縮寫為 SNS 看到文章標題不經過思考，衝動（impulsivity）武斷下結論，甚至散播「仇恨言論」（hate speach）、「誤導資訊」（misinformation）吸引更多眼球。
-SNS 演算法製造的「同溫層」(filter bubble)、「回音室效應」（echo chamber），更是讓不同立場的數位政治群體只看自己想看的資訊，接觸想接觸的人，加劇社會的分裂。（黃哲翰，2016）
-
-隨著時代前進進入智慧手機（Smart Phone）時代，數位社交工具（Degital Social Software）的多樣化反倒助長「資訊碎片化」(information fragmentation）的發生，使得公眾要了解一件完全沒接觸的社會議題越來越難。
-對照針對「網路論戰 (flaming war）」中的發言品質分類模型（Paul Gram，2008）可知，Facebook、Line 這類數位工具極度不適合作用公共事務討論的場域，但卻是國人最常進行政治參與的渠道。(科技部計畫...)
+人類社會開始有越來越多 Digital Twin 有什麼問題？
+1. 知識演化越來越快，不在同溫層的人溝通上難以對焦。
+2. 注意力/資訊碎片化 - 釐清一件完全沒接觸的事情越來越難。
+3. 標籤式反射 - 不經過思考，武斷下結論。
+4. 同溫層 - 只會看自己想看的資訊，接觸想接觸的人。
+5. 極端言論 - 發表越極端的言論可以在同溫層吸引到更多眼球。
+6. 誤導資訊 - 散佈誤導資訊的成本很低，檢驗成本很高。
+(The Dark Sides of Our Digital Self: How the Internet Changes Our Thoughts and Behaviors。https://www.theemotionmachine.com/the-dark-sides-of-our-digital-self/。)
+(黃哲翰：數位利維坦君臨的前夕. https://theinitium.com/article/20160617-opinion-huangdschergan-digital/)
 
    #+CAPTION: 筆戰層次圖（源自 Paul Gram - How To Disagree 一文，本研究略作修改）
-   #+NAME: fig-flaming-war-model
    #+ATTR_HTML: width: 1024
    [[./images/how-to-disagree.png]]
 
-「所有公共論述都逐漸以娛樂形式來傳達。我們的政治、宗教、新聞、體育、教育和商業，全都成為娛樂業的附庸，對此民眾多半毫無怨言，甚至漠不關心。於是，我們成為瀕臨娛樂至死的一群。」（Neil Postman，2016）
-
 #+BEGIN_COMMENT
+
 「indicated that many users would simply prefer to start from scratch rather than with the initial content collection of a single other user.
 in the case of knowledge maps created by just a single user, participants could make an accurate assessment of that
 iterating knowledge maps over only four users allowed a collectively-generated schema to emerge, leading to significant improvements in sensemaking quality and helpfulness. We also identify a key startup obstacle in the distributed sensemaking process; users preferring to use maps that have been iterated on multiple times versus starting over, but prefer to start from scratch when given a map iterated on only once. Overcoming this startup cost will be a key factor in realizing the potential of distributed sensemaking.」
@@ -374,7 +388,7 @@ http://sense.tw/map/e1f2bd16-378f-4abc-a689-ade6937075e2
 需要再解釋一次網路實踐社群的定義（用引用第一份報告的方式）
 
 「資訊科技發展促使資訊外顯化及資訊社會結構改變屬必然歷程。網路治理（Internet Gov)領域具以下幾點特色：
-強制性技術規範 : IETF, W3C 技術規範標準。
+1. 強制性技術規範 : IETF, W3C 技術規範標準。
 2. 強制性技術架構 : IAB one Internet architecture RFC1174。
 3. 強制性資訊基礎建設 : 根伺服器, DNSSEC 公鑰權威, RPKI 公鑰權威。
 4. 標準機構與軟體開發者高密度合作 : DNS (BIND by ISC), Sendmail, Apache。
@@ -394,6 +408,7 @@ MSM 的代表性仍遭到質疑 (COSCUP 2018 多元利害關係人模式解決�
 #+END_COMMENT
 
 * 社群視角的科技政策參與途徑分析
+
 *** Design Sprint 問題定義與原型開發
 根據訪談結果，初步畫出政策流程圖。想在專家會議情境中找關鍵問題。在與外部專家訪談修正後：
 
@@ -434,6 +449,8 @@ MSM 的代表性仍遭到質疑 (COSCUP 2018 多元利害關係人模式解決�
 議題如何釐清
 語彙無法對焦，需建立 common ground。
 
+
+
 *** 服務藍圖
 做更細的服務藍圖，找尋網路參與機制需要議題釐清的點與階段。痛點在哪裡
 
@@ -471,11 +488,23 @@ Design sprint Day 1 定義問題
 #+BEGIN_COMMENT
 這裡寫透過數位工具做到視域融合
 #+END_COMMENT
+
 ** 線上線下討論機制設計
+
 議題釐清、
 知識語彙對齊
 凝聚共識
+
 （Endpoint 線上線下討論機制圖）
+
+能夠在前期議題設定、議題發酵
+
+釐清不同領域的名詞(Ground Term)。
+問出更深度問題(QBQ)。
+頻繁而低成本的討論(Micro Activity)。
+跨時間地域的虛擬空間 (cyber space)。
+唱反調跟專家回饋、網路資料可提高對議題的了解跟討論深度及品質。
+
 線上線下滾動式串接討論，目標讓對科技政策的討論低參與門檻、高頻、持續，對接政策提案。 線上線下的兩種機制也可以分別實行，或與其他機制混合使用。
 
 1. 期望討論流程
@@ -624,8 +653,18 @@ Persona -> 4 種 scenario
 4. 數位工具應定位在議題前期資料收集與現場討論紀錄，串接實體討論有共同知識基與其感興趣的主題進行討論。礎
 5. 可讀性低，許多人不知道進來可以幹嘛
 ** 線下實體議題小聚
-在數位工具尚未成熟
-能夠促進非同步線上協作論證之前
+
+初期專注在開發數位工具做議題整理與爭點釐清，但發現目標之資訊實踐社群，在討論社會議題與政策尚停留在社群媒體回應留言階段（參與層級），較少能夠對接到政策制定的組織論述，因此發起實體討論之議題小聚，建立資訊社群討論科技政策的參與意願與方法，目標是建立低門檻、高頻度、社群自組織的深度科技政策相關討論，讓資訊社群在下班後的時間即可抓定大原則自主發起討論，不需有專業主持人或剛性討論架構，並搭配數位工具去釐清議題和爭點，在對議題有深度討論後能以此為基礎進一步能有所行動。
+
+議題小聚因此以資訊社群關心議題作為切入，主動尋找活躍社群合作，並搭配資訊社群舉辦之大型活動做擴散，在資訊社群熟悉的實體與網路活動空間進行討論與擴散。
+
+
+
+釐清不同領域的名詞(Ground Term)。
+問出更深度問題(QBQ)。
+頻繁而低成本的討論(Micro Activity)。
+跨時間地域的虛擬空間 (cyber space)。
+唱反調跟專家回饋、網路資料可提高對議題的了解跟討論深度及品質。
 
 網路社群實體黏著度相當高
 根據每次議題小聚
@@ -633,8 +672,6 @@ Persona -> 4 種 scenario
 多元參與者
 改善流程
 非同步線上協作。論證之前
-
-網路社群實體黏著度相當高
 
 建立參與意願：尋找合作社群
 在社群熟悉的實體空間與線上空間與其感興趣的主題進行討論。
@@ -651,7 +688,13 @@ Persona -> 4 種 scenario
 
 在社群熟悉的實體空間與線上空間應用成果：
 
+
 搭配線上紀錄。
+
+非一次性，需多次討論並擴散。
+
+
+
 *** 設定討論議題
 科技人表面上往往對政策冷感不關心，但實際上是缺乏暸解而認為不需要知道。環境、民生、交通、經濟課題是貼近
 生活的比較容易被暸解並喚起共鳴。
@@ -663,9 +706,9 @@ Persona -> 4 種 scenario
 
 
 #+BEGIN_COMMENT
-#+END_COMMENT
 
-想第一手接觸各縣市的科技人，透過在地活躍的技術社群會是最簡便的方式。科技圈因為技術不斷的演化及進步，需要
+#+END_COMMENT想第一手接觸各縣市
+的科技人，透過在地活躍的技術社群會是最簡便的方式。科技圈因為技術不斷的演化及進步，需要
 時時更新科技新知及知識背景與深度，往往會以一種類讀書會的形式聚集在一起，將零碎的時間組織起來透過分享學習
 的方法來克服軟體技術迭代速度。透過社交軟體，如 facebook slack telegram blog 這類的軟體找尋合作的當地社群
 ，口碑、與過往的聚會記錄都是可以互相暸解的方法。選定後實際參與聚會可以更加暸解活動屬性，加上與主持人深度
@@ -690,7 +733,7 @@ Persona -> 4 種 scenario
 | 數位治理台中議題小聚	   | 2018/10/20	 | 15	     | 台中市       | 台中維基、自由軟體愛好者社群	議題小聚	                                   |    20-55 |https://sense.tw/map/07802bfc-bb3d-4009-a92d-c7f29c47a1d7| 62|
 | 台南議題小聚	           | 2018/10/30	 | 7        | 台南市       | 南科工程師、成大學生	                                                     |  25-55	 |N/A||
 | MOPCON 議題小聚          | 2018/11/04   | 25       | 高雄市       | 濁水溪以南 25 個資訊科技社群                                               |    25-55 |N/A||
-| 文化組織如何數位開放？   | 2018/12/02	 | 20	     | 台北市       | 博物館從業人員、資訊工程師、學生、科技藝術家、傳統藝術家、維基百科社群等	 |    15-55 |https://g0v.hackmd.io/129ZYA-GQFKcS0gtVIYvFA| 1542              |
+| 文化組織如何數位開放？   | 2018/12/02	 | 20	     | 台北市       | 博物館從業人員、資訊工程師、學生、科技藝術家、傳統藝術家、維基百科社群等	 |    15-55 |https://g0v.hackmd.io/129ZYA-GQFKcS0gtVIYvFA| 14 （Youtube 影片）|
 
 #+BEGIN_COMMENT
 看來不來得及放 12/20 的資訊教育那一場
@@ -732,18 +775,10 @@ https://medium.com/sense-tw/community-tech-policy-coscup2018-1cefe60b38c3
 * 結論與建議
 本章依據前述研究成果進行研究發現綜整，並依據相關研究發現，提供若干建議供政府部門參考。
 ** 研究發現
-  1. 釐清不同領域的名詞(Ground Term)。
-  2. 問出更深度問題(QBQ)。
-  3. 頻繁而低成本的討論(Micro Activity)。
-  4. 跨時間地域的虛擬空間 (cyber space)。
-  5. 唱反調跟專家回饋、網路資料可提高對議題的了解跟討論深度及品質。
 ** 建議
 * 參考文獻
 1. 廖洲棚、廖興中、黃心怡（2018）。開放政府服務策略研析調查： 政府資料開放應用模式評估與民眾參與公共政策意願調查。受委託單位：電子治理研究中心。國家發展委員會編印。NDC-MIS-106-003。
 2. 郭耀煌、許華欣（2017）。科技計畫管理機制之研析。國土及公共治理季刊第五卷第三期。
-3. 黃哲翰（2016）。數位利維坦君臨的前夕. 取於 https://theinitium.com/article/20160617-opinion-huangdschergan-digital/。 取於 2018/10/11。
-4. The Dark Sides of Our Digital Self: How the Internet Changes Our Thoughts and Behaviors. https://www.theemotionmachine.com/the-dark-sides-of-our-digital-self/.
-5. 蔡承志譯（2016）。娛樂至死：追求表象、歡笑和激情的媒體時代（2016增修版）。Neil Postman. Amusing Ourselves to Death: public discourse in the age of show business, 20th Anniversary Edition.
 * 附錄
 ** 議題層次訪談大綱
 *** 訪談目的
@@ -907,5 +942,4 @@ https://medium.com/sense-tw
 
 * Footnotes
 
-[fn:1] https://www.thesprintbook.com
-[fn:2] https://g0v.tw
+[fn:1] https://www.thesprintbook.com/
