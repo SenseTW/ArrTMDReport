@@ -993,9 +993,3 @@ https://medium.com/sense-tw
 p326, 331
 
 [fn:6] 「g0v.tw 是一個推動資訊透明化的社群，致力於開發公民參與社會的資訊平台與工具。」(https://g0v.tw/zh-TW/about.html)
-
-* COMMENT Local variables
-# local variables:
-# org-ref-default-bibliography: "references.bib"
-# org-ref-bibliography-notes: "research.org"
-# end:

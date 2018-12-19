@@ -1,0 +1,225 @@
+#+TITLE: 研究架構
+* 研究構想
+** 報告一
+- 讓政府知道網路上並非只有謾罵，也有非傳統專家。
+- 呈現非傳統專家對 why 跟 raw data 的重視，政策決定是怎麼來的。
+- 點出為何納入這類專家意見的重要。
+- 呈現議題價值取向歧異，點出政策過程缺口。
+** 報告二
+- 依循報告一的政策過程缺口提出解決方案跟操作結果。
+* 研究筆記
+** Design Sprint
+- 連結記錄 https://aelcenganda.hackpad.tw/Design-Sprint--mFhYNIlKhkV
+- 要去問出背後的脈絡 (QBQ)。
+- 大家把資料都丟出來
+- 拉出不同架構，展示出不同思維方式
+- 時序的層次
+- 分類大小的層次
+- 概念抽象的層次
+** 溝通文化
+1. 高情境文化（High-context culture）- 高情境文化中，許多東西都是不言明、留待文化做解釋的。因為少數幾個詞就能很有效地對圈內人傳達複雜的含意之故.
+2. 低情境文化（Low-context culture）- 低情境文化中，進行溝通者需要更加明確地傳達詞意，而單一單詞的重要性在低情境文化中也比較低。 .
+1. 組織為什麼會需要外部意見？
+1.1 因為下列綜合效果而無法跳出思考盲點，特別是產生破壞性創新:
+1.2 穀倉效應
+1.3 團體迷思
+1.4 生存者偏差
+1.5 使用者視角
+1.6 代理成本
+1.7 鐵鎚人傾向
+2. 為什麼要網路參與？
+2.1 網路有兩個特質，分別為媒體跟通訊。
+2.2 建立通訊管道的成本低，要搜尋/保存資訊的成本也低。
+2.3 Digital Twin: 最理想的狀況，是實體所有的東西在數位都有一個分身, 甚至是流程。
+3. 人類社會開始有越來越多 Digital Twin 有什麼問題？
+4. 知識演化越來越快，不在同溫層的人溝通上難以對焦。
+5. 注意力/資訊碎片化 - 釐清一件完全沒接觸的事情越來越難。
+6. 標籤式反射 - 不經過思考，武斷下結論。
+7. 同溫層 - 只會看自己想看的資訊，接觸想接觸的人。
+8. 極端言論 - 發表越極端的言論可以在同溫層吸引到更多眼球。
+9. 誤導資訊 - 散佈誤導資訊的成本很低，檢驗成本很高。
+5. 數位協作工具在什麼階段最能發揮功效？
+5.1 宣傳 會議
+5.2 準備 會前資料
+5.3 告知 背景資訊
+5.4 確認 會議結論
+5.5 補充 其他意見
+6. 數位協作工具能在會議中能達到互動嗎？
+7. 非常難，只能做到非常淺度的參與。
+7.4 問題在當前
+1. 當前政府無能力研議分析 tech-driven 造成的社會變遷問題，不分析系統性問題. (對科技掌握度不夠, 只是單純當成黑盒子)。
+2. 當前政府不具有科技執法能力。
+3. 服務公共性模糊。
+4. 科技政策議題追蹤（https://portal.stpi.narl.org.tw/index/article/10280）
+5. 新的資訊來源 Source（黑客松, 實踐社群的討論）。
+6. 元學習（meta learning）的能力。
+7. 鄉民都來了提到業餘者能擾動議題改變議題的重要性，新聞守門員會忽略。（傳統分析師認為無關而忽略）。
+8. 查理蒙格認為..... 掌握了各種領域的重要理論可以得到「XXX」效應。
+9. 學習新知識的速度。
+** 相關工具整理表
+| Name                                                                 | Website                                 |
+|----------------------------------------------------------------------+-----------------------------------------|
+| Rational                                                             | https://www.rationaleonline.com/        |
+| Argunet                                                              | http://www.argunet.org/                 |
+| Argument Analysis Platform                                           | https://en.arguman.org/                 |
+| Consul                                                               | http://consulproject.org/en/            |
+| Sligrid                                                              | https://sligrid.com/                    |
+| Milkr                                                                | https://milkr.io/                       |
+| Minanote                                                             | https://minanote.com                    |
+| Realtime Board                                                       | https://realtimeboard.com/              |
+| The Brain                                                            | https://thebrain.com                    |
+| Coggle                                                               | https://coggle.com                      |
+| 全球 25 個線上參與 law-making 平台的模式和使用的工具，跟設計的機制。 | https://crowd.law/crowdlaw-af1a9e1c9455 |
+** 網路公共討論品質
+1. The Dark Sides of Our Digital Self: How the Internet Changes Our Thoughts and Behaviors。https://www.theemotionmachine.com/the-dark-sides-of-our-digital-self/。
+2. 陳敦源、廖洲棚、黃心怡 (2017) NDC-MIS-105-004。政府公共溝通：新型態網路參與及溝通策。
+3. 公共政策網路參與平臺」三周年執行情形報告。https://www.ndc.gov.tw/Content_List.aspx?n=0C0D88ABE4819AFD。
+4. 黃哲翰 (2016)。數位利維坦君臨的前夕。https://theinitium.com/article/20160617-opinion-huangdschergan-digital/。
+5. 謝宗學 (2003)。 網際民主與審議民主之實踐： 資訊化社會的桃花源村？。
+6. Using Public Crowds for Open Strategy Formulation: Mitigating the Risks of Knowledge Gaps
+7. 凱斯．桑思坦、雷德．海斯蒂 (2015) 破解團體迷思：如何把團隊變得更聰明，讓集體決策更有智慧？。台灣。三采。ISBN: 9789863424901。
+8. 許瑞宋譯（2014）。睡餵麵包屑裡的各種好主義 - 社會物理學 - 剖析意念傳播方式的新科學。 台灣。大塊。
+9. CommunityCrit: Inviting the Public to Improve and Evaluate Urban Design Ideas through Micro-Activities
+10. Integrating on-demand fact-checking with public dialogue
+11. Supporting reflective public thought with considerit
+12. Hahn N. Chang J. Kim J. et.al. (2016). The Knowledge Accelerator: Big Picture Thinking in Small Pieces
+13. THE ADVENT OF OPEN SOURCE DEMOCRACY AND WIKIPOLITICS: CHALLENGES, THREATS AND OPPORTUNITIES FOR DEMOCRATIC DISCOURSE.
+14. Matei A. Irimia S. (2014) Open Source Governance—A More Ambitious Cousin of Collaborative Governance
+15. Berthon P. Williams C. (2007) Stages of e-democracy: towards an open-source political model
+16. Jun M. (2018) Blockchain government - a next form of infrastructure for the twenty-first century
+17. Fenwick M. Kaal W. Vermeulen E. - WHY “BLOCKCHAIN” WILL DISRUPT CORPORATE ORGANIZATIONS - WHAT CAN BE LEARNED FROM THE “DIGITAL TRANSFORMATION”
+18. 張芳睿整理的 Large Scale Decision Making resources 清單（2018）。https://hackmd.io/sRdI-t5bSciOX7nKKO5FVg?view
+** 共識為基礎之民主模式
+*** 決策模式特點
+1. 社群驅動(Community-driven)。
+2. 由下往上(Bottom Up)。
+3. 多方利益關係人(Multistakeholder)。
+4. 粗略共識(Rough Consensus)。
+*** 類似國際案例
+1. APNIC Policy Development Process。
+2. Debian Consitution。
+3. Apache Voting Procesess
+4. Bluetooth -  Working Group Best Practices – Quick Process Overview
+5. Wikipidia
+*** Reference
+1. https://www.sciencedirect.com/science/article/abs/pii/S0024630116300528 Using Public Crowds for Open Strategy Formulation: Mitigating the Risks of Knowledge Gaps
+** 協同治理
+1. 劉哲瑋整理的公私協力相關資源盤點：https://g0v.hackpad.tw/Fy5roPxroAg
+** 網路治理
+資訊科技發展促使資訊外顯化及資訊社會結構改變屬必然歷程。網路治理（Internet Gov)領域具以下幾點特色：
+1. 強制性技術規範 : IETF, W3C 技術規範標準。
+2. 強制性技術架構 : IAB one Internet architecture RFC1174。
+3. 強制性資訊基礎建設 : 根伺服器, DNSSEC 公鑰權威, RPKI 公鑰權威。
+4. 標準機構與軟體開發者高密度合作 : DNS (BIND by ISC), Sendmail, Apache。
+5. 壟斷性數位資源權威 : IP 位址、AS號碼資源 (APNIC 亞太區)、頂級網域 (ICANN)、多語文網域空間(ICANN)、Protocol 號碼(IANA, 移轉 PTI)。
+6. 結構成熟之多方利害關係人架構: ICANN、IGF、APNIC、IETF。
+7. 國際政治機構高度關注領域 : 聯合國 IGF、ICANN、APNIC。
+8. 多方利害關係人結構(IETF、APNIC、ICANN等)延伸之網路治理領域 : Governance Model、Cybersecurity、Cross-border Digital Trade、Data Protection、Privacy、Human right、Law Enforcement等
+*** 聯合國網路治理論壇參考工具
+1. https://www.intgovforum.org/multilingual/
+2. https://www.intgovforum.org/multilingual/content/nris-toolkit-how-to-start-your-igf-initiative)
+
+*** 強制爭議裁決設計?
+1. RFC 2418 – IETF Working Group Guidelines and Procedures
+2. RFC 2026 – The Internet Standards Process
+*** 多方利害關係人結構
+1. COSCUP 2018 多元利害關係人模式解決網路治理議題之機會與挑戰 The opportunities and challenges of solving Internet Governance issues by MultiStakeholers Model) - Vincent Chen/陳文生
+2. The MSP Guide — 多方利益相關者夥伴關係實踐指南— 說明 取自 https://medium.com/@vincent.wschen/the-msp-guide-%E5%A4%9A%E6%96%B9%E5%88%A9%E7%9B%8A%E7%9B%B8%E9%97%9C%E8%80%85%E5%A4%A5%E4%BC%B4%E9%97%9C%E4%BF%82%E5%AF%A6%E8%B8%90%E6%8C%87%E5%8D%97-%E8%AA%AA%E6%98%8E-ddb58bf7fefb。
+3. NRIs Toolkit: how to start your IGF Initiative? 取自 https://www.intgovforum.org/multilingual/content/nris-toolkit-how-to-start-your-igf-initiative。
+4. 陳敦源、劉宜君、蕭乃沂、林昭吟 (2011)。 政策利害關係人指認的理論與實務：以全民健保改革為例。
+5. 蕭元哲 (2009)。 利害關係人對互動管理的瞭解與應用。文官制度季刊。
+6. 羅凱凌 (2017)。公共參與眞的能提升效能感嗎？以全民健康保險會之利害關係團體參與為例。
+** 政策制定
+1. UK Gov. Open Policy Making toolkit. https://www.gov.uk/guidance/open-policy-making-toolkit
+2. 羅清俊 (2015)。公共政策：現象觀察與實務操作。台灣。揚智。ISBN:ISBN：9789862981955。
+3. Robert W. McChesney (2005) 問題媒體：二十一世紀美國傳播政治。台灣。巨流圖書公司。ISBN：9577322247。
+4. 倪炎元 (2009)。 公關政治學：當代媒體與政治操作的理論、實踐與批判。台灣。商周。ISBN：9789866472282。
+5. 英國 Office of Government Commerce 是以政府投資成本效益的觀點，對政府活動進行防弊與監管（包括今天提到的mult stakeholders的參與，或整體專案的成本效益風險等衝擊評估），延伸出來的管制評估機制，準則包括Successful Delivery Toolkit與Gateway Process：
+6. UK New Citizen Shifit https://drive.google.com/file/d/0B0swicN11uhbWEJSeDRFeGNMaFk/view?fbclid=IwAR2gaWA7HSgChk4vIc-7cO3Zy348DhiN79v8RV74GqkyWjUTqwrNfbGdvC8
+* 文獻蒐集
+- 鄭婷宇（2017）。鍵盤參與：從「零時政府」檢視黑客社群開源協作式的公民參與。國立臺灣大學政治學研究所碩士論文，台北市。 取自https://hdl.handle.net/11296/q8j7n6
+- 許偉泓（2017）。探討知識分享與開源軟體開發效能：以社會交換理論與社會資本理論觀點。國立中正大學資訊管理學系碩士在職專班碩士論文，嘉義縣。 取自https://hdl.handle.net/11296/v4ngyj
+- 哈拉瑞（2017）。人類大命運：從智人到神人。台灣。天下。ISBN:9789864791446。
+- 藍一婷（2017）。實驗心得：提案闖天關—— Open Data 與審議民主怎麼 Combo？以司改國是會議資料為例。 取自 https://etblue.blogspot.com/2017/08/open-data-combo-deliberative-democracy.html, 2018/10/15。
+- 胡一天（2017）。反情報與傳媒亂紀元。 取自 https://www.storm.mg/article/247976, 2018/10/14/ 取得。
+- 藍尼‧艾伯斯坦（2016）。自由的選擇：芝加哥自由市場經濟學派演變史。台灣。時報。ISBN:9789571367972。
+- 胡一天（2016）。區塊鏈民主與多中心化治理。 取自 https://www.storm.mg/article/109669, 2018/10/14 取得。
+- 陳敦源、劉宜君、蕭乃沂、林昭吟（2011）。政策利害關係人指認的理論與實務：以全民健保改革為例。元智。
+- 陳琬宜（2015）。台灣自由軟體社群推廣研究－從推廣者角度而言。佛光大學資訊應用學系碩士論文，宜蘭縣。 取自https://hdl.handle.net/11296/hbs3q2
+- 傑瑞米．里夫金（2015）。物聯網革命：共享經濟與零邊際成本社會的崛起。台灣。商周。ISBN：9787508647753。
+- ITHome（2015）。【開源在臺灣】開源社群前輩級元老李圭烽：開源是一種菁英主義。IThome。取自 https://www.ithome.com.tw/news/93608, 2018/10/14 取得。
+- 國發會（2014）。經貿國是會議歷史紀錄。 取自 https://www.loomio.org/g/1uSV3IFq?locale=zh。 2018/10/15。
+- 哈拉瑞（2014）。人類大歷史：從野獸到扮演上帝。台灣。天下。ISBN:9789863205449。
+- 林芳本（2013）。台灣軟體產業的失落十年。 取自https://leanpub.com/the-lost-ten-years-of-taiwan-software-industry。
+- 葛冬梅（2013）。從開放源碼的理想到提供源碼的義務。取自https://www.openfoundry.org/tw/legal-column-list/9120-from-open-source-idea-to-providing-source-code-obligation, 2018/10/14 取得。
+- 張雅霏（2011）。論知識的公共性—以自由軟體的發展為例。世新大學社會發展研究所（含碩專班）碩士論文，臺北市。 取自https://hdl.handle.net/11296/4pqtcg
+- 陳敦源、劉宜君、蕭乃沂、林昭吟（2011）。政策利害關係人指認的理論與實務：以全民健保改革為例。元智。
+- 克雷‧薛基 （2011） 鄉民都來了：無組織的組織力量。台灣。企鵝。ISBN:9789862620526。
+- 如何成為Debian Developer（2010）。 http://francinelin.blogspot.com/2015/02/how-to-become-a-DD.html, 2018/10/14 取得。
+- 蔡志展 （2010） 。COSCUP 2010 總舖師籌備經驗分享。 取自 http://blog.nutsfactory.net/2010/09/28/coscup-2010/, 2018/10/11 取得。
+- 吳昌兆（2006）。虛擬組織成員地位階級與社群經營之研究─以動漫社群為例。大葉大學人力資源暨公共關係學系碩士論文，彰化縣。 取自https://hdl.handle.net/11296/b4yqhb
+- 游忠諺（2006）。Wiki系統評估與社群經營之研究－以維基百科為例。淡江大學資訊與圖書館學系碩士班碩士論文，新北市。 取自https://hdl.handle.net/11296/68m29e
+- 陳鐘誠（2005） 。開放原始碼運動的過去、現在與未來。國立金門技術學院學報。金門。
+- LinusDahlandera, Mats G.Magnussonb（2005）。 Relationships between open source software companies and communities: Observations from Nordic firms。https://doi.org/10.1016/j.respol.2005.02.003。
+- 葛皇濱（2004）。叛碼或國碼？—台灣自由軟體運動的發展與挑戰（1991-2004）。國立清華大學歷史研究所碩士論文，新竹市。 取自https://hdl.handle.net/11296/d6crdd
+- 愛丁納‧溫格、理查‧麥代謀、威廉‧施耐德 （2003）。實踐社群。台灣。天下。ISBN:9864172336。
+- Eric Steven Raymond （2002） 。 教堂與市集。 取自 https://crazyangelo.github.io/Cathedral-and-Bazaar/, 2018/10/11 取得。
+- 賀元（1995）。資訊遊俠列傳。台灣。資訊人。ISBN:9789579964029。
+- 李雅卿（1997）。成長戰爭。商智。ISBN:9789579873932。
+- 賴明宗等九人（1993）。我的電腦探索。台灣。資訊人。ISBN:9789579964036。
+- 網路治理：https://blog.twnic.net.tw/2018/10/30/1589/
+- Lawrence Lessig, Code 2.0。 取自 http://codev2.cc/, 2018/10/11 取得。
+- Whitehurst, Jim/ Hamel, Gary （FRW） （2015）, The Open Organization: Igniting Passion and Performance。Harvard Business School Pr。 取自https://www.books.com.tw/products/F013483452
+- Debian's "Social Contract" with the Free Software Community, 取自https://lists.debian.org/debian-announce/debian-announce-1997/msg00017.html, 2018/10/11 取得。
+- Ready to Respond to the Cyber Norms Debate, 取自https://first.org/blog/20180423-cyber-norms, 2018/10/11 取得。
+- Lee, Mei-Chun and Tzeng, Po-Yu. （2017） Draft of Open Government Report on Taiwan 2014–2016. Taipei: Open Culture Foundation. Retrieved on 2017/08/11, from http://beta.hackfoldr.org/opengovreport
+- Palatino, Mong. （2016） Indonesia and Philippines Confront Ghosts of Dictators Past. The Diplomat. Retrieved on 2017/08/12, from http://thediplomat.com/2016/06/indonesia-and-philippines-confront-ghosts-of-dictators-past/.
+- Roberts, Adam. （2016） The Arab spring: why did things go so badly wrong?. The Guardian. Retrieved on 2017/08/06, from https://www.theguardian.com/commentisfree/2016/jan/15/arab-spring-badly-wrong-five-years-on-people-power.
+- Schrock, Andrew R. （2016） Civic hacking as data activism and advocacy: A history from publicity to open government data. new media & society, 18（4）: 581–599.
+- Ostrow, Rachel. （2014） A Deterioration of Democracy?: Corruption, Transparency, and Apathy in the Western World. SAIS Review of International Affairs 34（1）, 41–44. The Johns Hopkins University Press.
+- Winichakul, Thongchai. （2014） “The Monarchy and Anti-Monarchy: Two Elephants in the room of Thai Politics and the State of Denial,” in P. Chachavalpongpun （eds）, “Good Coup” Gone Bad: Thailand’s Political Developments since Thaksin’s Downfall. Singapore: ISEAS Press, 79–108.
+- Margetts, Helen. （2013） “The Internet and Democracy,” in The Oxford Handbook of Internet Studies. : Oxford University Press.
+- Hsiao, Hsin-Huang Michael. （2012） “Social Foundations of Political Vitality”, in steven Tsang （eds）, The Vitality of Taiwan. UK: PAlgrave Macmillana, 37–56.
+- Kostakis, Vasilis. （2011） The advent of open source democracy and wikipolitics: challenges, threats and opportunities for democratic discourse. Human Technology: An Interdisciplinary Journal on Humans in ICT Environments, 7（1）: 9–29.
+- Levy, Steven. （2010） Hackers: Heroes of the Computer Revolution. : O’Reilly Media, 25th anniversary edition.
+- Edwards, Michael. （2009） Civil Society. Cambridge: Polity Press.
+- Andrew Hartman（2009）。What is Culture。? Raymond Williams and the Cultural Theory of “Customary Difference”。取自 https://s-usih.org/2009/02/what-is-culture-raymond-williams-and/, 2018/10/11 取得。
+- Diamond, Larry and Morlino, Leonardo. （2005） Assessing the Quality of Democracy, Baltimore: Johns Hopkins University Press.
+- Hackers & Painters。 （2004）。ISBN 0596006624。
+- Rushkoff, Douglas. （2003） Open source democracy: How online communication is changing offline politics. London: Demos.
+- Castells, Manuel. （2000） The Rise of the Network Society. The Information Age: Economy, Society and Culture. Volume 1. Malden: Blackwell.
+- 匱乏經濟學：為什麼老是在趕deadline？為什麼老是覺得時間和金錢不夠用？
+* 閱讀筆記
+#+BEGIN_COMMENT
+1. What is the problem?
+2. Why is the problem interesting?
+3. Why is the problem unsolved?
+4. What is the authors' idea?
+#+END_COMMENT
+** TODO 2012 - Distributed sensemaking: Improving sensemaking by leveraging the efforts of previous users
+ :PROPERTIES:
+  :Custom_ID: Fisher_2012
+  :AUTHOR: Fisher, Counts \& Kittur
+  :JOURNAL: Proceedings of the 2012 ACM annual conference on Human Factors in Computing Systems - CHI ’12
+  :YEAR: 2012
+  :VOLUME:
+  :PAGES:
+  :DOI: 10.1145/2207676.2207711
+  :URL: http://dx.doi.org/10.1145/2207676.2207711
+ :END:
+
+cite:Fisher_2012
+
+** TODO 2016 - The Knowledge Accelerator
+ :PROPERTIES:
+  :Custom_ID: Hahn_2016
+  :AUTHOR: Hahn, Chang, Kim \& Kittur
+  :JOURNAL: Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems - CHI ’16
+  :YEAR: 2016
+  :VOLUME:
+  :PAGES:
+  :DOI: 10.1145/2858036.2858364
+  :URL: http://dx.doi.org/10.1145/2858036.2858364
+ :END:
+
+cite:Hahn_2016
