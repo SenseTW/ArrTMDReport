@@ -650,28 +650,21 @@ https://d.ucsd.edu/srk/papers/2017/GutInstinct-CHI2017.pdf 這篇是 crowdsourci
 1. 回歸原始資料來源
 2. 呈現議題脈絡
 
-此意見整理工具 sense.tw 在敏捷迭代式開發下，經過三個 prototype，兩版產品改版，最終做出
+此意見整理工具 sense.tw 在敏捷迭代式開發下，經過三個 prototype，兩版產品改版，最終做出可在原始文獻上標記摘要，並以心智圖、論證圖等方式組織原始資料與論述的意見整理工具。
+
+使用者測試曾分四種人物誌—積極公民、會議主持人、政策分析師、政務官作為測試，發現使用族群須為喜歡嘗試使用新數位工具的人，並且並不依照身份別劃分，最終以使用情境定位在
+1. 個人整理大量資訊
+2. 線上非同步協作
+3. 現場會議之數位記錄
 
 
-來自 Design sprint sketch (連回 design sprint raw documentation)，以 keynote prototype 後測試決策者反應。
 
-Persona -> 4 種 scenario
-
-
-積極公民、會議主持人、政策分析師、決策者
-
-->
 需要在社群中凝聚共識與釐清爭點與政府溝通的社群參與者，
 
 - 12 月：annotation tool
 - 3 -4 月：Prototype： annotation + 心智圖
 - 8 月 MVP: annotation + 圖形編輯器、Box/Card
 - 11 月 Beta: 縮放、Card Type 去引導論證、物件關係（edge）
-
-定位在
-1. 個人整理大量資訊
-2. 線上非同步協作
-3. 現場會議之數位記錄
 
 *** TODO 使用情境介紹：
 ****  個人整理大量資訊
