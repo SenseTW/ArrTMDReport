@@ -553,13 +553,8 @@ Design sprint Day 1 定義問題
 
 ** TODO線上線下討論機制設計
 
-議題釐清、
-知識語彙對齊
-凝聚共識
-
 （Endpoint 線上線下討論機制圖）
-
-能夠在前期議題設定、議題發酵
+在公民參與服務藍圖上的前期議題設定、議題發酵階段，能有線上線下的整合機制，讓網路社群可以自組織做議題釐清和知識語彙對齊，弭平溝通落差，進而促進討論品質。
 
 釐清不同領域的名詞(Ground Term)。
 問出更深度問題(QBQ)。
@@ -650,9 +645,19 @@ https://d.ucsd.edu/srk/papers/2017/GutInstinct-CHI2017.pdf 這篇是 crowdsourci
 #+END_SRC
 [[./images/problem_idenity_flow.png]]
 ** TODO線上意見整理工具 sense.tw
+
+在知識語彙對齊來提升網路討論品質的前提下，數位工具的開發希望能協助網路社群在前期議題設定的議題釐清階段，引入上述期望討論過程，並且工具設計著重在以下兩點：
+1. 回歸原始資料來源
+2. 呈現議題脈絡
+
+此意見整理工具 sense.tw 在敏捷迭代式開發下，經過三個 prototype，兩版產品改版，最終做出
+
+
 來自 Design sprint sketch (連回 design sprint raw documentation)，以 keynote prototype 後測試決策者反應。
 
 Persona -> 4 種 scenario
+
+
 積極公民、會議主持人、政策分析師、決策者
 
 ->
@@ -663,8 +668,13 @@ Persona -> 4 種 scenario
 - 8 月 MVP: annotation + 圖形編輯器、Box/Card
 - 11 月 Beta: 縮放、Card Type 去引導論證、物件關係（edge）
 
-*** 使用情境介紹：
-****  線上非同步整理資料與討論
+定位在
+1. 個人整理大量資訊
+2. 線上非同步協作
+3. 現場會議之數位記錄
+
+*** TODO 使用情境介紹：
+****  個人整理大量資訊
 以整理線上「以核養綠」公投論辯為例
 1. 在原始網頁、pdf 上註解。
 2. 以便利貼、心智圖、論證圖等方式整理資料卡片。
@@ -678,10 +688,7 @@ Persona -> 4 種 scenario
 #+CAPTION: 區塊鏈治理 Unconference - G0V Summit 2018
 [[./images/blockchain_unconf.jpeg]]
 
-*** 工具限制：
-目前還無法即時協作，放在非同步協作
-
-
+*** 應用成果
 #+ATTR_LATEX: :align p{130pt}llllp{120pt} :font \setlength{\tabcolsep}{3pt}
 #+CAPTION:sense.tw 上 2018 年 7 月 7 日至 2018 年 12 月 16 日活躍議題地圖列表清單（本研究製表）
 #+NAME: tbl-sensemap-list
@@ -1036,3 +1043,4 @@ https://medium.com/sense-tw
 p326, 331
 
 [fn:6] 「g0v.tw 是一個推動資訊透明化的社群，致力於開發公民參與社會的資訊平台與工具。」(https://g0v.tw/zh-TW/about.html)
+
