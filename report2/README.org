@@ -1022,11 +1022,10 @@ https://medium.com/sense-tw/tech-issue-policy-meetup-a4694ef34026
 **** 中央政府關心的議題長什麼樣子？
 **** 中央政府底下有很多機關、每個單位關心的議題又各式什麼樣子？
 ** 議題釐清工具相關開發資訊
-*** 工程設計文件
 *** 源碼庫
-1. 前後端源碼: https://github.com/SenseTW/sensetw
-2. Annotation-Enabled web proxy: https://github.com/SenseTW/via
-3. 開發環境: https://github.com/SenseTW/devenv
+0. 設計文件： https://github.com/SenseTW/sensetw/wiki
+1. 前後端源碼： https://github.com/SenseTW/sensetw
+2. Annotation-Enabled web proxy： https://github.com/SenseTW/via
 *** 部落格
 https://medium.com/sense-tw
 *** 過往計畫介紹簡報
