@@ -10,7 +10,6 @@
 #+LATEX_HEADER: \bibliographystyle{plain}
 #+LATEX_HEADER: \bibliography{../references}
 
-* 封面
 * TODO 中文摘要
 #+BEGIN_COMMENT
 字數以 500 字為限，並在其後列名 5 個以內中文關鍵詞。

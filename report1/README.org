@@ -5,7 +5,7 @@
 #+OPTIONS: H:2 num:t toc:t
 #+TOC: tables
 #+STARTUP: content
-* 封面
+
 * TODO 中文摘要
 DEADLINE: <2018-12-28 Fri>
 #+BEGIN_COMMENT
