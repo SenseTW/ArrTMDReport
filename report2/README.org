@@ -8,7 +8,7 @@
 #+LATEX_CLASS_OPTIONS: [12pt,a4paper]
 #+LATEX_HEADER: \input{report.sty}
 #+LATEX_HEADER: \bibliographystyle{plain}
-#+LATEX_HEADER: \bibliography{references}
+#+LATEX_HEADER: \bibliography{../references}
 
 * 封面
 * TODO 中文摘要
@@ -509,7 +509,6 @@ JOIN 平臺則是扮演了接收民眾陳情和提案的窗口，雖有「協作
 需要列出 PO 會議的參考資料來源，訪談？
 Design sprint Day 1 定義問題
 #+END_COMMENT
-
 *** TODO 使用者歷程
 在公民參與流程中的工具位置：
 
@@ -525,7 +524,7 @@ Design sprint Day 1 定義問題
 
 工具須解決的問題與所在流程：
 
-*** DONE溝通落差視閾圖
+*** DONE 溝通落差視閾圖
 
 #+caption: 溝通落差 （本研究製圖）
 #+name: gif:gap1
