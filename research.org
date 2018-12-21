@@ -115,7 +115,7 @@
 4. 倪炎元 (2009)。 公關政治學：當代媒體與政治操作的理論、實踐與批判。台灣。商周。ISBN：9789866472282。
 5. 英國 Office of Government Commerce 是以政府投資成本效益的觀點，對政府活動進行防弊與監管（包括今天提到的mult stakeholders的參與，或整體專案的成本效益風險等衝擊評估），延伸出來的管制評估機制，準則包括Successful Delivery Toolkit與Gateway Process：
 6. UK New Citizen Shifit https://drive.google.com/file/d/0B0swicN11uhbWEJSeDRFeGNMaFk/view?fbclid=IwAR2gaWA7HSgChk4vIc-7cO3Zy348DhiN79v8RV74GqkyWjUTqwrNfbGdvC8
-* 閱讀筆記 [0%]
+* 閱讀筆記 [40%]
 #+TODO: TODO READING READ
 #+BEGIN_COMMENT
 1. What is the problem?
@@ -123,7 +123,8 @@
 3. Why is the problem unsolved?
 4. What is the authors' idea?
 #+END_COMMENT
-** READING 2011 - 鄉民都來了：無組織的組織力量
+** READ 2011 - 鄉民都來了：無組織的組織力量
+CLOSED: [2018-12-21 Fri 17:50]
  :PROPERTIES:
   :Custom_ID: xue11_xiang
   :AUTHOR: 李宇美譯
@@ -203,7 +204,8 @@ cite:huang16
 3. 當今世界危機層出不窮，使越來越多人從原生社會脈絡解離，並被排擠到體制外，轉而藉助看似「平等開放」、「促進直接民主」的數位網絡來聚集社群力量。在另一方面，體制內的人們，也無可避免透過數位網絡來集結，來回應體制外的衝撞。體制內外的人，均不免下意識地服從於數位網絡的工具邏輯。最後，這個發展形塑出的社群性格，將有可能出乎意料地瓦解，人們所欲捍衛的共識與價值，甚至使人不再自由。
 4. 需要的是全局視野，把數位化、全球化、經濟危機、難民潮，乃至於氣候變遷等，放在系統性的脈絡下來考察。
 
-** TODO 2014 - 以專案管理打造公共組織學習的基礎：利害關係人分析法的應用
+** READ 2014 - 以專案管理打造公共組織學習的基礎：利害關係人分析法的應用
+CLOSED: [2018-12-21 Fri 17:50]
  :PROPERTIES:
   :Custom_ID: chen14
   :AUTHOR: chen14
@@ -246,5 +248,17 @@ cite:tsai05
  :END:
 
 cite:luo15_gong
-** 政策議題的定義改變
+*** 利害關係人以及問題界定方法
+*** 腦力激盪法（brainstorming)
+*** 界線分析法（boundary analysis)
+*** 回應建構評估 p.279
+1. 強調跟被評估的政策有關的人，也就是所謂的政策利害關係人之間透過彼此互動與協商的過程，來界定政策評估的範圍與所有的內容。簡單地說，就是『回應政策利害關係人』。 p.279.
+2. 建構主義否定客觀實體的存在。
+3. 主張、關心、議題。解釋/辯證。
+4. 哪些利害關係人？ 生產者。執行或評估者的政策代表。被政策實施損害的人。
+5. 「接續選擇受訪者的標準就不是為了擴大建構意見範圍，而是找到能夠連貫（articulate）這些顯著重要的建構意見之人。」p.284。
+*** 現有公共政策分析之問題
+1. 「侵擾式的民意調查並不能保證受訪者一定會誠實地表達意見。」p.53。
+2. 「過去公共政策的分析仰賴許多經濟或社會指標，但是這些指標經常是落後現時有一段時間。」p.53。
+*** 政策議題的定義改變
 2. issue definition 當政策議題的論調以及定義改變時，它就能引導大眾對於這項政策議題關注的程度的改變，蘊釀了這項政策議題的形象（image），以及制度性場域的改變（instiutional value)。 p.102
