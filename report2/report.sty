@@ -26,6 +26,13 @@
 \titlecontents{section}[0em]{}{第\CJKnumber{\thecontentslabel}章\quad}{}{\titlerule*[1em]{.}\contentspage\vspace{0.7em}}
 \titlecontents{subsection}[24pt]{}{第\CJKnumber{\thecontentslabel}節\quad}{}{\titlerule*[1em]{.}\contentspage}
 
+\newcommand{\loflabel}{圖}
+\newcommand{\lotlabel}{表}
+
+\renewcommand{\numberline}[1]{\loflabel~#1：\hspace*{0.5em}}
+\renewcommand{\numberline}[1]{\lotlabel~#1：\hspace*{0.5em}}
+
+
 \setlength{\parskip}{0.5\baselineskip} %段落間距
 \setlength\parindent{24pt}
 
