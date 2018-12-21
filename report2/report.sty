@@ -8,6 +8,7 @@
 \usepackage{titlesec}
 \usepackage{titletoc}
 \usepackage{CJKnumb}
+\usepackage{indentfirst}
 
 \setCJKmainfont[BoldFont={標楷體}]{標楷體}
 \setmainfont{TeX Gyre Termes}
@@ -25,9 +26,11 @@
 \titlecontents{section}[0em]{}{第\CJKnumber{\thecontentslabel}章\quad}{}{\titlerule*[1em]{.}\contentspage\vspace{0.7em}}
 \titlecontents{subsection}[24pt]{}{第\CJKnumber{\thecontentslabel}節\quad}{}{\titlerule*[1em]{.}\contentspage}
 
+\setlength{\parskip}{0.5\baselineskip} %段落間距
+\setlength\parindent{24pt}
+
 \bibliographystyle{plain}
 \bibliography{../references}
-\parindent=25pt
 \definecolor{contiYellow}{RGB}{255,165,0}
 
 \makeatletter
@@ -79,7 +82,7 @@
               $\square$ 執行國際合作與移地研究心得報告\\
               $\square$ 出席國際學術會議心得報告\\
 
-              \vskip 1.5em
+              \vskip 1.4em
 
               報告處理方式：
               \begin{enumerate}
@@ -90,11 +93,11 @@
               \item 「本研究」是否已有嚴重損及公共利益之發現：$\square$否 $\square$是\\
               \item 「本報告」是否建議提供政府單位施政參考 $\square$否 $\square$是，\underline{\ \ \ \ }（請列舉提供之單位；本會不經審議，依勾選逕予轉送）\\
               \end{enumerate}
-              \vskip 2em
+              \vskip 1.4em
               委託單位：行政院科技會報辦公室\\
               執行單位：計畫分項執行團隊名稱\\
             \end{flushleft}
-            \vskip 2em
+            \vskip 1.4em
             \begin{center}
               中\hspace{12pt}華\hspace{12pt}民\hspace{12pt}國\hspace{60pt}年\hspace{60pt}月\hspace{60pt}日
             \end{center}
