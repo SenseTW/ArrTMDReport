@@ -909,7 +909,7 @@ sense.tw 工具優點：
 ** TODO 線上線下串接案例 [0%]
 前述分別介紹線上意見整理工具 sense.tw 與線下的議題小聚，此節以案例介紹如何串接線上數位工具與線下實體討論，加深網路社群討論科技政策之品質。
 *** TODO Public Money, Public Code
-Public Money, Public Code 為國際開源社群長期推動由政府資助開發的軟體應開放原始碼的運動。在開源人年會（COSCUP）中大高雄 Linux 協會（KaLUG）與樹黨開始討論，於是舉辦之議題工作坊以此為主題進行討論。
+Public Money, Public Code 為國際開源社群長期推動由政府資助開發的軟體應開放原始碼的運動[fn:5]。在開源人年會（COSCUP）中大高雄 Linux 協會（KaLUG）與樹黨[fn:6]開始討論，於是舉辦之議題工作坊以此為主題進行討論。
 
 流程如下：
 **** 先使用 sense.tw 在網路上整理相關問題與討論架構。
@@ -1080,3 +1080,7 @@ https://medium.com/sense-tw
 [fn:3] 敏捷開發宣言連結：https://agilemanifesto.org/principles.html
 
 [fn:4] 「g0v.tw 是一個推動資訊透明化的社群，致力於開發公民參與社會的資訊平台與工具。」(https://g0v.tw/zh-TW/about.html)
+
+[fn:5] 活動由歐洲自由軟體基金會發起，要求制定法律，明訂以公務機關的經費，為公務機關開發的軟體，必須以自由開源軟體授權釋出，截至 2018/12/21 為止全球已有 158 個組織與 19130 個人已經連署公開信表達支持。詳見 https://publiccode.eu/zh-tw/。
+
+[fn:6] 軟體工程師，樹黨發起人，過去曾參選。主要為倡議 Public Money Public Code，撰有〈二十年後的政府軟體〉一文 http://treesparty.tw/2018/06/17/public-money-public-code/。
