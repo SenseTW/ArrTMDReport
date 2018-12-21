@@ -1,10 +1,15 @@
+# -*- mode: org; org-latex-tables-booktabs: t -*-
 #+TITLE: 網路社群與「先禁」政府的戰爭研析與公眾參與建議報告 - 以資訊科技社群與科技政策為例 （草稿）
 #+AUTHOR: 陳信屹
 #+EMAIL: ossug.hychen@gmail.com
 #+LANGUAGE: zh-TW
-#+OPTIONS: H:2 num:t toc:t
+#+OPTIONS: H:2 num:t toc:t ^:nil
 #+TOC: tables
 #+STARTUP: content
+#+LATEX_COMPILER: xelatex
+#+LATEX_CLASS_OPTIONS: [12pt,a4paper]
+#+LATEX_HEADER: \input{../report2/report.sty}
+
 
 * TODO 中文摘要
 DEADLINE: <2018-12-28 Fri>
@@ -67,7 +72,7 @@ DEADLINE: <2018-12-28 Fri>
 
 ** 研究架構
 ** 研究流程
- #+BEGIN_SRC plantuml :results none :file ./images/research_flow.png
+ #+BEGIN_SRC plantuml :results none :file ./images/research_flow.png :exports none
    start
    :文獻檢閱;
    :訪談調查;
@@ -115,6 +120,7 @@ DEADLINE: <2018-12-28 Fri>
 
     #+CAPTION: 資訊來源分類表（本研究製表）
     #+NAME: tbl-source-category-1
+    #+ATTR_LATEX: :font \rowcolors[]{2}{contiYellow!5}{contiYellow!20}
     | 代號 | 名稱                  |
     |------+-----------------------|
     | A    | 學術期刊/重要科學雜誌 |
@@ -123,6 +129,7 @@ DEADLINE: <2018-12-28 Fri>
 
     #+CAPTION: 資訊來源子分類表（本研究製表）
     #+NAME: tbl-source-category-2
+    #+ATTR_LATEX: :align llp{240pt} :font \rowcolors[]{2}{contiYellow!5}{contiYellow!20}
     | 代號 | 名稱                    | 案例標題                                                                                                                       |
     |------+-------------------------+--------------------------------------------------------------------------------------------------------------------------------|
     | A1   | 學術期刊                | Crowdsourcing, Citizen Science or Volunteered Geographic Information? The Current State of Crowdsourced Geographic Information |
@@ -161,7 +168,8 @@ Etienne Wenger（2003）稱呼這類通過對特殊活動或興趣分享專業�
  綜上述，大致上網路社群有兩種生命週期，一種是以興趣為導向，以實作和數位資產為基礎的實踐社群，以開源社群為例；另一種是議題導向的倡議社群，例如從關注特定議題的粉絲頁到發起遊行抗議。許多社群至凝聚期時已有相當影響力與網路聲量，卻因行政成本考量不一定會走到有法人形式的營運期，造成這些社群的聲音很難被納入政策諮詢過程中，也無法有明確的組織授權任何人代表那個社群。
 *** 實踐社群
    #+CAPTION: 實踐社群的生命週期（本研究製表）
-   #+NAME: tb-community-of-practice-lifecycle
+   #+NAME: tbl-community-of-practice-lifecycle
+   #+ATTR_LATEX: :align lp{80pt}llp{86pt}p{86pt} :font \rowcolors[]{2}{contiYellow!5}{contiYellow!20} \footnotesize \setlength{\tabcolsep}{3pt}
    | 特性/階段 | 萌芽期             | 發起期       | 凝聚期       | 擴大推廣期       | 營運期                        |
    |-----------+--------------------+--------------+--------------+------------------+-------------------------------|
    | 關鍵活動  | 網路上分享特定知識 | 共有數位資產 | 定期實體聚會 | 定期大型活動     | 成立人民團體                  |
@@ -171,7 +179,8 @@ Etienne Wenger（2003）稱呼這類通過對特殊活動或興趣分享專業�
    | 案例      |                    |              |              | COSCUP、MOPCON、 | 開放文化基金會 、自由軟體協會 |
 *** 議題社群
    #+CAPTION: 議題社群的生命週期（本研究製表）
-   #+NAME: tb-community-of-issue-lifecycle
+   #+NAME: tbl-community-of-issue-lifecycle
+   #+ATTR_LATEX: :align llp{80pt}p{80pt}p{80pt}p{80pt} :font \rowcolors[]{2}{contiYellow!5}{contiYellow!20} \footnotesize \setlength{\tabcolsep}{3pt}
    | 特性/階段 | 萌芽期        | 發起期                                       | 凝聚期                  | 擴大推廣期                              | 營運期                        |
    |-----------+---------------+----------------------------------------------+-------------------------+-----------------------------------------+-------------------------------|
    | 關鍵活動  | 罵文/釐清議題 | 分享相關政策/報導/學術文獻、成立粉絲頁、群組 | 定期讀書會/行動策略討論 | 倡議/遊說/開記者會/遊行等等定期大型活動 | 協會/基金會                   |
@@ -248,6 +257,8 @@ Etienne Wenger（2003）稱呼這類通過對特殊活動或興趣分享專業�
 獲知不同領域觸及目標對象的方法。
 *** 訪談對象
 電商從業人員、國際非營利組織議題行銷人員、服務設計從業人員、專案管理員、專家議舉辦方如何找外部專家。
+#+NAME: tbl-interview-list
+#+ATTR_LATEX: :align llp{110pt}p{110pt} :font \rowcolors[]{2}{contiYellow!5}{contiYellow!20}
 | 編號 | 專業領域 | 訪問對象類別             | 問題意識                         |
 |------+----------+--------------------------+----------------------------------|
 |    1 | 市場定位 | 產品經理、 產品行銷      | 電商怎麼判斷一個新產品會有人買?  |
