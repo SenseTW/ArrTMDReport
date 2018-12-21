@@ -357,6 +357,7 @@ ael: 我要找一下我手上好像有 agile 用在政府運作的文獻。
 
 #+END_COMMENT
 ** TODO 網路公共討論品質
+*** 網路的功與過
 人類社會開始有越來越多 Digital Twin 有什麼問題？
 1. 知識演化越來越快，不在同溫層的人溝通上難以對焦。
 2. 注意力/資訊碎片化 - 釐清一件完全沒接觸的事情越來越難。
@@ -384,6 +385,8 @@ iterating knowledge maps over only four users allowed a collectively-generated s
 宜靜的 Reflection model
 結論：有哪幾個要素是提升網路討論品質的關鍵
 #+END_COMMENT
+*** 如何提升討論品質
+citep*:davies10 解釋論述圖（argument map）與概念圖（concept map），心智圖（Mind Map）的不同。
 ** TODO 網路社群作為利害關係人
 *** 網路社群的文化與如何建立
 #+name: gif:community_building

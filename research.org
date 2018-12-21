@@ -115,7 +115,7 @@
 4. 倪炎元 (2009)。 公關政治學：當代媒體與政治操作的理論、實踐與批判。台灣。商周。ISBN：9789866472282。
 5. 英國 Office of Government Commerce 是以政府投資成本效益的觀點，對政府活動進行防弊與監管（包括今天提到的mult stakeholders的參與，或整體專案的成本效益風險等衝擊評估），延伸出來的管制評估機制，準則包括Successful Delivery Toolkit與Gateway Process：
 6. UK New Citizen Shifit https://drive.google.com/file/d/0B0swicN11uhbWEJSeDRFeGNMaFk/view?fbclid=IwAR2gaWA7HSgChk4vIc-7cO3Zy348DhiN79v8RV74GqkyWjUTqwrNfbGdvC8
-* 閱讀筆記 [40%]
+* 閱讀筆記 [50%]
 #+TODO: TODO READING READ
 #+BEGIN_COMMENT
 1. What is the problem?
@@ -262,3 +262,29 @@ cite:luo15_gong
 2. 「過去公共政策的分析仰賴許多經濟或社會指標，但是這些指標經常是落後現時有一段時間。」p.53。
 *** 政策議題的定義改變
 2. issue definition 當政策議題的論調以及定義改變時，它就能引導大眾對於這項政策議題關注的程度的改變，蘊釀了這項政策議題的形象（image），以及制度性場域的改變（instiutional value)。 p.102
+** READ 2010 - Concept mapping, mind mapping and argument mapping: what are the differences and do they matter?
+CLOSED: [2018-12-21 Fri 19:35]
+ :PROPERTIES:
+  :Custom_ID: davies10
+  :AUTHOR: Davies
+  :JOURNAL: Higher Education
+  :YEAR: 2010
+  :VOLUME: 62
+  :PAGES: 279–301
+  :DOI: 10.1007/s10734-010-9387-6
+  :URL: http://dx.doi.org/10.1007/s10734-010-9387-6
+ :END:
+
+cite:davies10
+*** Waht is the problem?
+mind map, concept map, arg map 常被搞混。
+*** Why is the problem interesting?
+1. Define mind map, concept map, arg map clearlly. we aim to develop a mapping tool for help crowd to understand issue deeply.
+2. 解釋心智圖、概念圖、論述圖之差別，以及 mapping tool 對學習有幫助。
+*** Why is the problem unsolved?
+n/a
+*** What is the authors' idea?
+1. 提出知識圖 - (心智圖 + 概念圖 + 論述圖)。
+*** related work
+1. tiddly wiki.
+2. org-brain.
