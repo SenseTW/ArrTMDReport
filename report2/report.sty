@@ -5,6 +5,9 @@
 \usepackage[table]{xcolor}
 \usepackage{colortbl}
 \usepackage{siunitx}
+\usepackage{titlesec}
+\usepackage{titletoc}
+\usepackage{CJKnumb}
 
 \setCJKmainfont[BoldFont={標楷體}]{標楷體}
 \setmainfont{TeX Gyre Termes}
@@ -12,6 +15,15 @@
 \renewcommand\figurename{圖}
 \renewcommand{\contentsname}{目次}
 \renewcommand{\listtablename}{表次}
+%\renewcommand{\thechapter}{\arabic{chapter}}
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{\arabic{subsection}}
+\titleformat{\section}{\center\bf\large}{第\CJKnumber{\arabic{section}}章}{1em}{}
+\titleformat{\subsection}{\bf}{第\CJKnumber{\arabic{subsection}}節}{1em}{}
+\titleformat{\subsubsection}{\bf\normalsize}{\arabic{(subsubsection})、}{1em}{}
+%%\addcontentsline{toc}{章節名}{標題}
+\titlecontents{section}[0em]{}{第\CJKnumber{\thecontentslabel}章\quad}{}{\titlerule*[1em]{.}\contentspage\vspace{0.7em}}
+\titlecontents{subsection}[24pt]{}{第\CJKnumber{\thecontentslabel}節\quad}{}{\titlerule*[1em]{.}\contentspage}
 
 \bibliographystyle{plain}
 \bibliography{../references}
