@@ -232,3 +232,19 @@ cite:chen14
 cite:tsai05
 *** 重點
 1. 回顧實證/後實證理論，並反思公共政策因由下而上制訂。
+
+** TODO 2015 - 公共政策：現象觀察與實務操作
+ :PROPERTIES:
+  :Custom_ID: luo15_gong
+  :AUTHOR: 羅清俊
+  :JOURNAL:
+  :YEAR: 2015
+  :VOLUME:
+  :PAGES: 400
+  :DOI:
+  :URL:
+ :END:
+
+cite:luo15_gong
+** 政策議題的定義改變
+2. issue definition 當政策議題的論調以及定義改變時，它就能引導大眾對於這項政策議題關注的程度的改變，蘊釀了這項政策議題的形象（image），以及制度性場域的改變（instiutional value)。 p.102
