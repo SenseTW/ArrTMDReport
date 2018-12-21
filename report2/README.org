@@ -1,3 +1,4 @@
+# -*- mode: org; org-latex-tables-booktabs: t -*-
 #+TITLE: 如何促進科技社群網路參與科技政策討論建議報告 - 以資訊科技社群為例 (草稿)
 #+AUTHOR: 陳信屹、簡韻真、黃凱蘭
 #+LANGUAGE: zh-TW
@@ -205,6 +206,7 @@ stakeholder identification
 
 #+caption: 訪談對象及訪談形式（本研究製表）
 #+name: tbl:interview-list
+#+ATTR_LATEX: :font \rowcolors[]{2}{contiYellow!5}{contiYellow!20}
 | 代號  | 分類             | 訪談時間                 | 形式             |
 |-------+------------------+--------------------------+------------------|
 | NPC1  | 社群專家         | 2017/12/21 7:30-9:30pm   | 訪談             |
@@ -332,7 +334,8 @@ ael: 我要找一下我手上好像有 agile 用在政府運作的文獻。
 - 專案開發: https://github.com/SenseTW
 - 電子郵件群組: https://groups.google.com/d/forum/sensetw
 
-#+ATTR_LATEX: :align lp{110pt}p{110pt}
+#+NAME: tbl:output-right-list
+#+ATTR_LATEX: :align l|p{110pt}|p{110pt} :font \rowcolors[]{2}{contiYellow!5}{contiYellow!20}
 | 著作物                    | 連結                                | 授權                                                                  |
 |---------------------------+-------------------------------------+-----------------------------------------------------------------------|
 | sense.tw 程式碼與介面設計 | https://github.com/SenseTW/sensetw/ | MIT[註解]                                                             |
@@ -723,7 +726,7 @@ sense.tw 可直接在網頁和 pdf 文件上畫重點註記。在此案例中使
 *** DONE 應用成果
 #+caption: sense.tw 上 2018 年 7 月 7 日至 2018 年 12 月 16 日活躍議題地圖列表清單（本研究製表）
 #+name: tbl:sensemap-list
-#+attr_latex: :align p{130pt}llllp{120pt} :font \setlength{\tabcolsep}{3pt}
+#+attr_latex: :align p{130pt}llllp{204pt} :font \setlength{\tabcolsep}{3pt} \rowcolors[]{2}{contiYellow!5}{contiYellow!20}
 |Page Title|PV.        |UPV.              |Avg.      |小聚	  |Page Link|
 |-------------|--------|-------|-------|-------|-------|
 |女性主義者給問嗎|	3561|	1389|	0:55|	|	https://sense.tw/map/741258c1-ad77-4701-8220-cfa887ec3a75|
@@ -764,6 +767,8 @@ sense.tw 工具優點：
 **** 應用場景
 議題小聚的應用場景建議以數位原生代為主體，配合在地社群合辦，解決場地與會眾問題。討論主題貼近與會者生活要能引起共鳴。以下以「人事時地物」五個面向來說明。
 
+#+name: tbl:meetup-PTTLT
+#+attr_latex: :font \rowcolors[]{2}{contiYellow!5}{contiYellow!20}
 | 面向 | 說明                                                         |
 |------+--------------------------------------------------------------|
 | 人   | 建議對象為科技從業人員或是高中或大專學生                |
@@ -847,7 +852,8 @@ sense.tw 工具優點：
 
 主持人開場與介紹儘量簡短，並快速的說明便利貼顏色規則。
 
-#+tabname: map-data-input-filter
+#+NAME: tbl:map-data-input-filter
+#+attr_latex: :font \rowcolors[]{2}{contiYellow!5}{contiYellow!20}
 |   | 資料輸入種類 | 顏色 |
 |---+--------------+------|
 |   | 問題         | 紅色 |
@@ -881,7 +887,7 @@ sense.tw 工具優點：
 *** DONE 應用成果
 截至 2018 年 12 月 20 日為止，共計舉辦 9 場議題小聚如下表。初期由本團隊發起並主動接洽北中南資訊社群，討論主題如：區塊鍊、數位治理，並且使用本計劃開發之意見整理工具 sense.tw 做數位紀錄，數位工具之紀錄使實體之討論可擴散給更多關心此議題的社群參與者，及非同步協作補充資料。在 2018 年底開始造成社群擴散效應，有資訊社群主動聯絡自行發起議題小聚，如學生計算機年會 SITCON 參與者發起「資訊教育」議題小聚；李梅樹紀念館發起在台北舉辦「文化組織如何數位開放」，並將於 2019 年持續在台北、台中舉辦延續之議題小聚討論文化組織之資訊系統標案。
 
-#+ATTR_LATEX: :align p{80pt}lllp{70pt}lp{90pt}l :font \scriptsize \setlength{\tabcolsep}{3pt}
+#+ATTR_LATEX: :align p{80pt}lllp{70pt}lp{90pt}l :font \scriptsize \setlength{\tabcolsep}{3pt} \rowcolors[]{2}{contiYellow!5}{contiYellow!20}
 #+CAPTION:議題小聚活動列表清單（本研究製表）
 #+NAME: tbl:meetup-list
 | 活動名稱                           | 日期       | 人數     | 地區     | 參與者背景                                                                 | 年齡   | 記錄連結                                                  | 網路擴散                  |
@@ -1033,7 +1039,8 @@ https://medium.com/sense-tw
 *** 對公部門介紹何為網路社群應如何比喻
 透過宗教信仰的比喻，對較少數位協作經驗、沒有社群經驗的的人員建構對網路社群的想像。
 **** 語彙轉譯表
-     #+ATTR_LATEX: :align p{228pt}p{120pt} :font \setlength{\tabcolsep}{6pt}
+     #+NAME: tbl:word-translate
+     #+ATTR_LATEX: :align p{228pt}p{120pt} :font \setlength{\tabcolsep}{6pt} \rowcolors[]{2}{contiYellow!5}{contiYellow!20}
     | 轉譯前                                                                       | 轉譯後                            |
     |------------------------------------------------------------------------------+-----------------------------------|
     | 如何找出一個網路社群常用來討論的數位工具在哪？                                | 廟在哪裡?                         |
@@ -1055,6 +1062,9 @@ https://medium.com/sense-tw
 *** 對網路社群介紹科技會報跟科技部的不同
 *** 對網路社群介紹行政部門如何分類議題的層次
     每個層級的長官關心的議題大小不同，以政務委員為例，頂多看到第二級。
+
+    #+NAME: tbl:watch-level
+    #+attr_latex: :font \rowcolors[]{2}{contiYellow!5}{contiYellow!20}
    | 層次   | 關心議題的動機                               | 長官      |
    |--------+----------------------------------------------+-----------|
    | 第一級 | 這議題會影響到臺灣嗎？ 哪些部會要出來負責 ？ | 院長/政委 |

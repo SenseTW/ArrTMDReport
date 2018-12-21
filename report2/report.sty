@@ -1,13 +1,22 @@
 \usepackage{fontspec}
 \usepackage{xeCJK}
 \usepackage{times}
+\usepackage{booktabs}
+\usepackage[table]{xcolor}
+\usepackage{colortbl}
+\usepackage{siunitx}
+
 \setCJKmainfont[BoldFont={標楷體}]{標楷體}
 \setmainfont{TeX Gyre Termes}
 \renewcommand\tablename{表}
 \renewcommand\figurename{圖}
+\renewcommand{\contentsname}{目次}
+\renewcommand{\listtablename}{表次}
+
 \bibliographystyle{plain}
 \bibliography{../references}
 \parindent=25pt
+\definecolor{contiYellow}{RGB}{255,165,0}
 
 \makeatletter
 \renewcommand\tableofcontents{%
