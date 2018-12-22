@@ -361,6 +361,9 @@ stakeholder identification
 *** TODO 溝通缺口
 ~說明報告一講的缺口跟落差~
 ** TODO 線上公民與政治參與的功與過
+Why 要做線上？
+
+網路原生代的思考方式和行為跟傳統線下參與不同。
    ~講網路的功與過~
 
 線上公民參與有何好處與壞處
@@ -488,7 +491,9 @@ XX 肯定政府機關提供資料還算充分可以了解議題。
 
 
 #+END_COMMENT
-** TODO 共識為基礎的線上民主模式
+** TODO 共識
+why 要crowd sourcing 做線上？用集體意志，community 不能挑一個頭出來用。
+為基礎的線上民主模式
 ~說明 new citizen shift~
 資訊科技發展促使資訊外顯化及資訊社會結構改變屬必然歷程。
 
@@ -504,6 +509,12 @@ XX 肯定政府機關提供資料還算充分可以了解議題。
 4. Bluetooth -  Working Group Best Practices – Quick Process Overview
 5. Wikipidia
 ** TODO 數位工具的幫助與限制
+用怎樣的數位工具解決這個問題？
+
+有哪些 feature 可以做到什麼？
+
+目前的工具為何不能用。
+
 ~說明 網路論戰以及如何提升討論品質~
 
 ~介紹打臉文化跟怎麼處理酸民~
@@ -528,15 +539,19 @@ citep*:mahyar18
 crowd.law/crowdlaw-af1a9e1c9455o
 
 ~說明 knowledge map~
+social media 上，對公民參與才會有比較顯著的影響力，要解決那邊的討論品質和頻率。
 
+crowd sourcing 可以解決 knowledge gap
 citep*:hahn16
 
 citep*:davies10
 
 ~guide new people to ask deep questions~
 citep*:malhotra17
-
+對議題不熟悉的人很難問出好的問題
 ~說明 micro acivity可增加參與意願~
+knowledge map 很花時間
+micro activity 可以增加大家的參與意願。
 citep*:malhotra17
 
 citep*:xueji11_xia
@@ -544,7 +559,7 @@ citep*:xueji11_xia
 citep*:xue11_xiang
 
 ~說明 recursive summary and tagging 可以幫助降低雜訊增加理解議題架構~
-
+資料量過多所以...
 citep*:zhang17
 
 citep*:zhang18
@@ -552,11 +567,13 @@ citep*:zhang18
 ~說明 thread-based could help 看出討論的廣度與深度~
 https://docs.google.com/presentation/d/1fHpUkaGRxEn-J2g7YQQyeY4hL7JlMJhXL1GaLSLxlDM/edit#slide=id.g41f77fd02e_1_195
 
+可以看出哪個議題是群眾比較關心的東西。
 ~說明 要凝聚社群增加議事資本、工具要等到變成常見的通用工具才能發揮效益~
-
-~說明 sensmatic web and linked-data 可帶來的幫助~
+knowledge map 也可以看出廣度和深度。
+數位工具是凝聚社群的 baseline，增加議事資本和代表性
 
 ~相關工具比較~
+knowledge map 和工具往後放到 journey map 做比較。
 
 | Name                       | Website                          |
 |----------------------------+----------------------------------|
