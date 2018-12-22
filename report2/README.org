@@ -208,7 +208,7 @@ stakeholder identification
 *** DONE 文獻檢閱
 文獻檢閱主要為國內外網路參與機制、如何提升網路言論品質、網路社群作為利害關係人三大部分，與服務設計中的使用者經驗設計作為開發解決方案之主要方法論。在期刊文獻專著之外，本研究大量參考網路社群原生之文本、使用者中心之產品開發設計，目的為產出可促進數位原民討論品質之實用產品或服務為目的。
 *** TODO 使用者訪談
-以「滾雪球抽樣」（snowball sampling）方式，在網路資訊社群參與科技政策的流程中，會參與的不同角色之人員進行訪談，涵括積極公民、NGO 工作者、網路社群專家、政策分析師、審議主持人、政黨智庫、法人承辦、部會幕僚、高層事務官、外部顧問、政務官等，以此為依據產出使用者畫像（persona）、服務藍圖（service blueprint）、使用者旅程（journey map）、用途故事（Job Story）等使用者經驗分析，挖掘既有科技政策形成與網路參與機制中溝通落差的痛點與待解問題，從而設計試作線上線下整合線上參與機制後，進一步拿產品做使用者測試。
+以「滾雪球抽樣」（snowball sampling）方式，在網路資訊社群參與科技政策的流程中，會參與的不同角色之人員進行訪談，涵括積極公民、NGO 工作者、網路社群專家、政策分析師、審議主持人、政黨智庫、法人承辦、部會幕僚、高層事務官、外部顧問、政務官等，以此為依據產出使用者畫像（persona）、服務藍圖（service blueprint）、顧客歷程（customer journey map）、用途故事（Job Story）等使用者經驗分析，挖掘既有科技政策形成與網路參與機制中溝通落差的痛點與待解問題，從而設計試作線上線下整合線上參與機制後，進一步拿產品做使用者測試。
 
 本研究主要透過訪談回顧歷年網路公民參與機制的設計與困難，部分受訪者選擇匿名不公開。
 訪綱見附錄。
@@ -216,18 +216,12 @@ stakeholder identification
 #+CAPTION: 訪談對象及訪談形式（本研究製表）
 #+name: tbl:interview-list
 #+ATTR_LATEX: :font \rowcolors[]{2}{contiYellow!5}{contiYellow!20}
-*** TODO 設計敏捷方法（Design Sprint Method）
+*** TODO 設計敏捷方法
 設計敏捷方法 （Design Sprint Method）cite:jake16 是由 Google 提出並且於內部實踐受到歡迎。概念基礎來自於敏捷開發（Agile）、設計思考（Design Thinking）與革新遊戲法（Gamestorming）。讓團隊在五天內定義關鍵問題和目標、大量發想產品解法、決定發展方向、做出原型、使用者測試。（須改寫或標註引用來源）五天的 Design Sprint 適合團隊一起挑戰高風險的問題，並且願意從新的角度思考產品，在最短的時間內完整發想又驗證產品構想。比一兩天的工作坊更能完整盤點想法並實際動手測試，又不需等待一個月的開發期才能做使用者驗證。
 
-本研究使用這個方法探索「科技政策如何在前期規劃納入更多民間專家的建設性意見」的可能性方案。本團隊則依團隊狀況微調工作坊進行形式，以下為微調形式。
+本研究使用這個方法探索「 *科技政策如何在前期規劃納入更多民間專家的建設性意見* 」的可能性方案。本團隊則依團隊狀況微調工作坊進行形式，以下為微調形式。
 
-#+BEGIN_COMMENT
-找一下中文書封和介紹詞。
-
-(放 design sprint 五天的流程圖)
-
-#+END_COMMENT
-事前準備（待補）
+~找一下中文書封和介紹詞。(放 design sprint 五天的流程圖)。事前準備（待補）~
 
 週一團隊選擇要解決問題的關鍵節點，並安排週五的受試者，目的是為了找出問題關鍵，之後的點子發想與原型才能切合問題。
 1. 列出現有服務的 actor 如何達到想要的關鍵結果的流程，視覺化在白板上
@@ -263,63 +257,12 @@ stakeholder identification
 1. 測試五個使用者
 2. 除了訪談團隊外，需直播讓其他團隊成員觀看並且記下觀察到的反應。
 3. Look for pattern
-#+BEGIN_COMMENT
-1. 要把英文的部分中文化
-2. Design Sprint 記錄可以放附錄
-#+END_COMMENT
-*** DONE 服務藍圖（Service Blueprint）
+~要把英文的部分中文化。Design Sprint 記錄可以放附錄。~
+*** DONE 服務藍圖
 服務藍圖是一套以圖表形式呈現目標對象經歷一串（服務）流程中，整體環境中的各項互動因子間互動模式、接觸點、關係人角色與其他參與人員盤點出來的設計工具。1984年 Shostack 在哈佛商業評論提出以服務藍圖(Service Blueprinting)檢視服務產出之過程。服務藍圖幫助我們釐清整個過程中，每個參與人員扮演的角色、執行的動作、接觸的工具、互動的模式。透過服務藍圖工具，我們可以視覺化目標對象在做議題倡議時經歷的過程，幫助我們看到倡議民眾在過程中的哪些環節上遇到困難，並提出對應的改善方案。
-
-#+BEGIN_COMMENT
-待補文獻
-#+END_COMMENT
-
-*** DONE 顧客歷程（Customer Journey Map）
+~待補文獻~
+*** DONE 顧客歷程
 顧客旅程圖相較於服務藍圖，能讓過程中的接觸點看得到，並對觸點作評估管理。顧客旅程圖與服務藍圖不同之處在於，顧客旅程圖聚焦的範圍目標放在顧客在流程裡執行的動作與執行動作的接觸點上。除了詳細盤點觸點之外，同時也會考慮顧客在每個「行動」甚至「關鍵時刻」時的「目標」、「動機」、「情緒感受」，從釐清每個動作的動機目標與執行時的感受，讓我們能以客觀的視角，找到改善流程的著力點。
-** DONE 線上線下整合網路參與機制設計開發與驗證[100%]
-以前述使用者經驗設計的訪調與分析為基礎，滾動式設計開發線上線下整合網路參與機制，捨棄傳統瀑布流開發方式，使用網路業快速回應使用者需求常用的敏捷開發法（agile development） cite:agile_development ，透過使用者驗證不斷調整產品開發方向，避免按照一年前制定的規格一路做下去最後才發現不符合實際使用者需求。
-
-本團隊亦將所設計之解決方案皆開源（open source），讓公眾亦可加入開發、散佈、改作，並且架設協作平台讓網路社群得以參與機制之開發與回饋。
-*** DONE 精實創業與敏捷開發以滾動式修正
-
-在設計開發線上線下整合網路參與機制中，本團隊遵循敏捷開發宣言 cite:agile_development ：
-
-#+BEGIN_QUOTE
-藉著親自並協助他人進行軟體開發，我們正致力於發掘更優良的軟體開發方法。透過這樣的努力，我們已建立以下價值觀:
-
-個人與互動 重於 流程與工具
-可用的軟體 重於 詳盡的文件
-與客戶合作 重於 合約協商
-回應變化 重於 遵循計劃
-
-也就是說，雖然右側項目有其價值，但我們更重視左側項目。
-#+END_QUOTE
-
-在不斷回應變化與跟使用者合作的參與機制開發中，本團隊亦參考「精實創業」 cite:lai17_jing 一書中最小可行性產品（Minimal Valuable Product，MVP）、使用者測試驗證產品假說之概念，在產品開發初期即製作原型測試（prototype testing），並且開發最小可行性產品後即推出讓使用者測試，根據使用者回饋不斷修改產品功能與參與機制設計。
-
-此回饋修正週期為兩個禮拜，採取 「SCRUM」cite:sutherland18_scrum 開發模式，採取兩個禮拜為一個衝刺週期（sprint）的方式，每個衝刺週期由團隊一起回顧驗收上個衝刺週期的成果、使用者回饋與改善工作流程開始，接著依產品負責人排定的產品開發需求，由開發人員評估工作量與分配工作，在一個衝刺週期中「排定的事項不能改變，也不能再加入東西。團隊必須要在衝刺期間自主工作，以完成自己預測可完成的事項。」[[citep:sutherland18_scrum][p. 328]] 每個衝刺週期須交付使用者具有價值的產出，詳細開發進度可見團隊在 GitHub 上 Milestone 的工作記錄。[fn:2]
-
-#+BEGIN_COMMENT
-接政府計劃還是可以 Sprint Review & Planning https://medium.com/sense-tw/sprint-review-planning-73e370bb4633
-#+END_COMMENT
-*** DONE 開源社群參與
-本團隊所設計開發的解決方案亦為開源（open source），在開發過程中即將所開發的程式碼、圖像介面設計、公開文字產出（部分訪談內容、部落格、數位原民參與手冊）、介紹影片等，以開放授權方式公開在網路上讓任何人可散佈、改作。本團隊並且與網路社群共同協作，在 GitHub 平台公開開發進與收集問題回報，在 g0v 臺灣零時政府社群[fn:3]的 Slack 討論平台上讓任何人可加入開發相關討論，並線下參與 g0v 黑客松與其年會、參與 COSCUP[fn:4] 開源人年會等活動與網路社群交流共同協作。並以集客式行銷（inbound marketing）方式撰寫部落格，以吸引對此線上線下整合網路參與機制有興趣之網路閱聽眾，參與協作開發與使用。
-
-協作入口：
-- 即時訊息討論： https://join.g0v.tw , channel #sense；討論紀錄：https://g0v-slack-archive.g0v.ronny.tw/index/channel/C7D8SL96V
-- 專案開發: https://github.com/SenseTW
-- 電子郵件群組: https://groups.google.com/d/forum/sensetw
-
-#+NAME: tbl:output-right-list
-#+ATTR_LATEX: :align l|p{110pt}|p{110pt} :font \rowcolors[]{2}{contiYellow!5}{contiYellow!20}
-| 著作物                    | 連結                                | 授權                                                                  |
-|---------------------------+-------------------------------------+-----------------------------------------------------------------------|
-| sense.tw 程式碼與介面設計 | https://github.com/SenseTW/sensetw/ | MIT[fn:5]                                                           |
-| 數位原民參與手冊          | https://sense.gitbook.io/guides/    | CC BY-SA 3.0 台灣- 財團法人開放文化基金會[fn:6]                 |
-| 部落格                    | https://medium.com/sense-tw/        | CC BY-SA 4.0 International[fn:7] |
-
-~詳細技術文件與開發方式請見附錄（附錄幾啊？）~
-
 * TODO 文獻檢閱 [0%]
 本章回顧「線上公民與政治參與的功與過」以及「數位工具的幫助與限制」作為研究背景。
 ** TODO 線上公民與政治參與的功與過
@@ -454,9 +397,8 @@ XX 肯定政府機關提供資料還算充分可以了解議題。
 
 
 #+END_COMMENT
-** TODO 共識
+** TODO 共識為基礎的線上民主模式
 why 要crowd sourcing 做線上？用集體意志，community 不能挑一個頭出來用。
-為基礎的線上民主模式
 ~說明 new citizen shift~
 資訊科技發展促使資訊外顯化及資訊社會結構改變屬必然歷程。
 
@@ -536,25 +478,11 @@ https://docs.google.com/presentation/d/1fHpUkaGRxEn-J2g7YQQyeY4hL7JlMJhXL1GaLSLx
 knowledge map 也可以看出廣度和深度。
 數位工具是凝聚社群的 baseline，增加議事資本和代表性
 
+~Semantic Web, SEO-ready~
+
 ~相關工具比較~
-knowledge map 和工具往後放到 journey map 做比較。
-
-| Name                       | Website                          |
-|----------------------------+----------------------------------|
-| Rational                   | https://www.rationaleonline.com/ |
-| Argunet                    | http://www.argunet.org/          |
-| Argument Analysis Platform | https://en.arguman.org/          |
-| Consul                     | http://consulproject.org/en/     |
-| Sligrid                    | https://sligrid.com/             |
-| Milkr                      | https://milkr.io/                |
-| Minanote                   | https://minanote.com             |
-| Realtime Board             | https://realtimeboard.com/       |
-| The Brain                  | https://thebrain.com             |
-| Coggle                     | https://coggle.com               |
-| Tiddly Wiki                |                                  |
-
 * TODO 社群視角的科技政策參與途徑分析 [75%]
-** DONE Design Sprint 問題定義與原型開發
+** DONE 設計敏捷方法問題定義與原型開發
 延續文獻檢閱之結論，本研究試圖在既有網路參與機制下，提升網路公共討論品質，並讓網路社群作為利害關係人參與政策制定。在設計敏捷方法工作坊中，收斂出來的關鍵問題為「如何在政策規劃前期以有效方法彙整實踐社群之客觀事實提出建設性意見」，再根據訪談科技社群、分析師、智庫分析師等人的結果，初步畫出社群視角的政策制定流程圖 ref:gif:design-sprint-map ，試圖在此流程圖中找到關鍵環節切入，設計工具與機制。
 
 #+caption: Design Sprint Map （本研究製圖）
