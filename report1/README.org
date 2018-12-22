@@ -216,29 +216,6 @@ Etienne Wenger（2003）稱呼這類通過對特殊活動或興趣分享專業�
   4. 對未來研究的建議。
   #+END_COMMENT
 ** 建議
-* TODO 參考文獻
-** 中文部分
-  1. 李宇美譯（2011）。鄉民都來了：無組織的組織力量。臺北市。貓頭鷹出版。譯自Clay Shirky. Here Comes Everybody: The Power of Organizing Without Organizations. New York: Penguin Group. 2008.
-  2. 羅清俊（2015）。公共政策：現象觀察與實務操作。台灣。揚智。ISBN：9789862981955。
-  3. 劉宜君、陳敦源、蕭乃沂、林昭吟（2005）。網絡分析在利害關係人概念之應用以我國全民健保政策改革為例。台灣社會福利學刊。200506 （4:1期）。95-130。
-  4. 陳敦源、劉宜君、蕭乃沂、林昭吟（2011）。政策利害關係人指認的理論與實務：以全民健保改革為例。元智。
-  5. 羅凱凌（2017）公共參與真的能提升效能感嗎？ 以全民健康保險會之利害關係團體參與為例。公共行政學報。
-  6. 羅凱凌（2017）誰說了算？台灣全民健康保險會利害關係人政策參與之個案研究。台灣民主季刊。
-  7. 鄭婷宇（2017）。鍵盤參與：從「零時政府」檢視黑客社群開源協作式的公民參與。國立臺灣大學政治學研究所碩士論文，台北市。 取自https://hdl.handle.net/11296/q8j7n6。
-  8. 廖洲棚、廖興中、黃心怡（2018）。開放政府服務策略研析調查： 政府資料開放應用模式評估與 民眾參與公共政策意願調查。受委託單位：電子治理研究中心。國家發展委員會編印。NDC-MIS-106-003。
-  9. 曾柏文（2014）。經貿國是會議代表了誰？── 主題設定、組織邏輯，與綜整結論的批判。 取自 https://opinion.cw.com.tw/blog/profile/220/article/1728。 2018/10/15取得。
-  10. 上報（2018）。G0V年會】 國是會議成了「許願天燈」　司改進度追蹤難落實。取自https://www.upmedia.mg/news_info.php?SerialNo=49818。 2018/10/16取得。
-  11. 羅耀宗譯（2016）。就業的終結：你的未來不屬於任何公司。台灣。天下。譯自Taylor Pearson. THE END OF JOBS:Money, Meaning and Freedom without the 9-to-5. 2016.
-  12. 林芳本（2013）。台灣軟體產業的失落十年。 取自https://leanpub.com/the-lost-ten-years-of-taiwan-software-industry。
-  13. 蕭美惠譯（2017）。破壞性創新的兩難。台灣。商周。譯自Joshua Gans. The Disruption Dilemma. 2017.ISBN:9789864772049.
-  14. 葛皇濱（2004）。叛碼或國碼？—台灣自由軟體運動的發展與挑戰（1991-2004）。國立清華大學歷史研究所碩士論文，新竹市。 取自https://hdl.handle.net/11296/d6crdd。
-  15. 王宏泰（2011）。序文 ──  社會圖像的建構。收錄於胡曉真、王鴻泰編（2011）。日常生活的論述與實踐。台北。允成文化實業股份有限公司。ISBN: 97809860627405508。
-  16. 許瑞宋譯（2014）。數位麵包屑裡的各種好主意 社會物理學 —— 剖析意念傳播方式的新科學。譯自 Alex Pentland. Social Physics - How Good Ideas Spread - The Lessons from New Sciense.
-  17. 黃維譯（2003）。實踐社群 － 推動學習組織之輪。天下。譯自Etienne Wengert. Cultivating Communities of Practice - A Guide t0 Managing Knowledge. ISBN:978986417233.
-** 英文部分
-  1. 曾柏文（2008）. The Knowledge Politics of the Emerging Technologies in Taiwan:Governance Framework, Institutional Gaps and Historical Contexts.取於https://www.academia.edu/228342/The_Knowledge_Politics_of_Emerging_Technologies_in_Taiwan_Governance_Imbalance_Institutional_Gaps_and_Historical_Context.
-  2. Manuel Castells（2010）. The Information Age: Economy, Society, and Culture.
-  3. Karl Fogel（2017）. Producing Open Source Software - How to Run a Successful Free Software Project. https://producingoss.com/. 2018/10/16.
 * 貢獻者名單
   依參與時間順序排列。
   1. 施伯榮 - 建議本研究之議題以價值取向、中間人存續與否、認同三個軸線做分類。
