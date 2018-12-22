@@ -4,7 +4,7 @@
 #+LANGUAGE: zh-TW
 #+OPTIONS: H:2 num:t pri:nil toc:t todo:nil tags:nil stat:nil prop:nil ^:nil
 #+TOC: tables
-#+STARTUP: content
+#+STARTUP: content hideblocks
 #+LATEX_COMPILER: xelatex
 #+LATEX_CLASS_OPTIONS: [12pt,a4paper]
 #+LATEX_HEADER: \input{report.sty}
@@ -563,6 +563,7 @@ Design sprint Day 1 定義問題
 
 網路社群可以自組織討論
 
+jijijodads
 *** DONE 溝通落差視閾圖
 
 #+caption: 溝通落差 （本研究製圖）
