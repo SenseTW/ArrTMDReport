@@ -151,14 +151,16 @@ stakeholder identification
 2. 設計一套適用數位原民非同步的網路討論方式提升議題討論的品質與參與政策過程的深入程度，並促使網路社群自組織議題社群增加議事資本。
 * TODO 研究方法 [75%]
 ** DONE 研究架構
-#+BEGIN_SRC plantuml :results none :file ./images/research_arch.png cache: on
+#+BEGIN_SRC plantuml :results none :file ./images/research_arch.png
 (網路社群視角之科技政策參與機制分析) ->  (線上線下整合網路參與機制設計開發與驗證)
 #+END_SRC
-#+caption: 研究架構（本研究製圖）
+
+#+CAPTION: 研究架構（本研究製圖）
 #+name: gif:research_arch
 [[./images/research_arch.png]]
+
 ** DONE 研究流程
- #+BEGIN_SRC plantuml :results none :file ./images/research_flow.png
+#+BEGIN_SRC plantuml :results none :file ./images/research_flow.png
    start
    fork
       :設計敏捷方法;
@@ -178,26 +180,21 @@ stakeholder identification
        repeat while (與假設不符，進行修正)
    endfork
    end
- #+END_SRC
+#+END_SRC
 
 #+name: gif:research_flow
-#+caption: 研究流程（本研究製圖）
+#+CAPTION: 研究流程（本研究製圖）
  [[./images/research_flow.png]]
 *** TODO 設計研究
-採用 Double Diamond（UK Design Council，2015）[fn:14] 設計流程的四個階段作為設計發展的介紹綱要。每個階段採取不同的工具協助發展該階段的探索/執行目標。透過使用者訪談對象挖掘並整理出的重點功能/溝通中重要的協作模式以及其原因，過程裡的重點整理在服務藍圖、顧客旅程等幾個大項目裡。
+採用 Double Diamond（UK Design Council，2015）[fn:2] 設計流程的四個階段作為設計發展的介紹綱要。每個階段採取不同的工具協助發展該階段的探索/執行目標。透過使用者訪談對象挖掘並整理出的重點功能/溝通中重要的協作模式以及其原因，過程裡的重點整理在服務藍圖、顧客旅程等幾個大項目裡。
 
+#+CAPTION: "Double Diamond Process - CC BY 4.0 International Olga Carreras Montoto https://commons.wikimedia.org/wiki/File:Double-diamond-process.jpg"
 [[./images/Double-diamond-process.jpg]]
-CC BY 4.0 International Olga Carreras Montoto
-https://commons.wikimedia.org/wiki/File:Double-diamond-process.jpg
 
 - Discover
 - Define
 - Develop
 - Deliver
-
-#+BEGIN_COMMEN
-可以放 double dimond 的圖
-#+END_COMMENT
 ** TODO 網路社群視角之科技政策參與機制分析[50%]
 *** DONE 文獻檢閱
 文獻檢閱主要為國內外網路參與機制、如何提升網路言論品質、網路社群作為利害關係人三大部分，與服務設計中的使用者經驗設計作為開發解決方案之主要方法論。在期刊文獻專著之外，本研究大量參考網路社群原生之文本、使用者中心之產品開發設計，目的為產出可促進數位原民討論品質之實用產品或服務為目的。
@@ -210,7 +207,6 @@ https://commons.wikimedia.org/wiki/File:Double-diamond-process.jpg
 #+CAPTION: 訪談對象及訪談形式（本研究製表）
 #+name: tbl:interview-list
 #+ATTR_LATEX: :font \rowcolors[]{2}{contiYellow!5}{contiYellow!20}
-#+INCLUDE: interview-list-tbl.org
 *** TODO 設計敏捷方法（Design Sprint Method）
 設計敏捷方法 （Design Sprint Method）cite:jake16 是由 Google 提出並且於內部實踐受到歡迎。概念基礎來自於敏捷開發（Agile）、設計思考（Design Thinking）與革新遊戲法（Gamestorming）。讓團隊在五天內定義關鍵問題和目標、大量發想產品解法、決定發展方向、做出原型、使用者測試。（須改寫或標註引用來源）五天的 Design Sprint 適合團隊一起挑戰高風險的問題，並且願意從新的角度思考產品，在最短的時間內完整發想又驗證產品構想。比一兩天的工作坊更能完整盤點想法並實際動手測試，又不需等待一個月的開發期才能做使用者驗證。
 
@@ -273,12 +269,12 @@ https://commons.wikimedia.org/wiki/File:Double-diamond-process.jpg
 顧客旅程圖相較於服務藍圖，能讓過程中的接觸點看得到，並對觸點作評估管理。顧客旅程圖與服務藍圖不同之處在於，顧客旅程圖聚焦的範圍目標放在顧客在流程裡執行的動作與執行動作的接觸點上。除了詳細盤點觸點之外，同時也會考慮顧客在每個「行動」甚至「關鍵時刻」時的「目標」、「動機」、「情緒感受」，從釐清每個動作的動機目標與執行時的感受，讓我們能以客觀的視角，找到改善流程的著力點。
 服務藍圖法（Service Blueprint）
 ** DONE 線上線下整合網路參與機制設計開發與驗證[100%]
-以前述使用者經驗設計的訪調與分析為基礎，滾動式設計開發線上線下整合網路參與機制，捨棄傳統瀑布流開發方式，使用網路業快速回應使用者需求常用的敏捷開發法（agile development）[fn:2]，透過使用者驗證不斷調整產品開發方向，避免按照一年前制定的規格一路做下去最後才發現不符合實際使用者需求。
+以前述使用者經驗設計的訪調與分析為基礎，滾動式設計開發線上線下整合網路參與機制，捨棄傳統瀑布流開發方式，使用網路業快速回應使用者需求常用的敏捷開發法（agile development）[fn:3]，透過使用者驗證不斷調整產品開發方向，避免按照一年前制定的規格一路做下去最後才發現不符合實際使用者需求。
 
 本團隊亦將所設計之解決方案皆開源（open source），讓公眾亦可加入開發、散佈、改作，並且架設協作平台讓網路社群得以參與機制之開發與回饋。
 *** DONE 精實創業與敏捷開發以滾動式修正
 
-在設計開發線上線下整合網路參與機制中，本團隊遵循敏捷開發（agile development）宣言[fn:3]：
+在設計開發線上線下整合網路參與機制中，本團隊遵循敏捷開發（agile development）宣言[fn:4]：
 
 #+BEGIN_QUOTE
 藉著親自並協助他人進行軟體開發，我們正致力於發掘更優良的軟體開發方法。透過這樣的努力，我們已建立以下價值觀:
@@ -303,7 +299,7 @@ ael: 我要找一下我手上好像有 agile 用在政府運作的文獻。
 接政府計劃還是可以 Sprint Review & Planning https://medium.com/sense-tw/sprint-review-planning-73e370bb4633
 #+END_COMMENT
 *** DONE 開源社群參與
-本團隊所設計開發的解決方案亦為開源（open source），在開發過程中即將所開發的程式碼、圖像介面設計、公開文字產出（部分訪談內容、部落格、數位原民參與手冊）、介紹影片等，以開放授權方式公開在網路上讓任何人可散佈、改作。本團隊並且與網路社群共同協作，在 GitHub 平台公開開發進與收集問題回報，在 g0v 臺灣零時政府社群[fn:4]的 Slack 討論平台上讓任何人可加入開發相關討論，並線下參與 g0v 黑客松與其年會、參與 COSCUP[fn:5] 開源人年會等活動與網路社群交流共同協作。並以集客式行銷（inbound marketing）方式撰寫部落格，以吸引對此線上線下整合網路參與機制有興趣之網路閱聽眾，參與協作開發與使用。
+本團隊所設計開發的解決方案亦為開源（open source），在開發過程中即將所開發的程式碼、圖像介面設計、公開文字產出（部分訪談內容、部落格、數位原民參與手冊）、介紹影片等，以開放授權方式公開在網路上讓任何人可散佈、改作。本團隊並且與網路社群共同協作，在 GitHub 平台公開開發進與收集問題回報，在 g0v 臺灣零時政府社群[fn:5]的 Slack 討論平台上讓任何人可加入開發相關討論，並線下參與 g0v 黑客松與其年會、參與 COSCUP[fn:6] 開源人年會等活動與網路社群交流共同協作。並以集客式行銷（inbound marketing）方式撰寫部落格，以吸引對此線上線下整合網路參與機制有興趣之網路閱聽眾，參與協作開發與使用。
 
 協作入口：
 - 即時訊息討論： https://join.g0v.tw , channel #sense；討論紀錄：https://g0v-slack-archive.g0v.ronny.tw/index/channel/C7D8SL96V
@@ -323,116 +319,7 @@ ael: 我要找一下我手上好像有 agile 用在政府運作的文獻。
 #+BEGIN_COMMENT
 不確定要不要寫得這麼詳細啦
 #+END_COMMENT
-
 * TODO 文獻檢閱 [0%]
-** TODO 網路參與機制回顧
-#+BEGIN_COMMENT
-結論：不需要再設計政府官方網路參與機制，而是
-1. 需提升公民參與意願與提案品質。
-2. 將多元的網路社群納入多方利害關係人（上一份報告）
-
-#+END_COMMENT
-** TODO 網路公共討論品質
-*** 網路的功與過
-#+BEGIN_COMMENT
-科技樂觀論、科技悲觀論、科技建構論。
-#+END_COMMENT
-*** 如何提升討論品質
-這裡解釋 flamming war。
-
-cite*:davies10 解釋論述圖（argument map）與概念圖（concept map），心智圖（Mind Map）的不同。
-
-不同民眾貢獻的小知識可以拚出 Big Picture citep*:hahn16
-
-「main contribution in this paper is the idea that a computational system can scaffold an emerging interdependent, big picture view entirely through small contributions of individuals, each of whom sees only a part of the whole. To investigate this idea we instantiate it in a working software system to explore the viability, strengths, and weaknesses of the approach, and evaluate the output of the system across a variety of topics. Finally, we also contribute a set of design patterns that may be informative for other systems aimed at supporting big picture thinking in small packag」
-
-citep*:davies10 解釋論述圖（argument map）與概念圖（concept map），心智圖（Mind Map）的不同並且有。
-「indicated that many users would simply prefer to start from scratch rather than with the initial content collection of a single other user.
-in the case of knowledge maps created by just a single user, participants could make an accurate assessment of that
-iterating knowledge maps over only four users allowed a collectively-generated schema to emerge, leading to significant improvements in sensemaking quality and helpfulness. We also identify a key startup obstacle in the distributed sensemaking process; users preferring to use maps that have been iterated on multiple times versus starting over, but prefer to start from scratch when given a map iterated on only once. Overcoming this startup cost will be a key factor in realizing the potential」
-
-這裡寫數位工具的 recursive summary 跟 tag 的幫助。
-
-citep*:zhang17
-
-citep*:mahyar18
-
-然而反思非常困難 （介紹 Reflection model 的圖），甚至需要故意製造衝突.... 「指定唱反調可避免團體迷思...待修」citep*:sunstein15_po
-*** 小結
-本研究認為提升線上討論品質的關鍵為：....
-
-#+CAPTION: 工具列表（本研究製表）
-| 工具名稱                   | 網站                             |
-|----------------------------+----------------------------------|
-| Rational                   | https://www.rationaleonline.com/ |
-| Argunet                    | http://www.argunet.org/          |
-| Argument Analysis Platform | https://en.arguman.org/          |
-| Consul                     | http://consulproject.org/en/     |
-| Sligrid                    | https://sligrid.com/             |
-| Milkr                      | https://milkr.io/                |
-| Minanote                   | https://minanote.com             |
-| Realtime Board             | https://realtimeboard.com/       |
-| TheBrain                   | https://thebrain.com             |
-| Coggle                     | https://coggle.com               |
-| Wikum                      | http://wikum.csail.mit.edu/      |
-
-#+CAPTION: 知識圖繪製功能支援比較（本研究製表）
-| 工具名稱                   | 心智圖 | 概念圖 | 論點圖 |
-|----------------------------+--------+--------+--------|
-| Rational                   |        |        | V      |
-| Argunet                    |        |        | V      |
-| Argument Analysis Platform |        |        | V      |
-| Milkr                      | V      |        |        |
-| Minanote                   | V      |        |        |
-| Realtime Board             | V      | V      | V      |
-| The Brain                  | V      | V      |        |
-| Coggle                     | V      |        |        |
-
-<<<<<<< HEAD
-** TODO 網路社群作為利害關係人
-=======
-宜靜的 Reflection model
-結論：有哪幾個要素是提升網路討論品質的關鍵
-#+END_COMMENT
-*** 如何提升討論品質
-citep*:davies10 解釋論述圖（argument map）與概念圖（concept map），心智圖（Mind Map）的不同。
-** TODO /網路社群作為利害關係人
->>>>>>> be97b3d6dbdb30585adb716a9df654dc9cbaa763
-*** 網路社群的文化與如何建立
-#+name: gif:community_building
-#+caption: Nine Timeless Design Strategies
-#+attr_html: width: 1024
-[[./images/community_building.png]]
-*** 網路治理多邊利害關係人模型
-e.g. (ICANN)
-*** 網路社群協作模式
-e.g. 維基粗略共識、消歧義
-sense.tw 協作模型釐清
-http://sense.tw/map/e1f2bd16-378f-4abc-a689-ade6937075e2
-
-#+BEGIN_COMMENT
-需要再解釋一次網路實踐社群的定義（用引用第一份報告的方式）
-
-「資訊科技發展促使資訊外顯化及資訊社會結構改變屬必然歷程。網路治理（Internet Gov)領域具以下幾點特色：
-1. 強制性技術規範 : IETF, W3C 技術規範標準。
-2. 強制性技術架構 : IAB one Internet architecture RFC1174。
-3. 強制性資訊基礎建設 : 根伺服器, DNSSEC 公鑰權威, RPKI 公鑰權威。
-4. 標準機構與軟體開發者高密度合作 : DNS (BIND by ISC), Sendmail, Apache。
-5. 壟斷性數位資源權威 : IP 位址、AS號碼資源 (APNIC 亞太區)、頂級網域 (ICANN)、多語文網域空間(ICANN)、Protocol 號碼(IANA, 移轉 PTI)。
-6. 結構成熟之多方利害關係人架構: ICANN、IGF、APNIC、IETF。
-7. 國際政治機構高度關注領域 : 聯合國 IGF、ICANN、APNIC。
-8. 多方利害關係人結構(IETF、APNIC、ICANN等)延伸之網路治理領域 : Governance Model、Cybersecurity、Cross-border Digital Trade、Data Protection、Privacy、Human right、Law Enforcement等
-」（kenny huang）
-
-網路治理多邊利害關係人模型不確定是不是要放在第一份報告裡比較好
-
-MSM 的代表性仍遭到質疑 (COSCUP 2018 多元利害關係人模式解決網路治理議題之機會與挑戰 The opportunities and challenges of solving Internet Governance issues by MultiStakeholers Model) - Vincent Chen/陳文生)
-
-以太坊 4% 的人可以決定全部的人的資產，因此有學者提出「區塊鏈治理」。
-
-結論：網路社群已有一些方式用多方利害關係人模式擬定複雜政策，並且有社群參與。本研究的下個問題是如何將這樣的模型應用到更廣大的科技政策制定。
-#+END_COMMENT
-
 * TODO 社群視角的科技政策參與途徑分析 [75%]
 ** DONE Design Sprint 問題定義與原型開發
 延續文獻檢閱之結論，本研究試圖在既有網路參與機制下，提升網路公共討論品質，並讓網路社群作為利害關係人參與政策制定。在設計敏捷方法工作坊中，收斂出來的關鍵問題為「如何在政策規劃前期以有效方法彙整實踐社群之客觀事實提出建設性意見」，再根據訪談科技社群、分析師、智庫分析師等人的結果，初步畫出社群視角的政策制定流程圖 ref:gif:design-sprint-map ，試圖在此流程圖中找到關鍵環節切入，設計工具與機制。
@@ -523,15 +410,8 @@ JOIN 平臺則是扮演了接收民眾陳情和提案的窗口，雖有「協作
 需要列出 PO 會議的參考資料來源，訪談？
 Design sprint Day 1 定義問題
 #+END_COMMENT
-<<<<<<< HEAD
-** TODO 使用者歷程
-
-【看得見的經驗 Mapping Experiences】：顧客旅程圖是一種從服務藍圖中衍生出來的圖。兩者在架構上相似（照前後順序排列的結構），但在觀點、範圍、聚焦和使用上多少有所相異。 本設計案先使用服務設計藍圖描繪整體環境，先歸結主要的議題倡議步驟階段、重要行動、利害關係人互動形式。接著再用顧客旅程圖將倡議民眾每個執行動作（與執行該動作的接觸媒介：數位工具）盤點出來。顧個旅程圖不僅只是盤點觸點的工具，它包含的元素除了觸點外，亦包涵了「行動」、「情緒」、「目標」、「關鍵時刻」、「痛點」、「機會點」等。本設計案藉由ＣＪＭ工具，找出倡議民眾倡議行動中遇到的問題點，並找出協助議題釐清的數位工具在倡議過程中能提供協助的利基點。
-
-=======
 *** TODO 使用者歷程 [0%]
-【看得見的經驗 Mapping Experiences】：顧客旅程圖是一種從服務藍圖中衍生出來的圖。兩者在架構上相似（照前後順序排列的結構），但在觀點、範圍、聚焦和使用上多少有所相異[fn:10]。 本設計案先使用服務設計藍圖描繪整體環境，先歸結主要的議題倡議步驟階段、重要行動、利害關係人互動形式。接著再用顧客旅程圖將倡議民眾每個執行動作（與執行該動作的接觸媒介：數位工具）盤點出來。顧個旅程圖不僅只是盤點觸點的工具，它包含的元素除了觸點外，亦包涵了「行動」、「情緒」、「目標」、「關鍵時刻」、「痛點」、「機會點」等。本設計案藉由ＣＪＭ工具，找出倡議民眾倡議行動中遇到的問題點，並找出協助議題釐清的數位工具在倡議過程中能提供協助的利基點。
->>>>>>> be97b3d6dbdb30585adb716a9df654dc9cbaa763
+【看得見的經驗 Mapping Experiences】：顧客旅程圖是一種從服務藍圖中衍生出來的圖。兩者在架構上相似（照前後順序排列的結構），但在觀點、範圍、聚焦和使用上多少有所相異[fn:7]。 本設計案先使用服務設計藍圖描繪整體環境，先歸結主要的議題倡議步驟階段、重要行動、利害關係人互動形式。接著再用顧客旅程圖將倡議民眾每個執行動作（與執行該動作的接觸媒介：數位工具）盤點出來。顧個旅程圖不僅只是盤點觸點的工具，它包含的元素除了觸點外，亦包涵了「行動」、「情緒」、「目標」、「關鍵時刻」、「痛點」、「機會點」等。本設計案藉由ＣＪＭ工具，找出倡議民眾倡議行動中遇到的問題點，並找出協助議題釐清的數位工具在倡議過程中能提供協助的利基點。
 #+caption: 使用者歷程圖一（本研究製圖）
 #+name: gif:cmj1
 #+attr_html: width 1024
@@ -543,28 +423,28 @@ Design sprint Day 1 定義問題
 [[./images/cmj2.jpg]]
 
 這張旅程圖仍沿用前面服務藍圖的前四個階段（Stages）：「前期議題設定」、「議題發酵」、「正式行動」、「政府正式會議」。以四大階段作為行動目標的主架構，底下詳細紀錄在個階段執行的動作，含括服務藍圖裡的前台動作與後台動作。四個階段 (stage)可以視作為動作 (Actions) 執行的時機點「when」。Thoughts 探討每個「action」背後的目的與需求，有助於我們除了看到「 What - 什麼動作被執行」，也能看到「 Why - 為何採取這個行動」，協助我們辨識積極公民在倡議過程中的關鍵步驟以及積極公民與一般民眾間的差異點，找到設計上能切入提供協助的缺口。「Tool」是指執行每個動作時使用的工具，亦即「How - 動作是如何被執行/實現」。除了列出使用的工具外，藉由列出工具使用的優缺點 （pros and cons）找出目前流程上可以協助改進的痛點 (pain point) 。倡議民眾在議題倡議的過程中目標對象主要是「大眾」與「政府」，通常前期階段的溝通對象為大眾，目的在於讓更多人了解議題。後半階段的溝通對象則是政府與相關利害關係人，政府與相關利害關係人才能對議題政策修正有影嚮力的決定。
-**** DONE前期議題設定
+**** DONE 前期議題設定
 這個階段描述倡議民眾「了解議題」、「形成觀點」與「議題社群的形成」過程。倡議民眾因為自己的生活環境、工作、興趣等因素，對議題產生關注，關心議題的發展。平時會在新聞平台、社群平台看議題相關文章、新聞。在閱讀的過程對文章中不了解或有疑義的部分會進一步搜尋相關資訊，透過關鍵字搜尋，查找網路上相關資料。累積一定程度對議題的了解，加上自身經驗，建立自己對於議題的觀點。過程中，看到激起共鳴的文章會截取重點、轉發到自己的社交平台上，表達自己對於該議題的的立場與想法，讓自己的朋友圈能一起注重該議題。轉發文章、發表自己的意見有機會能促發網路上的朋友、民眾在發文底下留言，交換意見。在目前的社群平台上，經常看到針對某一議題，因為民眾對該議題的認識深度不夠深，在全面了解之前，看到文章或發文可能所含的特定觀點立場，就陷入情緒反射式留言，而非了解該意見所處之立場。「事實查證」、「爭點討論」是議題倡議積極公民與一般大眾最大差別的地方。議題倡議的積極公民具有獨立思辨能力，有能力辨識資訊真偽不被混淆，並有能力理性思考其他意見的立場成因，找出議題爭點背後矛盾拉鋸的因素。
 
 小聚活動是了解議題的人或是對議題有共同討論點的人發起線下群聚討論的活動，夠過線下聚會、面對面交流，有助於彼此在議題上的意見交換，也更能建立信任關係，讓議題討論的深度加深，廣度更全面。由於議題的複雜度、牽涉的層面廣度以及與會人的自身立場，會讓小聚開始時較難聚焦、釐清彼此意見的脈絡。也需要花時間做議題相關之名詞定義，好讓參與小聚的人的認知調校到相同的刻度上。清楚的議題脈絡架構能協助議題討論的人快速同步對於議題的基礎知識，也能提升討論的品質。
 
 成型的討論群組聚集了很多議題的資訊資料，除了每次小聚討論的紀錄，還有各個成員分享的與議題相關的參考資料。這些資料幫助群組內的成員對於議題了解的深度，但些資料累積到一定量後，很難整理，也很難讓新加入的人有系統、有脈絡的了解這些資訊，增加了新加入討論的人的門檻。
 
-**** DONE議題發酵
+**** DONE 議題發酵
 議題的發酵一般來說都與某一事件發生有關，大眾對該事件的關注使得背後的議題被看見。倡議民眾與議題發酵階段才開始注意議題的民眾不同，他們在先前對議題的脈絡、成因、問題已有相當深度的了解，並有一套自己的觀點。 在議題發酵階段，倡議民眾或相關的倡議團體致力於讓一般大眾能了解議題的問題，讓更多人關心這個議題。他們會在社群平台、媒體投書、短講這類發聲平台，講述自己對議題的看法，希望能影響更多的人了解、同意、支持他們的立場與意見。為了要讓更多人理解與認同，倡議民眾除了發表自己的看法之外，也會觀察大眾對該議題的意見、對議題的疑義。透過回覆解釋一般民眾對議題的疑義誤解，引導民眾看到更深的層面，並希望從而獲得認同。
 
 我們以製作懶人包作為倡議民眾議題擴散於其他民眾的範例，懶人包較於其他文字擴散形式多了說明圖文的製作步驟，但整體的發想、整理流程與其他擴散媒材的準備過程大致相似。懶人包的製作通常是多人線上合作完成，群體內部需要先對議題的認知與意見方向有共同的基礎，線上協作的過程也需要一套團體內部方便協作的工作流程。但是即使有相同的意見基礎、協作模式，線上協作文件條列片段式的資料整理形式仍增加協作上溝通成本，這樣的文件形式較難表現議題子脈絡間的關聯。
 
 議題發酵是倡議民眾、倡議團體與大眾溝通並擴散議題的階段。以有根據支持的精煉過的意見陳述，影響更多民眾對議題的關注與支持；為了能夠說服更多民眾，所以去理解其他民眾對議題上的提問與意見，並找出相關支持的事實與文獻與之回應以獲得支持。這是一個滾動的過程，在滾動來回對話的過程能夠讓議題擴散得更遠，觸及更多不曾接觸到該議題的人，並為他們對議題建立最初步的認知。更多的人支持倡議民眾/團體的意見方向，群眾的聲量與影響力促成倡議民眾/團體進入下一個階段。
-**** DONE正式行動
+**** DONE 正式行動
 正式行動階段是串連意見相同的群眾力量，讓這股力量被政府看見，並將陳意傳達進政府管道，使政府內部關注並處理該議題。這個階段一開始仍是藉由各個媒體社群平台將連署串連的行動推廣出去，為了要在短時間引起民眾的共鳴，這個階段說明的文字通常會較之前的階段更簡短。雖然訴求簡潔有力能快速引起共鳴，但這個階段的發文較難完整的交代議題所有脈絡，使得接觸到串連宣導的人較難完整的理解議題全貌。
 
 除了吸引其他民眾理解串連的意義外，這階段倡議民眾/團體的重心放在如何使串連的人數增加，如何讓集中起來的聲量讓政府看到。倡議民眾/團提在這個階段除了持續更新議題相關資訊、擴散議題意見外，部分時間與心力則是放在引導大眾如何進行連署，藉由朋友圈間相互引導串連，讓議題通過連署門檻。
-**** DONE政府正式會議
+**** DONE 政府正式會議
 當民眾的陳情意見進入政府內部後，相關職責單位便會著手規劃舉辦議題相關會議。相關職責單位內部也有一套自己的研究調查流程，研究該議題的脈絡、問題點、影響範圍、利害關係人、衝突點等因素。找出各面向的利害關係人代表後，邀請這些議題相關人士（專家、學者、倡議團體、代議士、企業代表等）參與會議。本計劃訪談到的倡議民眾大多表示在參加政府相關會議前都會事前準備議題相關資料，希望參與會議的人能先了解自己對於議題的主張與見解，但大多時候在參與會議前無法事先知道與會的其他人以及他們對議題的看法。訪談對象表示，這樣讓政府相關議題會議變成與會人在會場上發表各自對議題的看法，彼此的對話沒有交集，因此很難在會議上對議題討論出共識。訪談對象共同指出，目前的政府會議流程缺少了事前讓與會人彼此核對議題認知、補平知識落差的流程。各自對議題名詞解釋、議題脈絡的認知有落差，使得彼此意見、溝通對談的話語難有交集。
 
 除了會議前缺少知識語彙對齊的環節，會議後參與會議的倡議民眾也遇到無法收到會議後續回饋的問題。政府單位的會議記錄與議題討論不像開源團體或是倡議團體採用開放協作模式，讓參與的人可以一起記錄會議，另外，大部分會議礙於無法公開會議過程也無法公開會議記錄。這使得會議的後續反饋變得很少，與會的倡議民眾也無法得知自己參與相關會議對於政府對該議題的政策規劃是否有實質的意義。同樣的，外界民眾也很難理解這些會議的實質影響與效益。
-**** TODO整體問題發現
+**** TODO 整體問題發現
 整個旅程雖然分成四個階段，但我們發現數位工具用於議題資訊整理貫串在各個階段，不同立場的各個單位（倡議民眾、倡議團體、政府職責單位、相關利害關係人）都需要透過數位工具整理議題資訊，如：新聞簡報、文獻節錄、人事物時間表。這些議題資訊整理的文件每個階段至少都會製作一份（或是一個版本），但這份文件卻很難串接延續到下一個階段，在整理與精簡化的過程，這些搜集來的資訊與原本的來源失去鏈結，片段資訊彼此之間的脈絡也變得不明顯。
 
 另一方面，在議題討論的溝通過程中，不論是線下討論或是線上協作討論，基礎階段都需要經過核對議題相關的名詞定義、議題問題理解、議題脈絡、議題範圍等認知與知識語彙對齊的階段。
@@ -598,7 +478,7 @@ Design sprint Day 1 定義問題
 
 1. 數位工具原型開發做議題整理
 2. 線下討論促進網路社群參與政策討論
-3. 數位原民參與手冊供網路社群理解政策形成機制與公民參與方法[fn:11]
+3. 數位原民參與手冊供網路社群理解政策形成機制與公民參與方法[fn:8]
 
 * TODO 線上線下整合的網路參與機制設計 [25%]
 
@@ -613,7 +493,7 @@ Design sprint Day 1 定義問題
 
 ** TODO 期望討論流程（hychen）
 
-在這個後權威時代，我們希望公民對於公共議題的知情討論（informed discussion），來自於彼此貢獻知識與自主查證，而不必然需要專家告知或製作議題手冊，因為專家告知時已經暗示一種議題框架，然而往往議題框架是最需要被討論的，吵到最後才會發現誰才是議題專家，網路社群的「專家」，其專業度非來自於頭銜，而來自其論述與提供的佐證資料讓他人可查證[fn:12]；這個討論也可以是鬆散的，讓下班後的公民可輕度持續討論[fn:13]，不必馬上有結論，而是每個參與者皆可以以自己的方式再利用其討論結果。
+在這個後權威時代，我們希望公民對於公共議題的知情討論（informed discussion），來自於彼此貢獻知識與自主查證，而不必然需要專家告知或製作議題手冊，因為專家告知時已經暗示一種議題框架，然而往往議題框架是最需要被討論的，吵到最後才會發現誰才是議題專家，網路社群的「專家」，其專業度非來自於頭銜，而來自其論述與提供的佐證資料讓他人可查證[fn:9]；這個討論也可以是鬆散的，讓下班後的公民可輕度持續討論[fn:10]，不必馬上有結論，而是每個參與者皆可以以自己的方式再利用其討論結果。
 
 因此討論流程目的是在網路社群熟悉的討論空間以其熟悉的文化，例如要求原始資料連結、開放協作等方式，做到根基於佐證資料來源（reference-based）地釐清問題（problem）、解法（solution）、論點（statement），對齊知識語彙（definition）、界定利害關係人（stakeholder），並且串連出來參與的積極公民（active citizen），讓他們互相連結(networking)，導引到現有公民參與機制發起行動。
  在問題界定跟知識跟語彙對齊期望發揮到是讓參與者問出「問題背後的問題」、「問題裡面的問題」、「解法裡面的問題」，以及「佐證資料在哪裡」、「大家對名詞的理解都一樣嗎」？在線下聚會遵循網路上的對話方式，但透過互相論證詞進行議題裡面的問題跟名詞界定，盤出相關利害關係人、相關資訊。
@@ -949,13 +829,8 @@ sense.tw 工具優點：
 
 ** TODO 線上線下串接案例 [66%]
 前述分別介紹線上意見整理工具 sense.tw 與線下的議題小聚，此節以案例介紹如何串接線上數位工具與線下線下討論，加深網路社群討論科技政策之品質。
-<<<<<<< HEAD
-*** TODO Public Money, Public Code
-Public Money, Public Code 為國際開源社群長期推動由政府資助開發的軟體應開放原始碼的運動[fn:6]。在開源人年會（COSCUP）中大高雄 Linux 協會（KaLUG）與樹黨[fn:7]開始討論，於是舉辦之議題工作坊以此為主題進行討論。
-=======
 *** DONE Public Money, Public Code
-Public Money, Public Code 為國際開源社群長期推動由政府資助開發的軟體應開放原始碼的運動[fn:5]。在開源人年會（COSCUP）中大高雄 Linux 協會（KaLUG）與樹黨[fn:6]開始討論，於是舉辦之議題工作坊以此為主題進行討論。
->>>>>>> be97b3d6dbdb30585adb716a9df654dc9cbaa763
+Public Money, Public Code 為國際開源社群長期推動由政府資助開發的軟體應開放原始碼的運動[fn:6]。在開源人年會（COSCUP）中大高雄 Linux 協會（KaLUG）與樹黨[fn:11]開始討論，於是舉辦之議題工作坊以此為主題進行討論。
 
 流程如下：
 1. 先使用 sense.tw 在網路上整理相關問題與討論架構，分類問題與找到的相關資料作為回答
@@ -1006,7 +881,7 @@ https://medium.com/sense-tw/community-tech-policy-coscup2018-1cefe60b38c3
 #+END_COMMENT
 *** DONE 網路中立性
 1. 設定議題
-網路中立性為第二場議題小聚，議題設定選擇為網路社群一直關心的「網路中立性」[fn:8]和「境外封網」[fn:9]作為議題，網路社群基本上支持網路中立性與反對境外封網，雖然後來經過現場討論議題釐清之後，發現其實是兩個不同的議題。
+網路中立性為第二場議題小聚，議題設定選擇為網路社群一直關心的「網路中立性」[fn:12]和「境外封網」[fn:13]作為議題，網路社群基本上支持網路中立性與反對境外封網，雖然後來經過現場討論議題釐清之後，發現其實是兩個不同的議題。
 1. 初步整理網路資料並創建活動頁面做網路擴散:
    - 創建活動頁面：https://www.facebook.com/events/453192175172987/ ，依靠臉書做擴散，既可以收集對此議題感興趣者的名單，又可提供線上空間讓參與者可丟連結和參與共筆紀錄。
    - 事先整理整理台灣封網事件的時間軸：https://bit.ly/2PWFkZ7。
@@ -1025,11 +900,11 @@ https://medium.com/sense-tw/community-tech-policy-coscup2018-1cefe60b38c3
          [[./images/net-neutrality1.png]]
       1. 問題：首先問什麼是網路中立性，就發現跟境外封網的定義不同，決定討論網路中立性。
       2. 名詞定義：使用維基百科對於網路中立性的定義。
-         「網路中立性是一個原則，要求所有網際網路流量均應被平等對待。據哥倫比亞大學法學院教授吳修銘所述，解釋網路中立性的最好方法與設計網路時所期望的一樣：公眾資訊網路將在所有內容、網站及平臺被平等對待時達到其最佳的使用。在技術及服務上對網路中立性更詳細的定義為，服務的網路中立性意指，一個服務在某一層的運作不會影響到在該層上的其他服務，以僅依據該層所訂定的協定規範。」[fn:9]
+         「網路中立性是一個原則，要求所有網際網路流量均應被平等對待。據哥倫比亞大學法學院教授吳修銘所述，解釋網路中立性的最好方法與設計網路時所期望的一樣：公眾資訊網路將在所有內容、網站及平臺被平等對待時達到其最佳的使用。在技術及服務上對網路中立性更詳細的定義為，服務的網路中立性意指，一個服務在某一層的運作不會影響到在該層上的其他服務，以僅依據該層所訂定的協定規範。」[fn:13]
       3. 問題：台灣真的有網路中立性的問題嗎？
       4. 回答：台灣目前沒有網路中立性，因為網速會因為內容而不同（個人實測）。
       5. 問題：為什麼？
-      6. 回答：因為 ISP 對接上有收費。 
+      6. 回答：因為 ISP 對接上有收費。
       7. 問題：什麼是 ISP (Internet Service Provider)？
       8. 定義：狹義為網路提供商，廣義進一步包括網站提供者， Google 作為網站服務提供者，有自己的海纜。
       9. 問題：所以是怎麼對接收費的？
@@ -1119,39 +994,30 @@ https://medium.com/sense-tw
 
 * Footnotes
 
-<<<<<<< HEAD
-=======
-[fn:14]，2018 年 12 月 22 日，引自 https://www.designcouncil.org.uk/news-opinion/design-process-what-double-diamond 
-
-[fn:13]下班後改變社會。好像是來自鄉民都來了？ 
-
-[fn:12] 需要有個非頭銜式專家的文獻。
-
-[fn:11] 
-
-[fn:10] need citation 
-
-[fn:9]https://zh.wikipedia.org/wiki/%E7%BD%91%E7%BB%9C%E4%B8%AD%E7%AB%8B%E6%80%A7 
-
-[fn:8]境外封網事件連結
-
-[fn:7]網路中立性定義
-
->>>>>>> be97b3d6dbdb30585adb716a9df654dc9cbaa763
 [fn:1] 網路社群概念性定意見[[./README.org][報告一]]。
 
-[fn:2] 敏捷開發註解
+[fn:2]，2018 年 12 月 22 日，引自 https://www.designcouncil.org.uk/news-opinion/design-process-what-double-diamond
 
-[fn:3] 敏捷開發宣言連結：https://agilemanifesto.org/principles.html。
+[fn:3] 敏捷開發註解
 
-[fn:4]「g0v.tw 是一個推動資訊透明化的社群，致力於開發公民參與社會的資訊平台與工具。」(https://g0v.tw/zh-TW/about.html)。
+[fn:4] 敏捷開發宣言連結：https://agilemanifesto.org/principles.html。
 
-[fn:5]「開源人年會起源於2006年，是由台灣開放原始碼社群聯合推動的年度研討會，也是台灣自由軟體運動重要的推動者之一。此活動通常一連兩日，包括有講座、攤位、社團同樂會等。除了邀請國際的重量級演講者之外，台灣本土的自由軟體推動者也經常在此發表演說，會議的發起人、工作人員與講者都是志願參與的志工。」詳見 https://en.wikipedia.org/wiki/COSCUP。
+[fn:5]「g0v.tw 是一個推動資訊透明化的社群，致力於開發公民參與社會的資訊平台與工具。」(https://g0v.tw/zh-TW/about.html)。
 
-[fn:6] 活動由歐洲自由軟體基金會發起，要求制定法律，明訂以公務機關的經費，為公務機關開發的軟體，必須以自由開源軟體授權釋出，截至 2018/12/21 為止全球已有 158 個組織與 19130 個人已經連署公開信表達支持。詳見 https://publiccode.eu/zh-tw/。
+[fn:6]「開源人年會起源於2006年，是由台灣開放原始碼社群聯合推動的年度研討會，也是台灣自由軟體運動重要的推動者之一。此活動通常一連兩日，包括有講座、攤位、社團同樂會等。除了邀請國際的重量級演講者之外，台灣本土的自由軟體推動者也經常在此發表演說，會議的發起人、工作人員與講者都是志願參與的志工。」詳見 https://en.wikipedia.org/wiki/COSCUP。
 
-[fn:7] 軟體工程師，樹黨發起人，過去曾參選。主要為倡議 Public Money Public Code，撰有〈二十年後的政府軟體〉一文 http://treesparty.tw/2018/06/17/public-money-public-code/。
+[fn:7] need citation
 
-[fn:8] 網路中立性定義。
+[fn:8]
 
-[fn:9] 境外封網事件連結。
+[fn:9] 需要有個非頭銜式專家的文獻。
+
+[fn:10]下班後改變社會。好像是來自鄉民都來了？
+
+[fn:11] 活動由歐洲自由軟體基金會發起，要求制定法律，明訂以公務機關的經費，為公務機關開發的軟體，必須以自由開源軟體授權釋出，截至 2018/12/21 為止全球已有 158 個組織與 19130 個人已經連署公開信表達支持。詳見 https://publiccode.eu/zh-tw/。
+
+[fn:12] 網路中立性定義。
+
+[fn:13] 境外封網事件連結。
+
+[fn:14] 軟體工程師，樹黨發起人，過去曾參選。主要為倡議 Public Money Public Code，撰有〈二十年後的政府軟體〉一文 http://treesparty.tw/2018/06/17/public-money-public-code/。
