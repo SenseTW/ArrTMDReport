@@ -3,6 +3,7 @@
 #+OPTIONS: H:2 num:t pri:nil toc:t todo:nil tags:nil stat:nil prop:nil ^:nil
 #+TOC: tables
 #+LATEX_COMPILER: xelatex
+#+LATEX_SETUP:
 #+LATEX_CLASS_OPTIONS: [12pt,a4paper]
 #+LATEX_HEADER: \bibliographystyle{plain}
 #+LATEX_HEADER: \bibliography{references}

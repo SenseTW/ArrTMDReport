@@ -2,8 +2,7 @@
 #+AUTHOR: 陳信屹、簡韻真
 #+EMAIL: ossug.hychen@gmail.com
 #+OPTIONS: H:2 num:t
-
-* 目錄                                                                  :TOC:noexport:
+* 目錄                                                         :TOC:noexport:
 - [[#前言][前言]]
 - [[#正文][正文]]
   - [[#報告一摘要][報告一摘要]]
