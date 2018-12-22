@@ -288,3 +288,22 @@ n/a
 *** related work
 1. tiddly wiki.
 2. org-brain.
+
+** TODO 2018 - 「公共政策網路參與平臺」三周年執行情形報告
+ :PROPERTIES:
+  :Custom_ID: lin18a
+  :AUTHOR: 林雨潔、王國政、楊慧敏
+  :JOURNAL: 政府機關資訊通報
+  :YEAR: 2018
+  :VOLUME: 351
+  :PAGES: 9
+  :DOI:
+  :URL:
+ :END:
+
+cite:lin18a
+*** why this is interested?
+1. 仍然使用利用問卷做調查，而非使用數據分析。
+2. 社群媒體為主要管道。
+3. 參與網路之前有實體參與經驗。
+4. 議題導向且必須跟自己切身有關。只有 12.8% 是在沒有立場的狀況下閱讀。
