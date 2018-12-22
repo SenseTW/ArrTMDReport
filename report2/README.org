@@ -1,16 +1,7 @@
 # -*- mode: org; org-latex-tables-booktabs: t -*-
 #+TITLE: 如何促進科技社群網路參與科技政策討論建議報告 - 以資訊科技社群為例 (草稿)
 #+AUTHOR: 陳信屹、簡韻真、黃凱蘭、黃宇新
-#+LANGUAGE: zh-TW
-#+OPTIONS: H:2 num:t pri:nil toc:t todo:nil tags:nil stat:nil prop:nil ^:nil
-#+TOC: tables
-#+STARTUP: content hideblocks
-#+LATEX_COMPILER: xelatex
-#+LATEX_CLASS_OPTIONS: [12pt,a4paper]
-#+LATEX_HEADER: \input{report.sty}
-#+LATEX_HEADER: \bibliographystyle{plain}
-#+LATEX_HEADER: \bibliography{../references}
-
+#+SETUPFILE: ../setup.org
 * TODO 中文摘要
 #+BEGIN_COMMENT
 字數以 500 字為限，並在其後列名 5 個以內中文關鍵詞。
