@@ -159,7 +159,25 @@ stakeholder identification
 #+name: gif:research_arch
 [[./images/research_arch.png]]
 
-** DONE 研究流程
+** TODO 研究流程
+採用 Double Diamond cite:double_diamond 設計流程的四個階段作為設計發展的介紹綱要 ref:gif:double-diamond 。
+
+#+CAPTION: "Double Diamond Process - CC BY 4.0 International Olga Carreras Montoto" from https://commons.wikimedia.org/wiki/File:Double-diamond-process.jpg
+#+NAME: gif:double-diamond
+[[./images/Double-diamond-process.jpg]]
+
+本研究架構之第一部分與第二部分分別對應到前後兩個階段，每個階段採取不同的工具協助發展該階段的探索/執行目標：
+
+1. 網路社群視角之科技政策參與機制分析
+   - 發現（Discover）
+   - 定義（Define）
+      -  透過使用者訪談對象挖掘並整理出的重點功能/溝通中重要的協作模式以及其原因，過程裡的重點整理在服務藍圖、顧客旅程等幾個大項目裡。
+      - 設計敏捷方法定義關鍵問題與關鍵環節。
+2. 線上線下整合網路參與機制設計開發與驗證
+   - 開發（Develop）
+   - （Deliver）`
+
+所開發之成果如 ref:gif:research_flow 所示反覆循環驗證。
 #+BEGIN_SRC plantuml :results none :file ./images/research_flow.png
    start
    fork
@@ -185,17 +203,6 @@ stakeholder identification
 #+name: gif:research_flow
 #+CAPTION: 研究流程（本研究製圖）
  [[./images/research_flow.png]]
-*** TODO 設計研究
-採用 Double Diamond cite:double_diamond 設計流程的四個階段作為設計發展的介紹綱要。每個階段採取不同的工具協助發展該階段的探索/執行目標。透過使用者訪談對象挖掘並整理出的重點功能/溝通中重要的協作模式以及其原因，過程裡的重點整理在服務藍圖、顧客旅程等幾個大項目裡。
-
-#+CAPTION: "Double Diamond Process - CC BY 4.0 International Olga Carreras Montoto" from https://commons.wikimedia.org/wiki/File:Double-diamond-process.jpg
-#+NAME:double-diamond
-[[./images/Double-diamond-process.jpg]]
-
-- Discover
-- Define
-- Develop
-- Deliver
 ** TODO 網路社群視角之科技政策參與機制分析[50%]
 *** DONE 文獻檢閱
 文獻檢閱主要為國內外網路參與機制、如何提升網路言論品質、網路社群作為利害關係人三大部分，與服務設計中的使用者經驗設計作為開發解決方案之主要方法論。在期刊文獻專著之外，本研究大量參考網路社群原生之文本、使用者中心之產品開發設計，目的為產出可促進數位原民討論品質之實用產品或服務為目的。
