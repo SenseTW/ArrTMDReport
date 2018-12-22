@@ -1226,6 +1226,8 @@ https://medium.com/sense-tw/tech-issue-policy-meetup-a4694ef34026
 政府會議線上線下串接
 提供參考資料
 
+建議新聞媒體報導計畫時附上計畫連結
+
 * DONE 附錄
 ** 議題層次訪談大綱
 *** 訪談目的
