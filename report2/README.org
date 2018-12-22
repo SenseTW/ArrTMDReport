@@ -361,6 +361,19 @@ ael: 我要找一下我手上好像有 agile 用在政府運作的文獻。
 *** TODO 溝通缺口
 ~說明報告一講的缺口跟落差~
 ** TODO 線上公民與政治參與的功與過
+
+~討論品質~
+citep*:lin18b
+
+citep*:chang06
+
+~政治態度/參與~
+citep*:wang17
+
+~說明網路論戰~
+
+citep*:malaita15
+
 ** TODO 數位工具的幫助與限制
 * TODO 社群視角的科技政策參與途徑分析 [75%]
 ** DONE Design Sprint 問題定義與原型開發
