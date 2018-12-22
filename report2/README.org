@@ -320,9 +320,9 @@ ael: 我要找一下我手上好像有 agile 用在政府運作的文獻。
 不確定要不要寫得這麼詳細啦
 #+END_COMMENT
 * TODO 文獻檢閱 [0%]
-本章回顧當前我國「科技治理體系及溝桶缺口」、「線上公民與政治參與的功與過」以及「數位工具的幫助與限制」作為研究背景。
+本章回顧當前我國「科技治理體系及溝通缺口」、「線上公民與政治參與的功與過」以及「數位工具的幫助與限制」作為研究背景。
 ** TODO 科技治理體系及溝通缺口
-為設計適合使數位原民、科技社群參與政策討論的線上機制，並回應進入場域所必須回答的問題[fn:7]，例如「什麼是科技政策？」、「科技政策怎麼來的？」、「科技會報跟科技部差在哪邊？」、「哪邊可以看到科技發展藍圖（Road Map）跟現在有哪些計畫在推動）等等，及了解基本政策過程，接下來以民間視角綜合整理，恐有未盡之處或錯誤，仍以政府公告為主。
+為設計適合使數位原民（degital native）、科技社群參與政策討論的線上機制，並回應進入場域所必須回答的問題[fn:7]，例如「什麼是科技政策？」、「科技政策怎麼來的？」、「科技會報跟科技部差在哪邊？」、「哪邊可以看到科技發展藍圖（Road Map）跟現在有哪些計畫在推動）等等，及了解基本政策過程，接下來以民間視角綜合整理，恐有未盡之處或錯誤，仍以政府公告為主。
 
 ~說明科技治理體系~
 
@@ -361,6 +361,24 @@ ael: 我要找一下我手上好像有 agile 用在政府運作的文獻。
 *** TODO 溝通缺口
 ~說明報告一講的缺口跟落差~
 ** TODO 線上公民與政治參與的功與過
+~講網路的功與過~
+
+citep*:chang06
+
+citep*:gary13
+
+citep*:gray14
+
+citep*:stev11
+
+Digital Twin: 最理想的狀況，是實體所有的東西在數位都有一個分身, 甚至是流程。
+但當人類社會開始有越來越多 Digital Twin 有什麼問題？
+4. 知識演化越來越快，不在同溫層的人溝通上難以對焦。
+5. 注意力/資訊碎片化 - 釐清一件完全沒接觸的事情越來越難。
+6. 標籤式反射 - 不經過思考，武斷下結論。
+7. 同溫層 - 只會看自己想看的資訊，接觸想接觸的人。
+8. 極端言論 - 發表越極端的言論可以在同溫層吸引到更多眼球。
+9. 誤導資訊 - 散佈誤導資訊的成本很低，檢驗成本很高。
 
 ~政治討論頻率與政治討論異質性的中介角色~
 citep*:lin18b
@@ -371,10 +389,93 @@ citep*:chang06
 ~網路使用者的政治態度/參與~
 citep*:wang17
 
-~線上公民參與優劣限制~
+~線上公民參與優劣限制，引用 Etblue 的如果現在還要做線上審議工具~
 
+g0v 自 xxx 年以來對線上審議工具進行了各種的嘗試
+** TODO 共識為基礎的線上民主模式
+~說明 new citizen shift~
+資訊科技發展促使資訊外顯化及資訊社會結構改變屬必然歷程。
+
+*** 決策模式特點
+1. 社群驅動(Community-driven)。
+2. 由下往上(Bottom Up)。
+3. 多方利益關係人(Multistakeholder)。
+4. 粗略共識(Rough Consensus)。
+*** 類似國際案例
+1. APNIC Policy Development Process。
+2. Debian Consitution。
+3. Apache Voting Procesess
+4. Bluetooth -  Working Group Best Practices – Quick Process Overview
+5. Wikipidia
 ** TODO 數位工具的幫助與限制
-~說明網路論戰~
+~說明 網路論戰以及如何提升討論品質~
+
+~介紹打臉文化跟怎麼處理酸民~
+
+citep*:malaita15
+
+citep*:wiki:internet_troll
+
+citep*:rex08
+
+~介紹筆戰金字塔~
+citep*:paul08
+
+~說明 crowd sourcing could help~
+
+citep*:malhotra17
+
+citep*:pandey17
+
+citep*:mahyar18
+
+crowd.law/crowdlaw-af1a9e1c9455o
+
+~說明 knowledge map~
+
+citep*:hahn16
+
+citep*:davies10
+
+~guide new people to ask deep questions~
+citep*:malhotra17
+
+~說明 micro acivity可增加參與意願~
+citep*:malhotra17
+
+citep*:xueji11_xia
+
+citep*:xue11_xiang
+
+~說明 recursive summary and tagging 可以幫助降低雜訊增加理解議題架構~
+
+citep*:zhang17
+
+citep*:zhang18
+
+~說明 thread-based could help 看出討論的廣度與深度~
+https://docs.google.com/presentation/d/1fHpUkaGRxEn-J2g7YQQyeY4hL7JlMJhXL1GaLSLxlDM/edit#slide=id.g41f77fd02e_1_195
+
+~說明 要凝聚社群增加議事資本、工具要等到變成常見的通用工具才能發揮效益~
+
+~說明 sensmatic web and linked-data 可帶來的幫助~
+
+~相關工具比較~
+
+| Name                       | Website                          |
+|----------------------------+----------------------------------|
+| Rational                   | https://www.rationaleonline.com/ |
+| Argunet                    | http://www.argunet.org/          |
+| Argument Analysis Platform | https://en.arguman.org/          |
+| Consul                     | http://consulproject.org/en/     |
+| Sligrid                    | https://sligrid.com/             |
+| Milkr                      | https://milkr.io/                |
+| Minanote                   | https://minanote.com             |
+| Realtime Board             | https://realtimeboard.com/       |
+| The Brain                  | https://thebrain.com             |
+| Coggle                     | https://coggle.com               |
+| Tiddly Wiki                |                                  |
+
 * TODO 社群視角的科技政策參與途徑分析 [75%]
 ** DONE Design Sprint 問題定義與原型開發
 延續文獻檢閱之結論，本研究試圖在既有網路參與機制下，提升網路公共討論品質，並讓網路社群作為利害關係人參與政策制定。在設計敏捷方法工作坊中，收斂出來的關鍵問題為「如何在政策規劃前期以有效方法彙整實踐社群之客觀事實提出建設性意見」，再根據訪談科技社群、分析師、智庫分析師等人的結果，初步畫出社群視角的政策制定流程圖 ref:gif:design-sprint-map ，試圖在此流程圖中找到關鍵環節切入，設計工具與機制。
@@ -1055,7 +1156,7 @@ https://medium.com/sense-tw/tech-issue-policy-meetup-a4694ef34026
 **** 科技政策是怎麼形成的？
 **** 什麼叫做科技政策？
 **** 中央政府關心的議題長什麼樣子？
-**** 中央政府底下有很多機關、每個單位關心的議題又各式什麼樣子？
+**** 中央政府底下有很多機關、每個單位關心的議題又各是什麼樣子？
 ** 議題釐清工具相關開發資訊
 *** 源碼庫
 0. 設計文件： https://github.com/SenseTW/sensetw/wiki
