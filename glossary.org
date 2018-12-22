@@ -1,6 +1,9 @@
 #+CAPTION: 詞彙對照表
-| 中文詞彙 | 英文辭彙      | 定義 |
-|----------+---------------+------|
-| 數位原民 | degitl native |      |
-| 議題     | issue         |      |
-| 議題網路 | issue network |      |
+| 中文詞彙   | 英文辭彙          | 定義 |
+|------------+-------------------+------|
+| 數位原民   | degitl native     |      |
+| 數位移民   | digital immigrant |      |
+| 議題       | issue             |      |
+| 議題網路   | issue network     |      |
+| 會議催化者 | facillator        |      |
+| 積極公民   | active citizen    |      |
