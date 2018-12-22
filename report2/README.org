@@ -517,19 +517,37 @@ Design sprint Day 1 定義問題
 利害關係人（參考 PO 會議的方法論）
 #+BEGIN_COMMENT
 // 大概內容
-比較強調的議題相關的資料跟資料之間的關係，在不同的「statements」找出可以連貫所有「statements」的方式，以及將相關的「statemetns」從空間上 grouping 起來。
-呈現同一件事情的不同面向，強調 diverse perspective 與以及對 stakeholder 的影響。
+工具的任務：
+1. 幫助學習議題背景知識
+  不是 face checking. 比較強調的議題相關的資料跟資料之間的關係，在不同的「statements」找出可以連貫所有「statements」的方式，以及將相關的「statemetns」從空間上 grouping 起來。
+  呈現同一件事情的不同面向，強調 diverse perspective 與以及對 stakeholder 的影響。
+2. 主要是透過 QA 互動的方式去做 crowd sourcing problems, possible solutions 以及 摘要主要是透過 QA 互動的方式去做 crowd sourcing problems, possible solutions 以及 摘要
+
+工具的定位是成為 cyber space ，作為 commnunity 的 gathering space。
+
 讓公共討論可以變成「不特定公眾可以利用休閒時間檢視評估議題裡面的問題跟可能解法及佐證依據，時間可以是長達好幾個月。
 把每個人都當成「政策評估人員」看待，或是每個 community 預設總有幾個「積極公民」會去吵政策的優缺點。
-不加「fact」，「evidence」的原因是因為每個人認定的事實很多種。「社會真實」分為「客觀真實」、「媒介真實」、「主觀真實」。實際上我們討論事情都是依據在「媒介真實」跟「主觀真實」上。所以「證據」就是去以「資訊來源」做佐證。
-QA 是最簡單不用教的介面，但是 QA 如果是 unstructured interface，對於新手仍然是困難的！question asking 仍然是個困難的 task
-想做 self-assessment, formative assessment.簡單的說就是一連串“評估的檢視” diagnostic testing, 會包含 feedback, peer-review, question…etc.
-也是可以透過一些 rubric 或是 guiding question 去引導新手做自我評估 “self-assessment” or “self-feedback”, 但是問題又會出在新手根本無法做“深度反思“，因為能力不足
-所以小聚裡面指定一人「唱反調」。reflection level 會對應到 “問題的深度“，也會對應到一個人對於概念的“理解程度”
-主要是透過 QA 互動的方式去做 crowd sourcing problems, possible solutions 以及 摘要主要是透過 QA 互動的方式去做 crowd sourcing problems, possible solutions 以及 摘要
-分享幾篇我很愛的 paper：今年 CSCW best paper (CS 裡 HCI 的 top conference)：利用 collaborative tagging and summarization 去做 group chat 的 sensemaking http://people.csail.mit.edu/axz/papers/cscw_tilda.pdf
-https://d.ucsd.edu/srk/papers/2017/GutInstinct-CHI2017.pdf 這篇是 crowdsourcing questions，雖然是在 crowdsource scientific question，但是此篇目的在於如何 guide non-expert to generate novel questions and collaboratively perform scientific work
+
+為什麼source 不叫 face 或是 evidence
+   不加「fact」，「evidence」的原因是因為每個人認定的事實很多種。「社會真實」分為「客觀真實」、「媒介真實」、「主觀真實」。實際上我們討論事情都是依據在「媒介真實」跟「主觀真實」上。所以「證據」就是去以「資訊來源」做佐證。
+
+
+為什麼採用 QA？
+因為在線上沒有機會強制他學習操作。QA 是最簡單不用教的介面，
+
+
+Q: 如何幫助新手問深的問題
+但是 QA 如果是 unstructured interface，對於新手仍然是困難的！question asking 仍然是個困難的 task
 製造衝突則可以透過調整參與者的多元性來處理，讓人意識到他的解法可能是別人的問題，去反思問題背後的問題
+也是可以透過一些 rubric 或是 guiding question 去引導新手做自我評估 “self-assessment” or “self-feedback”, 但是問題又會出在新手根本無法做“深度反思“，因為能力不足。有時甚至要故意製造充題幫助新手問新的問題。
+
+A: 所以小聚裡面指定一人「唱反調」。reflection level 會對應到 “問題的深度“，也會對應到一個人對於概念的“理解程度”
+
+透過 iteration 讓群眾去做 self-assessment, formative assessment，簡單的說就是一連串“評估的檢視” diagnostic testing, 會包含 feedback, peer-review, question…etc.
+(learing theory)
+
+1. 利用 collaborative tagging and summarization 去做 group chat 的 sensemaking http://people.csail.mit.edu/axz/papers/cscw_tilda.pdf
+2. https://d.ucsd.edu/srk/papers/2017/GutInstinct-CHI2017.pdf 這篇是 crowdsourcing questions，雖然是在 crowdsource scientific question，但是此篇目的在於如何 guide non-expert to generate novel questions and collaboratively perform scientific work
 #+END_COMMENT
 
 1. 延續網路討論的模型（什麼模型？）但是加入查證與補充資料的步驟。
