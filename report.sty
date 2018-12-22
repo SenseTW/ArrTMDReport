@@ -11,6 +11,11 @@
 \usepackage{indentfirst}
 \usepackage{enumitem}
 \usepackage{xpatch}
+%% \usepackage[backend=biber]{biblatex}
+%% \bibliography{bib}
+%% \usepackage{natbib}
+\usepackage[round]{natbib}
+%% \usepackage[authoryear]{gbt7714}
 
 \setCJKmainfont[BoldFont={標楷體}]{標楷體}
 \setmainfont{TeX Gyre Termes}
@@ -19,6 +24,7 @@
 \renewcommand{\contentsname}{目次}
 \renewcommand{\listtablename}{表次}
 \renewcommand{\listfigurename}{圖次}
+\renewcommand{\refname}{參考文獻}
 %\renewcommand{\thechapter}{\arabic{chapter}}
 \renewcommand{\thesection}{\arabic{section}}
 \renewcommand{\thesubsection}{\arabic{subsection}}
@@ -28,6 +34,7 @@
 %% \addcontentsline{toc}{章節名}{標題}
 \titlecontents{section}[0em]{}{第\CJKnumber{\thecontentslabel}章\quad}{}{\titlerule*[1em]{.}\contentspage\vspace{0.7em}}
 \titlecontents{subsection}[24pt]{}{第\CJKnumber{\thecontentslabel}節\quad}{}{\titlerule*[1em]{.}\contentspage}
+
 
 % https://timmurphy.org/2010/07/02/changing-enumerate-number-styles-in-latex/
 \renewcommand\labelenumi{(\CJKnumber{\arabic{enumi}})}
