@@ -9,6 +9,7 @@
 \usepackage{titletoc}
 \usepackage{CJKnumb}
 \usepackage{indentfirst}
+\usepackage{enumitem}
 
 \setCJKmainfont[BoldFont={標楷體}]{標楷體}
 \setmainfont{TeX Gyre Termes}
@@ -20,11 +21,16 @@
 \renewcommand{\thesection}{\arabic{section}}
 \renewcommand{\thesubsection}{\arabic{subsection}}
 \titleformat{\section}{\center\bf\large}{第\CJKnumber{\arabic{section}}章}{1em}{}
-\titleformat{\subsection}{\bf}{第\CJKnumber{\arabic{subsection}}節}{1em}{}
+\titleformat{\subsection}{\center\bf}{第\CJKnumber{\arabic{subsection}}節}{1em}{}
 \titleformat{\subsubsection}{\bf\normalsize}{\arabic{(subsubsection})、}{1em}{}
 %%\addcontentsline{toc}{章節名}{標題}
 \titlecontents{section}[0em]{}{第\CJKnumber{\thecontentslabel}章\quad}{}{\titlerule*[1em]{.}\contentspage\vspace{0.7em}}
 \titlecontents{subsection}[24pt]{}{第\CJKnumber{\thecontentslabel}節\quad}{}{\titlerule*[1em]{.}\contentspage}
+
+% https://timmurphy.org/2010/07/02/changing-enumerate-number-styles-in-latex/
+\renewcommand\labelenumi{(\CJKnumber{\arabic{enumi}})}
+\renewcommand{\labelenumii}{\arabic{enumii}. }
+\renewcommand{\labelenumiii}{(\arabic{enumiii})}
 
 \newcommand{\loflabel}{圖}
 \newcommand{\lotlabel}{表}
@@ -92,7 +98,7 @@
               \vskip 1.4em
 
               報告處理方式：
-              \begin{enumerate}
+              \begin{enumerate}[label=\arabic*.]
                 \itemsep -12pt
               \item 公開方式：\\
                 $\square$ 非列管計畫亦不具下列情形，立即公開查詢\\
