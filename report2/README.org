@@ -1,7 +1,7 @@
 # -*- mode: org; org-latex-tables-booktabs: t -*-
 #+TITLE: 如何促進科技社群網路參與科技政策討論建議報告 - 以資訊科技社群為例 (草稿)
 #+AUTHOR: 陳信屹、簡韻真、黃凱蘭、黃宇新
-#+SETUPFILE: ../setup.org
+#+INCLUDE: ../setup.org
 * TODO 中文摘要
 #+BEGIN_COMMENT
 字數以 500 字為限，並在其後列名 5 個以內中文關鍵詞。
@@ -457,7 +457,6 @@ Design sprint Day 1 定義問題
 
 網路社群可以自組織討論
 ** DONE 溝通落差視閾圖
-
 #+caption: 溝通落差 （本研究製圖）
 #+name: gif:gap1
 #+attr_html: width 1024
@@ -492,11 +491,10 @@ Design sprint Day 1 定義問題
 4. 線上線下整合串接案例
 
 ** TODO 期望討論流程（hychen）
-
-在這個後權威時代，我們希望公民對於公共議題的知情討論（informed discussion），來自於彼此貢獻知識與自主查證，而不必然需要專家告知或製作議題手冊，因為專家告知時已經暗示一種議題框架，然而往往議題框架是最需要被討論的，吵到最後才會發現誰才是議題專家，網路社群的「專家」，其專業度非來自於頭銜，而來自其論述與提供的佐證資料讓他人可查證[fn:9]；這個討論也可以是鬆散的，讓下班後的公民可輕度持續討論[fn:10]，不必馬上有結論，而是每個參與者皆可以以自己的方式再利用其討論結果。
+在這個後權威時代，我們希望公民對於公共議題的知情討論（informed discussion），來自於彼此貢獻知識與自主查證，而不必然需要專家告知或製作議題手冊，因為專家告知時已經暗示一種議題框架，然而往往議題框架是最需要被討論的，吵到最後才會發現誰才是議題專家，網路社群的「專家」，其專業度非來自於頭銜，而來自其論述與提供的佐證資料讓他人可查證[fn:9]；這個討論也可以是鬆散的，讓下班後的公民可輕度持續討論 citep*:xueji11_xia ，不必馬上有結論，而是每個參與者皆可以以自己的方式再利用其討論結果。
 
 因此討論流程目的是在網路社群熟悉的討論空間以其熟悉的文化，例如要求原始資料連結、開放協作等方式，做到根基於佐證資料來源（reference-based）地釐清問題（problem）、解法（solution）、論點（statement），對齊知識語彙（definition）、界定利害關係人（stakeholder），並且串連出來參與的積極公民（active citizen），讓他們互相連結(networking)，導引到現有公民參與機制發起行動。
- 在問題界定跟知識跟語彙對齊期望發揮到是讓參與者問出「問題背後的問題」、「問題裡面的問題」、「解法裡面的問題」，以及「佐證資料在哪裡」、「大家對名詞的理解都一樣嗎」？在線下聚會遵循網路上的對話方式，但透過互相論證詞進行議題裡面的問題跟名詞界定，盤出相關利害關係人、相關資訊。
+在問題界定跟知識跟語彙對齊期望發揮到是讓參與者問出「問題背後的問題」、「問題裡面的問題」、「解法裡面的問題」，以及「佐證資料在哪裡」、「大家對名詞的理解都一樣嗎」？在線下聚會遵循網路上的對話方式，但透過互相論證詞進行議題裡面的問題跟名詞界定，盤出相關利害關係人、相關資訊。
 
 1. 釐清不同領域的名詞(Ground Term)
 2. 問出更深度問題(QBQ)
@@ -519,19 +517,37 @@ Design sprint Day 1 定義問題
 利害關係人（參考 PO 會議的方法論）
 #+BEGIN_COMMENT
 // 大概內容
-比較強調的議題相關的資料跟資料之間的關係，在不同的「statements」找出可以連貫所有「statements」的方式，以及將相關的「statemetns」從空間上 grouping 起來。
-呈現同一件事情的不同面向，強調 diverse perspective 與以及對 stakeholder 的影響。
+工具的任務：
+1. 幫助學習議題背景知識
+  不是 face checking. 比較強調的議題相關的資料跟資料之間的關係，在不同的「statements」找出可以連貫所有「statements」的方式，以及將相關的「statemetns」從空間上 grouping 起來。
+  呈現同一件事情的不同面向，強調 diverse perspective 與以及對 stakeholder 的影響。
+2. 主要是透過 QA 互動的方式去做 crowd sourcing problems, possible solutions 以及 摘要主要是透過 QA 互動的方式去做 crowd sourcing problems, possible solutions 以及 摘要
+
+工具的定位是成為 cyber space ，作為 commnunity 的 gathering space。
+
 讓公共討論可以變成「不特定公眾可以利用休閒時間檢視評估議題裡面的問題跟可能解法及佐證依據，時間可以是長達好幾個月。
 把每個人都當成「政策評估人員」看待，或是每個 community 預設總有幾個「積極公民」會去吵政策的優缺點。
-不加「fact」，「evidence」的原因是因為每個人認定的事實很多種。「社會真實」分為「客觀真實」、「媒介真實」、「主觀真實」。實際上我們討論事情都是依據在「媒介真實」跟「主觀真實」上。所以「證據」就是去以「資訊來源」做佐證。
-QA 是最簡單不用教的介面，但是 QA 如果是 unstructured interface，對於新手仍然是困難的！question asking 仍然是個困難的 task
-想做 self-assessment, formative assessment.簡單的說就是一連串“評估的檢視” diagnostic testing, 會包含 feedback, peer-review, question…etc.
-也是可以透過一些 rubric 或是 guiding question 去引導新手做自我評估 “self-assessment” or “self-feedback”, 但是問題又會出在新手根本無法做“深度反思“，因為能力不足
-所以小聚裡面指定一人「唱反調」。reflection level 會對應到 “問題的深度“，也會對應到一個人對於概念的“理解程度”
-主要是透過 QA 互動的方式去做 crowd sourcing problems, possible solutions 以及 摘要主要是透過 QA 互動的方式去做 crowd sourcing problems, possible solutions 以及 摘要
-分享幾篇我很愛的 paper：今年 CSCW best paper (CS 裡 HCI 的 top conference)：利用 collaborative tagging and summarization 去做 group chat 的 sensemaking http://people.csail.mit.edu/axz/papers/cscw_tilda.pdf
-https://d.ucsd.edu/srk/papers/2017/GutInstinct-CHI2017.pdf 這篇是 crowdsourcing questions，雖然是在 crowdsource scientific question，但是此篇目的在於如何 guide non-expert to generate novel questions and collaboratively perform scientific work
+
+為什麼source 不叫 face 或是 evidence
+   不加「fact」，「evidence」的原因是因為每個人認定的事實很多種。「社會真實」分為「客觀真實」、「媒介真實」、「主觀真實」。實際上我們討論事情都是依據在「媒介真實」跟「主觀真實」上。所以「證據」就是去以「資訊來源」做佐證。
+
+
+為什麼採用 QA？
+因為在線上沒有機會強制他學習操作。QA 是最簡單不用教的介面，
+
+
+Q: 如何幫助新手問深的問題
+但是 QA 如果是 unstructured interface，對於新手仍然是困難的！question asking 仍然是個困難的 task
 製造衝突則可以透過調整參與者的多元性來處理，讓人意識到他的解法可能是別人的問題，去反思問題背後的問題
+也是可以透過一些 rubric 或是 guiding question 去引導新手做自我評估 “self-assessment” or “self-feedback”, 但是問題又會出在新手根本無法做“深度反思“，因為能力不足。有時甚至要故意製造充題幫助新手問新的問題。
+
+A: 所以小聚裡面指定一人「唱反調」。reflection level 會對應到 “問題的深度“，也會對應到一個人對於概念的“理解程度”
+
+透過 iteration 讓群眾去做 self-assessment, formative assessment，簡單的說就是一連串“評估的檢視” diagnostic testing, 會包含 feedback, peer-review, question…etc.
+(learing theory)
+
+1. 利用 collaborative tagging and summarization 去做 group chat 的 sensemaking http://people.csail.mit.edu/axz/papers/cscw_tilda.pdf
+2. https://d.ucsd.edu/srk/papers/2017/GutInstinct-CHI2017.pdf 這篇是 crowdsourcing questions，雖然是在 crowdsource scientific question，但是此篇目的在於如何 guide non-expert to generate novel questions and collaboratively perform scientific work
 #+END_COMMENT
 
 1. 延續網路討論的模型（什麼模型？）但是加入查證與補充資料的步驟。
@@ -830,7 +846,7 @@ sense.tw 工具優點：
 ** TODO 線上線下串接案例 [66%]
 前述分別介紹線上意見整理工具 sense.tw 與線下的議題小聚，此節以案例介紹如何串接線上數位工具與線下線下討論，加深網路社群討論科技政策之品質。
 *** DONE Public Money, Public Code
-Public Money, Public Code 為國際開源社群長期推動由政府資助開發的軟體應開放原始碼的運動[fn:6]。在開源人年會（COSCUP）中大高雄 Linux 協會（KaLUG）與樹黨[fn:11]開始討論，於是舉辦之議題工作坊以此為主題進行討論。
+Public Money, Public Code 為國際開源社群長期推動由政府資助開發的軟體應開放原始碼的運動[fn:6]。在開源人年會（COSCUP）中大高雄 Linux 協會（KaLUG）與樹黨[fn:10]開始討論，於是舉辦之議題工作坊以此為主題進行討論。
 
 流程如下：
 1. 先使用 sense.tw 在網路上整理相關問題與討論架構，分類問題與找到的相關資料作為回答
@@ -881,7 +897,7 @@ https://medium.com/sense-tw/community-tech-policy-coscup2018-1cefe60b38c3
 #+END_COMMENT
 *** DONE 網路中立性
 1. 設定議題
-網路中立性為第二場議題小聚，議題設定選擇為網路社群一直關心的「網路中立性」[fn:12]和「境外封網」[fn:13]作為議題，網路社群基本上支持網路中立性與反對境外封網，雖然後來經過現場討論議題釐清之後，發現其實是兩個不同的議題。
+網路中立性為第二場議題小聚，議題設定選擇為網路社群一直關心的「網路中立性」[fn:11]和「境外封網」[fn:12]作為議題，網路社群基本上支持網路中立性與反對境外封網，雖然後來經過現場討論議題釐清之後，發現其實是兩個不同的議題。
 1. 初步整理網路資料並創建活動頁面做網路擴散:
    - 創建活動頁面：https://www.facebook.com/events/453192175172987/ ，依靠臉書做擴散，既可以收集對此議題感興趣者的名單，又可提供線上空間讓參與者可丟連結和參與共筆紀錄。
    - 事先整理整理台灣封網事件的時間軸：https://bit.ly/2PWFkZ7。
@@ -900,7 +916,7 @@ https://medium.com/sense-tw/community-tech-policy-coscup2018-1cefe60b38c3
          [[./images/net-neutrality1.png]]
       1. 問題：首先問什麼是網路中立性，就發現跟境外封網的定義不同，決定討論網路中立性。
       2. 名詞定義：使用維基百科對於網路中立性的定義。
-         「網路中立性是一個原則，要求所有網際網路流量均應被平等對待。據哥倫比亞大學法學院教授吳修銘所述，解釋網路中立性的最好方法與設計網路時所期望的一樣：公眾資訊網路將在所有內容、網站及平臺被平等對待時達到其最佳的使用。在技術及服務上對網路中立性更詳細的定義為，服務的網路中立性意指，一個服務在某一層的運作不會影響到在該層上的其他服務，以僅依據該層所訂定的協定規範。」[fn:13]
+         「網路中立性是一個原則，要求所有網際網路流量均應被平等對待。據哥倫比亞大學法學院教授吳修銘所述，解釋網路中立性的最好方法與設計網路時所期望的一樣：公眾資訊網路將在所有內容、網站及平臺被平等對待時達到其最佳的使用。在技術及服務上對網路中立性更詳細的定義為，服務的網路中立性意指，一個服務在某一層的運作不會影響到在該層上的其他服務，以僅依據該層所訂定的協定規範。」[fn:12]
       3. 問題：台灣真的有網路中立性的問題嗎？
       4. 回答：台灣目前沒有網路中立性，因為網速會因為內容而不同（個人實測）。
       5. 問題：為什麼？
@@ -1022,12 +1038,10 @@ https://medium.com/sense-tw
 
 [fn:9] 需要有個非頭銜式專家的文獻。
 
-[fn:10]下班後改變社會。好像是來自鄉民都來了？
+[fn:10] 活動由歐洲自由軟體基金會發起，要求制定法律，明訂以公務機關的經費，為公務機關開發的軟體，必須以自由開源軟體授權釋出，截至 2018/12/21 為止全球已有 158 個組織與 19130 個人已經連署公開信表達支持。詳見 https://publiccode.eu/zh-tw/。
 
-[fn:11] 活動由歐洲自由軟體基金會發起，要求制定法律，明訂以公務機關的經費，為公務機關開發的軟體，必須以自由開源軟體授權釋出，截至 2018/12/21 為止全球已有 158 個組織與 19130 個人已經連署公開信表達支持。詳見 https://publiccode.eu/zh-tw/。
+[fn:11] 網路中立性定義。
 
-[fn:12] 網路中立性定義。
+[fn:12] 境外封網事件連結。
 
-[fn:13] 境外封網事件連結。
-
-[fn:14] 軟體工程師，樹黨發起人，過去曾參選。主要為倡議 Public Money Public Code，撰有〈二十年後的政府軟體〉一文 http://treesparty.tw/2018/06/17/public-money-public-code/。
+[fn:13] 軟體工程師，樹黨發起人，過去曾參選。主要為倡議 Public Money Public Code，撰有〈二十年後的政府軟體〉一文 http://treesparty.tw/2018/06/17/public-money-public-code/。
