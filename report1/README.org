@@ -1,7 +1,7 @@
 # -*- mode: org; org-latex-tables-booktabs: t -*-
 #+TITLE: 網路社群與「先禁」政府的戰爭研析與公眾參與建議報告 - 以資訊科技社群與科技政策為例 （草稿）
 #+AUTHOR: 陳信屹
-#+SETUPFILE: ../setup.org
+#+INCLUDE: ../setup.org
 * TODO 中文摘要
 DEADLINE: <2018-12-28 Fri>
 #+BEGIN_COMMENT

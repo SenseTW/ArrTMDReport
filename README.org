@@ -1,6 +1,4 @@
 #+TITLE: 網路社群參與機制設計與建議報告
-#+AUTHOR: 陳信屹、簡韻真
-+EMAIL: ossug.hychen@gmail.com
 #+OPTIONS: H:2 num:t
 * 目錄                                                         :TOC:noexport:
 - [[#前言][前言]]
