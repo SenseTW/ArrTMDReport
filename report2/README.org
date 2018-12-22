@@ -1,15 +1,17 @@
+# -*- mode: org; org-latex-tables-booktabs: t -*-
 #+TITLE: 如何促進科技社群網路參與科技政策討論建議報告 - 以資訊科技社群為例 (草稿)
 #+AUTHOR: 陳信屹、簡韻真、黃凱蘭、黃宇新
 #+LANGUAGE: zh-TW
-#+OPTIONS: H:2 num:t toc:t
+#+OPTIONS: H:2 num:t pri:nil toc:t todo:nil tags:nil stat:nil prop:nil
 #+TOC: tables
 #+STARTUP: content
 #+LATEX_COMPILER: xelatex
 #+LATEX_CLASS_OPTIONS: [12pt,a4paper]
 #+LATEX_HEADER: \input{report.sty}
+#+LATEX_HEADER: \bibliographystyle{plain}
+#+LATEX_HEADER: \bibliography{../references}
 
-* 封面
-* 中文摘要
+* TODO 中文摘要
 #+BEGIN_COMMENT
 字數以 500 字為限，並在其後列名 5 個以內中文關鍵詞。
 
@@ -79,11 +81,11 @@ stakeholder identification
 3. 純線上討論比較困難，記錄、幫助討論。看出討論的深度和廣度夠不夠，並且延續上一場討論。
 
 #+END_COMMENT
-* 英文摘要
+* TODO 英文摘要
 #+BEGIN_COMMENT
 字數以 150 字為限，並在其後列名 5 個以內英文關鍵詞。
 #+END_COMMENT
-* 前言
+* TODO 前言
 #+BEGIN_QUOTE
 「所有公共論述都逐漸以娛樂形式來傳達。我們的政治、宗教、新聞、體育、教育和商業，全都成為娛樂業的附庸，對此民眾多半毫無怨言，甚至漠不關心。於是，我們成為瀕臨娛樂至死的一群。」
 
@@ -94,9 +96,8 @@ stakeholder identification
 
 我國已有數項網路參與機制，例如行政院國發會所主導的公民提案連署平台 JOIN.tw，在不定期召開之全國性會議亦設有網路參與機制，例如全國文化會議、能源轉型白皮書等，與網路社群協作的虛實整合的 vTaiwan 數位經濟法規調適平台等，當務之急並非設計新的網路參與機制，而是提升既有參與機制所接收到的提案品質。
 
-電子治理中心針對 JOIN.tw 平台的提案品質，有如下建議：「未來應加強推廣協作討論區的系統功能，或進一步導入新的協作方法，或建立新的誘因制度，以吸引民間社群（如公民科技社群）結合政府開放資料，或透過網路群眾協力（如群眾外包途徑）協助提案者釐清議題本質，進而提高民眾提案品質。」廖洲棚、廖興中、黃心怡（2018）。
-
-上份報告《網路社群與「先禁」政府的戰爭研析與公眾參與建議報告 - 以資訊科技社群與科技政策為例》（需引用）亦指出政府與民間協作的溝通缺口在於缺乏議題脈絡的交代以及與會者知識語彙未對齊。本報告希望進一步研究如何透過群眾協力的分式讓網路社群能夠自組織釐清議題、對齊知識語彙，從而有議事資本作為利害關係人群體參與政策預評估會議。讓因興趣、議題而快速聚集的網路社群，能夠在社群內部進行議題釐清後產生論述，做出行動，真正在公民參與上達到議題設定，而非只有在政府框架出的網路參與機制中被動參與單向傳播之討論。
+電子治理中心針對 JOIN.tw 平台的提案品質，有如下建議：「未來應加強推廣協作討論區的系統功能，或進一步導入新的協作方法，或建立新的誘因制度，以吸引民間社群（如公民科技社群）結合政府開放資料，或透過網路群眾協力（如群眾外包途徑）協助提案者釐清議題本質，進而提高民眾提案品質。」cite:liao18
+上份報告《網路社群與「先禁」政府的戰爭研析與公眾參與建議報告 - 以資訊科技社群與科技政策為例》（需引用）亦指出政府與民間協作的溝通缺口在於缺乏議題脈絡的交代以及與會者知識語彙未對齊。本報告希望進一步研究如何透過群眾協力的分式讓網路社群能夠自組織釐清議題、對齊知識語彙，從而有「議事資本」cite:lo17 作為利害關係人群體參與政策預評估會議。讓因興趣、議題而快速聚集的網路社群，能夠在社群內部進行議題釐清後產生論述，做出行動，真正在公民參與上達到議題設定，而非只有在政府框架出的網路參與機制中被動參與單向傳播之討論。
 
 本研究在於設計並嘗試虛實整合的網路參與機制，讓網路社群可以自組織並符合網路原生代社群文化之討論方式，並非直接移植實體討論方式使之線上化，透過數位工具、社群討論的文化，促成低門檻、高頻度、高品質的討論。由於網路社群眾多，文化和討論平台也不盡相同，本研究從網路資訊社群[fn:1]出發，試作虛實整合的科技政策的網路參與機制。
 
@@ -137,7 +138,7 @@ stakeholder identification
   // 這邊有很多玩意沒寫
  「未來應加強推廣協作討論區的系統功能，或進一步導入新的協作方法，或建立新的誘因制度，以吸引民間社群（如公民科技社群）結合政府開放資料，或透過網路群眾協力（如群眾外包途徑）協助提案者釐清議題本質，進而提高民眾 提案品質。」廖洲棚、廖興中、黃心怡（2018）。
 
-#+NAME: gif-participitionfunnel
+#+NAME:-participitionfunnel
 #+CAPTION: 行動參與深度圖（本研究製圖）
 #+ATTR_HTML: width: 1024
 [[./images/participitionfunnel.png]]
@@ -159,12 +160,14 @@ stakeholder identification
 依據上述背景與核心問題，本研究目的分為兩個層面，簡述如下:
 1. 研析既有網路參與機制，找出網路社群參與之核心問題。
 2. 設計一套適用網路原生代非同步的網路討論方式提升議題討論的品質與參與政策過程的深入程度，並促使網路社群自組織議題社群增加議事資本。
-* TODO研究方法[75%]
+* TODO 研究方法 [75%]
 ** DONE 研究架構
- #+BEGIN_SRC plantuml :results none :file ./images/research_arch.png
-   (網路社群視角之科技政策參與機制分析) ->  (虛實整合網路參與機制設計開發與驗證)
- #+END_SRC
- [[./images/research_arch.png]]
+#+BEGIN_SRC plantuml :results none :file ./images/research_arch.png cache: on
+(網路社群視角之科技政策參與機制分析) ->  (虛實整合網路參與機制設計開發與驗證)
+#+END_SRC
+#+caption: 研究架構（本研究製圖）
+#+name: gif:research_arch
+[[./images/research_arch.png]]
 ** DONE 研究流程
  #+BEGIN_SRC plantuml :results none :file ./images/research_flow.png
    start
@@ -187,18 +190,23 @@ stakeholder identification
    endfork
    end
  #+END_SRC
+
+#+name: gif:research_flow
+#+caption: 研究流程（本研究製圖）
  [[./images/research_flow.png]]
 ** TODO 網路社群視角之科技政策參與機制分析[50%]
 *** DONE 文獻檢閱
 文獻檢閱主要為國內外網路參與機制、如何提升網路言論品質、網路社群作為利害關係人三大部分，與服務設計中的使用者經驗設計作為開發解決方案之主要方法論。在期刊文獻專著之外，本研究大量參考網路社群原生之文本、使用者中心之產品開發設計，目的為產出可促進網路原生代討論品質之實用產品或服務為目的。
 *** TODO 使用者訪談
 
-以滾雪球抽樣（snowball sampling）方式，在網路資訊社群參與科技政策的流程中，會參與的不同角色之人員進行訪談，涵括積極公民、NGO 工作者、網路社群專家、政策分析師、審議主持人、政黨智庫、法人承辦、部會幕僚、高層事務官、外部顧問、政務官等，以此為依據產出使用者畫像（persona）、服務藍圖（service blueprint）、使用者旅程（journey map）、用途故事（Job Story）等使用者經驗分析，挖掘既有科技政策形成與網路參與機制中溝通落差的痛點與待解問題，從而設計試作虛實整合線上參與機制後，進一步拿產品做使用者測試。
+以「滾雪球抽樣」（snowball sampling）方式，在網路資訊社群參與科技政策的流程中，會參與的不同角色之人員進行訪談，涵括積極公民、NGO 工作者、網路社群專家、政策分析師、審議主持人、政黨智庫、法人承辦、部會幕僚、高層事務官、外部顧問、政務官等，以此為依據產出使用者畫像（persona）、服務藍圖（service blueprint）、使用者旅程（journey map）、用途故事（Job Story）等使用者經驗分析，挖掘既有科技政策形成與網路參與機制中溝通落差的痛點與待解問題，從而設計試作虛實整合線上參與機制後，進一步拿產品做使用者測試。
 
 本研究主要透過訪談回顧歷年網路公民參與機制的設計與困難，部分受訪者選擇匿名不公開。
 訪綱見附錄。
 
-#+CAPTION: 訪談對象及訪談形式
+#+caption: 訪談對象及訪談形式（本研究製表）
+#+name: tbl:interview-list
+#+ATTR_LATEX: :font \rowcolors[]{2}{contiYellow!5}{contiYellow!20}
 | 代號  | 分類             | 訪談時間                 | 形式             |
 |-------+------------------+--------------------------+------------------|
 | NPC1  | 社群專家         | 2017/12/21 7:30-9:30pm   | 訪談             |
@@ -220,9 +228,9 @@ stakeholder identification
 #+END_COMMENT
 
 *** TODO 設計敏捷方法（Design Sprint Method）
-設計敏捷方法 （Design Sprint Method）是由 Google 提出並且於內部實踐受到歡迎。概念基礎來自於敏捷開發（Agile）、設計思考（Design Thinking）與革新遊戲法（Gamestorming）。讓團隊在五天內定義關鍵問題和目標、大量發想產品解法、決定發展方向、做出原型、使用者測試。（須改寫或標註引用來源）五天的 Design Sprint 適合團隊一起挑戰高風險的問題，並且願意從新的角度思考產品，在最短的時間內完整發想又驗證產品構想。比一兩天的工作坊更能完整盤點想法並實際動手測試，又不需等待一個月的開發期才能做使用者驗證。
+設計敏捷方法 （Design Sprint Method）cite:jake16 是由 Google 提出並且於內部實踐受到歡迎。概念基礎來自於敏捷開發（Agile）、設計思考（Design Thinking）與革新遊戲法（Gamestorming）。讓團隊在五天內定義關鍵問題和目標、大量發想產品解法、決定發展方向、做出原型、使用者測試。（須改寫或標註引用來源）五天的 Design Sprint 適合團隊一起挑戰高風險的問題，並且願意從新的角度思考產品，在最短的時間內完整發想又驗證產品構想。比一兩天的工作坊更能完整盤點想法並實際動手測試，又不需等待一個月的開發期才能做使用者驗證。
 
-本研究使用這個方法探索「科技政策如何在前期規劃納入更多民間專家的建設性意見」的可能性方案。詳見 [[https://www.thesprintbook.com/][The Sprint Book]][fn:2] 。本團隊則依團隊狀況微調工作坊進行形式，以下為微調形式。
+本研究使用這個方法探索「科技政策如何在前期規劃納入更多民間專家的建設性意見」的可能性方案。本團隊則依團隊狀況微調工作坊進行形式，以下為微調形式。
 
 #+BEGIN_COMMENT
 找一下中文書封和介紹詞。
@@ -287,13 +295,13 @@ stakeholder identification
 服務藍圖法（Service Blueprint）
 ** DONE 虛實整合網路參與機制設計開發與驗證[100%]
 
-以前述使用者經驗設計的訪調與分析為基礎，滾動式設計開發虛實整合網路參與機制，捨棄傳統瀑布流開發方式，使用網路業快速回應使用者需求常用的敏捷開發法（agile development）[fn:3]，透過使用者驗證不斷調整產品開發方向，避免按照一年前制定的規格一路做下去最後才發現不符合實際使用者需求。
+以前述使用者經驗設計的訪調與分析為基礎，滾動式設計開發虛實整合網路參與機制，捨棄傳統瀑布流開發方式，使用網路業快速回應使用者需求常用的敏捷開發法（agile development）[fn:2]，透過使用者驗證不斷調整產品開發方向，避免按照一年前制定的規格一路做下去最後才發現不符合實際使用者需求。
 
 本團隊亦將所設計之解決方案皆開源（open source），讓公眾亦可加入開發、散佈、改作，並且架設協作平台讓網路社群得以參與機制之開發與回饋。
 
 *** DONE 精實創業與敏捷開發以滾動式修正
 
-在設計開發虛實整合網路參與機制中，本團隊遵循敏捷開發（agile development）宣言[fn:4]：
+在設計開發虛實整合網路參與機制中，本團隊遵循敏捷開發（agile development）宣言[fn:3]：
 
 #+BEGIN_QUOTE
 藉著親自並協助他人進行軟體開發，我們正致力於發掘更優良的軟體開發方法。透過這樣的努力，我們已建立以下價值觀:
@@ -306,9 +314,9 @@ stakeholder identification
 也就是說，雖然右側項目有其價值，但我們更重視左側項目。
 #+END_QUOTE
 
-在不斷回應變化與跟使用者合作的參與機制開發中，本團隊亦參考精實創業（Ries，2016） 一書中最小可行性產品（Minimal Valuable Product，MVP）、使用者測試驗證產品假說之概念，在產品開發初期即製作原型測試（prototype testing），並且開發最小可行性產品後即推出讓使用者測試，根據使用者回饋不斷修改產品功能與參與機制設計。
+在不斷回應變化與跟使用者合作的參與機制開發中，本團隊亦參考「精實創業」 cite:lai17_jing 一書中最小可行性產品（Minimal Valuable Product，MVP）、使用者測試驗證產品假說之概念，在產品開發初期即製作原型測試（prototype testing），並且開發最小可行性產品後即推出讓使用者測試，根據使用者回饋不斷修改產品功能與參與機制設計。
 
-此回饋修正週期為兩個禮拜，採取 SCRUM 開發模式[fn:5]，採取兩個禮拜為一個衝刺週期（sprint）的方式，每個衝刺週期由團隊一起回顧驗收上個衝刺週期的成果、使用者回饋與改善工作流程開始，接著依產品負責人排定的產品開發需求，由開發人員評估工作量與分配工作，在一個衝刺週期中「排定的事項不能改變，也不能再加入東西。團隊必須要在衝刺期間自主工作，以完成自己預測可完成的事項。」[p328]每個衝刺週期須交付使用者具有價值的產出，詳細開發進度可見團隊在 GitHub 上 Milestone 的工作記錄。
+此回饋修正週期為兩個禮拜，採取 「SCRUM」cite:sutherland18_scrum 開發模式，採取兩個禮拜為一個衝刺週期（sprint）的方式，每個衝刺週期由團隊一起回顧驗收上個衝刺週期的成果、使用者回饋與改善工作流程開始，接著依產品負責人排定的產品開發需求，由開發人員評估工作量與分配工作，在一個衝刺週期中「排定的事項不能改變，也不能再加入東西。團隊必須要在衝刺期間自主工作，以完成自己預測可完成的事項。」[[citep:sutherland18_scrum][p. 328]] 每個衝刺週期須交付使用者具有價值的產出，詳細開發進度可見團隊在 GitHub 上 Milestone 的工作記錄。
 
 #+BEGIN_COMMENT
 敏捷開發宣言：https://agilemanifesto.org/principles.html
@@ -319,14 +327,15 @@ ael: 我要找一下我手上好像有 agile 用在政府運作的文獻。
 #+END_COMMENT
 *** DONE 開源社群參與
 
-本團隊所設計開發的解決方案亦為開源（open source），在開發過程中即將所開發的程式碼、圖像介面設計、公開文字產出（部分訪談內容、部落格、數位原民參與手冊）、介紹影片等，以開放授權方式公開在網路上讓任何人可散佈、改作。本團隊並且與網路社群共同協作，在 GitHub 平台公開開發進與收集問題回報，在 g0v 臺灣零時政府社群[fn:6]的 Slack 討論平台上讓任何人可加入開發相關討論，並實體參與 g0v 黑客松與其年會、參與 COSCUP 開源人年會等活動與網路社群交流共同協作。並以集客式行銷（inbound marketing）方式撰寫部落格，以吸引對此虛實整合網路參與機制有興趣之網路閱聽眾，參與協作開發與使用。
+本團隊所設計開發的解決方案亦為開源（open source），在開發過程中即將所開發的程式碼、圖像介面設計、公開文字產出（部分訪談內容、部落格、數位原民參與手冊）、介紹影片等，以開放授權方式公開在網路上讓任何人可散佈、改作。本團隊並且與網路社群共同協作，在 GitHub 平台公開開發進與收集問題回報，在 g0v 臺灣零時政府社群[fn:4]的 Slack 討論平台上讓任何人可加入開發相關討論，並實體參與 g0v 黑客松與其年會、參與 COSCUP 開源人年會等活動與網路社群交流共同協作。並以集客式行銷（inbound marketing）方式撰寫部落格，以吸引對此虛實整合網路參與機制有興趣之網路閱聽眾，參與協作開發與使用。
 
 協作入口：
 - 即時訊息討論： https://join.g0v.tw , channel #sense；討論紀錄：https://g0v-slack-archive.g0v.ronny.tw/index/channel/C7D8SL96V
 - 專案開發: https://github.com/SenseTW
 - 電子郵件群組: https://groups.google.com/d/forum/sensetw
 
-#+ATTR_LATEX: :align lp{110pt}p{110pt}
+#+NAME: tbl:output-right-list
+#+ATTR_LATEX: :align l|p{110pt}|p{110pt} :font \rowcolors[]{2}{contiYellow!5}{contiYellow!20}
 | 著作物                    | 連結                                | 授權                                                                  |
 |---------------------------+-------------------------------------+-----------------------------------------------------------------------|
 | sense.tw 程式碼與介面設計 | https://github.com/SenseTW/sensetw/ | MIT[註解]                                                             |
@@ -339,15 +348,16 @@ ael: 我要找一下我手上好像有 agile 用在政府運作的文獻。
 不確定要不要寫得這麼詳細啦
 #+END_COMMENT
 
-* 文獻檢閱
-** 網路參與機制回顧
+* TODO 文獻檢閱 [0%]
+** TODO 網路參與機制回顧
 #+BEGIN_COMMENT
 結論：不需要再設計政府官方網路參與機制，而是
 1. 需提升公民參與意願與提案品質。
 2. 將多元的網路社群納入多方利害關係人（上一份報告）
 
 #+END_COMMENT
-** 網路公共討論品質
+** TODO 網路公共討論品質
+*** 網路的功與過
 人類社會開始有越來越多 Digital Twin 有什麼問題？
 1. 知識演化越來越快，不在同溫層的人溝通上難以對焦。
 2. 注意力/資訊碎片化 - 釐清一件完全沒接觸的事情越來越難。
@@ -375,11 +385,13 @@ iterating knowledge maps over only four users allowed a collectively-generated s
 宜靜的 Reflection model
 結論：有哪幾個要素是提升網路討論品質的關鍵
 #+END_COMMENT
-** 網路社群作為利害關係人
+*** 如何提升討論品質
+citep*:davies10 解釋論述圖（argument map）與概念圖（concept map），心智圖（Mind Map）的不同。
+** TODO 網路社群作為利害關係人
 *** 網路社群的文化與如何建立
-#+NAME: gif-community_building
-#+CAPTION: Nine Timeless Design Strategies
-#+ATTR_HTML: width: 1024
+#+name: gif:community_building
+#+caption: Nine Timeless Design Strategies
+#+attr_html: width: 1024
 [[./images/community_building.png]]
 *** 網路治理多邊利害關係人模型
 e.g. (ICANN)
@@ -411,13 +423,13 @@ MSM 的代表性仍遭到質疑 (COSCUP 2018 多元利害關係人模式解決�
 結論：網路社群已有一些方式用多方利害關係人模式擬定複雜政策，並且有社群參與。本研究的下個問題是如何將這樣的模型應用到更廣大的科技政策制定。
 #+END_COMMENT
 
-*  TODO 社群視角的科技政策參與途徑分析[66%]
+*  TODO 社群視角的科技政策參與途徑分析 [66%]
 *** DONE Design Sprint 問題定義與原型開發
-延續文獻檢閱之結論，本研究試圖在既有網路參與機制下，提升網路公共討論品質，並讓網路社群作為利害關係人參與政策制定。在設計敏捷方法工作坊中，收斂出來的關鍵問題為「如何在政策規劃前期以有效方法彙整實踐社群之客觀事實提出建設性意見」，再根據訪談科技社群、分析師、智庫分析師等人的結果，初步畫出社群視角的政策制定流程圖（如下圖），試圖在此流程圖中找到關鍵環節切入，設計工具與機制。
+延續文獻檢閱之結論，本研究試圖在既有網路參與機制下，提升網路公共討論品質，並讓網路社群作為利害關係人參與政策制定。在設計敏捷方法工作坊中，收斂出來的關鍵問題為「如何在政策規劃前期以有效方法彙整實踐社群之客觀事實提出建設性意見」，再根據訪談科技社群、分析師、智庫分析師等人的結果，初步畫出社群視角的政策制定流程圖 ref:gif:design-sprint-map ，試圖在此流程圖中找到關鍵環節切入，設計工具與機制。
 
-#+NAME: design-sprint-map
-#+CAPTION: Design Sprint Mmp （本研究製圖）
-#+ATTR_HTML: width 1024
+#+caption: Design Sprint Mmp （本研究製圖）
+#+name: gif:design-sprint-map
+#+attr_html: width 1024
 [[./images/design_sprint_map.jpg]]
 
 最後選擇兩個關鍵環節：
@@ -435,9 +447,9 @@ MSM 的代表性仍遭到質疑 (COSCUP 2018 多元利害關係人模式解決�
 
 我們採用服務藍圖以系統性的方式將訪談倡議民眾/團體的倡議過程記錄下來，整理成清楚易懂的流程表，降低理解的門檻，讓站在倡議民眾立場外的人也能理解倡議民眾在活動過程中的旅程。另外，服務藍圖的鳥瞰視角，清楚的將「前台」（ Front Stage）、「後台」（ Back Stage ）與「幕後」（ Behind the Scenes ）三個區塊的運作樣貌呈現出來。讓我們可以清楚地看到，在民眾倡議議題的過程步驟中，每一個階段背後採取的行動、使用的工具、參與的人員與相關的利害關係人，以這樣的架構釐清倡議民眾在執行倡議過程中的幕後準備行動，也能讓我們看到早期議題形成的發展脈絡。
 
-#+CAPTION: 服務藍圖 （本研究製圖）
-#+NAME: service-blueprint
-#+ATTR_HTML: width 1024
+#+caption: 服務藍圖 （本研究製圖）
+#+name: gif:service-blueprint
+#+attr_html: width 1024
 [[./images/service_blueprint.jpg]]
 
 #+BEGIN_COMMENT
@@ -456,6 +468,7 @@ MSM 的代表性仍遭到質疑 (COSCUP 2018 多元利害關係人模式解決�
 在議題倡議的每個階段，積極公民倡議的過程中都有相似的行動（Customer actions），而每個行動慢慢的促成下一階段的發生。Onstage comtact actions 是倡議民眾每階段行動的實際動作（促成行動的實際行為）；Backstage 則是每個實際動作背後的運作動作。例如，在意見宣導的行動階段，實現意見宣導的是藉由散播議題懶人包的方式讓更多人看到/看懂議題發聲的緣由，而懶人包的製作過程是一般人看倡議民眾倡議議題時看不到的後台行為。利害關係人，則是因為自己立場對議題有不同解讀與態度的人，會影響每個階段議題倡議行動方向、活動、宣傳內容定調等，像是決定議題懶人包切入論述的角度。
 
 **** 流程說明
+本節說明 ref:gif:service-blueprint 各階段細節。
 ***** 前期議題設定：
 在重大議題尚未發生之前，通常會有一群關心該議題的積極公民，因為工作/生活跟該議題相關，而關注討論該議題的發展。議題討論可能會鬆散的發生在社群平台，或是討論該議題的協作工具上。稍微有組織力的討論活動，則是發起實體的議題小聚討論會，透過實體群聚討論，並用數位工具紀錄討論過程。
 ***** 議題發酵：
@@ -482,12 +495,12 @@ MSM 的代表性仍遭到質疑 (COSCUP 2018 多元利害關係人模式解決�
 vTaiwan（https://vtaiwan.tw/）
 由政府部會和民間提案，針對數位經濟相關法規做討論，共有五個階段：成案、意見徵集、研擬草案、送交院會、歷史案件，透過每週三實體社群小聚協助前期議題釐清與架設網路討論空間，如：共筆、提案介紹、直播、討論區、pol.is 收集意見，邀請參與諮詢會議的利害關係人，並召開實體諮詢會議搭配直播與網路留言。
 
-2. 公民政策網路參與平台 JOIN 
+2. 公民政策網路參與平台 JOIN
 公民政策網路參與平台 JOIN（https://join.gov.tw）， 由行政院國家發展委員會建置，我國公民與在台外籍人士都可線上提案，經過檢核所提案事項為行政院職責範圍內及通過其他標準，即開放附議，提案若在 60 日內在 JOIN 平臺上附議超過五千人，主管機關需在二個月內於該平台上正式回應提案。
 
-#+CAPTION: 網路參與機制在服務藍圖上之定位 （本研究製圖）
-#+NAME: sense_vTaiwan_JOIN_diff
-#+ATTR_HTML: width 1024
+#+caption: 網路參與機制在服務藍圖上之定位 （本研究製圖）
+#+name: gif:sense_vTaiwan_JOIN_diff
+#+attr_html: width 1024
 [[./images/sense_vTaiwan_JOIN_diff.jpg]]
 
 由上圖可見 vTaiwan 和 JOIN 主要是在政府端處理非正式的諮詢會議和會議前的議題釐清。
@@ -502,38 +515,37 @@ JOIN 平臺則是扮演了接收民眾陳情和提案的窗口，雖有「協作
 需要列出 PO 會議的參考資料來源，訪談？
 Design sprint Day 1 定義問題
 #+END_COMMENT
-
 *** TODO 使用者歷程
 在公民參與流程中的工具位置：
 
-#+CAPTION: 使用者歷程圖一（本研究製圖）
-#+NAME: service-blueprint
-#+ATTR_HTML: width 1024
+#+caption: 使用者歷程圖一（本研究製圖）
+#+name: gif:cmj1
+#+attr_html: width 1024
 [[./images/cmj1.jpg]]
 
-#+CAPTION: 使用者歷程圖二（本研究製圖）
-#+NAME: service-blueprint
-#+ATTR_HTML: width 1024
+#+caption: 使用者歷程圖二（本研究製圖）
+#+name: gif:cmj2
+#+attr_html: width 1024
 [[./images/cmj2.jpg]]
 
 工具須解決的問題與所在流程：
 
-*** DONE溝通落差視閾圖
+*** DONE 溝通落差視閾圖
 
-#+CAPTION: 溝通落差 （本研究製圖）
-#+NAME: gap
-#+ATTR_HTML: width 1024
- [[./images/gap1.png]]
+#+caption: 溝通落差 （本研究製圖）
+#+name: gif:gap1
+#+attr_html: width 1024
+[[./images/gap1.png]]
 
 在開發數位工具與進一步訪談時，發現政府與網路社群的關鍵溝通落差，來自於視角不同。如上圖所示，民間網路社群是以議題、單篇新聞作為出發點批評政府，難以得知政策全盤規劃，報導也缺乏連結至原始政策文獻的方法，使網路社群在無法查證之狀況下，難以信任該政策規劃。舉例來說網路批評者批評為了發展 AI 購置多台超級電腦，但不知道同時間政府其他 AI 相關計畫；面對跨領域議題，例如 AI 人才培育議題，民間不會去區分是科技部、教育部還是經濟部主責，而是將政府視為一個整體批評。
 
 然而，政府卻是以主責部會角度看待政策規劃，將政策切為不同部分讓部會主責，因此難以與民間對話。同時，政府在蒐集輿情時，多著重在主流媒體報導與陳亢事件，缺乏網路社群第一手資訊，想要尋找網路意見領袖進來開會即可，卻忽略網路上沒有代表人，而是有很多不同的社群在做討論，意見領袖只能作為與網路社群溝通的窗口，而不若傳統公協會之代表人。政府在收集網路社群意見時，遇到另一個困難是，網路討論碎片化又非常繁雜，不知道去哪裡找到洞見，既有輿情工具也只能做到網路關鍵字聲量分析，卻無法歸納總結爭點論述。
 
-因此，希望能有數位工具和討論機制讓政府與民間的知識語彙可以對齊，才能推進相關討論（如下圖）。民間因熟悉網路討論內容與空間，能先自行整理問題與訴求，政府則能提供完整政策規劃之原始資料與整體政策。
+因此，希望能有數位工具和討論機制讓政府與民間的知識語彙可以對齊，才能推進相關討論 ref:gif:grounding 。民間因熟悉網路討論內容與空間，能先自行整理問題與訴求，政府則能提供完整政策規劃之原始資料與整體政策。
 
-#+CAPTION: grounding（本研究製圖）
-#+NAME: grounding
-#+ATTR_HTML: width 1024
+#+caption: grounding（本研究製圖）
+#+name: gif:grounding
+#+attr_html: width 1024
 [[./images/gap2.png]]
 
 本計劃著重在銜接民間討論至政策規劃，目標在促進民間自組織釐清議題、了解政策後能提供政府洞見與訴求，因而開發
@@ -542,11 +554,11 @@ Design sprint Day 1 定義問題
 2. 實體討論促進網路社群參與政策討論
 3. 數位原民參與手冊供網路社群理解政策形成機制與公民參與方法
 
-*  TODO 虛實整合的網路參與機制設計[0%]
+*  TODO 虛實整合的網路參與機制設計 [0%]
 #+BEGIN_COMMENT
 這裡寫透過數位工具做到視域融合
 #+END_COMMENT
-** TODO線上線下討論機制設計
+** TODO 線上線下討論機制設計
 （Endpoint 線上線下討論機制圖）
 在公民參與服務藍圖上的前期議題設定、議題發酵階段，能有線上線下的整合機制，讓網路社群可以自組織做議題釐清和知識語彙對齊，弭平溝通落差，進而促進討論品質。
 
@@ -571,7 +583,7 @@ Design sprint Day 1 定義問題
 3. 頻繁而低成本的討論 Micro Activity
 4. 跨時間地域的虛擬空間 (cyber space)
 #+END_COMMENT
-** TODO期望討論流程
+** TODO 期望討論流程
 在回應建構論證模型[註解]的基礎上，建立一般人也能輕度參與政策討論，並且有討論品質。
 
 從積極公民的訪談中，得知在網路擴散基本 QA 結構很有幫助。（需要引用訪談稿，這邊是王希、也民、孝先）
@@ -600,7 +612,7 @@ https://d.ucsd.edu/srk/papers/2017/GutInstinct-CHI2017.pdf 這篇是 crowdsourci
 
 1. 延續網路討論的模型（什麼模型？）但是加入查證與補充資料的步驟。
 
-#+BEGIN_SRC plantuml :results none file :file ./images/problem_idenity_flow.png
+#+BEGIN_SRC plantuml :results none file :file ./images/problem_idenity_flow.png :cache on
        |問題、可能解法、利害關係人界定|
        start
        repeat
@@ -637,8 +649,11 @@ https://d.ucsd.edu/srk/papers/2017/GutInstinct-CHI2017.pdf 這篇是 crowdsourci
        :記錄到 hackmd 或是 sensemap!;
        stop
 #+END_SRC
+
+#+name: gif:problem_idenity_flow
+#+caption: 期望討論流程（本研究製圖）
 [[./images/problem_idenity_flow.png]]
-** TODO線上意見整理工具 sense.tw[66%]
+** TODO 線上意見整理工具 sense.tw [66%]
 在知識語彙對齊來提升網路討論品質的前提下，數位工具的開發希望能協助網路社群在前期議題設定的議題釐清階段，引入上述期望討論過程，並且工具設計著重在以下兩點：
 1. 回歸原始資料來源
 2. 呈現議題脈絡
@@ -659,12 +674,12 @@ https://d.ucsd.edu/srk/papers/2017/GutInstinct-CHI2017.pdf 這篇是 crowdsourci
 #+END_COMMENT
 *** TODO 使用情境與功能介紹：
 以下以個人整理大量資訊的情境作為工具功能介紹，線上非同步協作和現場會議之數位記錄會於線上線下串接案例中介紹。
-****  DONE個人整理大量資訊
+****  DONE 個人整理大量資訊
 在此以整理 2018 年底「以核養綠」公投論辯為例作為工具介紹。當時有兩場電視辯論會針對「公投第十六案：您是否同意：廢除電業法第95條第1項，即廢除『核能發電設備應於中華民國一百十四年以前，全部停止運轉』之條文？」做正反方論辯，有網路直播並且有辯論逐字稿，然而核能議題複雜也需要非常多佐證資料，故以此作為案例整理論辯架構圖，並連結回原始連結，完成如下圖的分析圖，在網頁上可放大縮小檢視。
 
-#+CAPTION:以核養綠電視論辯分析圖全局觀
-#+NAME:nuclear_whole_picture
-#+ATTR_HTML: width 1024
+#+caption: 以核養綠電視論辯分析圖全局觀
+#+name: gif:nuclear_whole_picture
+#+attr_html: width 1024
 [[./images/nuclear_whole_picture.png]]
 #+BEGIN_COMMENT
 截圖自 https://sense.tw/map/a6a2d883-35e0-4229-a483-a6ea14c04c59
@@ -704,16 +719,17 @@ sense.tw 可直接在網頁和 pdf 文件上畫重點註記。在此案例中使
 透過此種方式可以梳理議題脈絡、添加補充回應、補充資料來源，可看出哪些論述還未被查證缺乏資料來源、哪些問題有被完整回答，論述方所提出的解法是否還有存在其他問題等。
 [[./images/nuclear_context.png]]
 
-****  TODO數位化紀錄現場討論
+****  TODO 數位化紀錄現場討論
 以區塊鍊治理討論為例，透過投影出將討論拆解成單一概念與資料間的論證建構圖，可協助與會者在現場討論時看到已討論過的名詞定義讓知識語彙對齊，並且可檢視問答的深度與廣度，並線上補充資料連結。
 
-#+CAPTION: 區塊鏈治理 Unconference - G0V Summit 2018
+#+caption: 區塊鏈治理 Unconference - G0V Summit 2018
+#+name: gif:blockchain_unconf
 [[./images/blockchain_unconf.jpeg]]
 
 *** DONE 應用成果
-#+ATTR_LATEX: :align p{130pt}llllp{120pt} :font \setlength{\tabcolsep}{3pt}
-#+CAPTION:sense.tw 上 2018 年 7 月 7 日至 2018 年 12 月 16 日活躍議題地圖列表清單（本研究製表）
-#+NAME: tbl-sensemap-list
+#+caption: sense.tw 上 2018 年 7 月 7 日至 2018 年 12 月 16 日活躍議題地圖列表清單（本研究製表）
+#+name: tbl:sensemap-list
+#+attr_latex: :align p{130pt}llllp{204pt} :font \setlength{\tabcolsep}{3pt} \rowcolors[]{2}{contiYellow!5}{contiYellow!20}
 |Page Title|PV.        |UPV.              |Avg.      |小聚	  |Page Link|
 |-------------|--------|-------|-------|-------|-------|
 |女性主義者給問嗎|	3561|	1389|	0:55|	|	https://sense.tw/map/741258c1-ad77-4701-8220-cfa887ec3a75|
@@ -744,7 +760,7 @@ sense.tw 工具優點：
 4. 尚需歷史紀錄與搜尋功能協助非同步協作。
 3. 難以單純由線上發起討論。
 5. 對不熟悉圖像思考的人，議題地圖可讀性低，許多人不知道從何看起。
-** TODO線下實體議題小聚[75%]
+** TODO 線下實體議題小聚 [75%]
 初期專注在開發數位工具做議題整理與爭點釐清，但發現目標之資訊實踐社群，在討論社會議題與政策尚停留在社群媒體回應留言階段，較少能夠對接到政策制定的組織論述，因此發起實體討論之議題小聚，建立資訊社群討論科技政策的參與意願與方法，目標是建立低門檻、高頻度、社群自組織的深度科技政策相關討論，讓資訊社群在下班後的時間即可抓定大原則自主發起討論，不需有專業主持人或剛性討論架構，並搭配數位工具去釐清議題和爭點，在對議題有深度討論後能以此為基礎進一步能有所行動。
 #+BEGIN_COMMENT
 還需對照參與與回應層級的圖
@@ -754,6 +770,8 @@ sense.tw 工具優點：
 **** 應用場景
 議題小聚的應用場景建議以數位原生代為主體，配合在地社群合辦，解決場地與會眾問題。討論主題貼近與會者生活要能引起共鳴。以下以「人事時地物」五個面向來說明。
 
+#+name: tbl:meetup-PTTLT
+#+attr_latex: :font \rowcolors[]{2}{contiYellow!5}{contiYellow!20}
 | 面向 | 說明                                                         |
 |------+--------------------------------------------------------------|
 | 人   | 建議對象為科技從業人員或是高中或大專學生                |
@@ -837,7 +855,8 @@ sense.tw 工具優點：
 
 主持人開場與介紹儘量簡短，並快速的說明便利貼顏色規則。
 
-#+tabname: map-data-input-filter
+#+NAME: tbl:map-data-input-filter
+#+attr_latex: :font \rowcolors[]{2}{contiYellow!5}{contiYellow!20}
 |   | 資料輸入種類 | 顏色 |
 |---+--------------+------|
 |   | 問題         | 紅色 |
@@ -871,9 +890,9 @@ sense.tw 工具優點：
 *** DONE 應用成果
 截至 2018 年 12 月 20 日為止，共計舉辦 9 場議題小聚如下表。初期由本團隊發起並主動接洽北中南資訊社群，討論主題如：區塊鍊、數位治理，並且使用本計劃開發之意見整理工具 sense.tw 做數位紀錄，數位工具之紀錄使實體之討論可擴散給更多關心此議題的社群參與者，及非同步協作補充資料。在 2018 年底開始造成社群擴散效應，有資訊社群主動聯絡自行發起議題小聚，如學生計算機年會 SITCON 參與者發起「資訊教育」議題小聚；李梅樹紀念館發起在台北舉辦「文化組織如何數位開放」，並將於 2019 年持續在台北、台中舉辦延續之議題小聚討論文化組織之資訊系統標案。
 
-#+ATTR_LATEX: :align p{80pt}lllp{70pt}lp{90pt}l :font \scriptsize \setlength{\tabcolsep}{3pt}
+#+ATTR_LATEX: :align p{80pt}lllp{70pt}lp{90pt}l :font \scriptsize \setlength{\tabcolsep}{3pt} \rowcolors[]{2}{contiYellow!5}{contiYellow!20}
 #+CAPTION:議題小聚活動列表清單（本研究製表）
-#+NAME: tbl-meetup-list
+#+NAME: tbl:meetup-list
 | 活動名稱                           | 日期       | 人數     | 地區     | 參與者背景                                                                 | 年齡   | 記錄連結                                                  | 網路擴散                  |
 |------------------------------------+--------------+------------+--------------+----------------------------------------------------------------------------+----------+-----------------------------------------------------------+---------------------------|
 | COSCUP Workshop 議題小聚           | 2018/08/12   | 10         | 台北市       | 律師、工程師、業務、退休 CEO                                               | 16-65    | https://sense.tw/map/8c1c6b87-8bf8-4360-af93-5e5c917aa780 |                       458 |
@@ -890,10 +909,10 @@ sense.tw 工具優點：
 
 #+END_COMMENT
 
-** TODO線上線下串接案例[0%]
+** TODO 線上線下串接案例 [0%]
 前述分別介紹線上意見整理工具 sense.tw 與線下的議題小聚，此節以案例介紹如何串接線上數位工具與線下實體討論，加深網路社群討論科技政策之品質。
 *** TODO Public Money, Public Code
-Public Money, Public Code 為國際開源社群長期推動由政府資助開發的軟體應開放原始碼的運動。在開源人年會（COSCUP）中大高雄 Linux 協會（KaLUG）與樹黨開始討論，於是舉辦之議題工作坊以此為主題進行討論。
+Public Money, Public Code 為國際開源社群長期推動由政府資助開發的軟體應開放原始碼的運動[fn:5]。在開源人年會（COSCUP）中大高雄 Linux 協會（KaLUG）與樹黨[fn:6]開始討論，於是舉辦之議題工作坊以此為主題進行討論。
 
 流程如下：
 **** 先使用 sense.tw 在網路上整理相關問題與討論架構。
@@ -991,10 +1010,10 @@ https://medium.com/sense-tw/tech-issue-policy-meetup-a4694ef34026
 2. 數位記錄有效幫助線上討論延續
 3. 紀錄的成本很高
 
-*  TODO 結論與建議
+*  TODO 結論與建議 [0%]
 本章依據前述研究成果進行研究發現綜整，並依據相關研究發現，提供若干建議供政府部門參考。
-** 研究發現
-** 建議
+** TODO 研究發現
+** TODO 建議
 * 參考文獻
 1. 廖洲棚、廖興中、黃心怡（2018）。開放政府服務策略研析調查： 政府資料開放應用模式評估與民眾參與公共政策意願調查。受委託單位：電子治理研究中心。國家發展委員會編印。NDC-MIS-106-003。
 2. 郭耀煌、許華欣（2017）。科技計畫管理機制之研析。國土及公共治理季刊第五卷第三期。
@@ -1012,11 +1031,10 @@ https://medium.com/sense-tw/tech-issue-policy-meetup-a4694ef34026
 **** 中央政府關心的議題長什麼樣子？
 **** 中央政府底下有很多機關、每個單位關心的議題又各式什麼樣子？
 ** 議題釐清工具相關開發資訊
-*** 工程設計文件
 *** 源碼庫
-1. 前後端源碼: https://github.com/SenseTW/sensetw
-2. Annotation-Enabled web proxy: https://github.com/SenseTW/via
-3. 開發環境: https://github.com/SenseTW/devenv
+0. 設計文件： https://github.com/SenseTW/sensetw/wiki
+1. 前後端源碼： https://github.com/SenseTW/sensetw
+2. Annotation-Enabled web proxy： https://github.com/SenseTW/via
 *** 部落格
 https://medium.com/sense-tw
 *** 過往計畫介紹簡報
@@ -1024,7 +1042,8 @@ https://medium.com/sense-tw
 *** 對公部門介紹何為網路社群應如何比喻
 透過宗教信仰的比喻，對較少數位協作經驗、沒有社群經驗的的人員建構對網路社群的想像。
 **** 語彙轉譯表
-     #+ATTR_LATEX: :align p{228pt}p{120pt} :font \setlength{\tabcolsep}{6pt}
+     #+NAME: tbl:word-translate
+     #+ATTR_LATEX: :align p{228pt}p{120pt} :font \setlength{\tabcolsep}{6pt} \rowcolors[]{2}{contiYellow!5}{contiYellow!20}
     | 轉譯前                                                                       | 轉譯後                            |
     |------------------------------------------------------------------------------+-----------------------------------|
     | 如何找出一個網路社群常用來討論的數位工具在哪？                                | 廟在哪裡?                         |
@@ -1046,6 +1065,9 @@ https://medium.com/sense-tw
 *** 對網路社群介紹科技會報跟科技部的不同
 *** 對網路社群介紹行政部門如何分類議題的層次
     每個層級的長官關心的議題大小不同，以政務委員為例，頂多看到第二級。
+
+    #+NAME: tbl:watch-level
+    #+attr_latex: :font \rowcolors[]{2}{contiYellow!5}{contiYellow!20}
    | 層次   | 關心議題的動機                               | 長官      |
    |--------+----------------------------------------------+-----------|
    | 第一級 | 這議題會影響到臺灣嗎？ 哪些部會要出來負責 ？ | 院長/政委 |
@@ -1056,14 +1078,12 @@ https://medium.com/sense-tw
 
 [fn:1] 網路社群概念性定意見[[./README.org][報告一]]。
 
-[fn:2] The Sprint Book 官網：https://www.thesprintbook.com/
+[fn:2] 敏捷開發註解
 
-[fn:3] 敏捷開發註解
+[fn:3] 敏捷開發宣言連結：https://agilemanifesto.org/principles.html
 
-[fn:4] 敏捷開發宣言連結：https://agilemanifesto.org/principles.html
+[fn:4] 「g0v.tw 是一個推動資訊透明化的社群，致力於開發公民參與社會的資訊平台與工具。」(https://g0v.tw/zh-TW/about.html)
 
-[fn:5] 江裕珍（2015）。《SCRUM：用一半的時間做兩倍的事》 傑夫・薩瑟蘭（Jeff Sutherland）著，江裕珍譯，台北市：遠見天下文化，2015
-p326, 331
+[fn:5] 活動由歐洲自由軟體基金會發起，要求制定法律，明訂以公務機關的經費，為公務機關開發的軟體，必須以自由開源軟體授權釋出，截至 2018/12/21 為止全球已有 158 個組織與 19130 個人已經連署公開信表達支持。詳見 https://publiccode.eu/zh-tw/。
 
-[fn:6] 「g0v.tw 是一個推動資訊透明化的社群，致力於開發公民參與社會的資訊平台與工具。」(https://g0v.tw/zh-TW/about.html)
-
+[fn:6] 軟體工程師，樹黨發起人，過去曾參選。主要為倡議 Public Money Public Code，撰有〈二十年後的政府軟體〉一文 http://treesparty.tw/2018/06/17/public-money-public-code/。
