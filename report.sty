@@ -10,6 +10,7 @@
 \usepackage{CJKnumb}
 \usepackage{indentfirst}
 \usepackage{enumitem}
+\usepackage{xpatch}
 
 \setCJKmainfont[BoldFont={標楷體}]{標楷體}
 \setmainfont{TeX Gyre Termes}
@@ -17,13 +18,14 @@
 \renewcommand\figurename{圖}
 \renewcommand{\contentsname}{目次}
 \renewcommand{\listtablename}{表次}
+\renewcommand{\listfigurename}{圖次}
 %\renewcommand{\thechapter}{\arabic{chapter}}
 \renewcommand{\thesection}{\arabic{section}}
 \renewcommand{\thesubsection}{\arabic{subsection}}
 \titleformat{\section}{\center\bf\large}{第\CJKnumber{\arabic{section}}章}{1em}{}
 \titleformat{\subsection}{\center\bf}{第\CJKnumber{\arabic{subsection}}節}{1em}{}
 \titleformat{\subsubsection}{\bf\normalsize}{\arabic{(subsubsection})、}{1em}{}
-%%\addcontentsline{toc}{章節名}{標題}
+%% \addcontentsline{toc}{章節名}{標題}
 \titlecontents{section}[0em]{}{第\CJKnumber{\thecontentslabel}章\quad}{}{\titlerule*[1em]{.}\contentspage\vspace{0.7em}}
 \titlecontents{subsection}[24pt]{}{第\CJKnumber{\thecontentslabel}節\quad}{}{\titlerule*[1em]{.}\contentspage}
 
@@ -35,16 +37,13 @@
 \newcommand{\loflabel}{圖}
 \newcommand{\lotlabel}{表}
 
-\renewcommand{\numberline}[1]{\loflabel~#1：\hspace*{0.5em}}
-\renewcommand{\numberline}[1]{\lotlabel~#1：\hspace*{0.5em}}
-
-
 \setlength{\parskip}{0.5\baselineskip} %段落間距
 \setlength\parindent{24pt}
 
-\bibliographystyle{plain}
-\bibliography{../references}
+%% \bibliographystyle{plain}
+%% \bibliography{../references}
 \definecolor{contiYellow}{RGB}{255,165,0}
+
 
 \makeatletter
 \renewcommand\tableofcontents{%
@@ -54,25 +53,29 @@
   \setcounter{page}{1}
   \pagenumbering{Roman}
   \@starttoc{toc}%
+  \newpage
 }
 \renewcommand\listoffigures{%
+  \renewcommand{\numberline}[1]{\loflabel~##1：\hspace*{0.5em}}
   \section*{\huge\listfigurename
     \@mkboth{%
       \MakeUppercase\listfigurename}{\MakeUppercase\listfigurename}}
   \@starttoc{lof}%
+  \newpage
+  \pagenumbering{arabic} %% pagenumber 換成 123 (「圖次」之後接「表次」，拿掉這行)
 }
 \renewcommand\listoftables{%
+  \renewcommand{\numberline}[1]{\lotlabel~##1：\hspace*{0.5em}}
   \section*{\huge\listtablename
     \@mkboth{%
       \MakeUppercase\listtablename}{\MakeUppercase\listtablename}}
   \@starttoc{lot}%
   \newpage
-  \pagenumbering{arabic}
+  %% \pagenumbering{arabic} %% pagenumber 換成 123 (「表次」之後接「圖次」，拿掉這行)
 }
 \makeatother
 
-\usepackage{amssymb}
-\usepackage{xpatch}
+
 \makeatletter
 \xpatchcmd{\@maketitle}
           {\@title}
