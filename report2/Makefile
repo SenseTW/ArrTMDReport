@@ -12,10 +12,10 @@ pdf:
 	xdvipdfmx README.xdv -o "$(OUTFILE)"
 
 tex:
-	${EMACSCLIENT} -e '(progn (find-file "README.org")(org-latex-export-to-latex))'
+	${EMACSCLIENT} -e '(progn (find-file "README.org")(org-latex-export-to-latex)(kill-buffer))'
 
 clean:
-	rm -f *.aux *.lot *.log *.out *.toc *.lof *.bcf *.bbl *.blg *.run.xml *~
+	rm -f *.aux *.lot *.log *.out *.toc *.lof *.bcf *.bbl *.blg *.run.xml *.bib *.html *.xdv *~
 	rm README.org
 	git checkout README.org
 

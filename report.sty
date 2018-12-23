@@ -11,12 +11,34 @@
 \usepackage{indentfirst}
 \usepackage{enumitem}
 \usepackage{xpatch}
-\usepackage{url
-%% \usepackage[backend=biber]{biblatex}
+
+%% \usepackage[american]{babel} %recommended
+%% \usepackage{csquotes} % recommended
+%% \usepackage[backend=biber,natbib=true]{biblatex}
+%% \usepackage[natbib=true]{biblatex}
+%% \bibliography{../references.bib}
 %% \bibliography{bib}
 %% \usepackage{natbib}
-\usepackage[round]{natbib}
+%% \usepackage[round]{natbib}
 %% \usepackage[authoryear]{gbt7714}
+%% \usepackage{gb4e}
+%% \noautomath
+%% \usepackage[authordate,isbn=false,backend=biber]{biblatex-chicago}
+
+%% style : numeric alphabetic standard
+%% https://www.overleaf.com/learn/latex/Biblatex_bibliography_styles
+\usepackage[style=standard,citestyle=authoryear,backend=bibtex,natbib=true]{biblatex}
+\addbibresource{../references.bib}
+
+%% 文件未加上參考文獻章節
+%% \AtEndDocument{\newpage\clearpage\phantomsection\addcontentsline{toc}{section}{参考文獻}\renewcommand\refname{參考文獻}\printbibliography}
+\AtEndDocument{
+  \newpage
+  \clearpage
+  \phantomsection
+  \addcontentsline{toc}{section}{参考文獻}
+  \renewcommand\refname{參考文獻}
+  \printbibliography}
 
 \setCJKmainfont[BoldFont={標楷體}]{標楷體}
 \setmainfont{TeX Gyre Termes}
