@@ -307,7 +307,7 @@ stakeholder identification
 ** TODO 線上公民與政治參與的功與過
 ** TODO 數位工具的幫助與限制
 Wikipidia 以及 OpenStret Map 的成功說明了大規模業餘群眾成果不輸於由少數菁英組成的傳統專家。
-因此過往屬於研究機構才能研析的工作是否能讓公眾進行呢？ citep*:hahn16 研究指出，透過仰賴高品質的線上資訊以及適合的數位工具，即便是困難的科技問題也能讓不具專業的新手（novice）在不了解 Big Picture 在不同階段參與，問出更深層的問題，並集體產生出高品質、縱整過後的的摘要性文章。 圖 ref:ka-process 展示其實作之 "Knowledge Accelerator" (KA) 流程。
+因此過往屬於研究機構才能研析的工作是否能讓公眾進行呢？ citep*:hahn16 研究指出，透過高品質的線上資訊以及適合的數位工具，即便是困難的科技問題也能讓不具專業的新手（novice）在不了解 Big Picture 在不同階段參與，問出更深層的問題，並集體產生出高品質、縱整過後的的摘要性文章。 圖 ref:ka-process 展示其實作之 "Knowledge Accelerator" (KA) 流程。
 
 #+CAPTION: The process of the Knowledge Accelerator (KA), from start to finish. 來源自：citep*:hahn16m
 #+NAME: ka-process
