@@ -322,7 +322,9 @@ citep*:wang17  認為觀察民眾的「政治信任感」（political trust）�
 | 從數者 (Subordinates) | 高         | 低         | 信任政府但是不認為自身有能力影響政府作為                         |
 | 疏離者（Alienateds）  | 低         | 低         | 政治不值得信任也認為自己沒有改變現狀                             |
 
-~討論頻率會影響議題品質~
+~介紹 KOL~
+
+~KOL 討論頻率會影響議題品質跟其他者參與行為~
 
 「科技改變了民眾回應的傳播方式、回應力道，特別是回應持續的時間。科技去除了兩個過去的障礙，那就是資訊的局部性及群體回應的障礙。」[[citep*:xue11_xiang][p.141]]。
 
@@ -332,7 +334,7 @@ citep*:wang17  認為觀察民眾的「政治信任感」（political trust）�
 citep*:etblue18
 
 Wikipidia 以及 OpenStret Map 的成功說明了大規模業餘群眾成果不輸於由少數菁英組成的傳統專家。
-因此過往屬於研究機構才能研析的工作是否能讓公眾進行呢？ citep*:hahn16 研究指出，透過高品質的線上資訊以及適合的數位工具，即便是困難的科技問題也能讓不具專業的新手（novice）在不了解 Big Picture 在不同階段參與，問出更深層的問題，並集體產生出高品質、縱整過後的的摘要性文章。 圖 ref:ka-process 展示其實作之 "Knowledge Accelerator" (KA) 流程。
+因此過往屬於研究機構才能研析的工作是否能讓公眾進行呢？ citep*:hahn16 研究指出，透過高品質的線上資訊以及適合的數位工具，即便是困難的科技問題也能讓不具專業的新手（novice）在不了解 Big Picture 在不同階段參與，從一個給範圍較大的問題開始演化，使群眾在線上問出更深層的問題，並集體產生出高品質、縱整過後的的摘要性文章。 圖 ref:ka-process 展示其實作之 "Knowledge Accelerator" (KA) 流程。
 
 #+CAPTION: The process of the Knowledge Accelerator (KA), from start to finish. 來源自：citep*:hahn16m
 #+name: ka-process
