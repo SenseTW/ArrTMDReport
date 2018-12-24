@@ -84,9 +84,9 @@ stakeholder identification
 電子治理研究中心針對 [[https://join.gov.tw][JOIN.tw ]]平台的提案品質，有如下建議：「未來應加強推廣協作討論區的系統功能，或進一步導入新的協作方法，或建立新的誘因制度，以吸引民間社群（如公民科技社群）結合政府開放資料，或透過網路公眾協力（如公眾外包途徑）協助提案者釐清議題本質，進而提高民眾提案品質。」cite:liao18
 上份報告 autocite:ArrTMDReport1 亦指出政府與民間協作的溝通缺口在於缺乏議題脈絡的交代以及與會者知識語彙未對齊。本報告希望進一步研究如何透過公眾協力的分式讓網路社群能夠自組織釐清議題、對齊知識語彙，從而有「議事資本」cite:lo17 作為利害關係人群體參與政策預評估會議。讓因興趣、議題而快速聚集的網路社群，能夠在社群內部進行議題釐清後產生論述，做出行動，真正在公民參與上達到議題設定，而非只有在政府框架出的網路參與機制中被動參與單向傳播之討論。
 
-本研究在於設計並嘗試線上線下整合的網路參與機制，讓網路社群可以自組織並符合數位原生代（Degital Native）社群文化之討論方式，並非直接移植線下討論方式使之線上化，透過數位工具、社群討論的文化，促成低門檻、高頻度、高品質的討論。由於網路社公眾多，文化和討論平台也不盡相同 。由於研究資源限制，本研究從網路資訊科技社群出發，試作線上線下整合的科技政策的網路參與機制。最後，根據研究成果提出「由下而上的」公眾參與操作建議，希望能如 ref:gif:participation_funnel 所示，加深網路社群之公民參與。
+本研究在於設計並嘗試線上線下整合的網路參與機制，讓網路社群可以自組織並符合數位原生代（Degital Native）社群文化之討論方式，並非直接移植線下討論方式使之線上化，透過數位工具、社群討論的文化，促成低門檻、高頻度、高品質的討論。由於網路社公眾多，文化和討論平台也不盡相同 。由於研究資源限制，本研究從網路資訊科技社群出發，試作線上線下整合的科技政策的網路參與機制。最後，根據研究成果提出「由下而上的」公眾參與操作建議，希望能如 ref:fig:participation_funnel 所示，加深網路社群之公民參與。
 
-#+NAME:participation_funnel
+#+NAME: fig:participation_funnel
 #+CAPTION: 行動參與深度圖
 #+ATTR_HTML: width: 1024
 [[./images/participation_funnel.png]]
@@ -350,11 +350,11 @@ stakeholder identification
 | 參與成本           | 參與的成本有「多少」？「如何」宣傳？                       |
 | 參與結果           | 從政治、法律、文化、經濟、科技等面向評估參與的結果         |
 
-然而前述的九大構面缺少了參與誘因，citep*:wang17  認為觀察民眾的「政治信任感」（political trust）以及「政治效能感」(political efficiency)，兩種政治態度或可預線上線下參與的行為模式，並將台灣網路使用者區分為四種，見表 ref:net-user-catgory。
+然而前述的九大構面缺少了參與誘因，citep*:wang17  認為觀察民眾的「政治信任感」（political trust）以及「政治效能感」(political efficiency)，兩種政治態度或可預線上線下參與的行為模式，並將台灣網路使用者區分為四種，見 ref:tbl:net-user-category 。
 結果顯示其中網路使用者以「疏離者」最多，「忠誠者」與「異議者 」參與頻率最高。因此在線上參與的最大的問題是 *沒有人要參與* ，比起機制的設計，更重要的是增加公眾參與的誘因，而誘因的設計是最為困難的。
 
 #+CAPTION: 網路使用者的分類（本研究再製）
-#+name: net-user-category
+#+NAME: tbl:net-user-category
 | 分類                  | 定義                                                             | 政治信任感 | 政治效能感 |
 |-----------------------+------------------------------------------------------------------+------------+------------|
 | 忠誠者（Assureds）    | 信任政府且認為自己能改變現況                                     | 高         | 高         |
@@ -384,14 +384,14 @@ citep*:etblue18 指出審議的數位工具最好是通用工具，也就是這�
 Wikipedia 以及 OpenStreetMap 的成功說明了大規模業餘公眾成果不輸於由少數菁英組成的傳統專家。
 因此過往屬於研究機構才能進行政策研析的工作是否能讓公眾進行呢？ citep*:hahn16 研究指出，透過高品質的線上資訊以及適合的數位工具，即便是困難的科技問題也能讓不具專業的新手（novice）在不了解 Big Picture 在不同階段參與，從一個範圍較大的問題開始演化，使公眾在線上問出更深層的問題，並集體產生出高品質、縱整過後的的摘要性文章。 圖 ref:ka-process 展示其實作之 "Knowledge Accelerator" (KA) 流程。
 
-#+CAPTION: The process of the Knowledge Accelerator (KA), from start to finish. 來源自：citep*:hahn16m
+#+CAPTION: The process of the Knowledge Accelerator (KA), from start to finish. 來源自： citep:hahn16
 #+name: ka-process
 [[./images/ka-process.png]]
 
-然而縱整過後的摘要性文章只是一種較為單向資訊呈現方式，心智圖（mind map）、概念圖（concept map）、論點圖（arguments map）被有效證明可幫助學生分析該挖掘資訊跟資訊的關係掌握新的知識 citep*:davies10 。ref:knowledge-map 模型解釋三者主要的差別以及適合應用的時間。
+然而縱整過後的摘要性文章只是一種較為單向資訊呈現方式，心智圖（mind map）、概念圖（concept map）、論點圖（arguments map）被有效證明可幫助學生分析該挖掘資訊跟資訊的關係掌握新的知識 citep*:davies10 。 ref:fig:kmap 模型解釋三者主要的差別以及適合應用的時間。
 
 #+CAPTION:convergence of knowledge mapping technologies into a single integrated platform. from citep*:davies10
-#+name: knowledege-map
+#+name: fig:kmap
 [[./images/kmap.png]]
 ** DONE 小結
 綜合上述文獻回顧可發現，若要讓公眾與政府有效溝通對話，有兩個較重要的條件需要思考：（1）如何讓公眾有更多的興趣接收政策資訊以及政治參與，（2）如何讓公眾協作進行議題釐清，從而能有足夠的政策知識與了解相關語彙與政府對話。若要促進線上參與討論，可思考（1）從意見領袖發起高頻度、低成本的政治討論會增進線上線下參與的意願，（2）在一個問題接著問更深度的問題（QBQ）和回歸原始文獻討論可增進理性討論的可能性。
@@ -577,7 +577,7 @@ JOIN 平臺則是扮演了接收民眾陳情和提案的窗口，雖有「協作
 3. 頻繁而低成本的討論 （Micro Activity）
 4. 跨時間地域的線上空間 (cyber space)
 
-由以上四個要點，讓每個公民可以貢獻其知識，做到彼此知識語彙對齊，透過辯證的方式回應建構論證，建立一般人也能輕度參與政策討論，並且有討論品質，等於是用數位工具擴展第四代政策回應建構評估（Responsive Constructive Evaluation) cite:guba11 模型，讓不只是專家和政府找的利害關係人去回應建構評估一個政策，而是任何公民與網路社群參與者皆可發動並參與這個過程。
+由以上四個要點，讓每個公民可以貢獻其知識，做到彼此知識語彙對齊，透過辯證的方式回應建構論證，建立一般人也能輕度參與政策討論，並且有討論品質，等於是用數位工具擴展第四代政策回應建構評估（Responsive Constructive Evaluation) citep:guba01 模型，讓不只是專家和政府找的利害關係人去回應建構評估一個政策，而是任何公民與網路社群參與者皆可發動並參與這個過程。
 
 #+BEGIN_SRC plantuml :results none file :file ./images/problem_idenity_flow.png :cache on
        |問題、可能解法、利害關係人界定|
@@ -790,7 +790,7 @@ sense.tw 工具優點：
 8. 線下聚會可連結對議題有興趣的參與者，引發後續討論。
 9. 不追求一次有具體討論結論，而是創造頻繁而低成本的討論(Micro Activity)，慢慢釐清議題與建立參與意願。
 
-目前已驗證前述之回應論證評估模型 cite:guba11 ，但尚未達到網路效應（network effect）之臨界點，尚無法有代表性涵蓋一個議題特面向之利害關係人。
+目前已驗證前述之回應論證評估模型 citep:guba01 ，但尚未達到網路效應（network effect）之臨界點，尚無法有代表性涵蓋一個議題特面向之利害關係人。
 ****  DONE 活動當天操作流程
 提早一個小時到現場佈置及測試活動設備，架設活動立牌、測試投影機、安排座位及入口動線、名片 e-mail 投放箱
 
