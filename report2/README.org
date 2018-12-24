@@ -984,14 +984,14 @@ https://medium.com/sense-tw/tech-issue-policy-meetup-a4694ef34026
 2. 網路社群公民參與之痛點
 3. 發展出線上線下議題釐清工具與機制（要寫幾個要點）
 
-** TODO 建議
+** TODO 政策建議
 本研究專注在促進民間網路社群自組織議題釐清，主動權不在政府部門手上，然而政府能夠做好資料開放作為促進網路公共政策討論之品質之基石。
 
-#1
-補足知識落差
+****  開放易搜尋與互相連結之資料補足民間與政府知識落差
+從對線上參與機制與公民參與的使用者訪談中得知網路社群因視角不同與政府產生溝通落差（見 ref:gif:gap1 ），網路社群容易對議題、新聞做出反應，較難得知跨部會的全盤政策與各部會職掌。若政府政策相關文件只有以 PDF 檔分別放在各部會網站上，對於不熟悉各部會執掌和計畫的民間收集相關議題資料較為不便，建議除了 PDF 檔案外有網頁形式或至少有標註關鍵字和提供相關連結，方便使用搜尋引擎查找。例如科技會報之「AI 行動計畫」有完整網頁介紹全面性政策[fn:8]，只可惜缺乏連結回相關原始文件報告，只有連結新聞報導。亦可參考馬德里市政府開發之 CONSUL 的線上參與平台[fn:9]與美國聯邦政府 18F [fn:10]皆有開發可供民眾直接在線上註記政策網頁檔以回應政策意見之工具
+，本計劃開發之 sense.tw 也可達到同樣功能。
 
-（溝通落差視閾圖）
-提供全局政策/計畫、讓政府資料公開且易被搜尋作為參考資料。
+
 讓民眾可在原始檔案上直接提供回饋。
 例如 html 檔搭配 annotation。
 讓更多民眾知道線上公民參與機制。
@@ -1087,24 +1087,30 @@ https://medium.com/sense-tw
 
 [fn:5]「開源人年會起源於2006年，是由台灣開放原始碼社群聯合推動的年度研討會，也是台灣自由軟體運動重要的推動者之一。此活動通常一連兩日，包括有講座、攤位、社團同樂會等。除了邀請國際的重量級演講者之外，台灣本土的自由軟體推動者也經常在此發表演說，會議的發起人、工作人員與講者都是志願參與的志工。」，介紹詳見 <https://en.wikipedia.org/wiki/COSCUP>。
 
-[fn:6] 活動由歐洲自由軟體基金會發起，要求制定法律，明訂以公務機關的經費，為公務機關開發的軟體，必須以自由開源軟體授權釋出，截至 2018/12/21 為止全球已有 158 個組織與 19130 個人已經連署公開信表達支持。詳見 https://publiccode.eu/zh-tw/。
+[fn:6] Public Money, Public Code 活動由歐洲自由軟體基金會發起，要求制定法律，明訂以公務機關的經費，為公務機關開發的軟體，必須以自由開源軟體授權釋出，截至 2018/12/21 為止全球已有 158 個組織與 19130 個人已經連署公開信表達支持。詳見 https://publiccode.eu/zh-tw/。
 
 [fn:7] 境外封網事件連結。
 
-[fn:8] need citation
+[fn:8] 2018 年 12 月 22 日，截至行政院網站 https://www.ey.gov.tw/Page/5A8A0CB5B41DA11E/a8ec407c-6154-4c14-8f1e-d494ec2dbf23 。
 
-[fn:9] 介紹來源自：https://www.bost.ey.gov.tw/Content_List.aspx?n=727087A8A1328DEE，。
+[fn:9] 該平台在線上投票、線上論壇外，亦有線上註記之功能，可參考 http://consulproject.org/en/#features。
 
-[fn:10] 軟體工程師，樹黨發起人，過去曾參選。主要為倡議 Public Money Public Code，撰有〈二十年後的政府軟體〉一文 http://treesparty.tw/2018/06/17/public-money-public-code/。
+[fn:10] 18F 為美國聯邦總務署（General Service Administration）轄下之數位創新單位，此註記政策回饋功能在 2018 年 5 月拜訪開發團隊時為原型開發階段，程式碼在 https://github.com/18F/omb-eregs。
 
-[fn:11] CC BY-SA（姓名標示-相同方式分享） 3.0 台灣之授權條款為依據「創用 CC 公眾授權條款」中授權姓名標示─相同方式分享。本授權條款允許使用者重製、散布、傳輸以及修改著作（包括商業性利用）。若使用者修改該著作時，僅得依本授權條款或與本授權條款類似者來散布該衍生作品。使用時必須按照著作人指定的方式表彰其姓名。詳細授權條款請見：<https://creativecommons.org/licenses/by-sa/3.0/tw/legalcode>
+[fn:11] need citation
 
-[fn:12] MIT 授權允許被授權人「有權利使用、複製、修改、合併、出版發行、散布、再授權和/或販售軟體及軟體的副本，及授予被供應人同等權利，惟服從以下義務：『在軟體和軟體的所有副本中都必須包含以上著作權聲明和本許可聲明。』」，中文說明 2018 年 12 月 22 日摘自維基百科<https://zh.wikipedia.org/wiki/MIT%E8%A8%B1%E5%8F%AF%E8%AD%89>，英文 MIT 協定全文請見：<https://opensource.org/licenses/MIT>。
+[fn:12] 介紹來源自：https://www.bost.ey.gov.tw/Content_List.aspx?n=727087A8A1328DEE，。
 
-[fn:13]「g0v.tw 是一個推動資訊透明化的社群，致力於開發公民參與社會的資訊平台與工具。」(https://g0v.tw/zh-TW/about.html)。
+[fn:13] 軟體工程師，樹黨發起人，過去曾參選。主要為倡議 Public Money Public Code，撰有〈二十年後的政府軟體〉一文 http://treesparty.tw/2018/06/17/public-money-public-code/。
 
-[fn:14] 團隊開發進度紀錄請見<https://github.com/SenseTW/sensetw/milestones>。
+[fn:14] CC BY-SA（姓名標示-相同方式分享） 3.0 台灣之授權條款為依據「創用 CC 公眾授權條款」中授權姓名標示─相同方式分享。本授權條款允許使用者重製、散布、傳輸以及修改著作（包括商業性利用）。若使用者修改該著作時，僅得依本授權條款或與本授權條款類似者來散布該衍生作品。使用時必須按照著作人指定的方式表彰其姓名。詳細授權條款請見：<https://creativecommons.org/licenses/by-sa/3.0/tw/legalcode>
 
-[fn:15]
+[fn:15] MIT 授權允許被授權人「有權利使用、複製、修改、合併、出版發行、散布、再授權和/或販售軟體及軟體的副本，及授予被供應人同等權利，惟服從以下義務：『在軟體和軟體的所有副本中都必須包含以上著作權聲明和本許可聲明。』」，中文說明 2018 年 12 月 22 日摘自維基百科<https://zh.wikipedia.org/wiki/MIT%E8%A8%B1%E5%8F%AF%E8%AD%89>，英文 MIT 協定全文請見：<https://opensource.org/licenses/MIT>。
 
-[fn:16] 截至 2018 年 12 月 2 日為止，成案二十幾件案件中，只有「違反本人意願而散布本人的身體私密影像」一案為民間提案，成案網址：<https://vtaiwan.tw/topic/nonconsensual-pornography/>。
+[fn:16]「g0v.tw 是一個推動資訊透明化的社群，致力於開發公民參與社會的資訊平台與工具。」(https://g0v.tw/zh-TW/about.html)。
+
+[fn:17] 團隊開發進度紀錄請見<https://github.com/SenseTW/sensetw/milestones>。
+
+[fn:18]
+
+[fn:19] 截至 2018 年 12 月 2 日為止，成案二十幾件案件中，只有「違反本人意願而散布本人的身體私密影像」一案為民間提案，成案網址：<https://vtaiwan.tw/topic/nonconsensual-pornography/>。
