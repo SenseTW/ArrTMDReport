@@ -377,7 +377,7 @@ Keyword: community of practice, online participation, issue mapping, argument ma
 #+name: fig:how-to-disagree
 [[./images/how-to-disagree.png]]
 
-若能讓參與討論的人知識越接近，越能有效對話 citep*:pentland14_shu,luoboxun15_zhong 這樣在網路上發文附引言出處、資訊來源，質疑對方資訊來源這樣的文化可追朔到 BBS 時期 citep*:malaita15
+若能讓參與討論的人知識越接近，越能有效對話; 控制公眾之間的「意念」流動，讓公眾在「思考」跟「探索」之間有個恰當的平衡，好的點子能更容易出現 citep*:pentland14_shu。 這樣在網路上發文附引言出處、資訊來源，質疑對方資訊來源這樣的文化可追朔到 BBS 時期 citep*:malaita15
 
 ** DONE 數位工具對參與者知識對焦的幫助與限制
 長期參與 g0v.tw 設計線上審議工具，並且最後放棄開發網路審議工具的
@@ -1189,4 +1189,3 @@ https://medium.com/sense-tw
 [fn:21] 例如 Facebook 公關代表在 2018 年 10 月 16 日於「台灣網路治理論壇（TWIGF）」Facebook 社團中轉貼 Facebook 相關新聞，加上之前轉貼多次 Facebook 之官方回應聲明，引發是否算是商業宣傳貼文需禁止之討論，連結見 https://www.facebook.com/groups/1757842584459069/permalink/2252596304983692/
 
 [fn:22] 例如在本研究舉辦之「台灣有網路中立性嗎？」之議題小聚中，有公務員分享 NCC 既有之研究報告與國際認定網路中立性之原則，成功推進深度討論。
-
