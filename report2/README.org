@@ -212,6 +212,7 @@ stakeholder identification
 #+name: tbl:interview-list
 #+ATTR_LATEX: :font \rowcolors[]{2}{contiYellow!5}{contiYellow!20}
 |日期|編號|形式|身份|性質|
+|----+----+-----+---+----|
 |2018/01/10|1|半結構式|社群參與者|使用者需求訪談|
 |2018/01/11|2|非正式|社群參與者|使用者需求訪談|
 |2018/01/11|3|半結構式|社群參與者, 外部專家|使用者需求訪談|
