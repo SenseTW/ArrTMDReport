@@ -437,7 +437,7 @@ Wikipedia 以及 OpenStreetMap 的成功說明了大規模業餘公眾成果不�
 #+name: ka-process
 [[./images/ka-process.png]]
 
-然而縱整過後的摘要性文章只是一種較為單向資訊呈現方式，心智圖（mind map）、概念圖（concept map）、論點圖（arguments map）被有效證明可幫助學生分析該挖掘資訊跟資訊的關係 citep*:davies10 。ref:knowledge-map 模型解釋三者主要的差別以及適合應用的時間。
+然而縱整過後的摘要性文章只是一種較為單向資訊呈現方式，心智圖（mind map）、概念圖（concept map）、論點圖（arguments map）被有效證明可幫助學生分析該挖掘資訊跟資訊的關係掌握新的知識 citep*:davies10 。ref:knowledge-map 模型解釋三者主要的差別以及適合應用的時間。
 
 #+CAPTION:convergence of knowledge mapping technologies into a single integrated platform. from citep*:davies10
 #+name: knowledege-map
