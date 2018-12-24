@@ -3,7 +3,7 @@
 #+AUTHOR: 陳信屹、簡韻真、黃凱蘭、黃宇新
 #+INCLUDE: ../setup.org
 * DONE 中文摘要
-本研究台灣研析既有網路參與機制，針對「數位原民」之網路社群，設計一套線上線下串接議題釐清機制，以建立公民參與意願與公共討論品質，讓網路社群能自組織發起討論並且論述有足夠議事資本可影響科技政策。研究以服務藍圖、顧客旅程等服務設計方法，拆解公民參與階段，並針對「前期議題設定」、「議題發酵」兩階段之溝通落差，開發線上意見整理工具與線下議題小聚，透過問答、名詞定義、補充資料來源、界定利害關係人等原則做深度議題釐清達到與會者知識語彙對齊、提升論述品質，其中以線下實體參與建立參與意願與個人連結，線上數位記錄做網路擴散與延續討論，使線上線下串連達成網路社群低成本、高頻之自組織討論方式凝聚共識、釐清爭點。然本研究尚未達到網路效應，無法在特定議題上做到完善之多方利害關係人參與之討論。
+本研究台灣研析既有網路參與機制，針對「數位原民」之網路社群，設計一套線上線下串接議題釐清機制，以建立公民參與意願與公共討論品質，讓網路社群能自組織發起討論並且論述有足夠議事資本可影響科技政策。研究以服務藍圖、顧客旅程等服務設計方法，拆解公民參與階段，並針對「前期議題設定」、「議題發酵」兩階段之溝通落差，開發線上意見整理工具與線下議題小聚，透過問答、名詞定義、補充資料來源、界定利害關係人等原則做深度議題釐清達到與會者知識語彙對齊、提升論述品質，其中以線下實體參與建立參與意願與個人連結，線上數位記錄做網路擴散與延續討論，使線上線下串連達成網路社群低成本、高頻之自組織討論方式凝聚共識、釐清爭點。然本研究尚未達到網路效應，無法在特定議題上做到完善之回應建構評估之多方利害關係人參與討論。
 
 #+BEGIN_COMMENT
 字數以 500 字為限，並在其後列名 5 個以內中文關鍵詞。
@@ -76,12 +76,12 @@ stakeholder identification
 #+END_COMMENT
 關鍵詞：網路社群、線上參與、議題釐清、討論品質、自組織
 
-* TODO 英文摘要
+* DONE 英文摘要
 #+BEGIN_COMMENT
 字數以 150 字為限，並在其後列名 5 個以內英文關鍵詞。
 #+END_COMMENT
 
-
+We develop an online-offline issue-mapping civic discussion process to empower cyber communities of practice to generate high quality discourse in order to influence technology policy in pre-evaluation stage. The civic participation process of digital natives in Taiwan is examined through service blueprint and customer journey map. Identifying the key communication gaps in agenda setting and issue discussion process, we develop an integrated process of an online annotation and concept mapping tool and offline issue-mapping meetups to include cyber communities to initiate responsive constructive evaluation process on social issues and policies. The offline meetups connect active participants and inspire further online discussion. The low entry barriar discussion generates high quality discussion based on questioning and  answering, term definition, supporting sources, and identifying stakeholders. By crowdsourcing micro activities constructing opinions and policies suggestion with above principles, cyber communities are able to identify key arguments on certain issues in serious discussion.
 
 Keyword: community of practice, online participation, issue mapping, argument map
 * DONE 前言
