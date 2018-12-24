@@ -400,10 +400,6 @@ Wikipidia 以及 OpenStret Map 的成功說明了大規模業餘公眾成果不�
 #+CAPTION:convergence of knowledge mapping technologies into a single integrated platform. from citep*:davies10
 #+name: knowledege-map
 [[./images/kmap.png]]
-
-~接下來說明每一個數位工具都是潛在產生社群的地方~ 「每一個網頁都是一個潛在的社群。每一頁都收集了對他的內容感興趣的人的觀注力，而且那些人也很可能有興趣彼此交談」p.98
-
-公眾便能形成「議題網路」或是「倡議聯盟」，在參與會議上有足夠的議事資本。
 ** TODO 小結
 縱上述回顧可發現，若要讓公眾與政府有效溝通對話，有四個較重要的條件需要思考：
 1. 釐清不同領域的名詞(Ground Term)。
