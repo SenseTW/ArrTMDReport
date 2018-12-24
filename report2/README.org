@@ -395,15 +395,19 @@ Wikipidia 以及 OpenStret Map 的成功說明了大規模業餘公眾成果不�
 #+name: ka-process
 [[./images/ka-process.png]]
 
-然而縱整過後的摘要性文章只是一種較為單向資訊呈現方式，心智圖（mind map）、概念圖（concept map）、論點圖（arguments map）被有效證明可幫助學生分析該挖掘資訊跟資訊的關係 citep*:davies10 。 ref:knowledge-map 模型解釋三者主要的差別以及適合應用的時間。
+然而縱整過後的摘要性文章只是一種較為單向資訊呈現方式，心智圖（mind map）、概念圖（concept map）、論點圖（arguments map）被有效證明可幫助學生分析該挖掘資訊跟資訊的關係 citep*:davies10 。ref:knowledge-map 模型解釋三者主要的差別以及適合應用的時間。
 
 #+CAPTION:convergence of knowledge mapping technologies into a single integrated platform. from citep*:davies10
 #+name: knowledege-map
 [[./images/kmap.png]]
 ** DONE 小結
-縱上述回顧可發現，若要讓公眾與政府有效溝通對話，要素：
-1. 討論頻率可以傳播政治資訊、增加討論的異質性，增進線下參與，。
-2. QBQ、回歸原始文獻的討論可以促進論述對話品質。
+縱上述回顧可發現，若要讓公眾與政府有效溝通對話，有兩個較重要的條件需要思考：
+1. 如何讓公眾有更多的興趣接收政策資訊以及政治參與。
+2. 如何讓公眾協作進行議題釐清，從而能有足夠的政策知識與了解相關語彙與政府對話。
+
+1. 意見領袖高頻度、低成本的政治討論會增進線上線下參與的意願。
+2. QBQ、回歸原始文獻討論可增進理性討論的可能性。
+
 * TODO 社群視角的科技政策參與途徑分析 [75%]
 ** DONE 設計敏捷方法問題定義與原型開發
 延續文獻檢閱之結論，本研究試圖在既有網路參與機制下，提升網路公共討論品質，並讓網路社群作為利害關係人參與政策制定。在設計敏捷方法工作坊中，收斂出來的關鍵問題為「如何在政策規劃前期以有效方法彙整實踐社群之客觀事實提出建設性意見」，再根據訪談科技社群、分析師、智庫分析師等人的結果，初步畫出社群視角的政策制定流程圖 ref:gif:design-sprint-map ，試圖在此流程圖中找到關鍵環節切入，設計工具與機制。
