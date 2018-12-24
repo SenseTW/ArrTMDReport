@@ -1108,7 +1108,6 @@ https://medium.com/sense-tw/tech-issue-policy-meetup-a4694ef34026
 2. Annotation-Enabled web proxy： https://github.com/SenseTW/via
 *** 部落格
 https://medium.com/sense-tw
-*** 過往計畫介紹簡報
 ** 民眾語彙腳本
 *** 對公部門介紹何為網路社群應如何比喻
 透過宗教信仰的比喻，對較少數位協作經驗、沒有社群經驗的的人員建構對網路社群的想像。
