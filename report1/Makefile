@@ -15,7 +15,7 @@ tex:
 	${EMACSCLIENT} -e '(progn (find-file "README.org")(org-latex-export-to-latex))'
 
 clean:
-	rm -f *.aux *.lot *.log *.out *.toc *.lof *.bcf *.bbl *.blg *.run.xml *~
+	rm -f *.aux *.lot *.log *.out *.toc *.lof *.bcf *.bbl *.blg *.run.xml *.bib *.html *.xdv *~
 	rm README.org
 	git checkout README.org
 
