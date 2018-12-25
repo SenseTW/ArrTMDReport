@@ -153,7 +153,8 @@ Keyword: community of practice, online participation, issue mapping, argument ma
 依據上述背景與核心問題，本研究目的分為兩個層面，簡述如下:
 1. 研析既有網路參與機制，找出網路社群參與之核心問題。
 2. 設計一套適用「數位原民」非同步的網路討論方式提升議題討論的品質與參與政策過程的深入程度，並促使網路社群自組織議題社群增加議事資本。
-* TODO 研究方法 [75%]
+* DONE 研究方法 [100%]
+CLOSED: [2018-12-25 Tue 20:07]
 ** DONE 研究架構
 #+BEGIN_SRC plantuml :results none :file ./images/research_arch.png
 (網路社群視角之科技政策參與機制分析) ->  (線上線下整合網路參與機制設計開發與驗證)
@@ -208,7 +209,8 @@ Keyword: community of practice, online participation, issue mapping, argument ma
 #+name: gif:research_flow
 #+CAPTION: 研究流程
  [[./images/research_flow.png]]
-** TODO 網路社群視角之科技政策參與機制分析[80%]
+** DONE 網路社群視角之科技政策參與機制分析[100%]
+CLOSED: [2018-12-25 Tue 20:07]
 *** DONE 文獻檢閱
 文獻檢閱主要為國內外網路參與機制、如何提升網路言論品質、網路社群作為利害關係人三大部分，與服務設計中的使用者經驗設計作為開發解決方案之主要方法論。在期刊文獻專著之外，本研究大量參考網路社群原生之文本、使用者中心之產品開發設計，目的為產出可促進「數位原民 」討論品質之實用產品或服務為目的。
 *** DONE 使用者訪談
@@ -998,8 +1000,6 @@ https://medium.com/sense-tw/tech-issue-policy-meetup-a4694ef34026
 
 *** 加入社群討論
 網路社群在網路討論空間時常分享資訊與交換討論，可鼓勵政策分析師與公務員以個人身份加入相關社群討論空間，增加資訊來源與討論，建議以非官方身份、不壓 KPI ，以免破壞社群文化反而招致反效果，例如被要求單向頻繁轉貼新聞，或需代表官方立場發言，皆會破壞社群討論空間之信任。[fn:21]在熟悉社群文化的基礎上，可分享相關政策連結與待討論之公開政策草案[fn:22]，收集並參考相關社群在公開社團之公開討論。
-
-#+Latex: \appendix
 * DONE 附錄
 ** 訪談對象與訪談形式
 #+CAPTION: 訪談對象及訪談形式
