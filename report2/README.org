@@ -40,10 +40,9 @@ We develop an online-offline issue-mapping civic discussion process to empower c
 2. 設計一套適用「數位原民」非同步的網路討論方式提升議題討論的品質與參與政策過程的深入程度，並促使網路社群自組織議題社群增加議事資本。
 * TODO 研究方法 [75%]
 ** DONE 研究架構
-#+BEGIN_SRC plantuml :results none :file ./images/research_arch.png
+#+BEGIN_SRC plantuml :results none :file ./images/research_arch.png :exports none
 (網路社群視角之科技政策參與機制分析) ->  (線上線下整合網路參與機制設計開發與驗證)
 #+END_SRC
-
 #+CAPTION: 研究架構
 #+name: fig:research_arch
 [[./images/research_arch.png]]
@@ -53,6 +52,7 @@ We develop an online-offline issue-mapping civic discussion process to empower c
 
 #+CAPTION: "Double Diamond Process - CC BY 4.0 International Olga Carreras Montoto" from https://commons.wikimedia.org/wiki/File:Double-diamond-process.jpg
 #+NAME: fig:double-diamond
+#+LABEL: fig:double_diamond
 [[./images/Double-diamond-process.jpg]]
 
 本研究架構之第一部分與第二部分分別對應到前後兩個階段，每個階段採取不同的工具協助發展該階段的探索/執行目標：
@@ -68,7 +68,7 @@ We develop an online-offline issue-mapping civic discussion process to empower c
   - 交付（Deliver）：產品實際使用
 
 所開發之成果如 ref:fig:research_flow 所示反覆循環驗證。
-#+BEGIN_SRC plantuml :results none :file ./images/research_flow.png
+#+BEGIN_SRC plantuml :results none :file ./images/research_flow.png :exports none
    start
    fork
   :設計敏捷方法;
@@ -89,10 +89,9 @@ We develop an online-offline issue-mapping civic discussion process to empower c
    endfork
    end
 #+END_SRC
-
 #+name: fig:research_flow
 #+CAPTION: 研究流程
- [[./images/research_flow.png]]
+[[./images/research_flow.png]]
 ** DONE 網路社群視角之科技政策參與機制分析[100%]
 *** DONE 文獻檢閱
 文獻檢閱主要為國內外網路參與機制、如何提升網路言論品質、網路社群作為利害關係人三大部分，與服務設計中的使用者經驗設計作為開發解決方案之主要方法論。在期刊文獻專著之外，本研究大量參考網路社群原生之文本、使用者中心之產品開發設計，目的為產出可促進「數位原民 」討論品質之實用產品或服務為目的。
@@ -285,10 +284,10 @@ We develop an online-offline issue-mapping civic discussion process to empower c
 | 從數者 (Subordinates) | 信任政府但是不認為自身有能力影響政府作為                         | 高         | 低         |
 | 疏離者（Alienateds）  | 政治不值得信任也認為自己沒有改變現狀                             | 低         | 低         |
 
-國發會近期出版的 JOIN 成果報告 citep*:chuang18,lin18a 也顯示出社交工具以及線下活動對於促進線上參與的重要性; 至少有七成的 JOIN 使用者在使用 JOIN 之前有參與過線下的政治公民活動，且關心的基本上都是與切身相關的議題，或是對政策表達反對意見 ; 不同年齡、教育程度，區域的公眾在「資訊近用能力」與「資訊獲取管道」上有顯著差異。因數位工具的學習門檻有相當高的排他性，使得線上能進行參與的公眾多以年輕、高教育程度，居住於都會區為主，但是很多重大爭議事件的利害關係人都不具備在網路上有足夠的理性表達能力，因此 *線上線下參與應放在一起思考而非視為兩個完全不相關的機制* ，只是對於數位原民或是資訊科技社群來而言，線上線下參與的方式與傳統審議或是專家會議舉辦方式有極大的文化落差 citep*:ArrTMDReport1。
+國發會近期出版的 JOIN 成果報告 citep*:chuang18,lin18a 也顯示出社交工具以及線下活動對於促進線上參與的重要性; 至少有七成的 JOIN 使用者在使用 JOIN 之前有參與過線下的政治公民活動，且關心的基本上都是與切身相關的議題，或是對政策表達反對意見 ; 不同年齡、教育程度，區域的公眾在「資訊近用能力」與「資訊獲取管道」上有顯著差異。因數位工具的學習門檻有相當高的排他性，使得線上能進行參與的公眾多以年輕、高教育程度，居住於都會區為主，但是很多重大爭議事件的利害關係人都不具備在網路上有足夠的理性表達能力，因此 *線上線下參與應放在一起思考而非視為兩個完全不相關的機制* ，只是對於數位原民或是資訊科技社群來而言，線上線下參與的方式與傳統審議或是專家會議舉辦方式有極大的文化落差。
  「科技改變了民眾回應的傳播方式、回應力道，特別是回應持續的時間。科技去除了兩個過去的障礙，那就是資訊的局部性及群體回應的障礙。」[[citep*:xue11_xiang][p.141]]; 線上意見領袖（Keep Opnion Leader) 的政治討論頻率會影響議題異質性並間接或直接的影響其他者在線下的參與行為 citep*:lin18b ，使公眾能集體行動，大幅降低參與的成本以及增加議題設定（Agenda Settings）的能力，雖然 ICTs 究竟是賦予人們更多直接參與民主的權力，還是加深社會對立與分歧至今仍未見定論。
 
-「網路適合釐清議題嗎？ 網路上真的能理性對話嗎？ 真的是適合作為公共討論的場域？」是「科技悲觀者」經常對線上公民與政治參與機制發出最大的質疑，ICTs 除了降低公眾對話的成本，同時也改變公眾心智並並帶來其他社會問題 citep*:stev11 。 citep*:neil16 早已指出「所有公共論述都逐漸以娛樂形式來傳達。我們的政治、宗教、新聞、體育、教育和商業，全都成為娛樂業的附庸，對此民眾多半毫無怨言，甚至漠不關心。於是，我們成為瀕臨娛樂至死的一群。」，如今在網路上的任何的政治討論最後都回到社交工具上（SNS），由於社交工具將公眾切成一個又一個的「小世界網路」[fn:9] ，使得「資訊碎片化」，介面的限制也使公眾難以在上面進行完整的論述對話，要釐清議題或是理性討論漸漸變得困難，導致「網路論戰」 citep*:wiki:flaming 層出不窮。
+「網路適合釐清議題嗎？ 網路上真的能理性對話嗎？ 真的是適合作為公共討論的場域？」是「科技悲觀者」經常對線上公民與政治參與機制發出最大的質疑，ICTs 除了降低公眾對話的成本，同時也改變公眾心智並並帶來其他社會問題 citep*:stev11 。 citep*:neil16 早已指出「所有公共論述都逐漸以娛樂形式來傳達。我們的政治、宗教、新聞、體育、教育和商業，全都成為娛樂業的附庸，對此民眾多半毫無怨言，甚至漠不關心。於是，我們成為瀕臨娛樂至死的一群。」，如今在網路上的任何的政治討論最後都回到社交工具上（SNS），由於社交工具將公眾切成一個又一個的「小世界網路」[fn:9] ，使得「資訊碎片化」，介面的限制也使公眾難以在上面進行完整的論述對話，要釐清議題或是理性討論漸漸變得困難，導致「網路論戰（flaming）」citep*:wiki:flaming 層出不窮。
 
 資訊科技社群作為最早採用 ICTs 的族群對於「如何打網路論戰」已有許多討論; 知名黑客以及 Y-Combinator 創辦人 Paul Gram 根據網路論戰發文依照好壞、數量分為七個層次，認為引用原文指出不同意之處是提高論述品質的重要要素之一。citep*:paul08
 
