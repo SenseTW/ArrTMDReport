@@ -172,6 +172,7 @@ We develop an online-offline issue-mapping civic discussion process to empower c
 - 專案開發: https://github.com/SenseTW
 - 電子郵件群組: https://groups.google.com/d/forum/sensetw
 
+#+CAPTION: 著作物列表
 #+NAME: tbl:output-right-list
 #+ATTR_LATEX: :align l|p{110pt}|p{110pt} :font \rowcolors[]{2}{contiYellow!5}{contiYellow!20}
 | 著作物                    | 連結                                | 授權                                            |
@@ -604,20 +605,20 @@ sense.tw 可直接在網頁和 pdf 文件上畫重點註記。在此案例中使
 #+caption: sense.tw 上 2018 年 7 月 7 日至 2018 年 12 月 16 日活躍議題地圖列表清單（本研究製表）
 #+name: tbl:sensemap-list
 #+attr_latex: :align p{130pt}llllp{204pt} :font \setlength{\tabcolsep}{3pt} \rowcolors[]{2}{contiYellow!5}{contiYellow!20}
-|Page Title|PV.        |UPV.              |Avg.      |小聚	  |Page Link|
-|-------------|--------|-------|-------|-------|-------|
-|女性主義者給問嗎|	3561|	1389|	0:55|	|	https://sense.tw/map/741258c1-ad77-4701-8220-cfa887ec3a75|
-|Public Money Public Code|	1294|	458|	2:10|	v|	https://sense.tw/map/8c1c6b87-8bf8-4360-af93-5e5c917aa780|
-|g0v 黑客松關心議題整理|	617	|329|	2:52|	|	https://sense.tw/map/12495dd1-c79b-4292-b413-98e81be4beda|
-|民航法無人機專章引起的爭議|	525|	222|	0:55|	|	https://sense.tw/map/e0c2c897-cc3a-4995-8a1e-fd966572580b|
-|sense 協作模型分析|	459|	239|	2:46|	|	https://sense.tw/map/e1f2bd16-378f-4abc-a689-ade6937075e2|
-|台灣有網路中立性嗎？|	412|	198|	1:08|	v|	https://sense.tw/map/c03aa999-534b-4fdf-8aa5-bf45ad6f3fc1|
-|以討論區塊鏈治理為例 - 科技社群如何參與科技政策規劃 UNCONF	|384	|317	|8:07|	v|	https://sense.tw/map/8c7eec7c-4457-4c86-9ce4-fb8d1df04caa|
-|以核養綠公投論辯|	277	|248	|4:59	|	|https://sense.tw/map/a6a2d883-35e0-4229-a483-a6ea14c04c59|
-|UBER CASE ISSUE MAPPING - PDIS WORKSHOP IN TORONTO|101	|85|	7:18| |https://sense.tw/map/49db252f-6a55-46ea-89b2-1a88a714f54e|
-|無人機關鍵技術|	112|	82|	3:00|	|	https://sense.tw/map/ed9c0bfa-3399-4cef-b5ba-6f0feb69da7f|
-|議題釐清如何議題釐清|	124|	52	|2:25|	v	|https://sense.tw/map/5890ab3c-9c1e-41a8-8c25-4a8de929a9a0|
-|如何數位治理台中？|	72|	62	|11:15|	v	|https://sense.tw/map/07802bfc-bb3d-4009-a92d-c7f29c47a1d7|
+| Page Title                                                   | PV.     | UPV.   | Avg.   | 小聚	 | Page Link                                                   |
+|--------------------------------------------------------------+---------+--------+--------+--------+-------------------------------------------------------------|
+| 女性主義者給問嗎                                             | 	3561  | 	1389 | 	0:55 | 	     | 	https://sense.tw/map/741258c1-ad77-4701-8220-cfa887ec3a75 |
+| Public Money Public Code                                     | 	1294  | 	458  | 	2:10 | 	v    | 	https://sense.tw/map/8c1c6b87-8bf8-4360-af93-5e5c917aa780 |
+| g0v 黑客松關心議題整理                                       | 	617	 | 329    | 	2:52 | 	     | 	https://sense.tw/map/12495dd1-c79b-4292-b413-98e81be4beda |
+| 民航法無人機專章引起的爭議                                   | 	525   | 	222  | 	0:55 | 	     | 	https://sense.tw/map/e0c2c897-cc3a-4995-8a1e-fd966572580b |
+| sense 協作模型分析                                           | 	459   | 	239  | 	2:46 | 	     | 	https://sense.tw/map/e1f2bd16-378f-4abc-a689-ade6937075e2 |
+| 台灣有網路中立性嗎？                                         | 	412   | 	198  | 	1:08 | 	v    | 	https://sense.tw/map/c03aa999-534b-4fdf-8aa5-bf45ad6f3fc1 |
+| 以討論區塊鏈治理為例 - 科技社群如何參與科技政策規劃 UNCONF	 | 384	   | 317	  | 8:07   | 	v    | 	https://sense.tw/map/8c7eec7c-4457-4c86-9ce4-fb8d1df04caa |
+| 以核養綠公投論辯                                             | 	277	 | 248	  | 4:59	 | 	     | https://sense.tw/map/a6a2d883-35e0-4229-a483-a6ea14c04c59   |
+| UBER CASE ISSUE MAPPING - PDIS WORKSHOP IN TORONTO           | 101	   | 85     | 	7:18 |        | https://sense.tw/map/49db252f-6a55-46ea-89b2-1a88a714f54e   |
+| 無人機關鍵技術                                               | 	112   | 	82   | 	3:00 | 	     | 	https://sense.tw/map/ed9c0bfa-3399-4cef-b5ba-6f0feb69da7f |
+| 議題釐清如何議題釐清                                         | 	124   | 	52	 | 2:25   | 	v	  | https://sense.tw/map/5890ab3c-9c1e-41a8-8c25-4a8de929a9a0   |
+| 如何數位治理台中？                                           | 	72    | 	62	 | 11:15  | 	v	  | https://sense.tw/map/07802bfc-bb3d-4009-a92d-c7f29c47a1d7   |
 
 截至 2018 年 11 月 30 日，共 116 人註冊。
 
@@ -836,7 +837,7 @@ https://medium.com/sense-tw/community-tech-policy-coscup2018-1cefe60b38c3
 #+END_COMMENT
 *** DONE 網路中立性
 1. 設定議題
-網路中立性為第二場議題小聚，議題設定選擇為網路社群一直關心的「網路中立性」citep*:wiki:netneutrality 和「境外封網」[fn:14]作為議題，網路社群基本上支持網路中立性與反對境外封網，雖然後來經過現場討論議題釐清之後，發現其實是兩個不同的議題。
+網路中立性為第二場議題小聚，議題設定選擇為網路社群一直關心的「網路中立性」和「境外封網」[fn:14]作為議題，網路社群基本上支持網路中立性與反對境外封網，雖然後來經過現場討論議題釐清之後，發現其實是兩個不同的議題。
 1. 初步整理網路資料並創建活動頁面做網路擴散:
    - 創建活動頁面：https://www.facebook.com/events/453192175172987/ ，依靠臉書做擴散，既可以收集對此議題感興趣者的名單，又可提供線上空間讓參與者可丟連結和參與共筆紀錄。
    - 事先整理整理台灣封網事件的時間軸：https://bit.ly/2PWFkZ7。
