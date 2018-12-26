@@ -45,14 +45,14 @@ We develop an online-offline issue-mapping civic discussion process to empower c
 #+END_SRC
 
 #+CAPTION: 研究架構
-#+name: gif:research_arch
+#+name: fig:research_arch
 [[./images/research_arch.png]]
 
 ** DONE 研究流程
-採用 Double Diamond cite:double_diamond 設計流程的四個階段作為設計發展的介紹綱要 ref:gif:double-diamond 。
+採用 Double Diamond cite:double_diamond 設計流程的四個階段作為設計發展的介紹綱要 ref:fig:double-diamond 。
 
 #+CAPTION: "Double Diamond Process - CC BY 4.0 International Olga Carreras Montoto" from https://commons.wikimedia.org/wiki/File:Double-diamond-process.jpg
-#+NAME: gif:double-diamond
+#+NAME: fig:double-diamond
 [[./images/Double-diamond-process.jpg]]
 
 本研究架構之第一部分與第二部分分別對應到前後兩個階段，每個階段採取不同的工具協助發展該階段的探索/執行目標：
@@ -67,7 +67,7 @@ We develop an online-offline issue-mapping civic discussion process to empower c
   - 原型測試
    - 交付（Deliver）：產品實際使用
 
-所開發之成果如 ref:gif:research_flow 所示反覆循環驗證。
+所開發之成果如 ref:fig:research_flow 所示反覆循環驗證。
 #+BEGIN_SRC plantuml :results none :file ./images/research_flow.png
    start
    fork
@@ -90,7 +90,7 @@ We develop an online-offline issue-mapping civic discussion process to empower c
    end
 #+END_SRC
 
-#+name: gif:research_flow
+#+name: fig:research_flow
 #+CAPTION: 研究流程
  [[./images/research_flow.png]]
 ** TODO 網路社群視角之科技政策參與機制分析[80%]
@@ -322,10 +322,10 @@ Wikipedia 以及 OpenStreetMap 的成功說明了大規模業餘公眾成果不�
 綜合上述文獻回顧可發現，若要讓公眾與政府有效溝通對話，有兩個較重要的條件需要思考：（1）如何讓公眾有更多的興趣接收政策資訊以及政治參與，（2）如何讓公眾協作進行議題釐清，從而能有足夠的政策知識與了解相關語彙與政府對話。若要促進線上參與討論，可思考（1）從意見領袖發起高頻度、低成本的政治討論會增進線上線下參與的意願，（2）在一個問題接著問更深度的問題（QBQ）和回歸原始文獻討論可增進理性討論的可能性。
 * DONE 社群視角的科技政策參與途徑分析 [100%]
 ** DONE 設計敏捷方法問題定義與原型開發
-延續文獻檢閱之結論，本研究試圖在既有網路參與機制下，提升網路公共討論品質，並讓網路社群作為利害關係人參與政策制定。在設計敏捷方法工作坊中，收斂出來的關鍵問題為「如何在政策規劃前期以有效方法彙整實踐社群之客觀事實提出建設性意見」，再根據訪談科技社群、分析師、智庫分析師等人的結果，初步畫出社群視角的政策制定流程圖 ref:gif:design-sprint-map ，試圖在此流程圖中找到關鍵環節切入，設計工具與機制。
+延續文獻檢閱之結論，本研究試圖在既有網路參與機制下，提升網路公共討論品質，並讓網路社群作為利害關係人參與政策制定。在設計敏捷方法工作坊中，收斂出來的關鍵問題為「如何在政策規劃前期以有效方法彙整實踐社群之客觀事實提出建設性意見」，再根據訪談科技社群、分析師、智庫分析師等人的結果，初步畫出社群視角的政策制定流程圖 ref:fig:design-sprint-map ，試圖在此流程圖中找到關鍵環節切入，設計工具與機制。
 
 #+caption: Design Sprint Map——定義關鍵環節
-#+name: gif:design-sprint-map
+#+name: fig:design-sprint-map
 #+attr_html: width 1024
 [[./images/design_sprint_map.jpg]]
 
@@ -340,7 +340,7 @@ Wikipedia 以及 OpenStreetMap 的成功說明了大規模業餘公眾成果不�
 我們採用服務藍圖以系統性的方式將訪談倡議民眾/團體的倡議過程記錄下來，整理成清楚易懂的流程表，降低理解的門檻，讓站在倡議民眾立場外的人也能理解倡議民眾在活動過程中的旅程。另外，服務藍圖的鳥瞰視角，清楚的將「前台」（ Front Stage）、「後台」（ Back Stage ）與「幕後」（ Behind the Scenes ）三個區塊的運作樣貌呈現出來。讓我們可以清楚地看到，在民眾倡議議題的過程步驟中，每一個階段背後採取的行動、使用的工具、參與的人員與相關的利害關係人，以這樣的架構釐清倡議民眾在執行倡議過程中的幕後準備行動，也能讓我們看到早期議題形成的發展脈絡。
 
 #+caption: 網路社群公民參與服務藍圖
-#+name: gif:service-blueprint
+#+name: fig:service-blueprint
 #+attr_html: width 1024
 [[./images/service_blueprint.jpg]]
 
@@ -359,7 +359,7 @@ Wikipedia 以及 OpenStreetMap 的成功說明了大規模業餘公眾成果不�
 在議題倡議的每個階段，積極公民倡議的過程中都有相似的行動（Customer Actions），而每個行動慢慢的促成下一階段的發生。Onstage Comtact Actions 是倡議民眾每階段行動的實際動作（促成行動的實際行為）；Backstage 則是每個實際動作背後的運作動作。例如，在意見宣導的行動階段，實現意見宣導的是藉由散播議題懶人包的方式讓更多人看到/看懂議題發聲的緣由，而懶人包的製作過程是一般人看倡議民眾倡議議題時看不到的後台行為。利害關係人，則是因為自己立場對議題有不同解讀與態度的人，會影響每個階段議題倡議行動方向、活動、宣傳內容定調等，像是決定議題懶人包切入論述的角度。
 
 *** 參與途徑說明
-本節說明 ref:gif:service-blueprint 各階段細節。
+本節說明 ref:fig:service-blueprint 各階段細節。
 ***** 前期議題設定：
 在重大議題尚未發生之前，通常會有一群關心該議題的積極公民，因為工作/生活跟該議題相關，而關注討論該議題的發展。議題討論可能會鬆散的發生在社群平台，或是討論該議題的協作工具上。稍微有組織力的討論活動，則是發起線下的議題小聚討論會，透過線下群聚討論，並用數位工具紀錄討論過程。
 ***** 議題發酵：
@@ -390,11 +390,11 @@ vTaiwan（https://vtaiwan.tw/）
 公民政策網路參與平台 JOIN（https://join.gov.tw）， 由行政院國家發展委員會建置，我國公民與在台外籍人士都可線上提案，經過檢核所提案事項為行政院職責範圍內及通過其他標準，即開放附議，提案若在 60 日內在 JOIN 平臺上附議超過五千人，主管機關需在二個月內於該平台上正式回應提案。
 
 #+caption: 網路參與機制在服務藍圖上之定位
-#+name: gif:sense_vTaiwan_JOIN_diff
+#+name: fig:sense_vTaiwan_JOIN_diff
 #+attr_html: width 1024
 [[./images/sense_vTaiwan_JOIN_diff.jpg]]
 
-由 ref:gif:sense_vTaiwan_JOIN_diff 可見 vTaiwan 和 JOIN 主要是在政府端處理非正式的諮詢會議和會議前的議題釐清。
+由 ref:fig:sense_vTaiwan_JOIN_diff 可見 vTaiwan 和 JOIN 主要是在政府端處理非正式的諮詢會議和會議前的議題釐清。
 
 vTaiwan 實際上由政府部會發動議題設定（二十幾案中只有一案為民間提案）[fn:11]，在議題發酵階段與網路社群討論，在進入政府正式會議（如公聽會、專家會議）之前，有線上線下整合的諮詢會議，其會議結論無剛性要求主責部會執行，可視為與社群討論的會前會。
 
@@ -406,12 +406,12 @@ JOIN 平臺則是扮演了接收民眾陳情和提案的窗口，雖有「協作
 
 本設計案先使用服務設計藍圖描繪整體環境，先歸結主要的議題倡議步驟階段、重要行動、利害關係人互動形式。接著再用顧客旅程圖將倡議民眾每個執行動作（與執行該動作的接觸媒介：數位工具）盤點出來。顧個旅程圖不僅只是盤點觸點的工具，它包含的元素除了觸點外，亦包涵了「行動」、「情緒」、「目標」、「關鍵時刻」、「痛點」、「機會點」等。本設計案藉由 CJM 工具，找出倡議民眾倡議行動中遇到的問題點，並找出協助議題釐清的數位工具在倡議過程中能提供協助的利基點。
 #+caption: 顧客旅程圖圖一
-#+name: gif:cmj1
+#+name: fig:cmj1
 #+attr_html: width 1024
 [[./images/cmj1.jpg]]
 
 #+caption: 顧客旅程圖圖二
-#+name: gif:cmj2
+#+name: fig:cmj2
 #+attr_html: width 1024
 [[./images/cmj2.jpg]]
 
@@ -458,18 +458,18 @@ JOIN 平臺則是扮演了接收民眾陳情和提案的窗口，雖有「協作
 
 ** DONE 民間與政府溝通落差
 #+caption: 網路社群與政府溝通落差視閾圖
-#+name: gif:gap1
+#+name: fig:gap1
 #+attr_html: width 1024
 [[./images/gap1.png]]
 
-在開發數位工具與進一步訪談時，發現政府與網路社群的關鍵溝通落差，來自於視角不同。如 ref:gif:gap1 所示，民間網路社群是以議題、單篇新聞作為出發點批評政府，難以得知政策全盤規劃，報導也缺乏連結至原始政策文獻的方法，使網路社群在無法查證之狀況下，難以信任該政策規劃。舉例來說網路批評者批評為了發展 AI 購置多台超級電腦，但不知道同時間政府其他 AI 相關計畫；面對跨領域議題，例如 AI 人才培育議題，民間不會去區分是科技部、教育部還是經濟部主責，而是將政府視為一個整體批評。
+在開發數位工具與進一步訪談時，發現政府與網路社群的關鍵溝通落差，來自於視角不同。如 ref:fig:gap1 所示，民間網路社群是以議題、單篇新聞作為出發點批評政府，難以得知政策全盤規劃，報導也缺乏連結至原始政策文獻的方法，使網路社群在無法查證之狀況下，難以信任該政策規劃。舉例來說網路批評者批評為了發展 AI 購置多台超級電腦，但不知道同時間政府其他 AI 相關計畫；面對跨領域議題，例如 AI 人才培育議題，民間不會去區分是科技部、教育部還是經濟部主責，而是將政府視為一個整體批評。
 
 然而，政府卻是以主責部會角度看待政策規劃，將政策切為不同部分讓部會主責，因此難以與民間對話。同時，政府在蒐集輿情時，多著重在主流媒體報導與陳亢事件，缺乏網路社群第一手資訊，想要尋找網路意見領袖進來開會即可，卻忽略網路上沒有代表人，而是有很多不同的社群在做討論，意見領袖只能作為與網路社群溝通的窗口，而不若傳統公協會之代表人。政府在收集網路社群意見時，遇到另一個困難是，網路討論碎片化又非常繁雜，不知道去哪裡找到洞見，既有輿情工具也只能做到網路關鍵字聲量分析，卻無法歸納總結爭點論述。
 
-因此，希望能有數位工具和討論機制讓政府與民間的知識語彙可以對齊，才能推進相關討論 ref:gif:grounding 。民間因熟悉網路討論內容與空間，能先自行整理問題與訴求，政府則能提供完整政策規劃之原始資料與整體政策。
+因此，希望能有數位工具和討論機制讓政府與民間的知識語彙可以對齊，才能推進相關討論 ref:fig:grounding 。民間因熟悉網路討論內容與空間，能先自行整理問題與訴求，政府則能提供完整政策規劃之原始資料與整體政策。
 
 #+caption: 建立知識語彙對齊之基礎（Grounding）
-#+name: gif:grounding
+#+name: fig:grounding
 #+attr_html: width 1024
 [[./images/gap2.png]]
 
@@ -541,7 +541,7 @@ JOIN 平臺則是扮演了接收民眾陳情和提案的窗口，雖有「協作
    stop
 #+END_SRC
 
-#+name: gif:problem_idenity_flow
+#+name: fig:problem_idenity_flow
 #+caption: 期望討論流程
 [[./images/problem_idenity_flow.png]]
 ** DONE 線上意見整理工具 sense.tw [100%]
@@ -563,7 +563,7 @@ JOIN 平臺則是扮演了接收民眾陳情和提案的窗口，雖有「協作
 在此以整理 2018 年底「以核養綠」公投論辯為例作為工具介紹。當時有兩場電視辯論會針對「公投第十六案：您是否同意：廢除電業法第95條第1項，即廢除『核能發電設備應於中華民國一百十四年以前，全部停止運轉』之條文？」做正反方論辯，有網路直播並且有辯論逐字稿，然而核能議題複雜也需要非常多佐證資料，故以此作為案例整理論辯架構圖，並連結回原始連結，完成如下圖的分析圖，在網頁上可放大縮小檢視。
 
 #+caption: 以核養綠電視論辯分析圖全局觀
-#+name: gif:nuclear_whole_picture
+#+name: fig:nuclear_whole_picture
 #+attr_html: width 1024
 [[./images/nuclear_whole_picture.png]]
 #+BEGIN_COMMENT
@@ -609,7 +609,7 @@ sense.tw 可直接在網頁和 pdf 文件上畫重點註記。在此案例中使
 以區塊鍊治理討論為例，透過投影出將討論拆解成單一概念與資料間的論證建構圖，可協助與會者在現場討論時看到已討論過的名詞定義讓知識語彙對齊，並且可檢視問答的深度與廣度，並線上補充資料連結。
 
 #+caption: 區塊鏈治理 Unconference - G0V Summit 2018
-#+name: gif:blockchain_unconf
+#+name: fig:blockchain_unconf
 [[./images/blockchain_unconf.jpeg]]
 
 *** DONE 應用成果
@@ -908,7 +908,7 @@ https://medium.com/sense-tw/tech-issue-policy-meetup-a4694ef34026
 本研究專注在促進民間網路社群自組織議題釐清，主動權不在政府部門手上，然而政府能夠做好資料開放作為促進網路公共政策討論之品質之基石。
 
 ***  開放易搜尋與互相連結之資料補足民間與政府知識落差
-從對線上參與機制與公民參與的使用者訪談中得知網路社群因視角不同與政府產生溝通落差（見 ref:gif:gap1 ），網路社群容易對議題、新聞做出反應，較難得知跨部會的全盤政策與各部會職掌。若政府政策相關文件只有以 PDF 檔分別放在各部會網站上，對於不熟悉各部會執掌和計畫的民間收集相關議題資料較為不便，建議除了 PDF 檔案外有網頁形式或至少有標註關鍵字和提供相關連結，方便有興趣之公民使用搜尋引擎查找。例如科技會報之「AI 行動計畫」有完整網頁介紹全面性政策[fn:17]，只可惜缺乏連結回相關原始文件報告，只有連結新聞報導。亦可參考馬德里市政府開發之 CONSUL 的線上參與平台[fn:18]與美國聯邦政府 18F [fn:19]皆有開發可供民眾直接在線上註記政策網頁檔以回應政策意見之工具
+從對線上參與機制與公民參與的使用者訪談中得知網路社群因視角不同與政府產生溝通落差（見 ref:fig:gap1 ），網路社群容易對議題、新聞做出反應，較難得知跨部會的全盤政策與各部會職掌。若政府政策相關文件只有以 PDF 檔分別放在各部會網站上，對於不熟悉各部會執掌和計畫的民間收集相關議題資料較為不便，建議除了 PDF 檔案外有網頁形式或至少有標註關鍵字和提供相關連結，方便有興趣之公民使用搜尋引擎查找。例如科技會報之「AI 行動計畫」有完整網頁介紹全面性政策[fn:17]，只可惜缺乏連結回相關原始文件報告，只有連結新聞報導。亦可參考馬德里市政府開發之 CONSUL 的線上參與平台[fn:18]與美國聯邦政府 18F [fn:19]皆有開發可供民眾直接在線上註記政策網頁檔以回應政策意見之工具
 ，本計劃開發之 sense.tw 意見整理工具也可達到同樣功能。
 
 *** 鼓勵社群討論與提供會議紀錄及會議參考資料
