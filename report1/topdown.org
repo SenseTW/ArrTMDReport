@@ -1,0 +1,25 @@
+#+OPTIONS: num:nil toc:nil
+#+REVEAL_TRANS: Slide
+#+REVEAL_THEME: Black
+#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
+#+Title: Title of Your Talk
+#+Author: Your Name
+#+Email: Your Email Address or Twitter Handle
+* 前言 (1)
+* 研究方法 (3)
+* 網路社群簡介 (6)
+** 粉絲團 (1)
+** 議題社群 (2)
+** 實踐社群 (2)
+* 資訊科技社群簡介 (4)
+** 自由開源軟體社群
+** g0v
+** 行動者理論
+** 影響力概述
+* 關鍵活動 (3)
+* 議題分類 (5)
+** STEEP 分類 (3)
+** SDG 分類 (3)
+* 發現 (1)
+* 公眾操作建議 (1)
+* 資訊科技社群清單
