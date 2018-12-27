@@ -1,5 +1,6 @@
 # -*- mode: org; org-latex-tables-booktabs: t -*-
-#+TITLE: 如何促進科技社群網路參與科技政策討論建議報告 - 以資訊科技社群為例 (草稿)
+#+TITLE: 議題規劃與執行成果與科技議題分類與公眾參與操作與建議報告一
+#+SUBTITLE: 如何促進科技社群網路參與科技政策討論建議報告 - 以資訊科技社群為例 (草稿)
 #+AUTHOR: 陳信屹、簡韻真、黃凱蘭、黃宇新
 #+INCLUDE: ../setup.org
 * DONE 中文摘要
