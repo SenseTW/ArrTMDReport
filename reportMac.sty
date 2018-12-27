@@ -1,0 +1,159 @@
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\usepackage{times}
+\usepackage{booktabs}
+\usepackage[table]{xcolor}
+\usepackage{colortbl}
+\usepackage{siunitx}
+\usepackage{titlesec}
+\usepackage{titletoc}
+\usepackage{CJKnumb}
+\usepackage{indentfirst}
+\usepackage{enumitem}
+\usepackage{xpatch}
+\usepackage[titletoc,title]{appendix}
+%% \usepackage[toc,page]{appendix}
+
+
+%% \usepackage[american]{babel} %recommended
+%% \usepackage{csquotes} % recommended
+%% \usepackage[backend=biber,natbib=true]{biblatex}
+%% \usepackage[natbib=true]{biblatex}
+%% \bibliography{../references.bib}
+%% \bibliography{bib}
+%% \usepackage{natbib}
+%% \usepackage[round]{natbib}
+%% \usepackage[authoryear]{gbt7714}
+%% \usepackage{gb4e}
+%% \noautomath
+%% \usepackage[authordate,isbn=false,backend=biber]{biblatex-chicago}
+
+%% style : numeric alphabetic standard verbose
+%% https://www.overleaf.com/learn/latex/Biblatex_bibliography_styles
+%% \usepackage[style=authoryear-hyc verbose,backend=bibtex,natbib=true]{biblatex}
+%% \usepackage[style=authoryear-hyc,backend=bibtex,natbib=true,mergedate=true]{biblatex}
+\usepackage[style=authoryear,backend=bibtex,natbib=true]{biblatex}
+\addbibresource{../references.bib}
+
+%% 文件未加上參考文獻章節
+%% \AtEndDocument{\newpage\clearpage\phantomsection\addcontentsline{toc}{section}{参考文獻}\renewcommand\refname{參考文獻}\printbibliography}
+%% \AtEndDocument{
+%%   \newpage
+%%   \clearpage
+%%   \phantomsection
+%%   \addcontentsline{toc}{section}{参考文獻}
+%%   \renewcommand\refname{參考文獻}
+%%   \printbibliography}
+
+\setCJKmainfont[BoldFont={BiauKai}]{BiauKai}
+\setmainfont{Courier}
+\renewcommand\tablename{表}
+\renewcommand\figurename{圖}
+\renewcommand{\contentsname}{目次}
+\renewcommand{\listtablename}{表次}
+\renewcommand{\listfigurename}{圖次}
+\renewcommand{\refname}{參考文獻}
+%\renewcommand{\thechapter}{\arabic{chapter}}
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{\arabic{subsection}}
+\titleformat{\section}{\center\bf\large}{第\CJKnumber{\arabic{section}}章}{1em}{}
+\titleformat{\subsection}{\center\bf}{第\CJKnumber{\arabic{subsection}}節}{1em}{}
+\titleformat{\subsubsection}{\bf\normalsize}{\arabic{(subsubsection})、}{1em}{}
+%% \addcontentsline{toc}{章節名}{標題}
+%% \titlecontents{section}[0em]{}{第\CJKnumber{\thecontentslabel}章\quad}{}{\titlerule*[1em]{.}\contentspage\vspace{0.7em}}
+\titlecontents{section}[0em]{\vskip 1em}{第\CJKnumber{\thecontentslabel}章\quad}{}{\titlerule*[1em]{\ }\contentspage}
+\titlecontents{subsection}[24pt]{}{第\CJKnumber{\thecontentslabel}節\quad}{}{\titlerule*[1em]{.}\contentspage}
+
+
+% https://timmurphy.org/2010/07/02/changing-enumerate-number-styles-in-latex/
+\renewcommand\labelenumi{(\CJKnumber{\arabic{enumi}})}
+\renewcommand{\labelenumii}{\arabic{enumii}. }
+\renewcommand{\labelenumiii}{(\arabic{enumiii})}
+
+\newcommand{\loflabel}{圖}
+\newcommand{\lotlabel}{表}
+
+\setlength{\parskip}{0.5\baselineskip} %段落間距
+\setlength\parindent{24pt}
+
+%% \bibliographystyle{plain}
+%% \bibliography{../references}
+\definecolor{contiYellow}{RGB}{255,165,0}
+
+
+\makeatletter
+\renewcommand\tableofcontents{%
+  \section*{\huge\contentsname
+    \@mkboth{%
+      \MakeUppercase\contentsname}{\MakeUppercase\contentsname}}
+  \setcounter{page}{1}
+  \pagenumbering{Roman}
+  \@starttoc{toc}%
+  \newpage
+}
+\renewcommand\listoffigures{%
+  \renewcommand{\numberline}[1]{\loflabel~##1：\hspace*{0.5em}}
+  \section*{\huge\listfigurename
+    \@mkboth{%
+      \MakeUppercase\listfigurename}{\MakeUppercase\listfigurename}}
+  \@starttoc{lof}%
+  \newpage
+  \pagenumbering{arabic} %% pagenumber 換成 123 (「圖次」之後接「表次」，拿掉這行)
+}
+\renewcommand\listoftables{%
+  \renewcommand{\numberline}[1]{\lotlabel~##1：\hspace*{0.5em}}
+  \section*{\huge\listtablename
+    \@mkboth{%
+      \MakeUppercase\listtablename}{\MakeUppercase\listtablename}}
+  \@starttoc{lot}%
+  \newpage
+  %% \pagenumbering{arabic} %% pagenumber 換成 123 (「表次」之後接「圖次」，拿掉這行)
+}
+\makeatother
+
+
+\makeatletter
+\xpatchcmd{\@maketitle}
+          {\@title}
+          {\thispagestyle{empty}
+            \large 科發基金管理會補助計畫成果報告 \\
+            \vskip 1em%
+          社會與科技政策溝通平台計畫 \\
+          \@title
+          }
+          {}{}
+
+\xpatchcmd{\@maketitle}
+          {\@date}
+          {\large
+            \vskip 10em
+            %% \@date \\
+            \begin{flushleft}
+              \normalsize
+              $\blacksquare$ 本計畫除繳交成果報告外，另含下列出國報告，共\underline{\ \ \ \ \ \ }份：\\
+              $\square$ 執行國際合作與移地研究心得報告\\
+              $\square$ 出席國際學術會議心得報告\\
+
+              \vskip 1.4em
+
+              報告處理方式：
+              \begin{enumerate}[label=\arabic*.]
+                \itemsep -12pt
+              \item 公開方式：\\
+                $\square$ 非列管計畫亦不具下列情形，立即公開查詢\\
+                $\square$ 涉及專利或其他智慧財產權，□一年□二年後可公開查詢\\
+              \item 「本研究」是否已有嚴重損及公共利益之發現：$\square$否 $\square$是\\
+              \item 「本報告」是否建議提供政府單位施政參考 $\square$否 $\square$是，\underline{\ \ \ \ }（請列舉提供之單位；本會不經審議，依勾選逕予轉送）\\
+              \end{enumerate}
+              \vskip 1.4em
+              委託單位：行政院科技會報辦公室\\
+              執行單位：計畫分項執行團隊名稱\\
+            \end{flushleft}
+            \vskip 1.4em
+            \begin{center}
+              中\hspace{12pt}華\hspace{12pt}民\hspace{12pt}國\hspace{60pt}年\hspace{60pt}月\hspace{60pt}日
+            \end{center}
+            \newpage
+          }
+          {}{}
+\makeatother
