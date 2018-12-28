@@ -6,4 +6,4 @@
 #+LATEX_COMPILER: xelatex
 #+LATEX_SETUP:
 #+LATEX_CLASS_OPTIONS: [12pt,a4paper]
-#+LATEX_HEADER: \input{../report.sty}
+#+LATEX_HEADER: \input{../reportMAC.sty}
