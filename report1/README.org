@@ -59,7 +59,7 @@ Keyword: *community of practice*, *online participation*, *issue mapping*, *argu
 * DONE 研究目的
 依據上述背景與核心問題，本研究目的分為兩個層面，簡述如下:
 1. 研析既有網路參與機制，找出網路社群參與之核心問題。
-2. 設計一套適用「數位原民」非同步的網路討論方式提升議題討論的品質與參與政策過程的深入程度，並促使網路社群自組織議題社群增加議事資本。
+2. 設計一套適用「數位原民」非同步的網路討論方式以提升議題討論的品質與參與政策過程的深入程度，並促使網路社群自組織議題社群增加議事資本。
 * DONE 研究方法 [100%]
 ** DONE 研究架構
 #+BEGIN_SRC plantuml :results none :file ./images/research_arch.png :exports none
