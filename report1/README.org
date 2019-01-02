@@ -283,7 +283,7 @@ We develop an online-offline issue-mapping civic discussion process to empower c
 | 參與成本           | 參與的成本有「多少」？「如何」宣傳？                       |
 | 參與結果           | 從政治、法律、文化、經濟、科技等面向評估參與的結果         |
 
-然而前述的九大構面缺少了參與誘因，citep*:wang17  認為觀察民眾的「政治信任感」（political trust）以及「政治效能感」(political efficiency)，兩種政治態度或可預線上線下參與的行為模式，並將台灣網路使用者區分為四種，見表 ref:tbl:net-user-category 。
+然而前述的九大構面缺少了參與誘因，學者 citep*:wang17  認為觀察民眾的「政治信任感」（political trust）以及「政治效能感」(political efficiency)，兩種政治態度或可預線上線下參與的行為模式，並將台灣網路使用者區分為四種，見表 ref:tbl:net-user-category 。
 結果顯示其中網路使用者以「疏離者」最多，「忠誠者」與「異議者 」參與頻率最高。因此在線上參與的最大的問題是 *沒有人要參與* ，比起機制的設計，更重要的是增加公眾參與的誘因，而誘因的設計是最為困難的。
 
 #+CAPTION: 網路使用者的分類（本研究再製）
@@ -302,7 +302,7 @@ We develop an online-offline issue-mapping civic discussion process to empower c
 
 「網路適合釐清議題嗎？ 網路上真的能理性對話嗎？ 真的是適合作為公共討論的場域？」是「科技悲觀者」經常對線上公民與政治參與機制發出最大的質疑，ICTs 除了降低公眾對話的成本，同時也改變公眾心智並並帶來其他社會問題 citep*:stev11 。 citep*:neil16 早已指出「所有公共論述都逐漸以娛樂形式來傳達。我們的政治、宗教、新聞、體育、教育和商業，全都成為娛樂業的附庸，對此民眾多半毫無怨言，甚至漠不關心。於是，我們成為瀕臨娛樂至死的一群。」，如今在網路上的任何的政治討論最後都回到社交工具上（SNS），由於社交工具將公眾切成一個又一個的「小世界網路」[fn:9] ，使得「資訊碎片化」，介面的限制也使公眾難以在上面進行完整的論述對話，要釐清議題或是理性討論漸漸變得困難，導致「網路論戰（flaming）」citep*:wiki:flaming 層出不窮。
 
-資訊科技社群作為最早採用 ICTs 的族群對於「如何打網路論戰」已有許多討論; 知名黑客以及 Y-Combinator 創辦人 Paul Gram 根據網路論戰發文依照好壞、數量分為七個層次，認為引用原文指出不同意之處是提高論述品質的重要要素之一。citep*:paul08
+資訊科技社群作為最早採用 ICTs 的族群對於「如何打網路論戰」已有許多討論; 知名黑客以及 Y-Combinator 創辦人保羅·格雷厄姆（Paul Graham）根據網路論戰發文依照好壞、數量分為七個層次，認為引用原文指出不同意之處是提高論述品質的重要要素之一。citep*:paul08
 
 #+CAPTION: 網路論戰品質金字塔 （資料來源： cite:zhu_2015 ，本研究重製）
 #+name: fig:how-to-disagree
