@@ -54,14 +54,11 @@ We develop an online-offline issue-mapping civic discussion process to empower c
 本研究架構之第一部分與第二部分分別對應到前後兩個階段，每個階段採取不同的工具協助發展該階段的探索/執行目標：
 
 1. 網路社群視角之科技政策參與機制分析
-  - 發現（Discover）
-  - 透過使用者訪談對象挖掘並整理出的重點功能/溝通中重要的協作模式以及其原因，過程裡的重點整理在服務藍圖、顧客旅程等幾個大項目裡。
-   - 定義（Define）
-  - 設計敏捷方法定義關鍵問題與關鍵環節。
+  - 發現（Discover） :: 透過使用者訪談對象挖掘並整理出的重點功能/溝通中重要的協作模式以及其原因，過程裡的重點整理在服務藍圖、顧客旅程等幾個大項目裡。
+  - 定義（Define） :: 設計敏捷方法定義關鍵問題與關鍵環節。
 2. 線上線下整合網路參與機制設計開發與驗證
-  - 開發（Develop）
-  - 原型測試
-  - 交付（Deliver）：產品實際使用
+  - 開發（Develop） :: 開發堪用的原型在目標場域驗證假設。
+  - 交付（Deliver） :: 產品實際使用。
 
 所開發之成果如 圖 ref:fig:research_flow 所示反覆循環驗證。
 #+BEGIN_SRC plantuml :results none :file ./images/research_flow.png :exports none
