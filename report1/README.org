@@ -283,7 +283,7 @@ We develop an online-offline issue-mapping civic discussion process to empower c
 | 參與成本           | 參與的成本有「多少」？「如何」宣傳？                       |
 | 參與結果           | 從政治、法律、文化、經濟、科技等面向評估參與的結果         |
 
-然而前述的九大構面缺少了參與誘因，學者 citep*:wang17  認為觀察民眾的「政治信任感」（political trust）以及「政治效能感」(political efficiency)，兩種政治態度或可預線上線下參與的行為模式，並將台灣網路使用者區分為四種，見表 ref:tbl:net-user-category 。
+然而前述的九大構面缺少了參與誘因，學者 citep*:wang17  認為觀察民眾的「政治信任感」（political trust）以及「政治效能感」(political efficiency)，兩種政治態度或可預測線上線下參與的行為模式，並將台灣網路使用者區分為四種，見表 ref:tbl:net-user-category 。
 結果顯示其中網路使用者以「疏離者」最多，「忠誠者」與「異議者 」參與頻率最高。因此在線上參與的最大的問題是 *沒有人要參與* ，比起機制的設計，更重要的是增加公眾參與的誘因，而誘因的設計是最為困難的。
 
 #+CAPTION: 網路使用者的分類（本研究再製）
