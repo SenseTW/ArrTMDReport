@@ -35,6 +35,9 @@
 \usepackage[style=authoryear,backend=bibtex,natbib=true]{biblatex}
 \addbibresource{../references.bib}
 
+%% biblatex/cbx/authoryear.cbx ： \newbibmacro*{cite} -> nameyeardelim
+\DeclareDelimFormat{nameyeardelim}{，}
+
 %% 文件未加上參考文獻章節
 %% \AtEndDocument{\newpage\clearpage\phantomsection\addcontentsline{toc}{section}{参考文獻}\renewcommand\refname{參考文獻}\printbibliography}
 %% \AtEndDocument{
@@ -130,7 +133,7 @@
             %% \@date \\
             \begin{flushleft}
               \normalsize
-              $\blacksquare$ 本計畫除繳交成果報告外，另含下列出國報告，共\underline{\ \ \ \ \ \ }份：\\
+              $\blacksquare$ 本計畫除繳交成果報告外，另含下列出國報告，共\underline{\ \ 0\ \ }份：\\
               $\square$ 執行國際合作與移地研究心得報告\\
               $\square$ 出席國際學術會議心得報告\\
 
@@ -147,7 +150,7 @@
               \end{enumerate}
               \vskip 1.4em
               委託單位：行政院科技會報辦公室\\
-              執行單位：計畫分項執行團隊名稱\\
+              執行單位：財團法人開放文化基金會\\
             \end{flushleft}
             \vskip 1.4em
             \begin{center}
