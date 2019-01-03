@@ -1,4 +1,4 @@
-% Created 2019-01-03 Thu 19:08
+% Created 2019-01-03 Thu 19:14
 % Intended LaTeX compiler: xelatex
 \documentclass[12pt,a4paper]{article}
 \usepackage{graphicx}
@@ -32,17 +32,17 @@
 \listoftables
 \listoffigures
 \section{中文摘要}
-\label{sec:org8d5b607}
+\label{sec:org3522adc}
 本研究針對「數位原民」為主之網路科技社群，設計一套線上線下串接議題釐清機制，以建立公民參與意願與公共討論品質，讓網路社群能自組織發起討論並且論述有足夠議事資本可影響科技政策。本研究以資訊科技社群為例，以服務藍圖、顧客旅程等服務設計方法，拆解公民參與階段，並針對「前期議題設定」、「議題發酵」兩階段之溝通落差，以敏捷開發線上意見整理工具與線下議題小聚，研究發現透過問答、名詞定義、補充資料來源、界定利害關係人等原則做深度議題釐清達到與會者知識語彙對齊、提升論述品質，其中以線下實體參與建立參與意願與個人連結，線上數位記錄做網路擴散與延續討論，使線上線下串連達成網路社群低成本、高頻之自組織討論方式凝聚共識、釐清爭點。然本研究尚未達到網路效應，無法在特定議題上做到完善之回應建構評估之多方利害關係人參與討論。針對政府則建議（1）開放易搜尋與互相連結之資料補足民間與政府知識落差，（2）鼓勵社群討論與提供會議紀錄及會議參考資料，（3）加入社群討論。
 
 \textbf{實踐社群}, \textbf{線上參與}, \textbf{issue mapping}, \textbf{論點圖}
 \section{英文摘要}
-\label{sec:org9a5c5b8}
+\label{sec:org87007eb}
 We develop an online-offline issue-mapping civic discussion process to empower cyber communities of practice to generate high quality discourse in order to influence technology policy in pre-evaluation stage. The civic participation process of digital natives in Taiwan is examined through service blueprint and customer journey map. Identifying the key communication gaps in agenda setting and issue discussion process, we develop an integrated process of an online annotation and concept mapping tool and offline issue-mapping meetups to include cyber communities to initiate responsive constructive evaluation process on social issues and policies. The offline meetups connect active participants and inspire further online discussion. The low entry barriar discussion generates high quality discussion based on questioning and  answering, term definition, supporting sources, and identifying stakeholders. By crowdsourcing micro activities constructing opinions and policies suggestion with above principles, cyber communities are able to identify key arguments on certain issues in serious discussion.
 
 \textbf{community of practice}, \textbf{online participation}, \textbf{issue mapping}, \textbf{argument map}
 \section{前言}
-\label{sec:orgd3fb060}
+\label{sec:orgf5025e0}
 「1970 年代後，公共政策學者開始修正鐵三角理論，認為實際的政策過程並非如鐵三角理論所描述的封閉，實則有許多公私組織參與其中」 \citep*{luo15_gong} ，台灣亦有學者以全民健保政策改革為例，針對「政策利害關係人（policy stakeholders）」\citep{dunn94_public} 形成的網路關係進行研究，發現「當政策屬於規劃階段，不論就政策的資訊獲得、交換或是議題的資訊來源，均能形成由公、私與第三部門所組成的資訊網絡。政府部門不再被認為擁有獨占的專業知識，必須依賴私部門與第三部門提供政策資訊與諮詢，同時成為政策夥伴。」\citep{luo2005} ，但「由於顧主導向的政策研究，往往未能或是沒有興趣指認『沉默的輸家』」\citep*{chen11} ，一旦正式會議未處理政策弱勢的代表性議題，公眾只要沒有透過培力或動員來建構其代表性基礎，將在會議中缺乏議事資本，也導致決策缺乏草根性和正當性 \citep*{lo17}。
 
 今日，數位原民 \citep*{prensky2001digital} 以社群為網絡進行串聯、以科技為工具參與政治，透過 Facebook、Twitter 等各種數位社交軟體發聲，吸引其他人參與討論其關心的議題，形成「議題網路」（Hugh Heclo，1978），進而從虛擬走向實體，透過體制外的手法對政策產生影響 \citep*{xue11_xiang} 。 資訊科技社群更是在 2012 年發生質變，衍生出「g0v」這樣的網路社群，透過如 g0v 年會、黑客松、提出和運作各種與公民社會相關的專案，召喚其他公民一起公民參與（例如各種「開放政府」的成果），部分參與者更是從體制外走進體制內改革。但歸根究底，「g0v」的出現，實乃因工程師出自於對政府決策的不滿 \citep*{zheng18} 。 2014 年太陽花學運爆發，馬政府召開經貿國是會議回應，並增加了許多網路參與機制，在網路上蒐集執行上的意見參考，更邀請網路意見領袖實體與會參與，但在代表性上遭遇到困難。「『網路』不像產官學或社運界，是某種獨立的功能群體；實際上『網民』來自社會各界，往往具備其他身分。將網民想像成某個不同群體，先天邏輯就有問題。」\citep*{albert2014} 。
@@ -64,16 +64,16 @@ We develop an online-offline issue-mapping civic discussion process to empower c
 行動參與深度圖}
 \end{figure}
 \section{研究目的}
-\label{sec:orgd47c9db}
+\label{sec:orgaad372f}
 依據上述背景與核心問題，本研究目的分為兩個層面，簡述如下:
 \begin{enumerate}
 \item 研析既有網路參與機制，找出網路社群參與之核心問題。
 \item 設計一套適用「數位原民」非同步的網路討論方式提升議題討論的品質與參與政策過程的深入程度，並促使網路社群自組織議題社群增加議事資本。
 \end{enumerate}
 \section{研究方法 }
-\label{sec:org3ef2c82}
+\label{sec:org78e1e25}
 \subsection{研究架構}
-\label{sec:org2f472db}
+\label{sec:org514f2c6}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{./images/research_arch.png}
@@ -82,7 +82,7 @@ We develop an online-offline issue-mapping civic discussion process to empower c
 \end{figure}
 
 \subsection{研究流程}
-\label{sec:org1884075}
+\label{sec:orgddb237a}
 採用 Double Diamond \citep{double_diamond} 設計流程的四個階段作為設計發展的介紹綱要 圖 \ref{fig:double_diamond} 。
 
 \begin{figure}[htbp]
@@ -115,22 +115,22 @@ We develop an online-offline issue-mapping civic discussion process to empower c
 研究流程}
 \end{figure}
 \subsection{網路社群視角之科技政策參與機制分析}
-\label{sec:org73b6d46}
+\label{sec:org9dd2e56}
 \begin{enumerate}
 \item 文獻檢閱
-\label{sec:org56ffa14}
+\label{sec:orga6a1440}
 
 文獻檢閱主要為國內外網路參與機制、如何提升網路言論品質、網路社群作為利害關係人三大部分，與服務設計中的使用者經驗設計作為開發解決方案之主要方法論。在期刊文獻專著之外，本研究大量參考網路社群原生之文本、使用者中心之產品開發設計，目的為產出可促進「數位原民 」討論品質之實用產品或服務為目的。
 
 \item 使用者訪談
-\label{sec:org8395adb}
+\label{sec:orgf88b576}
 
 以「滾雪球抽樣」（snowball sampling）方式，在網路資訊社群參與科技政策的流程中，會參與的不同角色之人員進行訪談，涵括「積極公民（active citizen）」、NGO 工作者、網路社群專家、政策分析師、審議主持人、政黨智庫、法人承辦、部會幕僚、高層事務官、外部顧問、政務官等，以此為依據產出使用者畫像（persona）、服務藍圖（service blueprint）、顧客旅程圖（customer journey map）、用途故事（Job Story）等使用者經驗分析，挖掘既有科技政策形成與網路參與機制中溝通落差的痛點與待解問題，從而設計試作線上線下整合線上參與機制後，進一步拿產品做使用者測試。
 
 本研究主要透過訪談回顧歷年網路公民參與機制的設計與困難，部分受訪者選擇匿名不公開。 訪談日期形式、訪綱見附錄。
 
 \item 設計敏捷方法
-\label{sec:orgb787f1c}
+\label{sec:org16e215a}
 
 設計敏捷方法 （Design Sprint Method）\citep{jake16} 是由 Google 提出並且於內部實踐受到歡迎。概念基礎來自於敏捷開發（Agile）、設計思考（Design Thinking）與革新遊戲法（Gamestorming）。讓團隊在五天內定義關鍵問題和目標、大量發想產品解法、決定發展方向、做出原型、使用者測試。（須改寫或標註引用來源）五天的 Design Sprint 適合團隊一起挑戰高風險的問題，並且願意從新的角度思考產品，在最短的時間內完整發想又驗證產品構想。比一兩天的工作坊更能完整盤點想法並實際動手測試，又不需等待一個月的開發期才能做使用者驗證。
 
@@ -191,18 +191,18 @@ We develop an online-offline issue-mapping civic discussion process to empower c
 \end{enumerate}
 
 \item 服務藍圖
-\label{sec:org955687a}
+\label{sec:org459a6a1}
 
 服務藍圖是一套以圖表形式呈現目標對象經歷一串（服務）流程中，整體環境中的各項互動因子間互動模式、接觸點、關係人角色與其他參與人員盤點出來的設計工具。1984 年 Shostack 在哈佛商業評論提出以服務藍圖檢視服務產出之過程 \citep{shostack1984} 。服務藍圖幫助我們釐清整個過程中，每個參與人員扮演的角色、執行的動作、接觸的工具、互動的模式。透過服務藍圖工具，我們可以視覺化目標對象在做議題倡議時經歷的過程，幫助我們看到倡議民眾在過程中的哪些環節上遇到困難，並提出對應的改善方案。
 
 \item 顧客旅程圖
-\label{sec:org1424e73}
+\label{sec:org6d0ab9b}
 
 顧客旅程圖相較於服務藍圖，能讓過程中的接觸點看得到，並對觸點作評估管理。顧客旅程圖與服務藍圖不同之處在於，顧客旅程圖聚焦的範圍目標放在顧客在流程裡執行的動作與執行動作的接觸點上。除了詳細盤點觸點之外，同時也會考慮顧客在每個「行動」甚至「關鍵時刻」時的「目標」、「動機」、「情緒感受」，從釐清每個動作的動機目標與執行時的感受，讓我們能以客觀的視角，找到改善流程的著力點。
 \end{enumerate}
 
 \subsection{線上線下整合網路參與機制設計開發與驗證 }
-\label{sec:orgf466543}
+\label{sec:orge5d7200}
 
 以前述使用者經驗設計的訪調與分析為基礎，滾動式設計開發線上線下整合網路參與機制，捨棄傳統瀑布流開發方式，使用網路業快速回應使用者需求常用的敏捷開發法（agile development） \citep{agile_development} ，透過使用者驗證不斷調整產品開發方向，避免按照一年前制定的規格一路做下去最後才發現不符合實際使用者需求。
 
@@ -210,7 +210,7 @@ We develop an online-offline issue-mapping civic discussion process to empower c
 
 \begin{enumerate}
 \item 精實創業與敏捷開發以滾動式修正
-\label{sec:org745084c}
+\label{sec:orgf36b247}
 
 在設計開發線上線下整合網路參與機制中，本團隊遵循敏捷開發宣言 \citep{agile_development} ：
 
@@ -229,7 +229,7 @@ We develop an online-offline issue-mapping civic discussion process to empower c
 
 此回饋修正週期為兩個禮拜，採取 「SCRUM」\citep{sutherland18_scrum} 開發模式，採取兩個禮拜為一個衝刺週期（sprint）的方式，每個衝刺週期由團隊一起回顧驗收上個衝刺週期的成果、使用者回饋與改善工作流程開始，接著依產品負責人排定的產品開發需求，由開發人員評估工作量與分配工作，在一個衝刺週期中「排定的事項不能改變，也不能再加入東西。團隊必須要在衝刺期間自主工作，以完成自己預測可完成的事項。」\citep*[p. 328]{sutherland18_scrum} 每個衝刺週期須交付使用者具有價值的產出，詳細開發進度可見團隊在 GitHub 上 Milestone 的工作記錄。\footnote{本團隊開發進度紀錄請見\url{https://github.com/SenseTW/sensetw/milestones}。}
 \item 開源社群參與
-\label{sec:org1d62957}
+\label{sec:orgc8a13a4}
 
 本團隊所設計開發的解決方案亦為開源（open source），在開發過程中即將所開發的程式碼、圖像介面設計、公開文字產出（部分訪談內容、部落格、數位原民參與手冊）、介紹影片等，以開放授權方式公開在網路上讓任何人可散佈、改作。本團隊並且與網路社群共同協作，在 GitHub 平台公開開發進與收集問題回報，在 g0v 臺灣零時政府社群\footnote{「g0v.tw 是一個推動資訊透明化的社群，致力於開發公民參與社會的資訊平台與工具。」(\url{https://g0v.tw/zh-TW/about.html})。}的 Slack 討論平台上讓任何人可加入開發相關討論，並線下參與 g0v 黑客松與其年會、參與 COSCUP\footnote{「開源人年會起源於2006年，是由台灣開放原始碼社群聯合推動的年度研討會，也是台灣自由軟體運動重要的推動者之一。此活動通常一連兩日，包括有講座、攤位、社團同樂會等。除了邀請國際的重量級演講者之外，台灣本土的自由軟體推動者也經常在此發表演說，會議的發起人、工作人員與講者都是志願參與的志工。」，介紹詳見 \url{https://en.wikipedia.org/wiki/COSCUP}。} 開源人年會等活動與網路社群交流共同協作。並以集客式行銷（inbound marketing）方式撰寫部落格，以吸引對此線上線下整合網路參與機制有興趣之網路閱聽眾，參與協作開發與使用。
 
@@ -254,15 +254,15 @@ sense.tw 程式碼與介面設計 & \url{https://github.com/SenseTW/sensetw/} & 
 部落格 & \url{https://medium.com/sense-tw/} & CC BY-SA 4.0 International\footnotemark\\
 \bottomrule
 \end{tabular}
-\end{table}\footnotetext[4]{\label{org6ac05b5}MIT 授權允許被授權人「有權利使用、複製、修改、合併、出版發行、散布、再授權和/或販售軟體及軟體的副本，及授予被供應人同等權利，惟服從以下義務：『在軟體和軟體的所有副本中都必須包含以上著作權聲明和本許可聲明。』」，中文說明 2018 年 12 月 22 日摘自維基百科\url{https://zh.wikipedia.org/wiki/MIT\%E8\%A8\%B1\%E5\%8F\%AF\%E8\%AD\%89}，英文 MIT 協定全文請見：\url{https://opensource.org/licenses/MIT}。}\footnotetext[5]{\label{org59e338b}CC BY-SA（姓名標示-相同方式分享） 3.0 台灣之授權條款為依據「創用 CC 公眾授權條款」中授權姓名標示─相同方式分享。本授權條款允許使用者重製、散布、傳輸以及修改著作（包括商業性利用）。若使用者修改該著作時，僅得依本授權條款或與本授權條款類似者來散布該衍生作品。使用時必須按照著作人指定的方式表彰其姓名。詳細授權條款請見：\url{https://creativecommons.org/licenses/by-sa/3.0/tw/legalcode}}\footnotetext[6]{\label{orge7b3539}CC BY-SA 4.0 (Attribution-Sharealike) International，詳細英文授權條款請見：\url{https://creativecommons.org/licenses/by-sa/4.0/}。}
+\end{table}\footnotetext[4]{\label{org0a5c002}MIT 授權允許被授權人「有權利使用、複製、修改、合併、出版發行、散布、再授權和/或販售軟體及軟體的副本，及授予被供應人同等權利，惟服從以下義務：『在軟體和軟體的所有副本中都必須包含以上著作權聲明和本許可聲明。』」，中文說明 2018 年 12 月 22 日摘自維基百科\url{https://zh.wikipedia.org/wiki/MIT\%E8\%A8\%B1\%E5\%8F\%AF\%E8\%AD\%89}，英文 MIT 協定全文請見：\url{https://opensource.org/licenses/MIT}。}\footnotetext[5]{\label{orgb3ddd74}CC BY-SA（姓名標示-相同方式分享） 3.0 台灣之授權條款為依據「創用 CC 公眾授權條款」中授權姓名標示─相同方式分享。本授權條款允許使用者重製、散布、傳輸以及修改著作（包括商業性利用）。若使用者修改該著作時，僅得依本授權條款或與本授權條款類似者來散布該衍生作品。使用時必須按照著作人指定的方式表彰其姓名。詳細授權條款請見：\url{https://creativecommons.org/licenses/by-sa/3.0/tw/legalcode}}\footnotetext[6]{\label{org212ad84}CC BY-SA 4.0 (Attribution-Sharealike) International，詳細英文授權條款請見：\url{https://creativecommons.org/licenses/by-sa/4.0/}。}
 \end{enumerate}
 
 \section{文獻檢閱 }
-\label{sec:org25bbe97}
+\label{sec:org40bc8ca}
 
 本章回顧「網路社群與資訊科技社群」、「科技治理體系及溝通缺口」、「線上公民與政治參與的要素」以及「數位工具的幫助與限制」作為研究背景。
 \subsection{網路社群與資訊科技社群}
-\label{sec:orgc1cef27}
+\label{sec:orgdd528e7}
 
 不同於傳統公協會或是人民團體，網路社群因為興趣和共同關注議題而聚集，成員可能跨地域、跨職業，也沒有成立正式的法人組織，但是這個社群因為共同的承諾參與、默契、工具凝聚在一起，持續在網路上活躍，而成員對這個社群產生了歸屬感。例如攝影同好、動漫社群、寫程式的社群，可能在不同的論壇、通訊工具上討論相關話題，分享新知與作品。
 愛丁納‧溫格 \citep{wenger03_shi} 稱呼這類通過對特殊活動或興趣分享專業技術和激情而聚在一起的群體為「實踐社群（community of practice）」。
@@ -287,7 +287,7 @@ sense.tw 程式碼與介面設計 & \url{https://github.com/SenseTW/sensetw/} & 
 基本上沒有人可以代表「網路」，在網路上每個人都是各自獨立的節點，只是有些人是比較大的節點，認識更多人、傳遞更多資訊，通常被稱之為意見領袖（Key Opinion Leader）。意見領袖並非他想做什麼，下面就會有網軍群起跟隨，KOL 指的比較偏向網路上某一社群內有影響力的人，較像是一個跟社群溝通的窗口，是因為他在社群內的專業與參與付出而有影響力且受信任。
 
 \subsection{科技治理體系及溝通缺口 }
-\label{sec:org13eeda4}
+\label{sec:orgbdb1d66}
 
 為設計適合使「數位原民 」、科技社群參與政策討論的線上機制，並回應進入場域所必須回答的問題，例如「什麼是科技政策？」、「科技政策怎麼來的？」、「科技會報跟科技部差在哪邊？」、「哪邊可以看到科技發展藍圖（Road Map）跟現在有哪些計畫在推動）等等，及了解基本政策過程，接下來以民間視角綜合整理，恐有未盡之處或錯誤，仍以政府公告為主。
 
@@ -301,25 +301,25 @@ sense.tw 程式碼與介面設計 & \url{https://github.com/SenseTW/sensetw/} & 
 \end{figure}
 \begin{enumerate}
 \item 全國科技會議
-\label{sec:org345938e}
+\label{sec:orgc6c4609}
 
-依據「科技基本法」每四年舉辦的全國科學技術會議，做為未來國家科技發展藍圖，2016 年遭前台灣積體電路董事長張忠謀認為缺少產業界聲音，批評淪為形式上的大拜拜。陽明大學生物醫學影像暨放射科學系教授高怡宣則認為近二十年的會議都改由大官報告及做結論，缺乏真正的腦力激盪跟討論，讓學界和產業界都失去熱情，國家科技發展也失去方向。
+依據「科技基本法」每四年舉辦的全國科學技術會議，做為未來國家科技發展藍圖，2016 年遭前台灣積體電路董事長張忠謀認為缺少產業界聲音，批評淪為形式上的大拜拜\footnote{2018/12/22 摘自民報《全國科技會議變研討會？ 張忠謀建言勿讓業界在門外找方向》\url{https://www.peoplenews.tw/news/5ee8097c-be76-41e8-867b-928abf309335}}。陽明大學生物醫學影像暨放射科學系教授高怡宣則認為近二十年的會議都改由大官報告及做結論，缺乏真正的腦力激盪跟討論，讓學界和產業界都失去熱情，國家科技發展也失去方向\footnote{2018/12/31 摘自自由時報自由廣場《只有官員獨白的「全國科學技術會議」》 \url{http://talk.ltn.com.tw/article/paper/1059414}}。
 \item 科技顧問會議
-\label{sec:org67550b7}
+\label{sec:org3c4dfcb}
 
 行政院科技顧問會議之前身，最後一次舉行的「科技顧問會議」為 2011 年。科技會報原訂 2018 年開始重新啟動「科技顧問會議」，每年召開 一次聘請國內外專家擔任顧問，產出「科技顧問會議建言書」作為重要科技會議之政策參考，但並未舉行。
 \item 產業發展策略會議
-\label{sec:org1738496}
+\label{sec:orgfdeba7c}
 
 「產業科技策略會議（Strategy Review Board, SRB）以及行政院生技產業策略諮議委員會議（BioTaiwan Committee, BTC），透過整合國際情
 勢、政府施政與產業趨勢等方向，與產官學研各界進行特定議題討論，相關結論做為產業科技推動的重要依據。」\citep{guo17}
 \item 相關單位
-\label{sec:org48e9a95}
+\label{sec:orgfa98667}
 
 科技政策相關的單位主要是科技會報、科技部。科技會報在組織定位上為跨部會協調、國內科技政策智庫的整合平台，以及行政院院長之科技決策幕僚單位，掌管 \textbf{國家科技資源 1000 億之分配} 。科技部前身則為 1959 年成立的行政院國家科學委員會，推動科學技術發展的專責機構，主要任務推動全國整體科技發展、支援學術研究，以及發展科學園區。
 兩者因涉及業務領域廣泛，且限於編制員額與領域專長，多從相關專業法人單位借調人才協助或另行成立財團法人\footnote{常有法人現階段功能待檢討或疊床架屋案例，不乏社會與論批評。}。
 \item 科技計畫
-\label{sec:org199d45b}
+\label{sec:orgc1de95e}
 
 政策的施行主要是以計畫的形式推動，也是民眾最有感，除了「社會議題」（society issue）外較易被討論的主題。現階段科技會報管考科技部之科技計畫，科技部管考其餘部會之科技計畫\footnote{資訊來源：數位政務委員唐鳳。 2018 vTaiwan 小聚取得。}， 表 \ref{tbl:tech-project-information-sources} 列出民眾可以查找分散在各部會科技計畫的資訊來源。
 
@@ -348,14 +348,14 @@ sense.tw 程式碼與介面設計 & \url{https://github.com/SenseTW/sensetw/} & 
 \end{table}
 
 \item 溝通缺口
-\label{sec:orgf484d24}
+\label{sec:orge767b2a}
 
 這類型會議主要有「三個『溝通缺口』，分別是誰能出席、誰被排除的『代表性缺口』；與會人士知識/ 語彙的落差；不同參與者，在議程設定與結論綜整時的權力不對等」\citep*{alberttzeng08}，
 其中「知識/語彙的落差」由全國性會議的舉辦形式造成。類似的「經貿國是會議」八成的時間只能讓參與者宣讀自己想說的意見，而非實質性的對話討論。「大費周章動員上百人辦這一場線下會議，卻把多數時間用於書面（或網路）能完成的事，不禁令人惋惜。特別是，這些紛呈的意見中，其實充斥著價值上的對立（例如對勞動條件、稅率的看法），或施政優先順序上的角力，卻都沒辦法被充分展開，在對質與辯證獲得進一步釐清，造成會議充斥著「貌似多元、實則淺碟」的內容。」\citep*{albert2014} 。
 \end{enumerate}
 
 \subsection{線上公民與政治參與的要素}
-\label{sec:org06dec12}
+\label{sec:org2bddf35}
 
 新型態的網路公民參與是主張利用網路與電子媒體的即時連結特性，透過共同協力的方式來影響政府的決策，採廣義認定的「政治參與」的定義下，網路上的公民參與即是政治參與，可區分為四類，包括：（1）代議民主式參與（participation  in  representative  democracy），如線上投票（2）直接民主式參與（participation  in  direct  democracy），如參與式預算與線上連署（3）審議式民主參與（deliberative participation）則強調政府與民眾雙向互動與溝通，如線上論壇、(4) 示威式民主參與（demonstrative democracy）\citep{chen16} ，而影響線上公民參與的因素有九個構面，見表 \ref{tbl:online-participition} 。
 
@@ -418,7 +418,7 @@ sense.tw 程式碼與介面設計 & \url{https://github.com/SenseTW/sensetw/} & 
 若能讓參與討論的人知識越接近，越能有效對話; 控制公眾之間的「意念」流動，讓公眾在「思考」跟「探索」之間有個恰當的平衡，好的點子能更容易出現 \citep*{pentland14_shu}。 這樣在網路上發文附引言出處、資訊來源，質疑對方資訊來源這樣的文化可追朔到 BBS 時期 \citep*{malaita15}
 
 \subsection{數位工具對參與者知識對焦的幫助與限制}
-\label{sec:orgcfb3efe}
+\label{sec:org4838b3b}
 長期參與 g0v.tw 設計線上審議工具，並且最後放棄開發網路審議工具的藍一婷
 指出審議的數位工具最好是通用工具，也就是這個工具不會只適合特定參與機制的流程、而是可以應用在很多機制中解決特定問題，放在審議的情境，資訊工具最適合被用知情（inform）的環節，而非討論的環節 \citep{etblue18,etblue2017}。 學者 \citep*{chen08} 另外指出線上會議的效果雖相對於傳統面對面的會議，較能傳遞補充知識，讓與會者更能理性討論，產生共識的可能性較高於傳統會議，並且有參與成本低的好處，然而社會整體環境不夠成熟之前，透過線上面對面的視訊會議形式進行的「公民會議」，所有與會者的參與成本不一定會低於實體會議。
 
@@ -441,12 +441,12 @@ The process of the Knowledge Accelerator (KA), from start to finish. 來源自�
 convergence of knowledge mapping technologies into a single integrated platform. from \citep*{davies10}}
 \end{figure}
 \subsection{小結}
-\label{sec:orgf1014c3}
+\label{sec:org1cbc83d}
 綜合上述文獻回顧可發現，網路社群沒辦法如傳統協會一樣能夠有單一代表人，政府舉辦的重要會議形式也難以使主要以數位原民為主的網路社群發聲。若要讓線上公眾與政府有效溝通對話，有兩個較重要的條件需要思考：（1）如何讓公眾有更多的興趣接收政策資訊以及政治參與，（2）如何讓公眾協作進行議題釐清，從而能有足夠的政策知識與了解相關語彙與政府對話。若要促進線上參與討論，可思考（1）從意見領袖發起高頻度、低成本的政治討論會增進線上線下參與的意願，（2）在一個問題接著問更深度的問題（QBQ）和回歸原始文獻討論可增進理性討論的可能性。
 \section{社群視角的科技政策參與途徑分析 }
-\label{sec:orgbc584bd}
+\label{sec:org922a0d5}
 \subsection{設計敏捷方法問題定義與原型開發}
-\label{sec:org96ae0b2}
+\label{sec:orgeac7b72}
 延續文獻檢閱之結論，本研究試圖在既有網路參與機制下，提升網路公共討論品質，並讓網路社群作為利害關係人參與政策制定。在設計敏捷方法工作坊中，收斂出來的關鍵問題為「如何在政策規劃前期以有效方法彙整實踐社群之客觀事實提出建設性意見」，再根據訪談科技社群、分析師、智庫分析師等人的結果，初步畫出社群視角的政策制定流程圖 圖 \ref{fig:design-sprint-map} ，試圖在此流程圖中找到關鍵環節切入，設計工具與機制。
 
 \begin{figure}[htbp]
@@ -464,7 +464,7 @@ Design Sprint Map——定義關鍵環節}
 
 因研究資源限制，團隊選定專注在從公民、網路社群的角度，如何設計工具與機制讓網路社群能夠自組織產生論述的過程中對議題脈絡有全局觀、知識語彙對齊，讓產生出來的論述能被納入政府會議或網路意見收集過程之中。接下來使用服務藍圖、顧客旅程圖等分析方式，進一步挖掘目前網路社群參與公共事務討論的痛點，以開發解決工具與討論機制。
 \subsection{服務藍圖}
-\label{sec:org42280cb}
+\label{sec:org14cc7a7}
 透過服務藍圖透析社群團體在陳議議題時的工作流程、協作方式、議題擴散與跟關係人接觸互動的過程。從流程裡，了解目前社群團體在討論/倡議議題的時候，扮演關鍵影響的人（利害關係人）、事（會議、事件、擴散活動）與物（溝通、協作、擴散工具）間扮演的角色與其互動流程。
 
 我們採用服務藍圖以系統性的方式將訪談倡議民眾/團體的倡議過程記錄下來，整理成清楚易懂的流程表，降低理解的門檻，讓站在倡議民眾立場外的人也能理解倡議民眾在活動過程中的旅程。另外，服務藍圖的鳥瞰視角，清楚的將「前台」（ Front Stage）、「後台」（ Back Stage ）與「幕後」（ Behind the Scenes ）三個區塊的運作樣貌呈現出來。讓我們可以清楚地看到，在民眾倡議議題的過程步驟中，每一個階段背後採取的行動、使用的工具、參與的人員與相關的利害關係人，以這樣的架構釐清倡議民眾在執行倡議過程中的幕後準備行動，也能讓我們看到早期議題形成的發展脈絡。
@@ -477,7 +477,7 @@ Design Sprint Map——定義關鍵環節}
 \end{figure}
 \begin{enumerate}
 \item 服務藍圖架構解說
-\label{sec:org905e357}
+\label{sec:orgf191178}
 
 服務藍圖的架構雖有常被廣泛使用的模板架構，但隨著目標物、流程範圍、精度與目標對象的不同，在結構上會稍作調整以完整描述流程樣貌。
 
@@ -488,55 +488,55 @@ Design Sprint Map——定義關鍵環節}
 在議題倡議的每個階段，積極公民倡議的過程中都有相似的行動（Customer Actions），而每個行動慢慢的促成下一階段的發生。Onstage Comtact Actions 是倡議民眾每階段行動的實際動作（促成行動的實際行為）；Backstage 則是每個實際動作背後的運作動作。例如，在意見宣導的行動階段，實現意見宣導的是藉由散播議題懶人包的方式讓更多人看到/看懂議題發聲的緣由，而懶人包的製作過程是一般人看倡議民眾倡議議題時看不到的後台行為。利害關係人，則是因為自己立場對議題有不同解讀與態度的人，會影響每個階段議題倡議行動方向、活動、宣傳內容定調等，像是決定議題懶人包切入論述的角度。
 
 \item 參與途徑說明
-\label{sec:orgc69cb66}
+\label{sec:orgcf77447}
 
 本節說明 圖 \ref{fig:service-blueprint} 各階段細節。
 
 \begin{enumerate}
 \item 前期議題設定：
-\label{sec:org9adac86}
+\label{sec:orgc4d5163}
 
 在重大議題尚未發生之前，通常會有一群關心該議題的積極公民，因為工作/生活跟該議題相關，而關注討論該議題的發展。議題討論可能會鬆散的發生在社群平台，或是討論該議題的協作工具上。稍微有組織力的討論活動，則是發起線下的議題小聚討論會，透過線下群聚討論，並用數位工具紀錄討論過程。
 
 \item 議題發酵：
-\label{sec:org18e5e6f}
+\label{sec:org1d0443d}
 
 議題可能因為前期討論而持續發熱，或者因為突發事件而使得議題開始被注目。在這個階段，積極公民乃至有組織性的議題團體會以自身立場對外界作意見宣導。宣導的方式有許多種類/途徑，常見的有文章、圖文解說、懶人包等。懶人包的製作需要透過數位工具的協作，像是討論解說文字的脈絡、引文查找、對應圖片繪製等等。而懶人包的傳播則經常是透過社群媒體擴散出去，常見的平台像是臉書、PTT、電子郵件、專屬網站。
 
 \item 正式行動：
-\label{sec:orgeb1fe94}
+\label{sec:org9eb5e5c}
 
 正式行動階段是議題被大眾廣泛的討論與關注，人們開始重視這個議題。而議題在大眾的發聲之下進入政府內部系統，進入的管道可能是市政信箱、連署平台或是其他申訴管道。民眾串連、連署的媒介則是透過連署網站，有時也有民眾用灌爆單位信箱、電話的方式表達意見，讓職責單位意識到議題的重要性。
 
 \item 政府正式會議：
-\label{sec:org12a26eb}
+\label{sec:org630208c}
 
 當議題進入政府單位後，運作方式有很多種，但形式相似，都是以政府正式會議的方式集結眾人對該議題再次陳述其立場。召開議題會議前，相關職責單位會先行整理該議題相關資料，如研究文獻彙整、他國相似案例、查找議題相關的利害關係人、代表性專家學者。待內部先行了解議題狀態後，聯絡相關人員邀請參加會議。有時，因議題的急迫性，職責單位的準備時間而有所簡短，與會人員事前收到對於該議題的資料不一定俱全。有時準備出席會議的與會人會事先提供自己準備的資料，請責辦人員提供給會議上的其他人參考。會議會有會議記錄，紀錄會議上每個人的意見發言，但因與會人的立場紀錄不一定會公開。會議後的後續成效不得而知。
 
 \item 政府內部運作過程：
-\label{sec:orgbab6361}
+\label{sec:org566544f}
 
 經過前上述政府正式會議政府單位搜集各方意見後，了解各方利害關係人的立場與目前議題影響的範圍，或評估議題未來影響的程度，討論政府於該議題的態度方向、執行的動作、可用資源該如何應用。
 
 \item 政策修正：
-\label{sec:orgfa1f7fd}
+\label{sec:orgc79abd0}
 
 經政府評估議題之影響，與政府目前可行之動作後，對該議題相關的政策作修正。
 \end{enumerate}
 
 \item 現有網路參與機制與本計劃定位
-\label{sec:orga956468}
+\label{sec:org32d00c1}
 
 完成服務藍圖後以此檢視我國可供科技社群反應科技政策之常態性的中央政府網路參與機制，主要有數位經濟法規線上調適平台 vTaiwan 與公民政策網路參與平台 JOIN。
 
 \begin{enumerate}
 \item 數位經濟法規調適平台 vTaiwan
-\label{sec:orgf3325ce}
+\label{sec:orge6ceaf8}
 
 vTaiwan（\url{https://vtaiwan.tw/}） 由政府部會和民間提案，針對數位經濟相關法規做討論，共有五個階段：成案、意見徵集、研擬草案、送交院會、歷史案件，透過每週三線下社群小聚協助前期議題釐清與架設網路討論空間，如：共筆、提案介紹、直播、討論區、pol.is 收集意見，邀請參與諮詢會議的利害關係人，並召開線下諮詢會議搭配直播與網路留言。
 
 \item 公民政策網路參與平台 JOIN
-\label{sec:orgab48d8c}
+\label{sec:org7ee21ca}
 
 公民政策網路參與平台 JOIN（\url{https://join.gov.tw}）， 由行政院國家發展委員會建置，我國公民與在台外籍人士都可線上提案，經過檢核所提案事項為行政院職責範圍內及通過其他標準，即開放附議，提案若在 60 日內在 JOIN 平臺上附議超過五千人，主管機關需在二個月內於該平台上正式回應提案。
 
@@ -557,7 +557,7 @@ JOIN 平臺則是扮演了接收民眾陳情和提案的窗口，雖有「協作
 \end{enumerate}
 \end{enumerate}
 \subsection{顧客旅程圖 }
-\label{sec:org8d3664d}
+\label{sec:org458d79b}
 顧客旅程圖是一種從服務藍圖中衍生出來的圖。兩者在架構上相似（照前後順序排列的結構），但在觀點、範圍、聚焦和使用上多少有所相異。\cite{james2017} 服務設計藍圖主要用於描繪整體環境，先歸結主要的議題倡議步驟階段、重要行動、利害關係人互動形式。接著再用顧客旅程圖將倡議民眾每個執行動作（與執行該動作的接觸媒介：數位工具）盤點出來。顧個旅程圖不僅只是盤點觸點的工具，它包含的元素除了觸點外，亦包涵了「行動」、「情緒」、「目標」、「關鍵時刻」、「痛點」、「機會點」等。本設計案藉由 CJM 工具，找出倡議民眾倡議行動中遇到的問題點，並找出協助議題釐清的數位工具在倡議過程中能提供協助的利基點。
 \begin{figure}[htbp]
 \centering
@@ -576,7 +576,7 @@ JOIN 平臺則是扮演了接收民眾陳情和提案的窗口，雖有「協作
 這張旅程圖仍沿用前面服務藍圖的前四個階段（Stages）：「前期議題設定」、「議題發酵」、「正式行動」、「政府正式會議」。以四大階段作為行動目標的主架構，底下詳細紀錄在個階段執行的動作，含括服務藍圖裡的前台動作與後台動作。四個階段 (stage)可以視作為動作 (Actions) 執行的時機點「when」。Thoughts 探討每個「action」背後的目的與需求，有助於我們除了看到「 What - 什麼動作被執行」，也能看到「 Why - 為何採取這個行動」，協助我們辨識積極公民在倡議過程中的關鍵步驟以及積極公民與一般民眾間的差異點，找到設計上能切入提供協助的缺口。「Tool」是指執行每個動作時使用的工具，亦即「How - 動作是如何被執行/實現」。除了列出使用的工具外，藉由列出工具使用的優缺點 （pros and cons）找出目前流程上可以協助改進的痛點 (pain point) 。倡議民眾在議題倡議的過程中目標對象主要是「大眾」與「政府」，通常前期階段的溝通對象為大眾，目的在於讓更多人了解議題。後半階段的溝通對象則是政府與相關利害關係人，政府與相關利害關係人才能對議題政策修正有影嚮力的決定。
 \begin{enumerate}
 \item 前期議題設定
-\label{sec:orgf29fa3f}
+\label{sec:org2339ff1}
 
 這個階段描述倡議民眾「了解議題」、「形成觀點」與「議題社群的形成」過程。倡議民眾因為自己的生活環境、工作、興趣等因素，對議題產生關注，關心議題的發展。平時會在新聞平台、社群平台看議題相關文章、新聞。在閱讀的過程對文章中不了解或有疑義的部分會進一步搜尋相關資訊，透過關鍵字搜尋，查找網路上相關資料。累積一定程度對議題的了解，加上自身經驗，建立自己對於議題的觀點。過程中，看到激起共鳴的文章會截取重點、轉發到自己的社交平台上，表達自己對於該議題的的立場與想法，讓自己的朋友圈能一起注重該議題。轉發文章、發表自己的意見有機會能促發網路上的朋友、民眾在發文底下留言，交換意見。在目前的社群平台上，經常看到針對某一議題，因為民眾對該議題的認識深度不夠深，在全面了解之前，看到文章或發文可能所含的特定觀點立場，就陷入情緒反射式留言，而非了解該意見所處之立場。「事實查證」、「爭點討論」是議題倡議積極公民與一般大眾最大差別的地方。議題倡議的積極公民具有獨立思辨能力，有能力辨識資訊真偽不被混淆，並有能力理性思考其他意見的立場成因，找出議題爭點背後矛盾拉鋸的因素。
 
@@ -585,7 +585,7 @@ JOIN 平臺則是扮演了接收民眾陳情和提案的窗口，雖有「協作
 成型的討論群組聚集了很多議題的資訊資料，除了每次小聚討論的紀錄，還有各個成員分享的與議題相關的參考資料。這些資料幫助群組內的成員對於議題了解的深度，但些資料累積到一定量後，很難整理，也很難讓新加入的人有系統、有脈絡的了解這些資訊，增加了新加入討論的人的門檻。
 
 \item 議題發酵
-\label{sec:org33b9359}
+\label{sec:orgf4b4928}
 
 議題的發酵一般來說都與某一事件發生有關，大眾對該事件的關注使得背後的議題被看見。倡議民眾與議題發酵階段才開始注意議題的民眾不同，他們在先前對議題的脈絡、成因、問題已有相當深度的了解，並有一套自己的觀點。 在議題發酵階段，倡議民眾或相關的倡議團體致力於讓一般大眾能了解議題的問題，讓更多人關心這個議題。他們會在社群平台、媒體投書、短講這類發聲平台，講述自己對議題的看法，希望能影響更多的人了解、同意、支持他們的立場與意見。為了要讓更多人理解與認同，倡議民眾除了發表自己的看法之外，也會觀察大眾對該議題的意見、對議題的疑義。透過回覆解釋一般民眾對議題的疑義誤解，引導民眾看到更深的層面，並希望從而獲得認同。
 
@@ -593,19 +593,19 @@ JOIN 平臺則是扮演了接收民眾陳情和提案的窗口，雖有「協作
 
 議題發酵是倡議民眾、倡議團體與大眾溝通並擴散議題的階段。以有根據支持的精煉過的意見陳述，影響更多民眾對議題的關注與支持；為了能夠說服更多民眾，所以去理解其他民眾對議題上的提問與意見，並找出相關支持的事實與文獻與之回應以獲得支持。這是一個滾動的過程，在滾動來回對話的過程能夠讓議題擴散得更遠，觸及更多不曾接觸到該議題的人，並為他們對議題建立最初步的認知。更多的人支持倡議民眾/團體的意見方向，公眾的聲量與影響力促成倡議民眾/團體進入下一個階段。
 \item 正式行動
-\label{sec:org87ccc60}
+\label{sec:orgdc3fa4e}
 
 正式行動階段是串連意見相同的公眾力量，讓這股力量被政府看見，並將陳情傳達進政府管道，使政府內部關注並處理該議題。這個階段一開始仍是藉由各個媒體社群平台將連署串連的行動推廣出去，為了要在短時間引起民眾的共鳴，這個階段說明的文字通常會較之前的階段更簡短。雖然訴求簡潔有力能快速引起共鳴，但這個階段的發文較難完整的交代議題所有脈絡，使得接觸到串連宣導的人較難完整的理解議題全貌。
 
 除了吸引其他民眾理解串連的意義外，這階段倡議民眾/團體的重心放在如何使串連的人數增加，如何讓集中起來的聲量讓政府看到。倡議民眾/團提在這個階段除了持續更新議題相關資訊、擴散議題意見外，部分時間與心力則是放在引導大眾如何進行連署，藉由朋友圈間相互引導串連，讓議題通過連署門檻。
 \item 政府正式會議
-\label{sec:orgd360c31}
+\label{sec:org6ce1ddf}
 
 當民眾的陳情意見進入政府內部後，相關職責單位便會著手規劃舉辦議題相關會議。相關職責單位內部也有一套自己的研究調查流程，研究該議題的脈絡、問題點、影響範圍、利害關係人、衝突點等因素。找出各面向的利害關係人代表後，邀請這些議題相關人士（專家、學者、倡議團體、代議士、企業代表等）參與會議。本計劃訪談到的倡議民眾大多表示在參加政府相關會議前都會事前準備議題相關資料，希望參與會議的人能先了解自己對於議題的主張與見解，但大多時候在參與會議前無法事先知道與會的其他人以及他們對議題的看法。訪談對象表示，這樣讓政府相關議題會議變成與會人在會場上發表各自對議題的看法，彼此的對話沒有交集，因此很難在會議上對議題討論出共識。訪談對象共同指出，目前的政府會議流程缺少了事前讓與會人彼此核對議題認知、補平知識落差的流程。各自對議題名詞解釋、議題脈絡的認知有落差，使得彼此意見、溝通對談的話語難有交集。
 
 除了會議前缺少知識語彙對齊的環節，會議後參與會議的倡議民眾也遇到無法收到會議後續回饋的問題。政府單位的會議記錄與議題討論不像開源團體或是倡議團體採用開放協作模式，讓參與的人可以一起記錄會議，另外，大部分會議礙於無法公開會議過程也無法公開會議記錄。這使得會議的後續反饋變得很少，與會的倡議民眾也無法得知自己參與相關會議對於政府對該議題的政策規劃是否有實質的意義。同樣的，外界民眾也很難理解這些會議的實質影響與效益。
 \item 整體問題發現
-\label{sec:org646bb7c}
+\label{sec:orge4bc7cd}
 
 整個旅程雖然分成四個階段，但我們發現數位工具用於議題資訊整理貫串在各個階段，不同立場的各個單位（倡議民眾、倡議團體、政府職責單位、相關利害關係人）都需要透過數位工具整理議題資訊，如：新聞剪報、文獻節錄、人事物時間表。這些議題資訊整理的文件每個階段至少都會製作一份（或是一個版本），但這份文件卻很難串接延續到下一個階段，在整理與精簡化的過程，這些搜集來的資訊與原本的來源失去鏈結，片段資訊彼此之間的脈絡也變得不明顯。
 
@@ -621,7 +621,7 @@ JOIN 平臺則是扮演了接收民眾陳情和提案的窗口，雖有「協作
 \end{enumerate}
 
 \subsection{民間與政府溝通落差}
-\label{sec:org7fc402d}
+\label{sec:org5b23b34}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{./images/gap1.png}
@@ -646,11 +646,11 @@ JOIN 平臺則是扮演了接收民眾陳情和提案的窗口，雖有「協作
 \begin{enumerate}
 \item 數位工具原型開發做議題整理
 \item 線下討論促進網路社群參與政策討論
-\item 數位原民參與手冊供網路社群理解政策形成機制與公民參與方法\footnote{主要與現為軟體工程師的樹黨發起人討論。 樹黨發起人之目的為倡議 Public Money Public Code，撰有〈二十年後的政府軟體〉一文 \url{http://treesparty.tw/2018/06/17/public-money-public-code/}。\label{orgc205030}}
+\item 數位原民參與手冊供網路社群理解政策形成機制與公民參與方法\footnote{主要與現為軟體工程師的樹黨發起人討論。 樹黨發起人之目的為倡議 Public Money Public Code，撰有〈二十年後的政府軟體〉一文 \url{http://treesparty.tw/2018/06/17/public-money-public-code/}。\label{org9ff7e12}}
 \end{enumerate}
 
 \section{線上線下整合的網路參與機制設計 }
-\label{sec:orgd208325}
+\label{sec:org2ea99e9}
 
 由上一章之針對網路社群的公民參與服務藍圖與顧客旅程圖分析，可得知網路社群缺乏在前期議題設定、議題發酵階段能有適合的議題釐清的工具與線上線下串接的討論機制，並且需要工具做到溝通落差的視閾融合。
 
@@ -664,7 +664,7 @@ JOIN 平臺則是扮演了接收民眾陳情和提案的窗口，雖有「協作
 \end{enumerate}
 
 \subsection{期望討論流程}
-\label{sec:org2ff9bf7}
+\label{sec:org894fdff}
 「社交工具移除了公開表達意見的舊有障礙，也打破了大眾媒體的高進入門檻。其結果就是以往媒體專業人士所專有的權利已經交到了業餘公眾的手上」\citep*[p.59]{xue11_xiang}，大規模的業餘化早已打亂了專業類別，人人都可發表論述並成為「受眾（audience）」 所認定的專家。自媒體雖然成為了「異議者 」突破大眾媒體壟斷資訊傳播途徑之一，但也造成假新聞與極端言論的溫床。在這個「後真實（post-truth politics）」\citep*{wiki:posttruth} 時代，認定專業權威性（authority）的角色已從機構回到「受眾 」手上。我們希望公民對於公共議題的知情討論（informed discussion），來自於彼此貢獻知識與自主查證，而不必然需要專家告知或製作議題手冊，因為專家除了主觀意識造成的知識盲點外，議題也容易遭到「政客，媒體，政治顧問透過分析、界定、區格與標籤等手段將問題轉化成對社會真實的爭辯」\citep*[p.123]{yanyuan09_gong}，為了用來混肴公眾追求仕途的工具進行與論操弄。任何專家告知其實已經隱含了一種「議題設定（Agenda Setting）」\citep*{wimmer03_da} ，然而往往「議題設定」卻是最需要被質疑的，爭執到最後才會發現誰才是議題專家或是發現告知者沒有揭露會造成判斷轉變的關鍵資訊，網路社群的意見領袖的權威性並非來自於頭銜，而應當來自其論述與提供的佐證資料讓他人可查證。
 
 因此期望這個討論流程是鬆散的，讓下班後的公民可輕度持續討論 \citep*{xueji11_xia} ，不必馬上有結論，而是每個參與者皆可以以自己的方式再利用其討論結果，透過群眾協作收集議題之問題面向與可能解法，在不斷的迭代（iteration）循環討論中，自我修正與辯證，提升參與者之反思程度 \citep{fleck10} ，以加深討論深度以達到議題釐清爭點與凝聚社群共識之目的。從使用者訪談中，發現列出問題與回答的 QA 法普遍被倡議者和積極公民使用，易於網路討論和擴散。在此基礎上，新的討論流程的設計是在網路社群熟悉的討論空間以其熟悉的文化，例如要求原始資料連結、開放協作等方式，做到根基於佐證資料來源（source-based）地釐清問題（problem）、解法（solution）、論點（statement），對齊知識語彙（definition）、界定利害關係人（stakeholder），並且串連出來參與的積極公民（active citizen），讓他們互相連結（networking），導引到現有公民參與機制發起行動。
@@ -687,7 +687,7 @@ JOIN 平臺則是扮演了接收民眾陳情和提案的窗口，雖有「協作
 期望討論流程}
 \end{figure}
 \subsection{線上意見整理工具 sense.tw }
-\label{sec:orgc16147d}
+\label{sec:org33f5119}
 在知識語彙對齊來提升網路討論品質的前提下，數位工具的開發希望能協助網路社群在前期議題設定的議題釐清階段，引入上述期望討論過程，並且工具設計著重在以下兩點：
 \begin{enumerate}
 \item 回歸原始資料來源
@@ -706,13 +706,13 @@ JOIN 平臺則是扮演了接收民眾陳情和提案的窗口，雖有「協作
 搭配線下線下之議題小聚討論，針對網路社群做推廣，尤其是需要在社群中凝聚共識與釐清爭點與政府溝通的網路社群參與者。
 \begin{enumerate}
 \item 工具使用情境與功能介紹：
-\label{sec:orgc1e5e97}
+\label{sec:orgadb1d77}
 
 以下以個人整理大量資訊的情境作為工具功能介紹，線上非同步協作和現場會議之數位記錄會於線上線下串接案例中介紹。
 
 \begin{enumerate}
 \item 個人整理大量資訊
-\label{sec:org0b449c0}
+\label{sec:orgf2a95fd}
 
 在此以整理 2018 年底「以核養綠」公投論辯為例作為工具介紹。當時有兩場電視辯論會針對「公投第十六案：您是否同意：廢除電業法第95條第1項，即廢除『核能發電設備應於中華民國一百十四年以前，全部停止運轉』之條文？」做正反方論辯，有網路直播並且有辯論逐字稿，然而核能議題複雜也需要非常多佐證資料，故以此作為案例整理論辯架構圖，並連結回原始連結，完成如下圖的分析圖，在網頁上可放大縮小檢視。
 
@@ -724,7 +724,7 @@ JOIN 平臺則是扮演了接收民眾陳情和提案的窗口，雖有「協作
 \end{figure}
 \begin{enumerate}
 \item 在原始網頁、pdf 上註解。
-\label{sec:org5641756}
+\label{sec:orgcb1183e}
 
 sense.tw 可直接在網頁和 pdf 文件上畫重點註記。在此案例中使用此功能註記 HackMD 共筆上之辯論逐字稿，將單一論點論述與單一資料拆開紀錄，並且標上發言者與重點摘要，如下圖。
 
@@ -739,7 +739,7 @@ sense.tw 可直接在網頁和 pdf 文件上畫重點註記。在此案例中使
 \end{center}
 
 \item Map Editor：群組、分類、連線、回應
-\label{sec:org91be696}
+\label{sec:org73e69d7}
 
 所摘要的註記，可在 Map Editor 介面作為 Card 被編輯，並可加入更多敘述、標籤、相關利害關係人。
 
@@ -782,7 +782,7 @@ sense.tw 可直接在網頁和 pdf 文件上畫重點註記。在此案例中使
 \end{enumerate}
 
 \item 數位化紀錄現場討論
-\label{sec:org028a2ee}
+\label{sec:org1d06620}
 
 以區塊鏈治理討論為例，透過投影出將討論拆解成單一概念與資料間的論證建構圖，可協助與會者在現場討論時看到已討論過的名詞定義讓知識語彙對齊，並且可檢視問答的深度與廣度，並線上補充資料連結。
 
@@ -795,7 +795,7 @@ sense.tw 可直接在網頁和 pdf 文件上畫重點註記。在此案例中使
 \end{enumerate}
 
 \item 應用成果
-\label{sec:org264fc3a}
+\label{sec:org2b0344f}
 
 \begin{table}[htbp]
 \caption{\label{tbl:sensemap-list}
@@ -825,7 +825,7 @@ UBER CASE ISSUE MAPPING - PDIS WORKSHOP IN TORONTO & 101 & 85 & 7:18 &  & \url{h
 截至 2018 年 11 月 30 日，共 116 人註冊。
 
 \item 小結
-\label{sec:org3dd9fb6}
+\label{sec:orgc0691a3}
 
 sense.tw 目前滿足了個人整理大量資料與數位化紀錄現場討論的使用情境，線上非同步協作則因操作門檻高，難以單純從線上吸引使用者協作。
 
@@ -845,16 +845,16 @@ sense.tw 工具優點：
 \end{enumerate}
 
 \subsection{線下線下議題小聚 }
-\label{sec:org9e6f61b}
+\label{sec:orgd47da25}
 初期專注在開發數位工具做議題整理與爭點釐清，但發現目標之資訊實踐社群，在討論社會議題與政策尚停留在社群媒體回應留言階段，較少能夠對接到政策制定的組織論述，因此發起線下討論之議題小聚，建立資訊社群討論科技政策的參與意願與方法，目標是建立低門檻、高頻度、社群自組織的深度科技政策相關討論，讓資訊社群在下班後的時間即可抓定大原則自主發起討論，不需有專業主持人或剛性討論架構，並搭配數位工具去釐清議題和爭點，在對議題有深度討論後能以此為基礎進一步能有所行動。
 
 議題小聚因此以資訊社群關心議題作為切入，主動尋找活躍社群合作，並搭配資訊社群舉辦之大型活動做擴散，在資訊社群熟悉的線下與網路活動空間進行討論與擴散，並且記錄操作方式公開於網路上讓網路社群採用。
 \begin{enumerate}
 \item 建立參與意願（議題小聚會前流程）
-\label{sec:orgc22c8cb}
+\label{sec:org25f534a}
 \begin{enumerate}
 \item 應用場景
-\label{sec:orgc9ce1aa}
+\label{sec:org2a2c48b}
 
 議題小聚的應用場景建議以數位原生代為主體，配合在地社群合辦，解決場地與會眾問題。討論主題貼近與會者生活要能引起共鳴。以下以「人事時地物」五個面向來說明。
 
@@ -874,7 +874,7 @@ sense.tw 工具優點：
 \end{tabular}
 \end{center}
 \item 設定討論議題
-\label{sec:org8b6187a}
+\label{sec:orgd98778a}
 
 科技人表面上往往對政策冷感不關心，但實際上是缺乏暸解而認為不需要知道。環境、民生、交通、經濟課題是貼近
 生活的比較容易被暸解並喚起共鳴，例如教育、就業。
@@ -883,7 +883,7 @@ sense.tw 工具優點：
 新知與新聞。找到核心討論目標，選定關心議題，排定時間以協辦的角色加入。
 
 \item 尋找合作社群
-\label{sec:org9fad88f}
+\label{sec:org04df47e}
 
 想第一手接觸各縣市的科技人，透過在地活躍的技術社群會是最簡便的方式。科技圈因為技術不斷的演化及進步，需要
 時時更新科技新知及知識背景與深度，往往會以一種類讀書會的形式聚集在一起，將零碎的時間組織起來透過分享學習
@@ -891,7 +891,7 @@ sense.tw 工具優點：
 並保持 2 周以上的宣傳時間。
 
 \item 網路宣傳
-\label{sec:org18139e4}
+\label{sec:orga6a3a12}
 
 擬定宣傳稿並針對社群屬性以及習慣之溝通社群媒體擴散，例如可以發起 Facebook 活動頁作為宣傳。內文範本如下：
 
@@ -907,13 +907,13 @@ sense.tw 工具優點：
 在本活動中，將會使用到 Sense.tw 團隊所開發的 Sense Map 套件，進行議題討論與結果歸納整理，對於有興趣在團隊中導入議題協同討論工具的朋友，歡迎參加
 
 \item 設備需求與人員配置
-\label{sec:org9227fea}
+\label{sec:org5a1df95}
 
 設備需強烈建議需要網路查資料，需要可以共享畫面的投影機或電視。人員配置建議需要三以上，列表清單如下。
 
 \begin{enumerate}
 \item 設備需求
-\label{sec:org8c437ad}
+\label{sec:org46366ef}
 
 \begin{enumerate}
 \item 20 人左右的場地
@@ -925,7 +925,7 @@ sense.tw 工具優點：
 \item 錄音設備，拍照設備
 \end{enumerate}
 \item 工作人員配置
-\label{sec:org044a54e}
+\label{sec:org2892995}
 \begin{enumerate}
 \item 主持人
 \item 反方角色扮演者
@@ -935,7 +935,7 @@ sense.tw 工具優點：
 \end{enumerate}
 
 \item 回應論證建構討論方法
-\label{sec:org41f748b}
+\label{sec:org7aa2fc1}
 
 現場討論方法採滾動式修正，主要發現為：
 
@@ -954,7 +954,7 @@ sense.tw 工具優點：
 
 \begin{enumerate}
 \item 活動當天操作流程
-\label{sec:orgac97196}
+\label{sec:org2e4617f}
 
 提早一個小時到現場佈置及測試活動設備，架設活動立牌、測試投影機、安排座位及入口動線、名片 e-mail 投放箱
 
@@ -1023,12 +1023,12 @@ sense.tw 工具優點：
 議題小聚每次約三個小時，第一次的操作往往只能達到知識語彙對齊（well-informed），而第二三次的操作透過閱讀地圖與記錄，可快速的彌補資訊落差。但之後又會因為資訊量大，而只會有少數人可以理解的人會持續關心相關議題。
 \end{enumerate}
 \item 會後擴散
-\label{sec:org8600868}
+\label{sec:org5d3e570}
 
 收集與會者名片或 e-mail，用 sensemap 整理會議記錄，並主動邀請參與者參加線下討論，會後發佈當天討論的結論，並在三天內發送會議記錄，將與會者加入 mailing list 討論串內，發佈當天活動 blog 記錄。籌劃下次的活動，並延續當天討論的內容發展，進行下一次的循環。
 
 \item 應用成果
-\label{sec:org6648655}
+\label{sec:org782dd11}
 
 截至 2018 年 12 月 20 日為止，共計舉辦 9 場議題小聚如下表。初期由本團隊發起並主動接洽北中南資訊社群，討論主題如：區塊鏈、數位治理，並且使用本計劃開發之意見整理工具 sense.tw 做數位紀錄，數位工具之紀錄使線下之討論可擴散給更多關心此議題的社群參與者，及非同步協作補充資料。在 2018 年底開始造成社群擴散效應，有資訊社群主動聯絡自行發起議題小聚，如學生計算機年會 SITCON 參與者發起「資訊教育」議題小聚；李梅樹紀念館發起在台北舉辦「文化組織如何數位開放」，並將於 2019 年持續在台北、台中舉辦延續之議題小聚討論文化組織之資訊系統標案。
 
@@ -1055,13 +1055,13 @@ MOPCON 議題小聚 & 2018/11/04 & 25 & 高雄市 & 濁水溪以南 25 個資訊
 \end{enumerate}
 
 \subsection{線上線下串接案例 }
-\label{sec:orgf7cbd17}
+\label{sec:org261a364}
 前述分別介紹線上意見整理工具 sense.tw 與線下的議題小聚，此節以案例介紹如何串接線上數位工具與線下討論，加深網路社群討論科技政策之品質。
 \begin{enumerate}
 \item Public Money, Public Code
-\label{sec:org1827b65}
+\label{sec:orgc3bb790}
 
-Public Money, Public Code 為國際開源社群長期推動由政府資助開發的軟體應開放原始碼的運動\footnote{Public Money, Public Code 活動由歐洲自由軟體基金會發起，要求制定法律，明訂以公務機關的經費，為公務機關開發的軟體，必須以自由開源軟體授權釋出，截至 2018/12/21 為止全球已有 158 個組織與 19130 個人已經連署公開信表達支持。詳見 \url{https://publiccode.eu/zh-tw/}。}。在開源人年會（COSCUP）中大高雄 Linux 協會（KaLUG）與樹黨\textsuperscript{\ref{orgc205030}}開始討論，於是舉辦之議題工作坊以此為主題進行討論。
+Public Money, Public Code 為國際開源社群長期推動由政府資助開發的軟體應開放原始碼的運動\footnote{Public Money, Public Code 活動由歐洲自由軟體基金會發起，要求制定法律，明訂以公務機關的經費，為公務機關開發的軟體，必須以自由開源軟體授權釋出，截至 2018/12/21 為止全球已有 158 個組織與 19130 個人已經連署公開信表達支持。詳見 \url{https://publiccode.eu/zh-tw/}。}。在開源人年會（COSCUP）中大高雄 Linux 協會（KaLUG）與樹黨\textsuperscript{\ref{org9ff7e12}}開始討論，於是舉辦之議題工作坊以此為主題進行討論。
 
 流程如下\footnote{以下 Public Money Public Code 討論流程改寫自本計劃 2018 年 8 月 17 日部落格〈COSCUP 小記：科技社群如何參與科技政策規劃（我們需要更多 Pizza！）〉，連結：\url{https://medium.com/sense-tw/community-tech-policy-coscup2018-1cefe60b38c3}}：
 
@@ -1125,13 +1125,13 @@ Public Money, Public Code 為國際開源社群長期推動由政府資助開發
 
 \begin{enumerate}
 \item 小結
-\label{sec:orga86b951}
+\label{sec:org9311e0e}
 
 這是第一場議題小聚，後來的議題小聚延續這樣問題（questions/concerns/problems）、解法（answers/solutions）、利害關係人（stakeholders）、名詞定義（definition）、立場（statements/claims）的討論。利害關係人對於非公共行政、專案管理背景的人來說是個新的思考事情的維度，但熟悉網路治理多邊利害關係人模式的社群參與者馬上可以抓到這個概念。名詞定義則是在網路上特別需要去聚焦的部分，以及跨專業時需要去確認的東西，才能建立共同語彙，推進實質討論。想要用這樣回應的方式讓社群可以在同溫層裡面意見徵詢，透過同溫層滾同溫層的模式，去做到論點交換，對話迴圈要雪球滾起來，找到同溫層內的共識。在數位工具上則是能做到，當彼此可以看到彼此的資料來源的時候，才能知道為何得出那樣的論證。
 \end{enumerate}
 
 \item 網路中立性
-\label{sec:org1a15782}
+\label{sec:org21ec328}
 
 \begin{enumerate}
 \item 設定議題
@@ -1203,22 +1203,22 @@ Public Money, Public Code 為國際開源社群長期推動由政府資助開發
 \end{enumerate}
 \end{enumerate}
 \section{結論與建議 }
-\label{sec:org37cccf9}
+\label{sec:org7d20ad2}
 \subsection{研究發現}
-\label{sec:org3078aef}
+\label{sec:org49b47d7}
 \begin{enumerate}
 \item 溝通落差
-\label{sec:orgdde7f21}
+\label{sec:org5752ab2}
 
 從使用者訪談中得知網路社群與政府間的溝通落差來自於視角不同與掌握資訊不同，政府應提供單一入口、易於查詢的全面政策規劃資料，而民間需將自己的知識語彙與政府對齊，並且整理出論述以便與政策討論接軌。
 
 \item 網路社群公民參與機制分析
-\label{sec:org6414602}
+\label{sec:orge459941}
 
 以服務藍圖、顧客旅程圖等服務設計方法，拆解網路社群公民參與之階段為五個階段：「前期議題設定」、「議題發酵」、「正式行動」、「政府正式會議」、「政策修正」，並且針對網路社群在每個階段的接觸點做深入探討，發現在每個階段讓行動者、與會者的知識語彙對齊以梳理議題脈絡非常重要。在進入「正式行動」對政府提出訴求之前，在前期議題設定和議題發酵讓更多人關心與參與的階段，知識語彙對齊更顯重要。網路社群需先有參與意願，有參與意願後有時會因缺乏凝聚共識與議題釐清之方法，無法提出有效之論述影響政策。
 
 \item 發展出線上線下議題釐清工具與機制
-\label{sec:orgfc36d37}
+\label{sec:orgbe38879}
 
 從文獻檢閱檢視如何促進線上公民參與之討論品質，發現需增加線上參與誘因與引導公眾做議題釐清，而高頻度低成本之討論、問出深度問題、根基原始文獻之討論，可有效提升討論品質。根據文獻與訪談結果分析，發展出線上線下串接之議題釐清工具與機制。基本架構為採用群眾協作貢獻多元知識與視角，問答方式引導討論者問出更深度的問題和換位思考，並且要求名詞定義和論述需引用資料來源以做查證和知識語彙對齊，並且納入利害關係人分析視角檢視議題之不同意見。
 
@@ -1228,23 +1228,23 @@ Public Money, Public Code 為國際開源社群長期推動由政府資助開發
 \end{enumerate}
 
 \subsection{政策建議}
-\label{sec:org308f6b6}
+\label{sec:orgae4126a}
 本研究專注在促進民間網路社群自組織議題釐清，主動權不在政府部門手上，然而政府能夠做好資料開放作為促進網路公共政策討論之品質之基石。
 
 \begin{enumerate}
 \item 開放易搜尋與互相連結之資料補足民間與政府知識落差
-\label{sec:org3f576dd}
+\label{sec:orgddcc366}
 
 從對線上參與機制與公民參與的使用者訪談中得知網路社群因視角不同與政府產生溝通落差（見圖 \ref{fig:gap1} ），網路社群容易對議題、新聞做出反應，較難得知跨部會的全盤政策與各部會職掌。若政府政策相關文件只有以 PDF 檔分別放在各部會網站上，對於不熟悉各部會執掌和計畫的民間收集相關議題資料較為不便，建議除了 PDF 檔案外有網頁形式或至少有標註關鍵字和提供相關連結，方便有興趣之公民使用搜尋引擎查找。例如科技會報之「AI 行動計畫」有完整網頁介紹全面性政策\footnote{18F 為美國聯邦總務署（General Service Administration）轄下之數位創新單位，此註記政策回饋功能在 2018 年 5 月拜訪開發團隊時為原型開發階段，程式碼在 \url{https://github.com/18F/omb-eregs}。}，只可惜缺乏連結回相關原始文件報告，只有連結新聞報導。亦可參考馬德里市政府開發之 CONSUL 的線上參與平台\footnote{成功案例可參考 2018 年健保署針對「新一代健保卡」召開協作會議後，將事前會議手冊、會議中紀錄與逐字稿皆公開上網，作為 JOIN 平台上開放政策草稿評論之「眾開講」參考資料之一部分。眾開講連結： \url{https://join.gov.tw/policies/detail/dc226809-6651-406e-8841-87fefec51875}}與美國聯邦政府 18F \footnote{例如 Facebook 公關代表在 2018 年 10 月 16 日於「台灣網路治理論壇（TWIGF）」Facebook 社團中轉貼 Facebook 相關新聞，加上之前轉貼多次 Facebook 之官方回應聲明，引發是否算是商業宣傳貼文需禁止之討論，連結見 \url{https://www.facebook.com/groups/1757842584459069/permalink/2252596304983692/}}皆有開發可供民眾直接在線上註記政策網頁檔以回應政策意見之工具
 ，本計劃開發之 sense.tw 意見整理工具也可達到同樣功能。
 
 \item 鼓勵社群討論與提供會議紀錄及會議參考資料
-\label{sec:org96f7306}
+\label{sec:org956eb10}
 
 本研究開發驗證之線上線下整合參與機制不只能用在民間議題設定與討論，亦可用在政府開諮詢會議時使用，在會議資料中做名詞定義與提供原始資料來源（電子檔需附超連結），並且召開多方利害關係人會議做議題釐清。另外，也可將政府線下之開會與線上串接，使實體會議之會議紀錄與會議材料能在網路上進一步擴散討論。\footnote{例如在本研究舉辦之「台灣有網路中立性嗎？」之議題小聚中，有公務員分享 NCC 既有之研究報告與國際認定網路中立性之原則，成功推進深度討論。}最後，政府須認知到網路社群無單一代表人，網路社群代表可視為與網路社群之意見中介者，需要對其他網路社群參與者交代開會過程，故建議可提供會議紀錄供有興趣之公民參考，並且鼓勵網路社群與會者提供社群集體開放協作之論述紀錄作為會議參考資料，而非只想要找網路代表人來開會。
 
 \item 加入社群討論
-\label{sec:org0fe2f10}
+\label{sec:orgc1acf15}
 
 網路社群在網路討論空間時常分享資訊與交換討論，可鼓勵政策分析師與公務員以個人身份加入相關社群討論空間，增加資訊來源與討論，建議以非官方身份、不壓 KPI ，以免破壞社群文化反而招致反效果，例如被要求單向頻繁轉貼新聞，或需代表官方立場發言，皆會破壞社群討論空間之信任。在熟悉社群文化的基礎上，可分享相關政策連結與待討論之公開政策草案\footnote{2018 年 12 月 22 日，截至行政院網站 \url{https://www.ey.gov.tw/Page/5A8A0CB5B41DA11E/a8ec407c-6154-4c14-8f1e-d494ec2dbf23} 。}，收集並參考相關社群在公開社團之公開討論。
 \end{enumerate}
@@ -1264,9 +1264,9 @@ Public Money, Public Code 為國際開源社群長期推動由政府資助開發
 \appendix
 
 \section{附錄}
-\label{sec:org0208c75}
+\label{sec:org0d7318a}
 \subsection{訪談對象與訪談形式}
-\label{sec:org79c0076}
+\label{sec:org5cfe46d}
 {\small \rowcolors[]{2}{contiYellow!5}{contiYellow!20}
 \begin{longtable}{l|l|l|l|l}
 \caption{\label{tbl:interview-list}
@@ -1355,13 +1355,13 @@ Public Money, Public Code 為國際開源社群長期推動由政府資助開發
 \end{longtable}
 }
 \subsection{數位原民參與訪談大綱}
-\label{sec:org05a44f3}
+\label{sec:org69f8880}
 \begin{enumerate}
 \item 訪談目的
-\label{sec:orgd63b25f}
+\label{sec:org230ad81}
 訪談參與政府政策制定的網路社群外部專家的相關經驗，從案例分享，歸納出建議政府與積極公民的協作準則、可參考的流程、範本，或修正寫作與訪談方向。
 \item 訪談對象
-\label{sec:org36b1c6d}
+\label{sec:org9344dd1}
 訪談十位積極參與（科技）政策制定的社群朋友（以下任一條件）：
 \begin{itemize}
 \item 積極公民，會分享轉貼、評論公共事務。
@@ -1373,70 +1373,70 @@ Public Money, Public Code 為國際開源社群長期推動由政府資助開發
 \item 參與過 vTaiwan, JOIN 等官方網路公民參與平台。
 \end{itemize}
 \item 訪談問題
-\label{sec:org817ca73}
+\label{sec:org02d285b}
 \begin{enumerate}
 \item 怎樣蒐集社群意見、倡議產生政策影響力
-\label{sec:orga3145e8}
+\label{sec:org8a9481d}
 簡述政策參與（促進）的經驗
 \begin{enumerate}
 \item 政府部門參與過的政策形式，什麼樣的方式參與？與政府開會的角色是什麼？
-\label{sec:org4b32e50}
+\label{sec:org6340135}
 \item 用什麼架構分析政策形成、公民參與？
-\label{sec:orge1e2bea}
+\label{sec:org7ced36b}
 \end{enumerate}
 \item 政策參與（促進）的方式
-\label{sec:org3cea1bc}
+\label{sec:orge2e38f0}
 \begin{enumerate}
 \item 怎麼倡議？
-\label{sec:org3b7304e}
+\label{sec:org19553aa}
 \item 怎麼組織？ 會舉辦實體會議嗎？）
-\label{sec:org9f6ef59}
+\label{sec:org44e8d4a}
 \item 現行體制（政府意見陳達、溝通」）問題點
-\label{sec:org9b92cb1}
+\label{sec:org2e7e3c7}
 \item 案例建議與原因？
-\label{sec:orgca90096}
+\label{sec:orgf836abf}
 \item 任何範本、方法？
-\label{sec:orgf9b4ad7}
+\label{sec:orga7b71e3}
 \end{enumerate}
 \item 促進社群討論的方式
-\label{sec:org1686aba}
+\label{sec:org06b00e9}
 \item 如何保持內部成員資訊即時更新、通知同步
-\label{sec:org758fd52}
+\label{sec:orge676a84}
 \item 如何鼓勵/促進內部人員討論（討論風氣、鼓勵發言的文化）
-\label{sec:org94aeca6}
+\label{sec:org3b10e4a}
 \item 使用的討論工具
-\label{sec:orgbec7ff3}
+\label{sec:orge1f6253}
 \item 使用什麼工具協助討論？
-\label{sec:orgc53903b}
+\label{sec:orgb41101d}
 \item 使用什麼平台作團隊內知識分享、討論？
-\label{sec:orge7f2b6b}
+\label{sec:orgefc7db6}
 \item 平台的優缺點?
-\label{sec:org1158707}
+\label{sec:org3eb4163}
 \item 哪些是覺得必要的功能？
-\label{sec:org4c4845e}
+\label{sec:orgb34aa4b}
 \end{enumerate}
 \end{enumerate}
 
 
 \subsection{議題釐清工具相關開發資訊}
-\label{sec:org8982c77}
+\label{sec:org9b6ea0c}
 \begin{enumerate}
 \item 源碼庫
-\label{sec:org2e525a4}
+\label{sec:orgf68c494}
 \begin{enumerate}
 \item 設計文件： \url{https://github.com/SenseTW/sensetw/wiki}
 \item 前後端源碼： \url{https://github.com/SenseTW/sensetw}
 \item Annotation-Enabled web proxy： \url{https://github.com/SenseTW/via}
 \end{enumerate}
 \item 部落格
-\label{sec:orgd14b5e8}
+\label{sec:orgfc70266}
 \url{https://medium.com/sense-tw}
 \end{enumerate}
 \subsection{民眾語彙腳本}
-\label{sec:org8ce9b9e}
+\label{sec:org416edda}
 \begin{enumerate}
 \item 對公部門介紹何為網路社群應如何比喻
-\label{sec:org23aa469}
+\label{sec:org09e7ab9}
 透過宗教信仰的比喻，對較少數位協作經驗、沒有社群經驗的的人員建構對網路社群的想像。
 
 \begin{center}
@@ -1466,7 +1466,7 @@ Public Money, Public Code 為國際開源社群長期推動由政府資助開發
 \end{tabular}
 \end{center}
 \item 對網路社群介紹行政部門如何分類議題的層次
-\label{sec:org7d140f8}
+\label{sec:org11e1810}
 每個層級的長官關心的議題大小不同，以政務委員為例，頂多看到第二級。
 
 \begin{center}
