@@ -37,9 +37,12 @@
   |    8 | 台灣資料科學年會               |        1000+ | 每年                 |
   |    6 | g0v Summit                     |         500+ | 兩年舉辦一次, 5~12月 |
   |    7 | TDOH Conf                      |         400+ | 每年9~12月           |
-** 資通訊社群列表來源
+  完整內容連結: https://tinyurl.com/y8sxsmjo
+** 資通訊社群清單來源
    1. 台灣自由/開源社群列表 :: https://www.mindmeister.com/zh/303031964/open-source-community-map-in-taiwan
    2. TWcommunities :: https://github.com/TGmeetup/TWcommunities
+** 資通訊社群列表
+   完整內容連結:  https://tinyurl.com/y7nagypf
 ** 資通訊社群列表 (1/7)
   | 編號 | 社群名稱                     |
   |------+------------------------------|
